@@ -60,7 +60,7 @@ const EndOfDay = (props) => (
   <Pp>"Hmm, I don't know. I'm sorry. I'll think about it and get back to you. I'm trying really hard to do the right thing."</Pp>
   <Pp>"I know how this goes, Jim29. Listen to me." He's being so scoldy right now. His eyes bug out of their sockets. "This will not be good. You are making a big mistake."</Pp>
   <Pp>I stuff my computering device into my bag. "I'm sorry. I wish I could keep working. I really have to go."</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default EndOfDay;

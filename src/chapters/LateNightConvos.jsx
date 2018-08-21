@@ -36,7 +36,7 @@ const LateNightConvos = (props) => (
 <Z d={197} u="j29" nc>~ : my *week has honestly been kind of rough these past two *days.</Z>
 <Z d={205} u="j29" nc>~ : do you have any plans tonight?</Z>
 <Z d={220} u="j29" nc>~ : zoip me if you want to do something</Z>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default LateNightConvos;

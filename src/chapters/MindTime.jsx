@@ -14,7 +14,7 @@ const MindTime = (props) => (
 <Pp>You are going to be alright,</Pp>
 <Pp>yes,</Pp>
 <Pp>vverry OOKK.</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default MindTime;

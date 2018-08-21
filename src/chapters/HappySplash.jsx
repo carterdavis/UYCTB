@@ -17,7 +17,7 @@ const HappySplash = (props) => (
 <Pp>He thrusts my head and neck down into the tub of gooey pink Happy fluid. I didn't get enough of a breath and I flounder in the bubbling depths, feeling my pores swell up as the positive chemicals seep in. I instinctively thrash my arms and legs, choking on my lack of air, feeling his hands dunk me deeper. He slams my face against against the metallic basin of the tub and I feel my nose cartilage crunch. The rosy solution slides down my throat and into my lungs.</Pp>
 <Pp>He yanks me up by my dripping disc of hair. "You feel better, dumbass?"</Pp>
 <Pp>"I feel so outrageously good. I love you."</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default HappySplash;

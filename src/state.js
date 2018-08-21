@@ -19,7 +19,7 @@ export const update = (current) => {
 export const getTOC = (state) => ({});  // chapters.map()
 
 export const getChapters = (state) => (
-  range(state.beginning, state.end+3).map(i => { if (chapters[i]) return (
+  range(state.beginning, state.end+2).map(i => { if (chapters[i]) return (
     <Cloak appState={state} chapter={chapters[i]} num={i} />
   )})
 );

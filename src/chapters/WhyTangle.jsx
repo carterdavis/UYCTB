@@ -22,7 +22,7 @@ const WhyTangle = (props) => (
 <Pp>#IF YOU FORGET TO SWITCH TEXT CODECS AND MODIFY THE LEGACY</Pp>
 <Pp>#CODE ONE MORE TIME I SWEAR I WILL BITE OFF YOUR BALL SACK</Pp>
 <Pp>I still haven't found a way to turn off the system error alert noise, either. It fires every time anything goes wrong with my code. I understand that Dimples can't let their employees make any mistakes, but the noise always burns my ears. It sounds like a scraping scream.</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default WhyTangle;

@@ -12,14 +12,14 @@ class Cloak extends React.Component {
   }
 
   setHeight(height) {
-    this.setState({ height: height });
+    if (height != 0) this.setState({ height: height });
   }
 
   render() {
     const visibility = <VisibilitySensor onChange={(visible) => { if (visible) update(this.props.num)} } />
 
-    const uncloaked = ((this.props.num >= this.props.appState.beginning - 2)
-      && (this.props.num <= this.props.appState.end + 2)) || this.state.height === undefined;
+    const uncloaked = ((this.props.num >= this.props.appState.current - 7)
+      && (this.props.num <= this.props.appState.current + 7)) || this.state.height === undefined;
 
     return (
       <div class="chapter" style={this.state}>

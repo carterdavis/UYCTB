@@ -23,7 +23,7 @@ const DrivingHome = (props) => (
 <Pp>I roast coal and lurch into the turn lane. I get a look at him, and let's just say, he looks like a sicko. I wave and get his attention. He's got a rat face. He must not take enough suppies because his hair is falling out. His nose is literally shaped like a bowel movement.</Pp>
 <Pp>I get him to roll his window down. I've got my head out the window. I'm serious. We're driving side by side down the helix. He's got this look of fear on his creepy little face. I lock eyes with him and shout "Learn to drive, you <em>chimpnut</em>!"</Pp>
 <Pp>I swerve off onto an entrance-exit ramp as track 2 of my personal TunesJam mix starts,  a slow-burner titled "Untitled 1 (Song About Frustration)." Nort71 56Nitchell of the seminal wimp rock band We'll Learn Each Other's Names squeals like a swine and goes into this register that I really love. There's so much emotion in the way his voice cracks, you know? The instrumental is so powerful and soothing. Gotta keep my hands on the wheel. The highway winds around and around.</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default DrivingHome;

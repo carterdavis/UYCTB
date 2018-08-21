@@ -42,7 +42,7 @@ const Start = (props) => (
   <Pp>I shut my eyes to block out the fluorescent light. My mind is racing. "One of them was in an iron lung? We still support those?"</Pp>
   <Pp>"That's pretty messed up of you man. They were a customer." He pushes his glasses up. "They were a human being."  </Pp>
   <Pp>I flip to page 1416B and skim for the heading on VORP Requests. "Yah no, I shouldn't have said that. You're totally right."</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default Start;

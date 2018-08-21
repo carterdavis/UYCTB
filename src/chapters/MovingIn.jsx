@@ -20,7 +20,7 @@ const MovingIn = (props) => (
 <Pp><em>You're going to do so, so, so, so well!</em></Pp>
 <Pp><em>Augustinius00 01Stone</em></Pp>
 <Pp><em>Co-founder and CEO of Dimples</em></Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default MovingIn;

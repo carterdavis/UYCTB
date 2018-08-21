@@ -8,7 +8,7 @@ const TaffyChoke5 = (props) => (
 {props.children}
 
 <Pp>The video is only fifth in a series all about people choking on taffy. I've watched all four prior installments. This one's named "Taffy Choke Compilation 5: Zero Airflow Edition." His name is Morris34 and he has a big wad of Strawbberry taffy in his mouth on a wooden roller coaster. First bump and he's wheezing. His face is bright red. He smacks his hand against the railing.</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default TaffyChoke5;

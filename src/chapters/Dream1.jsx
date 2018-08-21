@@ -23,7 +23,7 @@ const Dream1 = (props) => (
 <Pp>"Ho ho ho." She looks up from her crossword. "I've been working on my memorizing."</Pp>
 <Pp>"I'm very very stoked to hear that."</Pp>
 <Pp>"First thing I memorized was your name. Across, five letter word for the best grandson. He he he." She scribblies in the boxes. "J-I-M-2-9."</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default Dream1;

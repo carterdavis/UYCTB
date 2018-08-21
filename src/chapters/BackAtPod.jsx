@@ -51,7 +51,7 @@ const BackAtPod = (props) => (
 <Pp>"Of course! I'll see ya later."</Pp>
 <Pp>"You will do a marvelous job at fixing that bug."</Pp>
 <Pp>"Thanks, I value your faith in me."</Pp>
-</React.Fragment>
+{props.children}</React.Fragment>
 );
 
 export default BackAtPod;
