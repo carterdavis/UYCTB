@@ -1,0 +1,156 @@
+@mixin font($font-family, $font-file) {
+  @font-face {
+    font-family: $font-family;
+    src: url($font-file+'.eot');
+    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
+      url($font-file+'.woff') format('woff'),
+      url($font-file+'.ttf') format('truetype'),
+  }
+}
+
+@include font('DIN', './assets/fonts/DIN');
+@include font('DIN', './assets/fonts/DIN Bold');
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: 'DIN', sans-serif;
+  font-size: 18px;
+  overflow-x: hidden;
+
+  h1 {
+    font-family: 'DIN Bold', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 2rem;
+  }
+
+  .chapter {
+    padding: 6rem 0 1rem;
+  }
+
+  .paragraph {
+    background-color: #FFF;
+  }
+
+  .inner {
+    background-color: white;
+    display: block;
+    width: 98%;
+    margin: auto;
+
+    p {
+      display: block;
+      line-height: 1.6;
+      width: 33rem;
+      margin: auto;
+      text-indent: 2rem;
+      color: #393939;
+    }
+  }
+
+  .drip .inner p {
+    text-indent: 0;
+    color: #3b55d0;
+
+    .u {
+      color: #6d9eee;
+    }
+  }
+
+.snippet-wrapper {
+
+  .snippet-link {
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+    cursor: pointer;
+
+    &:hover {
+      background-size: 100% 88%;
+    }
+  }
+
+  .snippet {
+    text-indent: 0;
+    display: block;
+    position: absolute;
+    width: 21rem;
+    left: 50%;
+    border-radius: 50px;
+    background-color: white;
+    padding: 2.5rem;
+    border: 0.5rem solid;
+    margin-left: -14rem;
+
+    .snippet-header {
+      position: absolute;
+      top: -1rem;
+      left: -1rem;
+      background-color: white;
+      font-family: 'DIN Bold', sans-serif;
+      font-weight: 800;
+      padding: .5rem;
+      border-radius: 50%;
+      border: solid .25rem;
+    }
+  }
+}
+
+
+#o {
+  position: fixed;
+  width: 1rem;
+  left: 50%;
+  margin-left: -0.5rem;
+  top: 50%;
+  margin-top: -0.5rem;
+  z-index: -1;
+  color: lightgray;
+  font-weight: 800;
+}
+
+.s {
+  padding: 1.6rem 0;
+  margin: 0;
+
+  li {
+    list-style: none;
+    margin-left: 2rem;
+    text-indent: -2rem;
+
+    // &:nth-of-type(1n) { background-color: #ffe7e7; }
+    // &:nth-of-type(2n) { background-color: #fffee7; }
+    // &:nth-of-type(3n) { background-color: #e7fff1; }
+    // &:nth-of-type(4n) { background-color: #e7ffff; }
+    // &:nth-of-type(5n) { background-color: #e7e9ff; }
+    // &:nth-of-type(6n) { background-color: #fce7ff; }
+  }
+}
+
+
+.zoip {
+  & .inner p {text-indent: -2rem;}
+  &.j29 .inner p { color: #5e8d41 }
+  &.j56 .inner p { color: #99005d }
+  &.d39 .inner p { color: #371989 }
+  &.n31 .inner p { color: #daab00 }
+}
+
+@media all and (max-width: 600px) and (min-width: 401px) {
+    .inner p { width: 80%; }
+    .snippet { width: 80%; }
+}
+
+@media all and (max-width: 400px) {
+    .inner p { width: 75%; font-size: 16px; }
+    .snippet-wrapper .snippet {
+      width: 70%;
+      padding: 2rem;
+      margin-left: 0;
+      left: 3%;
+    }
+}
+
+}
