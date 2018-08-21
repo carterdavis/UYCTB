@@ -10,7 +10,10 @@ class App extends React.Component {
       <div>
         <h1>UNTIL YOU CONTINUE TO BEHAVE</h1>
         <div id="o">O</div>
-        { getTOC() }
+        <h2>Table of Contents</h2>
+        <ol class="toc">
+          { getTOC() }
+        </ol>
         { getChapters(this.props.state) }
       </div>
     );

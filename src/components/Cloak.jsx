@@ -22,9 +22,9 @@ class Cloak extends React.Component {
       && (this.props.num <= this.props.appState.current + 7)) || this.state.height === undefined;
 
     return (
-      <div class="chapter" style={this.state}>
+      <div class="chapter" style={this.state} id={this.props.chapter[1]}>
         <ReactHeight onHeightReady={height => this.setHeight(height)}>
-          { uncloaked && React.createElement(this.props.chapter[0], {id: this.props.chapter[1], setHeight: this.setHeight}, visibility)}
+          { uncloaked && React.createElement(this.props.chapter[0], null, visibility)}
         </ReactHeight>
       </div>
     )

@@ -25,6 +25,11 @@ body {
     margin: 2rem;
   }
 
+  h2 {
+    font-size: 1.25rem;
+    text-align: center;
+  }
+
   .chapter {
     padding: 6rem 0 1rem;
   }
@@ -136,6 +141,16 @@ body {
   &.j56 .inner p { color: #99005d }
   &.d39 .inner p { color: #371989 }
   &.n31 .inner p { color: #daab00 }
+}
+
+.toc {
+  width: 10rem;
+  margin: auto;
+  background-color: #FFFFFF;
+
+  a {
+    color: #393939;
+  }
 }
 
 @media all and (max-width: 600px) and (min-width: 401px) {

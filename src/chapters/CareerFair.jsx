@@ -1,10 +1,9 @@
 import React from 'react';
 
-
 import Pp from './../components/Pp.jsx';
 
 const CareerFair = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
   <Pp>I never "intended" to work here. I ended up here.</Pp>
@@ -31,7 +30,7 @@ const CareerFair = (props) => (
   <Pp>"Is it OK if I haven't done much programming? I only used a little bit of FlashScript in one of my microlessons."</Pp>
   <Pp>"Yes! Why are you underselling yourself?" For a fraction of a *second her eyes bored through mine, deep into my sensitive noodle brain. But then she smiled. "I'm sure you'll get the hang of it. You'll pick it up quick. You're a star, Jim29! We're looking for people just like you."</Pp>
   <Pp>The interview process was relatively painless. I can't really complain. In my first interview they made me wear a weighted vest like you wear when they snap images of your bones and they tested to see how quickly I could escape a maze. In my second interview they made me wear a blindfold and took me underground and had me answer questions about my personality in the middle of what sounded like a large empty stadium. I really didn't enjoy hearing my wispy voice echo back to me off the walls of that cavernous interior. I got an offer the next Activeday.</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default CareerFair;

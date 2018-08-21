@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const HappySplash = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>I knock the knocker and buzz the buzzer. Dr. Rocko19 85Grinski, my Happy Splash Specialist, answers the door to his 6th floor private cavern. He wears a flowy floral tunic and a crown of artificial posies, complementing his striking green eyes and velvety brown hair. "Jim29?" He asks in thinly-veiled surprise. His bright smile reaches all the way around his skull. "Back so soon?"</Pp>
@@ -17,7 +17,7 @@ const HappySplash = (props) => (
 <Pp>He thrusts my head and neck down into the tub of gooey pink Happy fluid. I didn't get enough of a breath and I flounder in the bubbling depths, feeling my pores swell up as the positive chemicals seep in. I instinctively thrash my arms and legs, choking on my lack of air, feeling his hands dunk me deeper. He slams my face against against the metallic basin of the tub and I feel my nose cartilage crunch. The rosy solution slides down my throat and into my lungs.</Pp>
 <Pp>He yanks me up by my dripping disc of hair. "You feel better, dumbass?"</Pp>
 <Pp>"I feel so outrageously good. I love you."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default HappySplash;

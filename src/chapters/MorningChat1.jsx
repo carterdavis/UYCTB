@@ -5,7 +5,7 @@ import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
 
 const MorningChat1 = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Z d={1} u="j56">jumper56ok : will you be available to help me with that DisequalizedIntToInt error?</Z>
@@ -32,7 +32,7 @@ const MorningChat1 = (props) => (
 <Pp>His giant hologram eyes are closed and his smile is wide. He's motionless for at least ten *seconds.</Pp>
 <Pp>"When I think about those two folks it makes me sick deep down in my tummy. I don't have much more to say. We're getting ripped apart in the news. I honestly can't stand to see it. It makes me want to launch myself into outer space.</Pp>
 <Pp>"Listen, I'm sorry friends. I lost my cool. We must let go of the life we have planned so as to accept the one that is waiting for us. The best preparation for tomorrow is doing your best today. Happiness is not something you postpone for the future; it is something you design for the present. Have a happy Respectfulday, my little gumdrops."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default MorningChat1;

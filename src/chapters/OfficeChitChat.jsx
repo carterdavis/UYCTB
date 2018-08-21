@@ -7,7 +7,7 @@ import Pp from './../components/Pp.jsx';
 import Snip from './../components/Snip.jsx';
 
 const OfficeChitChat = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>"Are VORPs enabled by a knob?" I thumb through a table of knob locales.</Pp>
@@ -76,7 +76,7 @@ const OfficeChitChat = (props) => (
 </Pp>
 <Pp>When the BizOps team makes a major sale, the whole building is notified. The overhead intercom speakers make a loud crunchy cash register noise, like "ch-ching!" Anyways, it's been ch-chinging a lot today. Frustratingly frequent. I shall log them henceforth.</Pp>
 <Pp>My desk is all the way up in the Neck. I climb into the mouth of an escalator slide and lie down with my arms at my sides. The inside of the slide is dark and red and warm and it makes me feel safe. The structure gently pulses and makes a gurgling noise. Closing my eyes, I feel my back rub across the plastic and the heartbeat in my head.</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default OfficeChitChat;

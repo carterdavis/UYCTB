@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade';
 import Pp from './../components/Pp.jsx';
 
 const BackAtPod = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>The slide drops me off on the fifth floor, aka "The Neck." My brain feels tremendous, like a comet across the cloudy sky. That splash did me a world of good. Everything will be OK, it seems like. I'm safe, and that's all that matters, yes? Right on!!</Pp>
@@ -51,7 +51,7 @@ const BackAtPod = (props) => (
 <Pp>"Of course! I'll see ya later."</Pp>
 <Pp>"You will do a marvelous job at fixing that bug."</Pp>
 <Pp>"Thanks, I value your faith in me."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default BackAtPod;

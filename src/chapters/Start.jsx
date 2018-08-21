@@ -1,11 +1,10 @@
 import React from 'react';
 
-
 import Pp from './../components/Pp.jsx';
 import Snip from './../components/Snip.jsx';
 
 const Start = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
   <Pp><em>"It's completely broken and it seems like it's all your fault."</em></Pp>
@@ -42,7 +41,7 @@ const Start = (props) => (
   <Pp>I shut my eyes to block out the fluorescent light. My mind is racing. "One of them was in an iron lung? We still support those?"</Pp>
   <Pp>"That's pretty messed up of you man. They were a customer." He pushes his glasses up. "They were a human being."  </Pp>
   <Pp>I flip to page 1416B and skim for the heading on VORP Requests. "Yah no, I shouldn't have said that. You're totally right."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default Start;

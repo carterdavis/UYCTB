@@ -5,7 +5,7 @@ import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
 
 const LateNightConvos = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>I receive a zoip from my good friend Daisy39 42Scrumpet.</Pp>
@@ -36,7 +36,7 @@ const LateNightConvos = (props) => (
 <Z d={197} u="j29" nc>~ : my *week has honestly been kind of rough these past two *days.</Z>
 <Z d={205} u="j29" nc>~ : do you have any plans tonight?</Z>
 <Z d={220} u="j29" nc>~ : zoip me if you want to do something</Z>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default LateNightConvos;

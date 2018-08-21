@@ -5,7 +5,7 @@ import Pp from './../components/Pp.jsx';
 import Snip from './../components/Snip.jsx';
 
 const MovingIn = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>Dimples offered me a hundred and twenty ingots of gold for a starting salary. I argued them up to a hundred and fifty ingots on account of the cost of living in a metropolitan area. I probably could've asked for five or ten ingots on top of that but I was nervous I'd come across like a selfish greedy goblin prince. Their benefits package included body insurance covering punctures and <Snip bg='red, yellow' content={`A smack is defined as a "doink" or a "bonk."`}>smacks</Snip>, armed and unarmed robbery insurance, kidnapping insurance, <Snip bg='red, yellow' content={`There is a distinction between "poison" and "venom."`}>poisoning insurance</Snip>, and complimentary access to an underground swimming pool, which would be nice if I knew how to swim.</Pp>
@@ -20,7 +20,7 @@ const MovingIn = (props) => (
 <Pp><em>You're going to do so, so, so, so well!</em></Pp>
 <Pp><em>Augustinius00 01Stone</em></Pp>
 <Pp><em>Co-founder and CEO of Dimples</em></Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default MovingIn;

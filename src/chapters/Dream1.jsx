@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const Dream1 = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>So Jumper56 and I are sitting in the garden atrium. The sun is beautiful in this wonderful blue sky. She is looking at her celly. I'm sitting on the bench, but also walking around in the tall grass. I yank a flower up out of the ground and I cross my legs on the bench. She turns both ways and looks straight at me. "Jim29, I am so mad mad maaad at you." Her eyes are disgusted.</Pp>
@@ -23,7 +23,7 @@ const Dream1 = (props) => (
 <Pp>"Ho ho ho." She looks up from her crossword. "I've been working on my memorizing."</Pp>
 <Pp>"I'm very very stoked to hear that."</Pp>
 <Pp>"First thing I memorized was your name. Across, five letter word for the best grandson. He he he." She scribblies in the boxes. "J-I-M-2-9."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default Dream1;

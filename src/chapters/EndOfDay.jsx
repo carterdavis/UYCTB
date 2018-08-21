@@ -5,7 +5,7 @@ import Pp from './../components/Pp.jsx';
 import Z from './../components/Z.jsx';
 
 const EndOfDay = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
   <Pp>"I'm having trouble replicating the bug." I can't help but sound meek. I straighten my shirt and shift my weight on the beanie bag. I'm feeling pretty down and bad about myself. It's so hard to focus on my work. I can think of way too much to think about. I trace functions calling other functions, instantiating reference models that sort through bundles of streams of function references, looping around and around like a whirly wheel, so many structures operating in fragile dependent tandem. I've been tracking the metadata of a VORP request through an especially wrinkly equality matrix. As variables equal-bounce from node to node they leave behind a unique trail.</Pp>
@@ -60,7 +60,7 @@ const EndOfDay = (props) => (
   <Pp>"Hmm, I don't know. I'm sorry. I'll think about it and get back to you. I'm trying really hard to do the right thing."</Pp>
   <Pp>"I know how this goes, Jim29. Listen to me." He's being so scoldy right now. His eyes bug out of their sockets. "This will not be good. You are making a big mistake."</Pp>
   <Pp>I stuff my computering device into my bag. "I'm sorry. I wish I could keep working. I really have to go."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default EndOfDay;

@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const Contract = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>I get anxious in the nasty winter nighttime. I ruminate about bad things until I feel freaked out, and then I keep doing it. Like for example, the acceptance ceremony for my Dimples offer was kind of messed up. I still think about it a lot.</Pp>
@@ -21,7 +21,7 @@ const Contract = (props) => (
 <Pp>"But if I agree to sign, you'll let me read the contract?"</Pp>
 <Pp>"You either sign it or you don't. The terms aren't up to you. Everyone signs the same contract. That's just the way it works here. Besides," she points at the people standing on the transparent ceiling, "do you think all those people up there would've signed a bad contract?"</Pp>
 <Pp>I imagined having to move back home, jobless, sitting on yellowed furniture, listening to the clicking sound of the circular fan in the sweltering nasty summer heat, wondering how much longer we'd be able to afford grandma's purple pills, feeling myself grow endlessly downwards like the roots of a weed. I picked up the quill, gently this time. "OK. I'll agree to sign."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default Contract;

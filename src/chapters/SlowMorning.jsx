@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const SlowMorning = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>The alarm sound is shrill canned laughter. I purchased it as a custom audio file for a quarter hunk of netgold a few *years ago. Makes me return to the world in quite a nutty mindset.</Pp>
@@ -53,7 +53,7 @@ const SlowMorning = (props) => (
 <Pp>I pull Tulip into a coal station. I put it in park and grab my coal apron out of its rear trunk. I scan my fingerprint and charge three hunks of netgold to my account. The engine wheezes as I dump armful after armful of black carbon into the tank.</Pp>
 <Pp>Tulip licks its lips. "This coal tastes so good, Jim29. Ummy ummy nummy!! Feed me that hot powdery coal, it is my greatest joy!"</Pp>
 <Pp>The dust covers my arms and my hands. It scrapes my fingertips and collects under my nails. The obscured sky blends blackened orange into blackened blue. The clouds look especially puffy.</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default SlowMorning;

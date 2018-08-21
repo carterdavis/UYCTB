@@ -16,7 +16,11 @@ export const update = (current) => {
   store.dispatch(updateCurrent(current));
 }
 
-export const getTOC = (state) => ({});  // chapters.map()
+export const getTOC = (state) => (
+  chapters.map((c, i) => (
+    <li><a href={`#${chapters[i][1]}`} onClick={() => setInitial(i)}>{chapters[i][2]}</a></li>
+  ))
+);  // chapters.map()
 
 export const getChapters = (state) => (
   range(state.beginning, state.end+2).map(i => { if (chapters[i]) return (
