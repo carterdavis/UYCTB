@@ -7,7 +7,7 @@ const HappySplash = (props) => (
 <div>
 {props.children}
 
-<Pp>I knock the knocker and buzz the buzzer. Dr. Rocko19 85Grinski, my Happy Splash Specialist, answers the door to his 6th floor private cavern. He wears a flowy floral tunic and a crown of artificial posies, complementing his striking green eyes and velvety brown hair. "Jim29?" He asks in thinly-veiled surprise. His bright smile reaches all the way around his skull. "Back so soon?"</Pp>
+<Pp>I knock the knocker and buzz the buzzer. Dr. Rocko19 85Grinski, my Happy Splash Specialist, answers the door to his 6th floor private cavern. He wears a flowy floral tunic and a crown of artificial posies that complement his striking green eyes and velvety brown hair. "Jim29?" He asks in thinly-veiled surprise. His bright smile reaches all the way around his skull. "Back so soon?"</Pp>
 <Pp>"Yah doc, so here's the scoop: I think my code might have killed two innocent people."</Pp>
 <Pp>He swings the door open. His chambers are lit with the glow of charcoal burning in wall-mounted sconces. The floor beneath my boots is obscured by a collection of vibrant, culturally ambiguous rugs. His bountiful lips curl skyward. "You're here for your Tragedy Bonus Splash, I assume?"</Pp>
 <Pp>"Yah, I was wondering if I might qualify for that extra Bonus Splash. Chadmuth48 was telling me about that."</Pp>

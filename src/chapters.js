@@ -20,6 +20,13 @@ import SlowMorning from './chapters/SlowMorning.jsx';
 import PoliticsTime from './chapters/PoliticsTime.jsx';
 import SecondFloor from './chapters/SecondFloor.jsx';
 import MorningChat1 from './chapters/MorningChat1.jsx';
+import WhyTangle from './chapters/WhyTangle.jsx';
+import Scoop1 from './chapters/Scoop1.jsx';
+import HelpingWithSnag from './chapters/HelpingWithSnag.jsx';
+import ProgrammingAsCommunication from './chapters/ProgrammingAsCommunication.jsx';
+import CyberTherapy from './chapters/CyberTherapy.jsx';
+import Lunchtime from './chapters/Lunchtime.jsx';
+import BackToWork from './chapters/BackToWork.jsx';
 
 export const chapters = [
   [Start, 'start', 'Beginning'],
@@ -30,7 +37,7 @@ export const chapters = [
   [FirstFloor, 'first_floor', 'First Floor'],
   [BackAtPod, 'back_at_pod', 'Back At Pod'],
   [MeDescription, 'me_description', 'Me Description'],
-  [WhatsTangle, 'whats_tangle', "What's Tangle"],
+  [WhatsTangle, 'whats_tangle', "What's Tangle?"],
   [EndOfDay, 'end_of_day', 'End Of Day'],
   [MindTime, 'mind_time', 'Mind Time'],
   [DrivingHome, 'driving_home', 'Driving Home'],
@@ -43,5 +50,12 @@ export const chapters = [
   [SlowMorning, 'slow_morning', 'Slow Morning'],
   [PoliticsTime, 'politics_time', 'Politics Time'],
   [SecondFloor, 'second_floor', 'Second Floor'],
-  [MorningChat1, 'morning_chat_1', 'Morning Chat 1']
+  [MorningChat1, 'morning_chat_1', 'Morning Chat 1'],
+  [WhyTangle, 'why_tangle', 'Why Tangle?'],
+  [Scoop1, 'scoop1', 'Scoop1'],
+  [HelpingWithSnag, 'helping_with_snag', 'Helping With Snag'],
+  [ProgrammingAsCommunication, 'programming_as_communication', 'Programming As Communication'],
+  [CyberTherapy, 'cyber_therapy', 'Cyber Therapy'],
+  [Lunchtime, 'lunchtime', 'Lunchtime'],
+  [BackToWork, 'back_to_work', 'Back To Work'],
 ];

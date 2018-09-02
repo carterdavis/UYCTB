@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const CyberTherapy = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>I close the hatch to my workpod and opened up Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. I've been going to virtual appointments with Dr. Kindbrain off and on for the better part of a *year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. "How have you been feeling lately, Jim29?"</Pp>
@@ -32,13 +32,13 @@ const CyberTherapy = (props) => (
 <Pp>"I'm so sorry to hear that. That is so terrible to even consider. Have you confessed your crime to law enforcement?"</Pp>
 <Pp>"I'm not really sure how that all works. Should I? Do I need to find a lawyer?"</Pp>
 <Pp>"According to my technical code of conduct I cannot continue this session until you have successfully notified law enforcement. I am sorry if that is an inconvenience."</Pp>
-<Pp>"No, no, I understand. Can I just call them once this session is over? Only for the sake of convenience."</Pp>
+<Pp>"No, no, I understand. Can I just notify them once this session is over? For the sake of convenience?"</Pp>
 <Pp>"Do you promise to do that?"</Pp>
 <Pp>"Yop."</Pp>
-<Pp>"Do you swear to God that you will call them, Jim29?"</Pp>
-<Pp>"Yah." I pressed my headphones hard against my ears to mute the rumbling noise outside.</Pp>
-<Pp>"OK. Thank you Jim29. Now, tell me more about how you have been feeling."</Pp>
-{props.children}</React.Fragment>
+<Pp>"Do you swear to God that you will notify them, Jim29?"</Pp>
+<Pp>"Yah."</Pp>
+<Pp>"OK. Thank you Jim29. Now, tell me more about how you have been feeling lately."</Pp>
+{props.children}</div>
 );
 
 export default CyberTherapy;

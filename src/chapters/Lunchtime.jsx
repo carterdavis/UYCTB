@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 
 const Lunchtime = (props) => (
-<React.Fragment>
+<div>
 {props.children}
 
 <Pp>Lunch time! Yum yum. Jumper56 is sitting at the other end of the chow station. I'm eating a bowl of grey kernel-fed pork lumps with a side of chewy Froot Pop Ems. She's eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
@@ -56,14 +56,14 @@ const Lunchtime = (props) => (
 <Pp>"My birds don't smell."</Pp>
 <Pp>"Sorry sorry, ha ha, OK, how could I know that I guess."</Pp>
 <Pp>"Sometimes I worry that I'll never know how much they're thinking. They could be thinking the exact same kinds of thoughts that I'm thinking. Or they could be thinking in totally different dimensions of thought. I don't think they even know right or wrong. But they know what they like, and they have a rough concept of what I like too. Plus they'll live forever; for instance macaws can live to be like a hundred. WOW y'know? What kind of person will I be in a hundred *years?"</Pp>
-<Pp>"But you can't like really be sure of one hundred full *years. We don't know our own fortunes is what I mean. Something could happen any *day to your or them also. So every *day with them is such a gift to cherish."</Pp>
+<Pp>"But you can't like really be sure of one hundred full *years. We don't know our own fortunes is what I mean. Something could happen any *day to you or them also. So every *day with them is such a gift to cherish."</Pp>
 <Pp>"Yes totally, I agree. Super true."</Pp>
 <Pp>"You should show me pictures of them!"</Pp>
 <Pp>"Sure. I've got some on my computering device. I'll zoip them to you." I pop a tablet of Grumbletine, my lunch digestion supplement.</Pp>
 <Pp>"I bet those birds know as much about life as you do."</Pp>
 <Pp>"Ch-ching!"</Pp>
 <Pp>"Yah. We've just been studyin different topics."</Pp>
-{props.children}</React.Fragment>
+{props.children}</div>
 );
 
 export default Lunchtime;
