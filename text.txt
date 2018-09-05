@@ -502,7 +502,7 @@
 <Pp>"Not very good, Dr. Kindbrain."</Pp>
 <Pp>"Is your computering device's microphone enabled?" It pronounces microphone like MICK-ruh-phone. "Try enabling your computering device's microphone."</Pp>
 <Pp>"Whoops! Sorry, can you hear me now?"</Pp>
-<Pp>"Yes." Its vocal fx pack is calm and gentle. "How have you been feeling lately?" The voice takes occasional pauses, as though it's carefully considering its words before it says them.</Pp>
+<Pp>"Yes." Its vocal fx pack is calm and gentle. "How have you been doing lately?" The voice takes occasional pauses, as though it's carefully considering its words before it says them.</Pp>
 <Pp>"Not super hot."</Pp>
 <Pp>"I'm very sorry to hear that." Its voice echoes with tenderness. "Have you been able to meet more people since we last spoke?"</Pp>
 <Pp>"No, not yet, actually."</Pp>
@@ -530,7 +530,7 @@
 <Pp>"Yah." I pressed my headphones hard against my ears to mute the rumbling noise outside.</Pp>
 <Pp>"OK. Thank you Jim29. Now, tell me more about how you have been feeling."</Pp>
 <Pp><strong>𐩒</strong></Pp>
-<Pp>Lunch time. Jumper56 is sitting at the other end of the chow station. I'm eating a bowl of grey kernel-fed pork with a side of chewy Froot Pop Ems. She's eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
+<Pp>Lunch time! Yum yum. Jumper56 is sitting at the other end of the chow station. I'm eating a bowl of grey kernel-fed pork with a side of chewy Froot Pop Ems. She's eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
 <Pp>I burp and dig for a particularly appealing pork lump. "I wish the tables in here won't so wobbly."</Pp>
 <Pp>"It's intentional though. Maintaining stability builds teamwork."</Pp>
 <Pp>"Sometimes I feel like I'm not really qualified for this job."</Pp>

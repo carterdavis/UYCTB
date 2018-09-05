@@ -29,7 +29,7 @@ import Lunchtime from './chapters/Lunchtime.jsx';
 import BackToWork from './chapters/BackToWork.jsx';
 
 export const chapters = [
-  [Start, 'start', 'Beginning'],
+  [Start, 'start', 'How It Starts'],
   [CareerFair, 'career_fair', 'Career Fair'],
   [OfficeChitChat, 'office_chit_chat', 'Office Chitty Chat'],
   [MovingIn, 'moving_in', 'Moving In'],
