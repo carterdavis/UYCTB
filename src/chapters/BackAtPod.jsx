@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Fade from 'react-reveal/Fade';
-
+import D from './../components/D.jsx';
+import U from './../components/U.jsx';
 import Pp from './../components/Pp.jsx';
 
 const BackAtPod = (props) => (
@@ -21,7 +21,7 @@ const BackAtPod = (props) => (
 <Pp>But today seems to be a good *day for Rony22. I don't have much to report. He is seated in his shiny chair, speaking into his great big microphone, smiling wide. Not very interesting. Staring time is over.</Pp>
 <Pp>I look back up at my pulsating screen. I unfocus my eyes, limpen my muscles, and prop my heavy brows aloft. I reimagine the scope of the world, my place in it, and how high up the sky is from the ground. I exist in a world without discrete data. Everything is meaninglessly relative if you get right down to it. My brain feels snuggled beneath a cranial quilt. I snap open a canister of Banannna Queam and it whistles out some fizz. God will understand that it's not my fault.</Pp>
 <Pp>I thinkscribe a drip and drop it.</Pp>
-<Pp c="drip"><Fade top><div><span class="u">[Mr Jim29 That'sme((]</span> > How's everybody doing today? I'm feeling quite bodacious ha ha! Hit me up if you want to hang tonight. I'm going to be chilling out at home!</div></Fade></Pp>
+<D><U>[Mr Jim29 That'sme((]</U> > How's everybody doing today? I'm feeling quite bodacious ha ha! Hit me up if you want to hang tonight. I'm going to be chilling out at home!</D>
 <Pp>Not my best drip ever, but still decent. Hopefully it'll get a few thumbs or maybe even a flip. Ten trillion people will see it, but only twelve or so will actually read it. There's no way to keep up with it all, so people are selective with what they read. To be brutally honest, I'm not very popular on the net. I don't have that talent, that dazzle, that x-factor, that star power, that reach, that brand recognition. Strangers only read my writing on accident.</Pp>
 <Pp>Jumper56 81Diaz is walking in my general direction, but not really looking at me. She furiously two-finger tap taps her celly screen's virtual keys. She says "Hey mister fella!" and taps me on the shoulder. She's wearing her hard hat; she's always wearing her hard hat. She is my office friend. Her workpod is across from mine, and it is much cleaner. She came here after getting fired from a developer role at Pinkslip, a company that designs custom simbots optimized to be very good and very friendly at firing people. I really enjoy talking with her. She's able to figure out what makes every single stinking thing sparkle. She occasionally glances up, briefly making eye contact, still typing. "Would you mind if I tried to make you laugh?"</Pp>
 <Pp>"Go for it."</Pp>

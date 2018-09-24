@@ -1,8 +1,9 @@
 import React from 'react';
 
-import Fade from 'react-reveal/Fade';
 import Pulse from 'react-reveal/Pulse';
 
+import D from './../components/D.jsx';
+import U from './../components/U.jsx';
 import Pp from './../components/Pp.jsx';
 import Snip from './../components/Snip.jsx';
 
@@ -34,7 +35,7 @@ const OfficeChitChat = (props) => (
 <Pp>"Oh shoot. How bad?" I walk around behind his monitor to take a peek.</Pp>
 <Pp>"It's been dripped almost forty frickin times." Posts from all across the nation map quickly scroll down across his Ultradef screen, forming a never-ending stream. The Ultradef technology enhances the letters, making them bulbously pop out in three-dimensional space, glowing in every magnificent hue of the spectrum, ultraviolet to infrared. "In the biz we'd say it's making a real splash, if you're snatchin up what I'm slammin down."</Pp>
 <Pp>One of the drips trickling down is a gallery of two livestreams. The left stream shows a man with his eyes closed, laying down, motionless, almost peaceful. The right shows a family wailing and grieving in the hospital with no sound. The post reads:</Pp>
-<Pp c="drip"><Fade collapse top><div><span class="u">[NewsNEWSjc$d*]</span> > TWO DEAD cuz of crashing Dimples <span class="u">[Dimples:)]</span> zoftware? DOINK! Sip for more updates.</div></Fade></Pp>
+<D><U>[NewsNEWSjc$d*]</U> > TWO DEAD cuz of crashing Dimples <U>[Dimples:)]</U> zoftware? DOINK! Sip for more updates.</D>
 <Pp>It descends off the screen in a wink.</Pp>
 <Pp>"Dang alright. This is really really bad, right? How many people do you think have seen it?"</Pp>
 <Pp>"The most recent Drip update made it so everyone sees all the drips." His voice is gravelly. "That was a big part of Drip 9.4 Focus," which he says like it's something I should know, duh.</Pp>

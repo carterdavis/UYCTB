@@ -141,6 +141,12 @@ body {
   &.j56 .inner p { color: #99005d }
   &.d39 .inner p { color: #371989 }
   &.n31 .inner p { color: #daab00 }
+  &.n20 .inner p { color: #ba6c1a }
+}
+
+.toc-link {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .toc {

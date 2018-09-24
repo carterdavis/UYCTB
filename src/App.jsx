@@ -1,7 +1,8 @@
 import React from 'react';
 import { connect } from 'react-redux'; /* code change */
 
-import { getChapters, getTOC } from './state.js';
+import ToC from './components/ToC.jsx';
+import { getChapters } from './state.js';
 import './app.scss';
 
 class App extends React.Component {
@@ -10,10 +11,7 @@ class App extends React.Component {
       <div>
         <h1>UNTIL YOU CONTINUE TO BEHAVE</h1>
         <div id="o">O</div>
-        <h2>Table of Contents</h2>
-        <ol class="toc">
-          { getTOC() }
-        </ol>
+        <ToC />
         { getChapters(this.props.state) }
       </div>
     );
