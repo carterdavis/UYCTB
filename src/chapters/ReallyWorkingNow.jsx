@@ -41,7 +41,7 @@ const ReallyWorkingNow = (props) => (
 <Pp>I scroll through topics in the Dominator documentation. It's filled with links so I can learn the ins and outs of Domination. The migrainial dot in my vision glows violet. It grew hands. I squint to read the text on the screen.</Pp>
 <Pp>"Ch-ching!"</Pp>
 <Z d={20} u="j29">funguyjim29 : have to be honest nug20 I am feeling pretty crummy right now</Z>
-<Z d={24} u="">nug20 : No time for that. Finish it</Z>
+<Z d={24} u="n20">nug20 : No time for that. Finish it</Z>
 <Z d={30} u="n31">kindneher31 : It's starting to smell pretty tangy in here!</Z>
 <Pp>I yank the data plug right out of my belly button. The adapter is warm from use. All the chatter drains out of my consciousness. I can focus regularly again.</Pp>
 <Pp>I run some commands in a debug console. CURVE_QUOTIENT isn't visible in the intensity-and-dosage scope. I rub my right temple in slow circles. The light from overhead is so bright. I hear the ding dong of a Drip notification. I haven't gotten a Drip notification in months.</Pp>

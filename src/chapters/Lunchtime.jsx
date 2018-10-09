@@ -8,7 +8,7 @@ const Lunchtime = (props) => (
 {props.children}
 
 <Pp>Lunch time! Yum yum. Jumper56 is sitting at the other end of the chow station. I'm eating a bowl of grey kernel-fed pork lumps with a side of chewy Froot Pop Ems. She's eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
-<Pp>I burp and dig for a particularly appealing lump. "I wish the tables in here won't so wobbly."</Pp>
+<Pp>I burp and dig for a particularly appealing lump. "I wish the tables in here weren't so wobbly."</Pp>
 <Pp>"It's intentional though. Maintaining stability builds teamwork."</Pp>
 <Pp>"You ever feel like you're unqualified for this job?"</Pp>
 <Pp>"Hm." She sets her chip down and picks up a different one. "Yah I spose, but I try not to think like that. Is programming not your thing? What'd you study at Knowledge Dome?"</Pp>
@@ -46,7 +46,7 @@ const Lunchtime = (props) => (
 <Pp>"I've never played any kind of instrument." I bite into the gooey center of a Blooberry Pop Em. It spurts against the back of my teeth.</Pp>
 <Pp>"It is a privilege. They are very pricey nowadays. What do you like to do for fun?"</Pp>
 <Pp>"I take care of my three birdies."</Pp>
-<Pp>"Aw yeah, you've mentioned those guys a lot. How long have you had them?"</Pp>
+<Pp>"Aw yah, you've mentioned those guys a lot. How long have you had them?"</Pp>
 <Pp>"About four *months. I was feeling really desperate for companionship. I managed to pack all their cages into my speedster. When we got home we enjoyed a darling night of reverie."</Pp>
 <Pp>"Did you just pick them up from a pet mart or something?"</Pp>
 <Pp>"I'm kind of obsessed with pet adoption sites on the net. I got him from one of those. I scroll through them like a few times a *week. I find them so engaging. It's a hobby I guess."</Pp>

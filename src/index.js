@@ -11,3 +11,5 @@ ReactDOM.render(
   </Provider>, /* code change */
   document.getElementById('app')
 );
+
+history.scrollRestoration = "manual";
