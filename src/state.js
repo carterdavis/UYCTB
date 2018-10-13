@@ -14,6 +14,11 @@ export const setInitial = (first) => {
 
 export const setScreen = (num) => {
   store.dispatch(updateScreen(num));
+  if (num != 0) {
+    document.body.classList.add('no-scroll');
+  } else {
+    document.body.classList.remove('no-scroll');
+  }
 }
 
 const scrollTop = (target) => {

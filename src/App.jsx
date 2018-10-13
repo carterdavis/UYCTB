@@ -7,13 +7,14 @@ import { getChapters } from './state.js';
 import './app.scss';
 
 class App extends React.Component {
+
   render() {
     return (
-      <div>
+      <div id="content">
         <h1>UNTIL YOU CONTINUE TO BEHAVE</h1>
         <div id="o">O</div>
         <ToC />
-        { getChapters(this.props.state) }
+        <div>{ getChapters(this.props.state) }</div>
         <Screen screenValue={this.props.state.viewScreen} />
       </div>
     );
