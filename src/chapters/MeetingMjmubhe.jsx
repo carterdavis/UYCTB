@@ -96,13 +96,14 @@ const MeetingMjmubhe = (props) => (
 <Pp>"Would you be able show us the way? Would that be too much to ask?"</Pp>
 <Pp>"You assisted Grandpop, which means I will lead you down the path." She tapes her bill-doodle to the dimly lit wall.</Pp>
 <Pp>"Alright. Awesome, sweet, thanks."</Pp>
-<Pp>"Did you hear that more than a 100,000 are confirmed dead because of that quake?" Neher31 is hugging their celly against their chest. "That's unbelievable."</Pp>
+<Pp>"Did you hear that more than hundred thousand are confirmed dead because of that quake?" Neher31 is hugging their celly against their chest. "That's unbelievable."</Pp>
 <Pp>I do a variation on the typical kind of shrug. "Yah, I guess."</Pp>
 <Pp>"What do you mean?"</Pp>
-<Pp>"I guess I just think it does sound fairly believable." Mjmubhe__ exits the room and I follow. "Tragic world."</Pp>
+<Pp>"I guess I just think it does sound fairly believable."</Pp>
+<Pp>Mjmubhe__ exits the room and I follow.</Pp>
 <Pp>"Maybe this is a dumb time to be cynical?"</Pp>
 <Pp>"Forget it."</Pp>
-<Pp>Mjmubhe__ is in the kitchen, speaking quietly to her mother. Her mother starts to sob. She lifts Mjmubhe__ up in the air and squeezes her tight against her bosom. Her tears are red like runny blood. They streak rivulets down her face and drip to the floor as she heaves, shaking in anguish, squeezing tighter and tighter. She lowers Mjmubhe__ to the ground, smiles, and covers her face.</Pp>
+<Pp>She's in the kitchen, speaking quietly to her mother. Her mother starts to sob. She lifts Mjmubhe__ up in the air and squeezes her tight against her bosom. Her tears are red like runny blood. They streak rivulets down her face and drip to the floor as she heaves, shaking in anguish, squeezing tighter and tighter. She lowers Mjmubhe__ to the ground, smiles, and covers her face.</Pp>
 <Pp>Outside is still frigid. There are a few different distant sirens blaring, mainly shocking screams and whistles.</Pp>
 {props.children}</div>
 );

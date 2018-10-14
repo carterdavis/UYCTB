@@ -12,13 +12,21 @@ const Screen = ({ screenValue }) => {
   const zIndex = screenValue != 0 ? '2' : '-1';
   const overflow = screenValue != 0 ? 'auto' : 'hidden';
 
+  const dimples = (
+    <span><span style={{color:'#ea9897'}}>D</span><span style={{color:'#9fc5e8'}}>i</span><span style={{color:'#ea9897'}}>m</span><span style={{color:'#9fc5e8'}}>p</span><span style={{color:'#ea9897'}}>l</span><span style={{color:'#9fc5e8'}}>e</span><span style={{color:'#ea9897'}}>s</span></span>
+  );
+
+  const shell = (
+    <span><span style={{color:'#9fc5e8'}}>S</span><span style={{color:'#ea9897'}}>h</span><span style={{color:'#9fc5e8'}}>e</span><span style={{color:'#ea9897'}}>l</span><span style={{color:'#9fc5e8'}}>l</span></span>
+  );
+
   return (
     <div class="screen" style={{ opacity: opacity, zIndex: zIndex, overflowY: overflow }}>
       {
         screenValue == 1 &&
           <div>
             <CLI delay={10}><Hue c='#f9d161'>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</Hue></CLI>
-            <CLI delay={11}>WELCOME to <Hue c='#e89797'>Dimples</Hue> <Hue c='#9fc5e8'>Shell</Hue> <Hue c='#f1c232'>Z20 Extreme</Hue>. This state-of-the-art <Hue c='#6ea8dc'>health</Hue> and <Hue c='#b6d6a4'>well-being</Hue>  management console is perfectly developed to make home medical care as easy as a <Hue c='#c27ba0'>piece of a cake</Hue>. Do you feel so much tingling in your fingertips? That is quite simply the feeling of… <Hue c='#f4a960'>POWER</Hue> !</CLI>
+            <CLI delay={11}>WELCOME to {dimples} {shell} <Hue c='#f1c232'>Z20 Extreme</Hue>. This state-of-the-art <Hue c='#6ea8dc'>health</Hue> and <Hue c='#b6d6a4'>well-being</Hue>  management console is perfectly developed to make home medical care as easy as a <Hue c='#c27ba0'>piece of a cake</Hue>. Do you feel so much tingling in your fingertips? That is quite simply the feeling of... <Hue c='#f4a960'>POWER</Hue> !</CLI>
             <CLI delay={12}><Hue c='#f9d161'>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</Hue></CLI>
             <br />
             <CLI delay={14}>&gt;&gt; <Typing speed={75} startDelay={700} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> tell me [which] files in <span style={{ color: '#75a5af' }}>HERE</span></Typing></CLI>
@@ -38,6 +46,20 @@ const Screen = ({ screenValue }) => {
           <div>
             <CLI delay={0}>&gt;&gt; <Typing speed={75} startDelay={1000} class="type"><span style={{ color: '#d3a5bd' }}>SET</span> [STATE.PHARMA.CURVE_QUOTIENT] ===== 1</Typing></CLI>
             <CLI delay={50}>I do not <Hue c='#76a4ab'>UNDERSTAND.</Hue></CLI>
+            <CLI delay={52}>&gt;&gt; <Typing speed={75} startDelay={500} class="type"><span style={{ color: '#d3a5bd' }}>SET</span> [STATE.PHARMA.CURVE_QUOTIENT] ===== 1 <span style={{ color: '#f4b16a' }}>PLEASE</span></Typing></CLI>
+            <CLI delay={100}>Are you <Hue c='#f6e198'>SURE</Hue> you wish to re_equalize <Hue c='#a2c2f4'>THIS</Hue> value to 1?</CLI>
+            <CLI delay={102}>&gt;&gt; <Typing speed={75} startDelay={400} class="type"><span style={{ color: '#ea9999' }}>OK</span></Typing></CLI>
+            <CLI delay={120}>Value successfully UPDATED! You have the <Hue c='#b4a7d6'>BRAGGING_RIGHTS</Hue>, dude.</CLI>
+            <CLI delay={122}>&gt;&gt; <Typing speed={75} startDelay={500} class="type">restart {dimples}</Typing></CLI>
+            <CLI delay={145}><Hue c='#a64c77'>GOOD_NIGHT</Hue><Typing speed={50} class="type">......</Typing></CLI>
+            <CLI delay={155}><Typing speed={50} class="type">....</Typing></CLI>
+            <CLI delay={162}><Typing speed={50} class="type">..</Typing></CLI>
+            <CLI delay={166}><Typing speed={50} class="type">.....</Typing></CLI>
+            <CLI delay={169}>.</CLI>
+            <CLI delay={171}><Hue c='#edf700'>GOOD_MORNING</Hue>.</CLI>
+            <CLI delay={173}>&gt;&gt; <Typing speed={75} startDelay={500} class="type"><span style={{ color: '#FF0000' }}>GOOD_BYE</span></Typing></CLI>
+            <CLI delay={190}>&gt;&gt;</CLI>
+            <CLI delay={192}><ViewScreen num={0} /></CLI>
           </div>
       }
     </div>

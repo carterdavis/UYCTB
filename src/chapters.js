@@ -43,6 +43,22 @@ import MrAndMrs28Bumperton from './chapters/MrAndMrs28Bumperton.jsx';
 import GoingDown from './chapters/GoingDown.jsx';
 import MeetingMjmubhe from './chapters/MeetingMjmubhe.jsx';
 import Drips2 from './chapters/Drips2.jsx';
+import StinkyTown from './chapters/StinkyTown.jsx';
+import ThroughTheGorge from './chapters/ThroughTheGorge.jsx';
+import MindTime2 from './chapters/MindTime2.jsx';
+import PartingWords from './chapters/PartingWords.jsx';
+import MeAndTulip from './chapters/MeAndTulip.jsx';
+import BirdyBedtime from './chapters/BirdyBedtime.jsx';
+import ConvoWithKerri from './chapters/ConvoWithKerri.jsx';
+import MyFavoriteToy from './chapters/MyFavoriteToy.jsx';
+import Dream3 from './chapters/Dream3.jsx';
+import LateMorning from './chapters/LateMorning.jsx';
+import BelatedReplies from './chapters/BelatedReplies.jsx';
+import PerfectCommander from './chapters/PerfectCommander.jsx';
+import TweensiesParty from './chapters/TweensiesParty.jsx';
+import TweensiesParty2 from './chapters/TweensiesParty2.jsx';
+import DarkDrive from './chapters/DarkDrive.jsx';
+import BirdyBedtime2 from './chapters/BirdyBedtime2.jsx';
 
 export const chapters = [
   [Start, 'start', 'How It Starts'],
@@ -90,4 +106,20 @@ export const chapters = [
   [GoingDown, 'going_down', 'Going Down'],
   [MeetingMjmubhe, 'meeting_mjmubhe', 'Meeting Mjmubhe__'],
   [Drips2, 'drips_2', 'Drips 2'],
+  [StinkyTown, 'stinky_town', 'Stinky Town'],
+  [ThroughTheGorge, 'through_the_gorge', 'Through The Gorge'],
+  [MindTime2, 'mind_time_2', 'Mind Time 2'],
+  [PartingWords, 'parting_words', 'Parting Words'],
+  [MeAndTulip, 'me_and_tulip', 'Me And Tulip'],
+  [BirdyBedtime, 'birdy_bedtime', 'Birdy Bedtime'],
+  [ConvoWithKerri, 'convo_with_kerri', 'Convo With Kerri'],
+  [MyFavoriteToy, 'my_favorite_toy', 'My Favorite Toy'],
+  [Dream3, 'dream_3', 'Dream 3'],
+  [LateMorning, 'late_morning', 'Late Morning'],
+  [BelatedReplies, 'belated_replies', 'Belated Replies'],
+  [PerfectCommander, 'perfect_commander', 'Perfect Commander'],
+  [TweensiesParty, 'tweensies_party', 'Tweensies Party'],
+  [TweensiesParty2, 'tweensies_party_2', 'Tweensies Party 2'],
+  [DarkDrive, 'dark_drive', 'Dark Drive'],
+  [BirdyBedtime2, 'birdy_bedtime_2', 'Birdy Bedtime 2'],
 ];
