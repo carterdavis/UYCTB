@@ -26,7 +26,7 @@ class ToC extends React.Component {
         <a class="toc-link" onClick={() => { this.toggle() }}>
           <h2>Table of Contents</h2>
         </a>
-        <ol class="toc">
+        <ol class="toc" start="0">
           { this.state.open &&
              getToC(this.toggle)
           }

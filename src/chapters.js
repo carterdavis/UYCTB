@@ -59,9 +59,27 @@ import TweensiesParty from './chapters/TweensiesParty.jsx';
 import TweensiesParty2 from './chapters/TweensiesParty2.jsx';
 import DarkDrive from './chapters/DarkDrive.jsx';
 import BirdyBedtime2 from './chapters/BirdyBedtime2.jsx';
+import NiceMorning from './chapters/NiceMorning.jsx';
+import TramRide from './chapters/TramRide.jsx';
+import HappySplash2 from './chapters/HappySplash2.jsx';
+import MorningChat2 from './chapters/MorningChat2.jsx';
+import CheckInWithNug20 from './chapters/CheckInWithNug20.jsx';
+import AStranger from './chapters/AStranger.jsx';
+import MeetingTheChief from './chapters/MeetingTheChief.jsx';
+import ThePit from './chapters/ThePit.jsx';
+import Creeping from './chapters/Creeping.jsx';
+import EBC from './chapters/EBC.jsx';
+import LastDitch from './chapters/LastDitch.jsx';
+import FarAway from './chapters/FarAway.jsx';
+import LastWords from './chapters/LastWords.jsx';
+import IcyExpanse from './chapters/IcyExpanse.jsx';
+import TooLate from './chapters/TooLate.jsx';
+import ClearSky from './chapters/ClearSky.jsx';
+
+
 
 export const chapters = [
-  [Start, 'start', 'How It Starts'],
+  [Start, 'start', 'Start'],
   [CareerFair, 'career_fair', 'Career Fair'],
   [OfficeChitChat, 'office_chit_chat', 'Office Chitty Chat'],
   [MovingIn, 'moving_in', 'Moving In'],
@@ -122,4 +140,20 @@ export const chapters = [
   [TweensiesParty2, 'tweensies_party_2', 'Tweensies Party 2'],
   [DarkDrive, 'dark_drive', 'Dark Drive'],
   [BirdyBedtime2, 'birdy_bedtime_2', 'Birdy Bedtime 2'],
+  [NiceMorning, 'nice_morning', 'Nice Morning'],
+  [TramRide, 'tram_ride', 'Tram Ride'],
+  [HappySplash2, 'happy_splash_2', 'Happy Splash2'],
+  [MorningChat2, 'morning_chat_2', 'Morning Chat2'],
+  [CheckInWithNug20, 'check_in_with_nug20', 'Check In With Nug20'],
+  [AStranger, 'astranger', 'AStranger'],
+  [MeetingTheChief, 'meeting_the_chief', 'Meeting The Chief'],
+  [ThePit, 'the_pit', 'The Pit'],
+  [Creeping, 'creeping', 'Creeping'],
+  [EBC, 'ebc', 'EBC'],
+  [LastDitch, 'last_ditch', 'Last Ditch'],
+  [FarAway, 'far_away', 'Far Away'],
+  [LastWords, 'last_words', 'Last Words'],
+  [IcyExpanse, 'icy_expanse', 'Icy Expanse'],
+  [TooLate, 'too_late', 'Too Late'],
+  [ClearSky, 'clear_sky', 'Clear Sky']
 ];

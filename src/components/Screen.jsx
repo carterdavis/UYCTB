@@ -62,6 +62,36 @@ const Screen = ({ screenValue }) => {
             <CLI delay={192}><ViewScreen num={0} /></CLI>
           </div>
       }
+      {
+        screenValue == 3 &&
+          <div>
+            <Pp c="command"><Hue c='#c17ba0'>WYSHWALD52</Hue> tell me how was your *day has been?</Pp>
+            <Pp c="command">You are my <Hue c='#b6d7a7'>BUDDY</Hue>!</Pp>
+            <Pp c="command">&gt;&gt; <Typing speed={75} startDelay={1400} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> tell me [which] files in <span style={{ color: '#75a5af' }}>HERE</span></Typing></Pp>
+            <CLI delay={47}><Hue c='#75a5af'>HERE</Hue> are many files. <Hue c='#f0c153'>TELLING YOU</Hue>...</CLI>
+            <CLI delay={49}>/gumpy /pumb /ridiculus db.zb</CLI>
+            <CLI delay={54}>How has was your *day <Hue c='#d57d6b'>DUDE</Hue>!</CLI>
+            <CLI delay={56}>&gt;&gt; <Typing speed={75} startDelay={800} class="type">It's been <span style={{ color: '#4783e6' }}>FINE</span>.</Typing></CLI>
+            <CLI delay={80}><Hue c='#c17ba0'>OK</Hue>...</CLI>
+            <CLI delay={82}>&gt;&gt; <Typing speed={75} startDelay={500} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> give me [MAPPING_DATA] from <span style={{ color: '#75a5af' }}>LIB</span></Typing></CLI>
+            <CLI delay={120}>I am <Hue c='#e8f100'>GLAD</Hue> you've you've doing <Hue c='#e6b7a8'>WELL</Hue>.</CLI>
+            <CLI delay={123}>What is yours is <Hue c='#c4dae1'>FAVORITE_SONG</Hue> to <Hue c='#e99999'>SING</Hue>?</CLI>
+            <CLI delay={125}>&gt;&gt; <Typing speed={75} startDelay={500} class="type">Um i don't know</Typing></CLI>
+            <CLI delay={160}>You are not my <Hue c='#b6d7a7'>BUDDY</Hue>! You are an the <Hue c='#ff0000'>IMPOSTER</Hue>!</CLI>
+            <CLI delay={164}><Hue c='#b6d7a7'>BUDDY</Hue>'s <Hue c='#c4dae1'>FAVORITE_SONG</Hue>:</CLI>
+            <CLI delay={167}>The Nephew Brothers - Barbecue Sauce Anthem</CLI>
+            <CLI delay={169}>&gt;&gt; <Typing speed={75} startDelay={1100} class="type">oh I love The Nephew Brothers!</Typing></CLI>
+            <CLI delay={210}><Hue c='#ff0000'>IMPOSTER</Hue>!</CLI>
+            <CLI delay={212}>&gt;&gt; <Typing speed={75} startDelay={1000} class="type">Come on Deward</Typing></CLI>
+            <CLI delay={250}>You are <Hue c='#ff0000'>IMPOSTER</Hue>!</CLI>
+            <CLI delay={252}>&gt;&gt; <Typing speed={75} startDelay={500} class="type">I'm <span style={{ color: '#c17ba0' }}>WYSHWALD52</span>'s friend</Typing></CLI>
+            <CLI delay={290}><Hue c='#dc9705'>FEH</Hue>! Begone with ye at this once!</CLI>
+            <CLI delay={292}>&gt;&gt; <Typing speed={75} startDelay={600} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> give me [MAPPING_DATA] from <span style={{ color: '#75a5af' }}>LIB</span></Typing></CLI>
+            <CLI delay={350}><Hue c='#dba693'>VERY WELL</Hue>.</CLI>
+            <CLI delay={352}>&gt;&gt; [[ TO DO: put graphical map here ]]</CLI>
+            <CLI delay={354}><ViewScreen num={0} /></CLI>
+          </div>
+      }
     </div>
   );
 };
