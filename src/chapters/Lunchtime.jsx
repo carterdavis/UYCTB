@@ -49,9 +49,9 @@ const Lunchtime = (props) => (
 <Pp>"Aw yah, you've mentioned those guys a lot. How long have you had them?"</Pp>
 <Pp>"About four *months. I was feeling really desperate for companionship. I managed to pack all their cages into my speedster. When we got home we enjoyed a darling night of reverie."</Pp>
 <Pp>"Did you just pick them up from a pet mart or something?"</Pp>
-<Pp>"I'm kind of obsessed with pet adoption sites on the net. I got him from one of those. I scroll through them like a few times a *week. I find them so engaging. It's a hobby I guess."</Pp>
+<Pp>"I'm kind of obsessed with pet adoption sites on the net. That's how they found me. I scroll through those sites at least a few times a *week. I find them so engaging. It's a hobby I guess."</Pp>
 <Pp>"Does it cost a lot to feed them?"</Pp>
-<Pp>"Not really. They don't have very big appetites. They mostly eat Froot and kernels. I'm pretty frugal. I just let my gold pile up. I don't know what else to do with it. And I can't stand the thought of those creatures stuck in cages for their whole lives, without any interaction! They're so smart! They feel so much. Imagine what it'd be like to grow up in a prison and die in a prison without ever knowing anything or anyone else! Trapped every *day without anyone to even worry about you."</Pp>
+<Pp>"Not really. They don't have very big appetites. They mostly eat Froot and kernels. I'm pretty frugal. I just let my gold pile up. I don't know what else to do with it. And I can't stand the thought of those gentle beings stuck in cages for their whole lives, without any interaction! They're so smart! They feel so much. Imagine what it'd be like to grow up in a prison and die in a prison without ever knowing anything or anyone else. Trapped every *day without anyone to even worry about you."</Pp>
 <Pp>"I wouldn't like dealing with all of the stenches."</Pp>
 <Pp>"My birds don't smell."</Pp>
 <Pp>"Sorry sorry, ha ha, OK, how could I know that I guess."</Pp>

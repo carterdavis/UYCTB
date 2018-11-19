@@ -18,8 +18,8 @@ const PerfectCommander = (props) => (
 <Pp>"What do you mean, poppo?"</Pp>
 <Pp>"The heinous revolutionary invaders have seized integrally crucial intel and odds are good that they'll strike very 'explosively,' thank you very much. We're talking the same wicked bloodthirsty hounds I started four separate wars to wipe out, but dammit, parliament failed to pass our exceedingly reasonable budget revisions, and THUS, we lacked the resources to win the righteous fight. It's almost like they don't realize that I'm Perfect Commander."</Pp>
 <Pp>Carny__ shakes his small boyish head. "Why do the invaders want to destroy our way of life?"</Pp>
-<Pp>"Because their brains are filled with poisonous evil. They have never once thought a single kind or honest idea. They are motivated by a hatred of God and our universe completely devoid of nuance or rationale."
-"Please dismember the wicked ones. For me, your gentle boy."</Pp>
+<Pp>"Because their brains are filled with poisonous evil. They have never once thought a single kind or honest idea. They are motivated by a hatred of God and our universe completely devoid of nuance or rationale."</Pp>
+<Pp>"Please dismember the wicked ones. For me, your gentle boy."</Pp>
 <Pp>"Of course I will, squirt. That's what I do. I'm the good man who makes blood gush."</Pp>
 {props.children}</div>
 );

@@ -39,8 +39,8 @@ const TweensiesParty = (props) => (
 <Pp>"Oh! Yes. She's my coworker. We're friends!"</Pp>
 <Pp>Infinite Horizon: "BOI-OI-OING!"</Pp>
 <Pp>Sinew: "Now that shweet!"</Pp>
-<Pp>Slither: "Harmony is a freaking amazing person. If you're friends with her, that means you're a good person too."</Pp>
-<Pp>"Thank you! She's definitely really great.. Do you know where she is actually?"</Pp>
+<Pp>Slither: "Harmony is a freaking amazing person. Definitely the bomb. If you're friends with her, that means you're a good person too."</Pp>
+<Pp>"Thank you! She's definitely really great. Do you know where she is actually?"</Pp>
 <Pp>Zoetrope: "Last I saw her she was down in basement 2. Happy Tweensies Mr. 35Fludge!"</Pp>
 {props.children}</div>
 );

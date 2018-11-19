@@ -64,7 +64,14 @@ h2 {
 
 .drip .inner p {
   text-indent: 0;
-  color: #3b55d0;
+  padding: 1rem 0;
+
+  .drip-body {
+    color: #3b55d0;
+    border: #79a8f6 solid 5px;
+    padding: 1rem;
+    border-radius: 1rem;
+  }
 
   .u {
     color: #6d9eee;
@@ -126,6 +133,12 @@ h2 {
   z-index: -1;
   color: lightgray;
   font-weight: 800;
+}
+
+#finalo {
+  padding-top: 7rem;
+  color: #000;
+  text-align: center;
 }
 
 .s {

@@ -48,3 +48,11 @@ export const getChapters = (state) => (
     <Cloak appState={state} chapter={chapters[i]} num={i} />
   )})
 );
+
+export const getAllChapters = (state) => (
+  range(0, 75).map(i => { if (chapters[i]) return (
+    <div class="chapter" style={state} id={chapters[i][1] + '_' + i}>
+      {React.createElement(chapters[i][0], null, null)}
+    </div>
+  )})
+);

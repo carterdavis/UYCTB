@@ -145,7 +145,7 @@ export const chapters = [
   [HappySplash2, 'happy_splash_2', 'Happy Splash2'],
   [MorningChat2, 'morning_chat_2', 'Morning Chat2'],
   [CheckInWithNug20, 'check_in_with_nug20', 'Check In With Nug20'],
-  [AStranger, 'astranger', 'AStranger'],
+  [AStranger, 'a_stranger', 'A Stranger'],
   [MeetingTheChief, 'meeting_the_chief', 'Meeting The Chief'],
   [ThePit, 'the_pit', 'The Pit'],
   [Creeping, 'creeping', 'Creeping'],

@@ -7,7 +7,7 @@ const CyberTherapy = (props) => (
 <div>
 {props.children}
 
-<Pp>I close the hatch to my workpod and opened up Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. I've been going to virtual appointments with Dr. Kindbrain off and on for the better part of a *year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. "How have you been feeling lately, Jim29?"</Pp>
+<Pp>I close the hatch to my workpod and open up Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. I've been going to virtual appointments with Dr. Kindbrain off and on for the better part of a *year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. "How have you been feeling lately, Jim29?"</Pp>
 <Pp>"Not very good, Dr. Kindbrain."</Pp>
 <Pp>"Is your computering device's microphone enabled?" It pronounces microphone like MICK-ruh-phone. "Try enabling your computering device's microphone."</Pp>
 <Pp>"Whoops! Sorry, can you hear me now?"</Pp>

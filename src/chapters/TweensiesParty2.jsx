@@ -2,6 +2,8 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import Code from './../components/Code.jsx';
+
 
 const TweensiesParty2 = (props) => (
 <div>
@@ -12,12 +14,12 @@ const TweensiesParty2 = (props) => (
 <Pp>I intrude. "Hey thanks for throwing this party! I've been having such an awesome time, dam!!"</Pp>
 <Pp>She smiles wide. "Well that is really dope to hear dude!" We tap wrists. "The thing is, you must forgive me, but, my memory is so so bad. What's your name again?"</Pp>
 <Pp>"It's me! Jim29! This is how I look now forever, ha ha. Pretty <em>strange</em>, huh? Life sure loves to throw us for a loop."</Pp>
-<Pp>She's peering at me with narrowed eyes. "Your voice is the same, yah. What the hell my man...seriously oh my god!! Why did you mess up your face?"</Pp>
+<Pp>She's peering at me with narrowed eyes. She seems either mortified or disgusted. "Your voice is the same, yah. What the hell my man...seriously oh my god!! Why did you mess up your face?"</Pp>
 <Pp>I'm having trouble maintaining my smile. "Dimples did this to me. They changed my registered name, too. Whole new identity. Bet I'm not even supposed to be talking to you. I'm technically not a person anymore."</Pp>
 <Pp>"Yeesh. Hmm. Darn. Uh. Jeez."</Pp>
 <Pp>"Sorry, not to be papa frowny!"</Pp>
 <Pp>"No it's OK!"</Pp>
-<Pp>"Alright cool. You fix that buggy yet? The Disequalization one?"</Pp>
+<Pp>"Alright cool. You fix that buggy yet? The <Code>Disequalization</Code> one?"</Pp>
 <Pp>"Nop. I mean actually I fixed that one, but like, my solution yielded two more errors. The deadline to fix is Honestday afternoon. I have been working on em like a numbskull. Is there any possible chance you could help me troubleshoot tomorrow maybe?"</Pp>
 <Pp>"Ah...um...I was considering calling in sick."</Pp>
 <Pp>"Please Jim29, I'm really really nervous. It would mean a lot to me."</Pp>

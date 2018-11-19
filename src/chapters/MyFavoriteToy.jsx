@@ -22,7 +22,7 @@ const MyFavoriteToy = (props) => (
 <Pp>"Bunndy22, would you like to see a radiant display?"</Pp>
 <Pp>YES! A trillion times YES!</Pp>
 <Pp>"And so it begins."</Pp>
-<Pp>Every time, like clockwork, the vision orb slurps up out of Papa Boinkus's brain. Boinkus itself is sports that smug self-satisfied smirk that it pulls off so perfectly. Gives me the chills, you know? Pay close attention, because the vision orb is gathering voltage. That's where that static noise is coming from. Man I love this orb so dam much. 3...2...1...0...bingo...</Pp>
+<Pp>Every time, like clockwork, the vision orb slurps up out of Papa Boinkus's brain. Boinkus itself is sporting that smug self-satisfied smirk that it pulls off so perfectly. Gives me the chills, you know? Pay close attention, because the vision orb is gathering voltage. That's where that static noise is coming from. Man I love this orb so dam much. 3...2...1...0...bingo...</Pp>
 <Pp>Kaboom!! Just look that. Jesus Mary and Joseph would you just look at that?! 360 degree projected Ultradef light glimmering off every surface in my bedchamber, bursting in brilliant algorithmically-generated splendor. In all honesty it doesn't need to be so bright, it kind of hurts my eyes, but it's oh so spectacularly worth it! The vivid patterns and shapes morph from tessellating fractals into men into phantoms into women into skies and water and land into spiraling magma into flowers blooming into corporate executives shaking hands into landmines exploding into money falling from the sky etc etc. You get the gist. Hallelujah, right?</Pp>
 <Pp>Now please just let me watch.</Pp>
 <Pp>I'm not done yet. I'm still watching. What do you want from me? I'm not talking to Papa Boinkus. I'm talking to you. YOU!</Pp>
