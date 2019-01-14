@@ -11,7 +11,7 @@ const Dream1 = (props) => (
 <Pp>And I'm caught off-guard. "Oh gosh." I stop walking and sit. "Why are you mad at me? What's wrong?"</Pp>
 <Pp>"YOU have done something so rude." She points her finger right at my face.</Pp>
 <Pp>"I'm confused. What was it?"</Pp>
-<Pp>"I already told you a *second ago." Her eyes are resentful.</Pp>
+<Pp>"I already told you a <span class="t">*</span>second ago." Her eyes are resentful.</Pp>
 <Pp>"I am not ready for this conversation. I forget."</Pp>
 <Pp>"Remember one thing. Everything." Her finger in the air is one and like she's pointing up, not not down.</Pp>
 <Pp>I start sinking into the ground.</Pp>

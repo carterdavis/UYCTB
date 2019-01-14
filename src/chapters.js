@@ -1,4 +1,4 @@
-import Start from './chapters/Start.jsx';
+import Crash from './chapters/Crash.jsx';
 import CareerFair from './chapters/CareerFair.jsx';
 import OfficeChitChat from './chapters/OfficeChitChat.jsx';
 import MovingIn from './chapters/MovingIn.jsx';
@@ -79,7 +79,7 @@ import ClearSky from './chapters/ClearSky.jsx';
 
 
 export const chapters = [
-  [Start, 'start', 'Start'],
+  [Crash, 'crash', 'Crash'],
   [CareerFair, 'career_fair', 'Career Fair'],
   [OfficeChitChat, 'office_chit_chat', 'Office Chitty Chat'],
   [MovingIn, 'moving_in', 'Moving In'],
@@ -115,7 +115,7 @@ export const chapters = [
   [LegalAssessment, 'legal_assessment', 'Legal Assessment'],
   [AppearanceSwap, 'appearance_swap', 'Appearance Swap'],
   [EndOfDay2, 'end_of_day_2', 'End Of *Day 2'],
-  [SmilingHour, 'smiling_hour', 'Smiling Hour'],
+  [SmilingHour, 'smiling_hour', 'Smiling *Hour'],
   [DrivingToNehers, 'driving_to_nehers', "Driving To Neher's"],
   [Dinnertime, 'dinnertime', 'Dinnertime'],
   [Drips, 'drips', 'Drips'],

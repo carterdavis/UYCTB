@@ -17,8 +17,8 @@ const ThroughTheGorge = (props) => (
       <li>The Top 5 Toys For Neo-Aristocrats</li>
       <li>SPONSORED: Auction Off Your Collagen Become Rich This Instant</li>
       <li>Killer Quake Travis Flattens Orphanage For Infant Amputees</li>
-      <li>Don't Forget! Business Time Starts One *Hour Early Next *Week</li>
-      <li>PREMIERE: Violent Aaron Releases New Track "GrandpaLuv"</li>
+      <li>Don't Forget! Business Time Starts One <span class="t">*</span>Hour Early Next <span class="t">*</span>Week</li>
+      <li>PREMIERE: Controversial Violent Aaron Releases New Album "GrandpaLuv"</li>
       <li>Watch Cartoon Earthquake Travis Do The "Doink Doink" Dance So Funny Click Me Now Now</li>
       <li>[OPINION] Men Used To Act Like Funky Maniacs. Now They Act Like Sad Little Boys</li>
       <li>Spcl. Duke 00Bellifont Exudes Swagger In Naughty Scream Tirade: "When We Bomb The Evil Jungle Children, Christ Grins So Big I Swear We're Nearly Blinded By The Gleam Off His Fat Shiny Teeth"</li>

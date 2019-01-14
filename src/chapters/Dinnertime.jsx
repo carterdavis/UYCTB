@@ -19,7 +19,7 @@ const Dinnertime = (props) => (
 <Pp>"What?"</Pp>
 <Pp>I smile my widest. "With songs and paintings like these, I'm starting to think life can't be all that bad."</Pp>
 <Pp>"Yah, I guess. Could you shave some maize?"</Pp>
-<Pp>I start shaving the maize. It's an especially juicy cob. My eyes water. "Did you have a good *day?"</Pp>
+<Pp>I start shaving the maize. It's an especially juicy cob. My eyes water. "Did you have a good <span class="t">*</span>day?"</Pp>
 <Pp>"Yah! It was really nice. I did some exercise and chores, volunteered," they make a huffing sigh, "signed some petitions, called my parents."</Pp>
 <Pp>"Where sorts of volunteering do you do?"</Pp>
 <Pp>"I recently started helping at this non-profit called Kids Roll. I blow glass to make marbles for mid-income children. They love their marbles. It's so fun using all the different of colors and patterns. Sometimes I'll use swirly black, grey, and brown so it looks like the planet."</Pp>
@@ -28,7 +28,7 @@ const Dinnertime = (props) => (
 <Pp>I slice through the layers of juicy cob. "It would be cool to get a marble."</Pp>
 <Pp>"How's that succulent doing? The one I sent you a few months ago?"</Pp>
 <Pp>"He he. It's doin fine, since it's made of plastic. I named it Genius."</Pp>
-<Pp>"Yah it did seem pretty smart come to think of it." They crank the heat on the stove. "What was your *day like?"</Pp>
+<Pp>"Yah it did seem pretty smart come to think of it." They crank the heat on the stove. "What was your <span class="t">*</span>day like?"</Pp>
 <Pp>"I don't really want to talk about it."</Pp>
 <Pp>"Can you at least give me the short version then? You made me really worried."</Pp>
 <Pp>I'm at kind of a loss for words. "I don't know if there's a short version."</Pp>
@@ -41,7 +41,7 @@ const Dinnertime = (props) => (
 <Pp>"Dam. I'm really sorry to hear that."</Pp>
 <Pp>I look out the window. It's still hailing. The buildings gleam like teeth in a wide dark mouth. "That's just how it goes."</Pp>
 <Pp>"Does your face hurt?" They stare at me. Their gaze is piercingly studious. "It looks horrible."</Pp>
-<Pp>"That hurts my feelings. Please don't say stuff like that. I had a bad *day and I'm feeling sensitive."</Pp>
+<Pp>"That hurts my feelings. Please don't say stuff like that. I had a bad <span class="t">*</span>day and I'm feeling sensitive."</Pp>
 <Pp>"I'm sorry, that makes sense, my bad."</Pp>
 <Pp>"Whole face feels really numb right now, like it's someone else's skin. It's soo gross."</Pp>
 <Pp>"Do you have to wear that unisuit? And that wig?"</Pp>
@@ -55,7 +55,7 @@ const Dinnertime = (props) => (
 <Pp>They toss my slices in a pan with some sizzling lard. "I don't even think it'd even be a black. More like no color at all."</Pp>
 <Pp>"Wait, so you think after life it's just nuthin?"</Pp>
 <Pp>"I mean, I'm not sure. I'm not making any conclusive claims."</Pp>
-<Pp>"Do you think there's such a thing as hell?"  I rub my new forehead. "I've been worrying about it nonstop all *day."</Pp>
+<Pp>"Do you think there's such a thing as hell?"  I rub my new forehead. "I've been worrying about it nonstop all <span class="t">*</span>day."</Pp>
 <Pp>"Well do you think there's a heaven?"</Pp>
 <Pp>"Just because there's a hell doesn't mean that there's a heaven!!"</Pp>
 <Pp>"Jim29, you have to settle down. You're not going to burn in hell."</Pp>
@@ -66,7 +66,7 @@ const Dinnertime = (props) => (
 <Pp>"Yah, it sucks really hard. I can't figure out how to stop. The gas builds up in my belly and the pressure's awful. The only way I can get it out is by burping and farting over and over. Breathing starts to feel like when you're driving and you think about how you're driving too deeply." I pull in a long, slow breath. "You ever feel like that? Like in an instant the task seems impossibly hard and I'm definitely going to crash. I've been worried I'll run out of air."</Pp>
 <Pp>"Your body takes care of that on it's own. Is there anything that'd help you calm down? I have plenty of dizzy drink if you want some."</Pp>
 <Pp>I nod.</Pp>
-<Pp>They fill up two glasses with the bubbly blue stuff and hand me one. "This stuff is called Extended Nipple Zap. Local recipe, pretty interesting flavor. Let me know what you think. I picked it up at the gulping den a few *hours ago, and on the way out a hunched over old lady dropped a mitten. She was so grateful when I handed it to her. She had such beautiful green eyes! I love cute moments like that. I've been thinking about how glad I was to be right there right then."</Pp>
+<Pp>They fill up two glasses with the bubbly blue stuff and hand me one. "This stuff is called Extended Nipple Zap. Local recipe, pretty interesting flavor. Let me know what you think. I picked it up at the gulping den a few <span class="t">*</span>hours ago, and on the way out a hunched over old lady dropped a mitten. She was so grateful when I handed it to her. She had such beautiful green eyes! I love cute moments like that. I've been thinking about how glad I was to be right there right then."</Pp>
 <Pp>"That's cool."</Pp>
 <Pp>"What's a nice thing that happened to you today?"</Pp>
 <Pp>I burp. The drink is pretty strong. "I can't think of anything."</Pp>
@@ -87,7 +87,7 @@ const Dinnertime = (props) => (
 <Pp>"Yah. I think so too."</Pp>
 <Pp>"Do you like it?"</Pp>
 <Pp>"Totally!  Was just about to say, delicious!"</Pp>
-<Pp>"Terrific! I worked on it all *day.'</Pp>
+<Pp>"Terrific! I worked on it all <span class="t">*</span>day.'</Pp>
 <Pp>"Your work really paid off."</Pp>
 <Pp>"Is there any chance you sent me a note on Fog earlier today?"</Pp>
 <Pp>"No. Why do you ask?"</Pp>
@@ -103,14 +103,14 @@ const Dinnertime = (props) => (
 <Pp>"Yah, that's me."</Pp>
 <Pp>"I go by the name of Boyce38 52Sminsel. Perhaps you've seen a few of my bylines?" His voice crackles with sass and verve. "I'm an esteemed journalist for an astonishingly important online journalism website called 'Funny Laughs, Hot News, and Cool Trivia 🙂'. Ever heard of us?"</Pp>
 <Pp>"For sure, absolutely! Wow."</Pp>
-<Pp>"I'm working hard on a very crucial piece about you, Mr. 03Goldman, and . Indeed, might you spare a *minute?"</Pp>
+<Pp>"I'm working hard on a very crucial piece about you, Mr. 03Goldman, and . Indeed, might you spare a <span class="t">*</span>minute?"</Pp>
 <Pp>I look up at Neher31. "Would you mind if I take this?"</Pp>
 <Pp>"No worries, you're good." They smile, a warm one.</Pp>
 <Pp>I walk out of the cubby and stand in the hallway. I don't feel comfortable talking on the celly near other people. "Hey! Sorry bout that. What were you wondering?"</Pp>
-<Pp>"I suppose I'll take it right from the top of the top. What's your reaction to the last couple *days?"</Pp>
+<Pp>"I suppose I'll take it right from the top of the top. What's your reaction to the last couple <span class="t">*</span>days?"</Pp>
 <Pp>I lean my back against the wall. I think it's important to really pause to collect my thoughts.</Pp>
 <Pp>"It's been really hard. I'm honestly struggling to think of how to talk about it. I never meant for any of this to happen. My world's been <em>very</em> topsy turvy. My feelings change from <em>hour to </em>hour, but mostly I feel really horrible. I'm trapped in a cage of despair and self-loathing. It's a mistake I'll regret for the rest of my life."</Pp>
-<Pp>"Hmm. Very interesting. Would you describe your reaction to the last couple *days as being like Hubba Hubba😍, Whuzza Wha?😳, Yuck Machine🤢, Hellz Yes😎, or Fail Monkey🙈?"</Pp>
+<Pp>"Hmm. Very interesting. Would you describe your reaction to the last couple <span class="t">*</span>days as being like Hubba Hubba😍, Whuzza Wha?😳, Yuck Machine🤢, Hellz Yes😎, or Fail Monkey🙈?"</Pp>
 <Pp>"Oh...well...Fail Monkey🙈, I guess."</Pp>
 <Pp>"That makes sense. What do you think when people say you're a murderer?"</Pp>
 <Pp>"I'd like to clear that up. These deaths are considered 'corporate casualties,' so I did not commit a crime. And even if I did, it isn't my fault!! OK? Their machines just stopped keeping them alive. And, actually, hmm, I don't know, is there any way you could just not print this answer, I'm just--"</Pp>
@@ -140,21 +140,21 @@ const Dinnertime = (props) => (
 <Pp>"Do you believe me?"</Pp>
 <Pp>"Why's it impossible?"</Pp>
 <Pp>"Imagine zooming in on a tiny particle of fructose with an electron microscope. There's all those structures holding it together. Such a small thing is so meticulously structured. Maybe if I could fully understand why those protons, neutrons, and electrons stick together in their special way I could eventually understand what makes em taste sweet. But I have deadlines, I need to make decisions, and things slip through the cracks. I can't know how my additions affect everywhere else in the system. And the unexpected is fatal.</Pp>
-<Pp>"I keep pondering that kind of infinite vertical complexity, wondering how I fit into it. Is there any way I can? Massive designs poke through the clouds while I warm up my snacks down here so far below the heavens. Every waking moment demands such strenuous mature deliberation, but you can't do the right thing because, I mean, every single thing that can be done is already inherently wrong. Every breath I take I'm sucking out of someone else's lungs. Surviving some *days feels like crawling around a big reconfiguring labyrinth on my belly. They take my gold and exhaust my body and make my commute to work longer all so they can develop more unique ways to blow people up hundreds of twentyleaps away. I got disfigured this afternoon and honestly, I'm doing pretty alright, from a statistical standpoint. I'm not bleeding out or thrashing in the water, I'm not scattered ash or stuffed under the mud.</Pp>
-<Pp>"Every *day I loosen the squeezing rope around my belly two other people's ropes tighten. That's one thing I'm sure of. I wish I could step somewhere that wasn't also onto someone else's head, you know? Every single choice any of us makes has a concrete effect on how many more or less people will die. But I only just know it as numbers even if I make the effort to read about it online. Every pair of eyes is a universe and if I consider even one of those shutting forever my brain feels like it'll pop.</Pp>
+<Pp>"I keep pondering that kind of infinite vertical complexity, wondering how I fit into it. Is there any way I can? Massive designs poke through the clouds while I warm up my snacks down here so far below the heavens. Every waking moment demands such strenuous mature deliberation, but you can't do the right thing because, I mean, every single thing that can be done is already inherently wrong. Every breath I take I'm sucking out of someone else's lungs. Surviving some <span class="t">*</span>days feels like crawling around a big reconfiguring labyrinth on my belly. They take my gold and exhaust my body and make my commute to work longer all so they can develop more unique ways to blow people up hundreds of twentyleaps away. I got disfigured this afternoon and honestly, I'm doing pretty alright, from a statistical standpoint. I'm not bleeding out or thrashing in the water, I'm not scattered ash or stuffed under the mud.</Pp>
+<Pp>"Every <span class="t">*</span>day I loosen the squeezing rope around my belly two other people's ropes tighten. That's one thing I'm sure of. I wish I could step somewhere that wasn't also onto someone else's head, you know? Every single choice any of us makes has a concrete effect on how many more or less people will die. But I only just know it as numbers even if I make the effort to read about it online. Every pair of eyes is a universe and if I consider even one of those shutting forever my brain feels like it'll pop.</Pp>
 <Pp>"You ever watch that evening program on TOTAL Access Channel 4? 'Birth Rate/Death Rate'? The birth rate on the left is always faster than the death rate on the right, but not by much. The population count in the middle is always flickering, jumping a couple hundred, dropping a hundred, shooting back up again. I just imagine all those grown hearts stopping and all those new hearts starting. Gasping and crying in either circumstance. People sliding into life looking as bloody as they'll leave it. How many of those people were ready to leave? Did they get to say goodbye? I can't help but laugh when I watch it. It makes me giggle and I feel like a sicko. Would it be better if I cried?</Pp>
 <Pp>"And I know that none of this is new. Everything is really old, and speaking is wasting time. Which is why what I mean to say is, hmm, I don't know. I don't know about anything at all. If you think about anything enough it starts to seem impossible."</Pp>
 <Pp>Neher31 claps their hands together twice really loud. "Wake up! You're in a world of infinite flavor!"</Pp>
 <Pp>"Isn't that a big part of the problem?"</Pp>
 <Pp>"I think it's honestly probably the only truly good thing left. Existence would be so meaningless if we knew everything or remembered anything. The gaps in our comprehensions are what make life worth breathing for."</Pp>
 <Pp>"Can you not talk about breathing if at all possible? I don't want to get off rhythm again."</Pp>
-<Pp>"But do you get what I mean though? The sun feels a lot warmer in the nasty summer if you'd forgotten it over the nasty winter." Their eyes are like flowers. "The world's so endless that you could learn something special every *day and still be a bit of a dummy. An enriched dummy!"</Pp>
-<Pp>"Did you hear about the first Guns in the Sky launch the other *day?"</Pp>
+<Pp>"But do you get what I mean though? The sun feels a lot warmer in the nasty summer if you'd forgotten it over the nasty winter." Their eyes are like flowers. "The world's so endless that you could learn something special every <span class="t">*</span>day and still be a bit of a dummy. An enriched dummy!"</Pp>
+<Pp>"Did you hear about the first Guns in the Sky launch the other <span class="t">*</span>day?"</Pp>
 <Pp>"Yah."</Pp>
 <Pp>"So there are thousands of long guns now floating in space ready to blast us apart for whatever reason."</Pp>
 <Pp>"But they won't be able to see us through the big black clouds."</Pp>
 <Pp>"The guns have lips. They can blow the clouds away."</Pp>
-<Pp>"But we keep learning! We know more now than we've ever known before. We have such an amazing collective potential for good. Every *year we get kinder. We're going to get where we need to go. And in the meantime we can listen to music and hang up paintings and water plants and cook meals and try our very best."</Pp>
+<Pp>"But we keep learning! We know more now than we've ever known before. We have such an amazing collective potential for good. Every <span class="t">*</span>year we get kinder. We're going to get where we need to go. And in the meantime we can listen to music and hang up paintings and water plants and cook meals and try our very best."</Pp>
 <Pp>"I just don't think that's logical. I don't think there's any evidence that things are getting better. I think that's an invalid model we use to reassure ourselves."</Pp>
 <Pp>"Shut up." They set down their fork. "You can be such a snouch sometimes."</Pp>
 <Pp>"The sea levels are above our curbs and the storms keep getting worse as we irradiate the oil choked soil with new bigger bombs but I'm sure the folks getting incinerated right now in white hot light are very glad about how optimistic you are."</Pp>
@@ -169,7 +169,7 @@ const Dinnertime = (props) => (
 <Pp>They stare at me.</Pp>
 <Pp>I shout it again. "I GIVE UP!" My brain feels tight. "I just want to sleep. I just want to wake up where everything is different. I can't stand being awake."</Pp>
 <Pp>They're looking anywhere else.</Pp>
-<Pp>"How productive is your line of thinking?" I point my finger right at them. "None of our toiling makes any progress. We eat, drink, and breathe poison every *day. No one's coming to our rescue. None of us are making it out alive."</Pp>
+<Pp>"How productive is your line of thinking?" I point my finger right at them. "None of our toiling makes any progress. We eat, drink, and breathe poison every <span class="t">*</span>day. No one's coming to our rescue. None of us are making it out alive."</Pp>
 <Pp>"The kids like it when I volunteer."</Pp>
 <Pp>I crawl down onto the floor and collapse in a heap. My face is soggy in a puddle of blood and tears. When I breathe the soupy mixture ripples. "I'm sorry. I'm being such a goblin."</Pp>
 <Pp>"It's OK."</Pp>

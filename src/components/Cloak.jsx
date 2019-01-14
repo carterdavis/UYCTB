@@ -7,8 +7,22 @@ import { update } from './../state.js';
 class Cloak extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { zoips: {} };
+    this.baseState = this.state;
     this.setHeight = this.setHeight.bind(this);
+    this.setZoip = this.setZoip.bind(this);
+  }
+
+  componentDidMount() {
+    this.setState(this.baseState);
+  }
+
+  setZoip(sequence, place = 0) {
+    this.setState({
+      zoips: {
+        [sequence]: place
+      }
+    });
   }
 
   setHeight(height) {
@@ -21,10 +35,15 @@ class Cloak extends React.Component {
     const uncloaked = ((this.props.num >= this.props.appState.current - 7)
       && (this.props.num <= this.props.appState.current + 7)) || this.state.height === undefined;
 
+    const props = {
+      state: this.state,
+      setZoip: this.setZoip
+    }
+
     return (
       <div class="chapter" style={this.state} id={this.props.chapter[1] + '_' + this.props.num}>
         <ReactHeight onHeightReady={height => this.setHeight(height)}>
-          { uncloaked && React.createElement(this.props.chapter[0], null, visibility)}
+          { uncloaked && React.createElement(this.props.chapter[0], props, visibility)}
         </ReactHeight>
       </div>
     )

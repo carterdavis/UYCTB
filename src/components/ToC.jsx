@@ -6,34 +6,26 @@ import { getToC } from './../state.js';
 class ToC extends React.Component {
   constructor(props) {
       super(props);
-      this.state = { open: false };
-      this.toggle = this.toggle.bind(this);
   }
 
   handleClickOutside() {
-    if (this.state.open) {
-      this.toggle();
+    if (this.props.visible) {
+      this.props.toggle();
     }
   }
 
-  toggle(target) {
-    this.setState({ open: !this.state.open });
-  }
+  render() {
+    const visibility = this.props.visible ? 'visible' : 'hidden';
 
-   render() {
-     return (
-      <div class="toc-wrapper">
-        <a class="toc-link" onClick={() => { this.toggle() }}>
-          <h2>Table of Contents</h2>
-        </a>
-        <ol class="toc" start="0">
-          { this.state.open &&
-             getToC(this.toggle)
-          }
+    return (
+      <div class={`toc ${visibility}`}>
+        <h2>Table of Contents</h2>
+        <ol start="0">
+          { getToC(this.props.toggle) }
         </ol>
       </div>
     )
   }
 }
 
-export default ToC;
+export default ClickOutside(ToC);

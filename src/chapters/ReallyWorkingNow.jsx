@@ -13,13 +13,13 @@ const ReallyWorkingNow = (props) => (
 <Z d={15} u="d39">~ : I hope you didn't take it personally</Z>
 <Pp>The bug reports describe the error as an IMPOSSIBLE_DIGITS exception for the variable CURVE_QUOTIENT. It occurred on line 495 of intensity-and-dosage.tangle, one of the largest files in the Dimples library. I triple click and highlight the whole line:</Pp>
 <Pp>UNFRACTIONATE(0 ≥ STATE[PHARMA[CURVE_QUOTIENT]] ≤ 1);</Pp>
-<Pp>We just recently started using Dominators in Tangle. I don't really understand them. The zoips keep zipping through my umbilical data plug straight into my mindchip. I'm feeling a little bothered.</Pp>
+<Pp>I'm listening to a programming sound collage designed to palpate my abstract logical nodes or glands or whatever. The noises are pretty complicated and alarming. It's creepy stuff to listen to but apparently it can make your variable names 50% more keen. It's hard to focus while all these zoips keep zipping through my umbilical data plug straight into my mindchip. I'm feeling a little bothered.</Pp>
 <Z d={15} u="j56">jumper56ok : shoot now two other values are disequalized</Z>
 <Z d={25} u="j56">~ : 5 to 9? i think</Z>
 <Z d={35} u="j29">funguyjim29 : I'm sorry, I'll get back to you</Z>
 <Z d={45} u="j29">~ : but right now isn't a very good time</Z>
 <Z d={38} u="d39">dingdongdaisy39 : I hope work has been better for you today!</Z>
-<Pp>Dominators have to do with dynamic value control across equality networks. Some objects carry invalid values (informally referred to as "naughty data" at Dimples) that need to be dominated and restricted from proliferating through their multivaluation chains. For instance:</Pp>
+<Pp>We just recently started using Dominators in Tangle. I don't really understand them. Their functionality enables dynamic value control across equality networks. Some objects carry invalid values (informally referred to as "naughty data" at Dimples) that need to be dominated and restricted from proliferating through their multivaluation chains. For instance:</Pp>
 <Pp>IF [NAUGHTY[CURVE_QUOTIENT]]!!:</Pp>
 <Pp>CURVE_QUOTIENT === DOMINATE[CURVE_QUOTIENT, TRUE]</Pp>
 <Pp>is the sort of line I'm searching for. I press the spacebar five times. My back feels sweaty against the chair. Nug20 sends me a zoip.</Pp>

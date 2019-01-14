@@ -36,27 +36,27 @@ const Lunchtime = (props) => (
 <Pp>"No, I was an only child. My parents were killed in a speedster accident when I was eight. I was strapped in my velvety kid-seat and they got into a head-on collision. The front of the speedster was totally crunched, blood oozing out between chunks of glass."</Pp>
 <Pp>"Oh my gosh, I'm so sorry to hear that. That's literally too bad."</Pp>
 <Pp>"It's OK! Ha ha. It was a long time ago. I only recall it really fuzzy. It's one of my earliest memories. Not any big deal, don't worry. I never even knew them enough to miss them, you know? How about your folks?"</Pp>
-<Pp>"They're so super nice. They live a few thousand twentyleaps away, but like, I'm still really extremely close with them. I talk to them every couple of *days or so. I love them so much. It's like, every good part of me was part of them first."</Pp>
+<Pp>"They're so super nice. They live a few thousand twentyleaps away, but like, I'm still really extremely close with them. I talk to them every couple of <span class="t">*</span>days or so. I love them so much. It's like, every good part of me was part of them first."</Pp>
 <Pp>I pick a greasy pork toenail out from between my front teeth.  "Do you have any hobbies outside of work?"</Pp>
 <Pp>"I play my viola in a symphony."</Pp>
 <Pp>"Are you the only violist?"</Pp>
-<Pp>"Yah. It's a volunteer symphony. Nothin too fancy. We gather every couple *weeks to practice in a large circle so we can see each other's faces."</Pp>
+<Pp>"Yah. It's a volunteer symphony. Nothin too fancy. We gather every couple <span class="t">*</span>weeks to practice in a large circle so we can see each other's faces."</Pp>
 <Pp>"What was it that made you pick the viola?"</Pp>
 <Pp>"It has such a rich, sweet sound, you know? Kind of like how evening sunshine used to be. When we practice in the quarry the sounds bounce off the ore and soar through the sky. Reeds and strings and woodwinds twirling around each other and big booming drums making em scatter. It makes my ears burst. Sounds like a dam festival."</Pp>
 <Pp>"I've never played any kind of instrument." I bite into the gooey center of a Blooberry Pop Em. It spurts against the back of my teeth.</Pp>
 <Pp>"It is a privilege. They are very pricey nowadays. What do you like to do for fun?"</Pp>
 <Pp>"I take care of my three birdies."</Pp>
 <Pp>"Aw yah, you've mentioned those guys a lot. How long have you had them?"</Pp>
-<Pp>"About four *months. I was feeling really desperate for companionship. I managed to pack all their cages into my speedster. When we got home we enjoyed a darling night of reverie."</Pp>
+<Pp>"About four <span class="t">*</span>months. I was feeling really desperate for companionship. I managed to pack all their cages into my speedster. When we got home we enjoyed a darling night of reverie."</Pp>
 <Pp>"Did you just pick them up from a pet mart or something?"</Pp>
-<Pp>"I'm kind of obsessed with pet adoption sites on the net. That's how they found me. I scroll through those sites at least a few times a *week. I find them so engaging. It's a hobby I guess."</Pp>
+<Pp>"I'm kind of obsessed with pet adoption sites on the net. That's how they found me. I scroll through those sites at least a few times a <span class="t">*</span>week. I find them so engaging. It's a hobby I guess."</Pp>
 <Pp>"Does it cost a lot to feed them?"</Pp>
-<Pp>"Not really. They don't have very big appetites. They mostly eat Froot and kernels. I'm pretty frugal. I just let my gold pile up. I don't know what else to do with it. And I can't stand the thought of those gentle beings stuck in cages for their whole lives, without any interaction! They're so smart! They feel so much. Imagine what it'd be like to grow up in a prison and die in a prison without ever knowing anything or anyone else. Trapped every *day without anyone to even worry about you."</Pp>
+<Pp>"Not really. They don't have very big appetites. They mostly eat Froot and kernels. I'm pretty frugal. I just let my gold pile up. I don't know what else to do with it. And I can't stand the thought of those gentle beings stuck in cages for their whole lives, without any interaction! They're so smart! They feel so much. Imagine what it'd be like to grow up in a prison and die in a prison without ever knowing anything or anyone else. Trapped every <span class="t">*</span>day without anyone to even worry about you."</Pp>
 <Pp>"I wouldn't like dealing with all of the stenches."</Pp>
 <Pp>"My birds don't smell."</Pp>
 <Pp>"Sorry sorry, ha ha, OK, how could I know that I guess."</Pp>
-<Pp>"Sometimes I worry that I'll never know how much they're thinking. They could be thinking the exact same kinds of thoughts that I'm thinking. Or they could be thinking in totally different dimensions of thought. I don't think they even know right or wrong. But they know what they like, and they have a rough concept of what I like too. Plus they'll live forever; for instance macaws can live to be like a hundred. WOW y'know? What kind of person will I be in a hundred *years?"</Pp>
-<Pp>"But you can't like really be sure of one hundred full *years. We don't know our own fortunes is what I mean. Something could happen any *day to you or them also. So every *day with them is such a gift to cherish."</Pp>
+<Pp>"Sometimes I worry that I'll never know how much they're thinking. They could be thinking the exact same kinds of thoughts that I'm thinking. Or they could be thinking in totally different dimensions of thought. I don't think they even know right or wrong. But they know what they like, and they have a rough concept of what I like too. Plus they'll live forever; for instance macaws can live to be like a hundred. WOW y'know? What kind of person will I be in a hundred <span class="t">*</span>years?"</Pp>
+<Pp>"But you can't like really be sure of one hundred full <span class="t">*</span>years. We don't know our own fortunes is what I mean. Something could happen any <span class="t">*</span>day to you or them also. So every <span class="t">*</span>day with them is such a gift to cherish."</Pp>
 <Pp>"Yes totally, I agree. Super true."</Pp>
 <Pp>"You should show me pictures of them!"</Pp>
 <Pp>"Sure. I've got some on my computering device. I'll zoip them to you." I pop a tablet of Grumbletine, my lunch digestion supplement.</Pp>

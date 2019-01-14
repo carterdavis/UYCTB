@@ -9,7 +9,7 @@ const TramRide = (props) => (
 
 <Z d={1} u="sys">%SYS_OP% : Congratulations, BUNNDY22!</Z>
 <Z d={1} u="sys">~ : Your new workpod is located on FLOOR_3, CELL_5_EAST</Z>
-<Z d={1} u="sys">~ : 162 gold hunks deducted from your salary sack for this *month,</Z>
+<Z d={1} u="sys">~ : 162 gold hunks deducted from your salary sack for this <span class="t">*</span>month,</Z>
 <Z d={1} u="sys">~ : to cover cost of repairs to OVERHEAD_INTERCOM_SPEAKER</Z>
 <Pp>I'm leaning against a pole. Chadmuth48 is reclining sideways across three chairs. He hasn't said a word to me since we boarded the tram. No one else is in our carriage. The overhead fluorescent is flickering. The concrete tunnel walls outside the foggy glass windows are overgrown with fuzzy brown fungus. He's scrolling through zoips on his celly but I don't have anything to entertain myself with. With this in mind, I sigh expressively.</Pp>
 <Pp>Chadmuth48: "How's it poppin?"</Pp>
@@ -31,10 +31,10 @@ const TramRide = (props) => (
 <Pp>"Why aren't you saying her registration numbers?"</Pp>
 <Pp>"I don't want you searching her name. You seem like you could be creepy."</Pp>
 <Pp>"Gotcha. But it's OK to publish my complete name in a press release for trillions of people to read? Do you realize how many weirdos have threatened to kill me?"</Pp>
-<Pp>He sits up and stares at me, eyebrows raised. He does that for a few *seconds. Then he speaks:</Pp>
+<Pp>He sits up and stares at me, eyebrows raised. He does that for a few <span class="t">*</span>seconds. Then he speaks:</Pp>
 <Pp>"Gingerbell__ understood me for who I am. At least I'm pretty sure she did. I can be hard to 'get,' that's a thing I know about myself, it's like I'm a walking contradiction or an oxymoron or whatever. But there's no magic to it. I'm mechanical like anyone else, only ever working my hardest to feel as little pain as possible. This world ran out of mysteries a long time ago. She understood me, I understood her, and she was the first one to get bored. I've always had trouble making myself available, always will. Everything's set in stone, yah? There was no other way that reality could have arranged itself. I'm not even sad about it at all, especially since I have two other wives who both wear smokin hot outfits. They think I'm really cool and handsome."</Pp>
 <Pp>"Hm...yah. Gotcha."</Pp>
-<Pp>''We're Nowhere Else, bud. We have the highest standard of living in the entire universe. It ain't perfect but it's close. I work my bangin job all day and party all night long. I've been dancing a lot lately, been trying to move my body as much as possible. These have been my brightest *years. Life totally cranks."</Pp>
+<Pp>''We're Nowhere Else, bud. We have the highest standard of living in the entire universe. It ain't perfect but it's close. I work my bangin job all day and party all night long. I've been dancing a lot lately, been trying to move my body as much as possible. These have been my brightest <span class="t">*</span>years. Life totally cranks."</Pp>
 <Pp>Our tram rolls to a stop at station B7. Its starboard entrance hatch swings open. A warm electronic voice speaks:</Pp>
 <Pp>"Please enter or exit now."</Pp>
 <Pp>A very tall man with a particularly cuboid skull climbs aboard. His eyes are glassy, his cheeks hollow, his hair stringy, and his skin translucent. He's dressed in a very dirty unisuit and carrying a crinkled plastic bag full of orange fluid. He's gradually trudging toward Chadmuth48's seat. He seems to be wandering.</Pp>

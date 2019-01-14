@@ -3,18 +3,22 @@ import { connect } from 'react-redux'; /* code change */
 
 import ToC from './components/ToC.jsx';
 import Screen from './components/Screen.jsx';
-import { getChapters, getAllChapters } from './state.js';
+import Cover from './components/Cover.jsx';
+import Navbar from './components/Navbar.jsx';
+import { getChapters, getAllChapters, toggleVisibilityToC } from './state.js';
 import './app.scss';
 
 class App extends React.Component {
-
   render() {
     return (
-      <div id="content">
-        <h1>UNTIL YOU CONTINUE TO BEHAVE</h1>
+      <div id="main">
+        <Cover toc={this.props.state.visibleToC} />
         <div id="o">&#x1f785;</div>
-        <ToC />
-        <div>{ getChapters(this.props.state) }</div>
+        <ToC toggle={toggleVisibilityToC} visible={this.props.state.visibleToC} />
+        <div id="content" tabIndex="0">
+          <Navbar />
+          { getChapters(this.props.state) }
+        </div>
         <Screen screenValue={this.props.state.viewScreen} />
       </div>
     );

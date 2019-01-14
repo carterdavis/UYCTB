@@ -61,7 +61,7 @@ const GoingDown = (props) => (
 <Pp>"Yah, sure, I'm curious."</Pp>
 <Pp>"OK. I memorized it this morning. It said:</Pp>
 <Pp>neher31, you are disgusting.you are completely worthless and your brain is made of putty.if you slit your wrists or drowned or got run over or shot thru the brain no one would even realize.it would feel so good to crunch your ugly face in my hand</Pp>
-<Pp>and so I kept hearing that in my head all *day."</Pp>
+<Pp>and so I kept hearing that in my head all <span class="t">*</span>day."</Pp>
 <Pp>"Huh. Yah. Stay off the net."</Pp>
 {props.children}</div>
 );

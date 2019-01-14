@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Pp = ({ bg, children, c }) => (
-  <div class={`paragraph ${c}`} style={{backgroundImage: `linear-gradient(to bottom, ${bg})`}}>
+const Pp = ({ bg = '#FFF', children, c }) => (
+  <div class={`paragraph ${c}`} style={{background: bg}}>
     <div class="inner">
       <p>{children}</p>
     </div>

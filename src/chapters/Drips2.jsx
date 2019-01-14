@@ -15,7 +15,7 @@ const Drips2 = (props) => (
 <D><U>[Bhoobh000]</U> > <H>&EarthquakeTravis</H> Channeling all the Love in my huge Heart to those Affected</D>
 <D><U>[chilling_guy^]</U> > heating up cornbread in the nitrowave</D>
 <D><U>[Salez Nation.BUY]</U> > Goinky goinky hwa?? I'm practically losing my sanity as a result of this `un thinkable` deal! Save so much cheap on EARTHQUAKE■TRAVIS■MUG■RED, the coolest gift for anyone from the ages 0 to 999. <U>deal0://EARTHQUAKE_TRAVIS_MUG_RED/~quickpurchase</U> Buy so fast now</D>
-<D><U>[nUMSKULL]</U> > one *hour into Travis and wouldn't you know,, already the brutes are taking advantage of the situation, rob,bing our noble local businesses of food and medicine. my wristrifle is loaded.</D>
+<D><U>[nUMSKULL]</U> > one <span class="t">*</span>hour into Travis and wouldn't you know,, already the brutes are taking advantage of the situation, rob,bing our noble local businesses of food and medicine. my wristrifle is loaded.</D>
 <D><U>['porp]</U> > GggghhhhhggggGGGGGggggg  <H>&EarthquakeTravis</H> g########</D>
 <D><U>[chilling_guy^]</U> > cornbreads done cookin</D>
 <D><U>[jason_%_isolation]</U> > feeling completely, completely miserable and so sad today</D>

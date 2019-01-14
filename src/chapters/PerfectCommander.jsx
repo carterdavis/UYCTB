@@ -12,7 +12,7 @@ const PerfectCommander = (props) => (
 <Pp>Quick rundown: Commander Crant__ __McCarckus is a philosopher and a family man. He's brave, powerful, god-fearing, and definitely the kind of guy you can't help but admire. He provides a spit sample in order to activate his speedster. His plucky son, Carny__, is in the passenger seat. The camera frames Crant__'s chiseled, leathery face.</Pp>
 <Pp>"Fasten your seatbelt kiddo," he paternally chides, turning onto the expressway.</Pp>
 <Pp>"Pap, I no longer respect airbags or personal buckled fixation systems. I refuse."</Pp>
-<Pp>"Lord in heaven, is this the kind of zigzog they're teaching you at Knowledge Dome? There are so many honest, wonderful, and intelligent immobilization professionals working *day and night to prevent the body God gave you from suffering fatal damage. Next time you can't think of something smart to say, I implore you to zip it."</Pp>
+<Pp>"Lord in heaven, is this the kind of zigzog they're teaching you at Knowledge Dome? There are so many honest, wonderful, and intelligent immobilization professionals working <span class="t">*</span>day and night to prevent the body God gave you from suffering fatal damage. Next time you can't think of something smart to say, I implore you to zip it."</Pp>
 <Pp>His son buries his face in his hands. "I am so very very sorry."</Pp>
 <Pp>"Listen up my boy. I'm dropping you off at Child Dome, but the truth is I might never pick you up again."</Pp>
 <Pp>"What do you mean, poppo?"</Pp>

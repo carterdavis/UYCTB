@@ -27,13 +27,13 @@ const LateNightConvos = (props) => (
 <Z d={115} u="n31" nc>kindneher31 : I actually just got done with dinner,</Z>
 <Z d={122} u="n31" nc>~ : having some warm corn cider.</Z>
 <Z d={129} u="j29" nc>funguyjim29 : that sounds pretty nice</Z>
-<Z d={135} u="j29" nc>~ : hope you had a really good *week</Z>
+<Z d={135} u="j29" nc>~ : hope you had a really good <span class="t">*</span>week</Z>
 <Z d={147} u="n31" nc>kindneher31 : Yah mine was really validating, actually. Went on a number of dates.</Z>
 <Z d={159} u="n31" nc>~ : Saw a few movies, went to a couple bookstores.</Z>
 <Z d={175} u="n31" nc>~ : Really engaged with my community.</Z>
 <Z d={180} u="n31" nc>~ : Things have been really good.</Z>
 <Z d={190} u="j29" nc>funguyjim29 : yah. that's awesome, dam</Z>
-<Z d={197} u="j29" nc>~ : my *week has honestly been kind of rough these past two *days.</Z>
+<Z d={197} u="j29" nc>~ : my <span class="t">*</span>week has honestly been kind of rough these past two <span class="t">*</span>days.</Z>
 <Z d={205} u="j29" nc>~ : do you have any plans tonight?</Z>
 <Z d={220} u="j29" nc>~ : zoip me if you want to do something</Z>
 {props.children}</div>

@@ -15,7 +15,7 @@ const OfficeChitChat = (props) => (
 <Pp>"Are VORPs enabled by a knob?" I thumb through a table of knob locales.</Pp>
 <Pp>Nug20 has fast fingers that blur when they're in motion. He scuffs his mouse around on a rubbery custom-printed mousepad of his smiling family. "Yes it's a private knob."</Pp>
 <Pp>We use the Variable On Request Protocol to securely transmit polite queries to our internal data steward, which prefers to be called "Deward." VORPs are fairly troublesome to work with. To protect sensitive data, the protocol handles runtime errors by powering off its operating device, which seems a bit overboard to me quite frankly. I brush some snack dust out from underneath my spacebar. Sometimes it piles up under there and makes the key crunchy. The stillness is unbearable. I begin to chat. "Hey um, have you been watching much teevee lately?"</Pp>
-<Pp>"Couple *hours every night before rest."</Pp>
+<Pp>"Couple <span class="t">*</span>hours every night before rest."</Pp>
 <Pp>"What sorta stuff do you watch?"</Pp>
 <Pp>"Mainly live cams of active wars transpiring across the land."</Pp>
 <Pp>"Ah, I see. How've those been going?"</Pp>
@@ -32,7 +32,7 @@ const OfficeChitChat = (props) => (
 <Pp>"Oh. Ha ha. I didn't realize everyone else can smell em too."</Pp>
 <Pp>"Have you checked Drip yet bud?"</Pp>
 <Pp>"Not yet, I'm walking to go get my computering device though actually. Gotta get to work!"</Pp>
-<Pp>I like Chadmuth48. He has a great energy to be around. He's the kind of guy who gives lots of hard back pats, the kind that really thwap. His whole being is rigidly animated; his limbs don't move, they snap. The whites of his eyes are abundant and his bleached blond hair is gelled back. He was appointed as Chief Consumer Perception Director just a few *weeks ago after a long stint as an administrator at a corp called Brandometry. He says good morning to me in the halls and he always remembers my name. I don't know him very well but he speaks to me with the candor of a sympathetic friend. "It's not good dude. It's not good at all."</Pp>
+<Pp>I like Chadmuth48. He has a great energy to be around. He's the kind of guy who gives lots of hard back pats, the kind that really thwap. His whole being is rigidly animated; his limbs don't move, they snap. The whites of his eyes are abundant and his bleached blond hair is gelled back. He was appointed as Chief Consumer Perception Director just a few <span class="t">*</span>weeks ago after a long stint as an administrator at a corp called Brandometry. He says good morning to me in the halls and he always remembers my name. I don't know him very well but he speaks to me with the candor of a sympathetic friend. "It's not good dude. It's not good at all."</Pp>
 <Pp>"Oh shoot. How bad?" I walk around behind his monitor to take a peek.</Pp>
 <Pp>"It's been dripped almost forty frickin times." Posts from all across the nation map quickly scroll down across his Ultradef screen, forming a never-ending stream. The Ultradef technology enhances the letters, making them bulbously pop out in three-dimensional space, glowing in every magnificent hue of the spectrum, ultraviolet to infrared. "In the biz we'd say it's making a real splash, if you're snatchin up what I'm slammin down."</Pp>
 <Pp>One of the drips trickling down is a gallery of two livestreams. The left stream shows a man with his eyes closed, laying down, motionless, almost peaceful. The right shows a family wailing and grieving in the hospital with no sound. The post reads:</Pp>
@@ -51,14 +51,14 @@ const OfficeChitChat = (props) => (
 <Pp>I re-cross my arms an alternate way. "I'm pretty sure some people just die."</Pp>
 <Pp>"Baloney. It's always something. The flu. A cold. Heart problems, cancer, a stroke, a speedster crash, an aneurysm. Never ‘old age.'" He does the finger quotes. "The devil doesn't drag you away for no reason."</Pp>
 <Pp>I gnaw my lower lip. "I don't think I'm a huge fan of that idea."</Pp>
-<Pp>"Two billion people die every *day, my pal. Isn't it terrific that you're one of the ones still kicking? Maybe instead of thinking about ideas you should be working on the bug that killed those suckas." He takes a sip of his tea. "Don't worry, I'm being playfully facetious. It's not your fault. Or if it was, so what? At least you're still here! Keep your chin up high. Don't crucify yourself, nahmean? But also you do really need to fix this."</Pp>
+<Pp>"Two billion people die every <span class="t">*</span>day, my pal. Isn't it terrific that you're one of the ones still kicking? Maybe instead of thinking about ideas you should be working on the bug that killed those suckas." He takes a sip of his tea. "Don't worry, I'm being playfully facetious. It's not your fault. Or if it was, so what? At least you're still here! Keep your chin up high. Don't crucify yourself, nahmean? But also you do really need to fix this."</Pp>
 <Pp>"Yes, definitely. You're really, really correct."</Pp>
 <Pp>He raises his eyebrows even higher and grins. "Good news though: this sort of thing should qualify you for another Happy Splash!"</Pp>
 <Pp>"Really? I already got splashed this morning."</Pp>
 <Pp>"Word on the street is that they'll give you a Tragedy Bonus Splash."</Pp>
 <Pp>"That's really cool. Super amazingly awesome. Wow!"</Pp>
 <Pp>I march my way from the east wing of the office to the central hub. Along the way I load up TroughDaddy, my scoop app of choice. I simply tap my favorite feeds, and it loads them straight into my celly.</Pp>
-<Pp>I'm a media maniac, so I get hungry for new scoops every few *hours or so. They're so much fun. Each scoop is a tiny little tidbit to keep me aware, a mini snapshot of our world in motion. I also have to admit, they've made me much more caring and empathetic. I understand the suffering that happens in this country because I read about it on my celly.</Pp>
+<Pp>I'm a media maniac, so I get hungry for new scoops every few <span class="t">*</span>hours or so. They're so much fun. Each scoop is a tiny little tidbit to keep me aware, a mini snapshot of our world in motion. I also have to admit, they've made me much more caring and empathetic. I understand the suffering that happens in this country because I read about it on my celly.</Pp>
 <Pp>At this instant, my top scoops are:</Pp>
 <Pp> [[ still figuring out how to format this ]]</Pp>
 <Pp>

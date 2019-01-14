@@ -10,7 +10,7 @@ const ConvoWithKerri = (props) => (
 
 <Pp>[[ TO DO: Fix timing ]]</Pp>
 
-<Pp>I receive a zoip from my cousin Kerri51 79Dermott. I haven't heard from him in *years.</Pp>
+<Pp>I receive a zoip from my cousin Kerri51 79Dermott. I haven't heard from him in <span class="t">*</span>years.</Pp>
 <Z d={1} u="k51" nc>freekykerri51 : Hey Jim29, how are you doing little Bud</Z>
 <Z d={1} u="j29" nc>funguyjim29 : I've been better. how are you ?</Z>
 <Z d={1} u="k51" nc>freekykerri51 : Things are going good, Ha Ha</Z>
@@ -57,7 +57,7 @@ const ConvoWithKerri = (props) => (
 <Z d={1} u="k51" nc>~ : Simpple as that Jim299999 PLEASE CLICK</Z>
 <Z d={1} u="k51" nc>~ : WHY dont you CLIK</Z>
 <Z d={1} u="k51" nc>~ : THey kill me.is THAT what you WANT?????</Z>
-<Z d={1} u="k51" nc>~ : Fill out survey in 10 *seconds or i die OK!?</Z>
+<Z d={1} u="k51" nc>~ : Fill out survey in 10 <span class="t">*</span>seconds or i die OK!?</Z>
 <Z d={1} u="k51" nc>~ : HELP ME...CLICK IT BEEYOTCH.....</Z>
 <Z d={1} u="k51" nc>~ : I NEED YOU!!!!!</Z>
 {props.children}</div>

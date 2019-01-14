@@ -7,7 +7,7 @@ const LegalAssessment = (props) => (
 <div>
 {props.children}
 
-<Pp>I sign into the computering device at the legal desk. The chairs for visitors are really modern and pretty hard on my back. I can hear the sound of shouting through the walls. My head pulses in pain. The receptionist must be doing something elsewhere. I click a checkbox labelled "I Am Here" and deselect the "I Am Elsewhere" one before clicking submit. The room is empty. The overhead lights burn my eyes. I shake another Jubimum tablet out of the canister. I'll take up to three a *day on the dire occasions.</Pp>
+<Pp>I sign into the computering device at the legal desk. The chairs for visitors are really modern and pretty hard on my back. I can hear the sound of shouting through the walls. My head pulses in pain. The receptionist must be doing something elsewhere. I check a checkbox labelled "I Am Here" and uncheck the "I Am Elsewhere" one before clicking submit. The speakers are quietly playing "Buddy I Love You" by Tim the Little Lover Man, a simmering ballad of low volume passion. The room is empty. The overhead lights burn my eyes. I shake another Jubimum tablet out of the canister. I'll take up to three a <span class="t">*</span>day on the dire occasions.</Pp>
 <Pp>A woman trudges through the side door in a grey legal gown. She has short black hair and looks very tired. That's not a critique of her appearance, she just seems truly fatigued. "Mr. 03Goldman...?"</Pp>
 <Pp>I follow her into the halls of the legal nest. The walls are covered in strange, menacing items. I spot among them bloody knives, frayed ropes, poisonous flowers, rips of papper, handguns, shotguns, rifles, body parts, etc. "What's all this stuff from?"</Pp>
 <Pp>"These walls are covered with objects involved in intra-office crimes...employees harming other employees mostly...usually small disputes...it is all dealt with internally."</Pp>
@@ -20,7 +20,7 @@ const LegalAssessment = (props) => (
 <Pp>"Is there that much to read?" The room is lit in a Jubimum glow.</Pp>
 <Pp>"Please Mr. 03Goldman...no funny business...there is a lot of importance at work here, and the importance here is placed now on the facts." She looks at me the way one looks at a pedestrian blocking traffic.</Pp>
 <Pp>"Have I committed a crime? You need to tell me. Even allegedly or whatever?? Does what I did count as manslaughter?"</Pp>
-<Pp>She gazes at me impassively.</Pp>
+<Pp>She impassively gazes my way.</Pp>
 <Pp>"Come on! Oh my God! Please tell me. I've been so so worried."</Pp>
 <Pp>"The deaths resulting from your operational oversight are registered as 'corporate casualties'...which means you, along with Dimples at large, are protected from potential litigation...the courts will not judge you...the burden is strictly for your conscience to bear..."</Pp>
 <Pp>This is excellent news. Really tremendous and wonderful for me to know. "OK. Alright, so what aspects of my contract are you concerned about me upholding?" Super great, wow. I happily scrape some drool crust off of my cheek.</Pp>
@@ -33,7 +33,7 @@ const LegalAssessment = (props) => (
 <Pp>"This is very serious...you do not have time to watch them toss the balls..."</Pp>
 <Pp>"Sorry, I'll admit I was watching but I  promise I was listening too."</Pp>
 <Pp>"Here is the thing...people already know what you look like. They know what you did...they know oh 'Jim29? He is not a good guy'...some of them might want to hurt you with their hands, and that is just the way it goes..."</Pp>
-<Pp>The shouting through the walls is sounds more like screaming. I'm starting to feel fairly weird. My heart is racing. "I don't really understand what you're getting at."</Pp>
+<Pp>The vocalizations begin to sound more like screaming. I'm starting to feel fairly weird. My heart is racing. "I don't really understand what you're getting at."</Pp>
 <Pp>"If you would just let me finish..."</Pp>
 <Pp>"It really seems like you're just trying to make me feel scared."</Pp>
 <Pp>"I am very sorry, that was not my intention...here is the deal...when you signed the employment contract you agreed to Article IX. Do you remember what that article entails?"</Pp>
@@ -45,7 +45,7 @@ const LegalAssessment = (props) => (
 <Pp>[[ These will have icons and diff formatting ]]</Pp>
 <Pp>STEP ONE: NAME CHANGE</Pp>
 <Pp><em>[the icon for this section is a quill drawing an X] </em></Pp>
-<Pp>The first step of the identity resculpting process is to change your name. Make sure you pick a new name that you are very happy with! You will be given a new driver's license, passport, social security card, birth certificate, name badge, and shirt with your name screenprinted thanks to our partnership with ShirtDonkey. Try practicing that new name in the mirror tonight. Our Name Change team will personally burn all of your old identification materials. Good riddance!</Pp>
+<Pp>The first step of the identity resculpting process is to change your name. Make sure you pick a new name that you are very happy with! You will be given a new driver's license, passport, private security card, birth certificate, name badge, and shirt with your name screenprinted thanks to our partnership with ShirtDonkey. Try practicing that new name in the mirror tonight. Our Name Change team will personally burn all of your old identification materials. Good riddance!</Pp>
 <Pp>STEP TWO: SOCIAL DELETE</Pp>
 <Pp><em>[the icon for this section is a filing cabinet knocked over]</em></Pp>
 <Pp>Next, we"ll run your old information through a script our Social Delete engineers cooked up that individually terminates each and every one of your social media accounts. All your drips, flips, drops, and flops, gone in a flash! We will generate new accounts for you under your new name using photographic images we render of your body and data we gather from your resculpting questionnaire. We'll work hard to make sure that your new accounts are a perfect fit for someone like you.</Pp>
@@ -55,9 +55,9 @@ const LegalAssessment = (props) => (
 <Pp>STEP FOUR: APPEARANCE SWAP</Pp>
 <Pp><em>[the icon for this section is a trash can filled to the brim with clothes and stink lines float above it]</em></Pp>
 <Pp>Last but certainly not least, you'll need to shake up your look. Studies estimate that by the age of twenty-five, two hundred thousand people remember what you look like. In order to finish your complete resculpting, our licensed Appearance Swap designers will give you a head-to-toe makeover so you look like no one ever. Welcome to your new you!</Pp>
-<Pp>"FYI, we don't really do it in that order...we start with your appearance, and will work on the rest of it over the next couple of *weeks...but that's an outline of how it works."</Pp>
+<Pp>"FYI, we don't really do it in that order...we start with your appearance, and will work on the rest of it over the next couple of <span class="t">*</span>weeks...but that's an outline of how it works."</Pp>
 <Pp>"You're serious?"</Pp>
-<Pp>She slides a folder over to me. "Yes...this is not a comedy prank...this is standard procedure at all the great big companies these *days."</Pp>
+<Pp>She slides a folder over to me. "Yes...this is not a comedy prank...this is standard procedure at all the great big companies these <span class="t">*</span>days."</Pp>
 <Pp>I flip open the folder.</Pp>
 <Pp>"Your new name was algorithmically generated to be stylish, funky, and 'totally you.' Your first name is now Bunndy...two n's...and your last name is Fludge. Your registration numbers are 009 and 35."</Pp>
 <Pp>"Bunndy22 is my name now?" I pull out my birth certificate. Sure enough.</Pp>
@@ -80,8 +80,8 @@ const LegalAssessment = (props) => (
 <Pp>"Of course it can. Anything can be legally binding if you sign it with a quill."</Pp>
 <Pp>I feel fluid push up through my throat. I turn over the side of the chair and retch a jet of warm chunky red vomit out of my mouth and onto the floor. Same color as Razzberry Queam. "I hate you. I hope you get ripped apart by wanderers." It burns in my esophagus and nose. "I hope they rip you apart and smear fresh putty in your wounds."</Pp>
 <Pp>"You'll need to visit Mr. Glem22 21Ninkus, fourth floor, northeast quadrant...he is our in-house Appearance Swap designer..."</Pp>
-<Pp>I don't say anything. I gag as some more red acid lurches past my tongue. Stringy drips of it hang from my lips. Silent for a few *seconds.</Pp>
-<Pp>"Sometimes I wonder what they think down there as they throw those colored balls back and forth...all *day, they just throw them at each other...must be nice I imagine..."</Pp>
+<Pp>I don't say anything. I gag as some more red acid lurches past my tongue. Stringy drips of it hang from my lips. Silent for a few <span class="t">*</span>seconds.</Pp>
+<Pp>"Sometimes I wonder what they think down there as they throw those colored balls back and forth...all <span class="t">*</span>day, they just throw them at each other...must be nice I imagine..."</Pp>
 <Pp>I breathe in halting gasps. "Is Mr. 21Ninkus's door on the left or the right side?"</Pp>
 <Pp>"It is at the very end..." She pushes her glasses up on her nose. "...I'm very sorry."</Pp>
 {props.children}</div>

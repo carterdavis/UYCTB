@@ -9,7 +9,7 @@ class CLI extends React.Component {
   }
 
   componentDidMount() {
-    setTimeout(() => { this.setState({ visible: true }); console.log(this.props.delay); }, this.props.delay*100);
+    setTimeout(() => { this.setState({ visible: true }); }, this.props.delay*100);
   }
 
   render() {

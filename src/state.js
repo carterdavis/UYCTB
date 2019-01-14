@@ -2,9 +2,9 @@ import React from 'react';
 
 import Cloak from './components/Cloak.jsx';
 import Z from './components/Z.jsx';
-import store from './store/index.js';
+import store from './redux/store.js';
 import { chapters } from './chapters.js';
-import { updateCurrent, updateScreen, initial } from './actions/index.js';
+import { toggleToC, updateCurrent, updateScreen, updateScrolling, initial } from './redux/actions.js';
 
 const range = (start, end) => [...Array(1+end-start).keys()].map(v => start+v);
 
@@ -37,9 +37,20 @@ export const update = (current) => {
   }
 }
 
+const setScrolling = () => {
+  store.dispatch(updateScrolling());
+}
+
+export const toggleVisibilityToC = (tocLink = false) => {
+  store.dispatch(toggleToC());
+  if (tocLink) {
+    setTimeout(function(){ document.getElementById('content').focus() }, 0);
+  }
+}
+
 export const getToC = (toggle) => (
   chapters.map((c, i) => (
-    <li><a href={`#${chapters[i][1]}_${i}`} onClick={() => {toggle(); setInitial(i);}}>{chapters[i][2]}</a></li>
+    <li><a href={`#${chapters[i][1]}_${i}`} onClick={ () => { toggle(true); setInitial(i) }}>{chapters[i][2]}</a></li>
   ))
 );
 

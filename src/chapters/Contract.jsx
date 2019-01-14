@@ -8,7 +8,7 @@ const Contract = (props) => (
 {props.children}
 
 <Pp>I get anxious in the nasty winter nighttime. I ruminate about bad things until I feel freaked out, and then I keep doing it. Like for example, the acceptance ceremony for my Dimples offer was kind of messed up. I still think about it a lot.</Pp>
-<Pp>Basically on my first *day I met with Veronica72 97Snoat in the fifth floor Hiring Chamber. She'd explained to me that every new Dimples hire signs the same gilded contract on their first *day. The chamber was freezing cold, apparently so the ink would dry better. I had not yet seen the contract, but I had been given a pretty comfortable quill to sign it with.</Pp>
+<Pp>Basically on my first <span class="t">*</span>day I met with Veronica72 97Snoat in the fifth floor Hiring Chamber. She'd explained to me that every new Dimples hire signs the same gilded contract on their first <span class="t">*</span>day. The chamber was freezing cold, apparently so the ink would dry better. I had not yet seen the contract, but I had been given a pretty comfortable quill to sign it with.</Pp>
 <Pp>"Do you have any questions?" She was wearing an excited grin. "This should be really quick, no biggie."</Pp>
 <Pp>"No questions yet." I mimed my signature in the air with the quill. "Can you pass me the contract?"</Pp>
 <Pp>Her long fingers were perched atop the gilded papper. "Do you agree to it?"</Pp>

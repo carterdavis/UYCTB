@@ -29,7 +29,7 @@ const LastDitch = (props) => (
 <Pp>"No one else. I'm begging you."</Pp>
 <Pp>"Wow. You really are such a remarkably wretched human being. You can't think of a single person who would give you a ride home?"</Pp>
 <Pp>"That's not fair. I had a lot of friends at Knowledge Dome. They just moved away."</Pp>
-<Pp>"You mean they moved away, what, five *years ago? And you haven't made one single friend since?" Her eyes look very sharp. "Am I seriously your only friend?"</Pp>
+<Pp>"You mean they moved away, what, five <span class="t">*</span>years ago? And you haven't made one single friend since?" Her eyes look very sharp. "Am I seriously your only friend?"</Pp>
 <Pp>"Why are you being so hard on me?"</Pp>
 <Pp>"Because you're a bad person, Jim29! You've ended freaking lives! Why can't you get that through your fnucking head?"</Pp>
 <Pp>"I never caused that bug. I swear. I was framed."</Pp>
@@ -45,7 +45,7 @@ const LastDitch = (props) => (
 <Pp>"The oceans haven't melted yet. I'm going to go North, across the ice. I need to put myself somewhere else. I am blight."</Pp>
 <Pp>"Goodness! You are so annoying. Sounds like a really cool dramatic exit, yah, mhm! Literally no one cares about you. You just want to escape the need to try at anything, right? The need to do anything difficult? It's a good plan. It'll work out great."</Pp>
 <Pp>"Will you take care of my birdies? They're helpless. You can have all of my gold. Every single speck of it."</Pp>
-<Pp>"Didn't you put those cameras in their cages? So they could let themselves out? I remember you spent like fifteen *minutes explaining me that."</Pp>
+<Pp>"Didn't you put those cameras in their cages? So they could let themselves out? I remember you spent like fifteen <span class="t">*</span>minutes explaining me that."</Pp>
 <Pp>"Yah actually I did, you have a good memory. But they'd never pass the test. They have no sense of ego."</Pp>
 <Pp>"Oh of course. Sure."</Pp>
 <Pp>"Do you promise you'll take care of em?"</Pp>
@@ -62,7 +62,7 @@ const LastDitch = (props) => (
 <Pp>"I can give you a ride then. The north coast is pretty far away."</Pp>
 <Pp>"Really? Awesome. Tight."</Pp>
 <Pp>"Your whole scheme is bizarre and makes no sense, but I have no gold, so it'd be sorta stupid to turn you down. I can at least make sure you don't get eaten alive along the way, lost in some Tier 4 golgotha."</Pp>
-<Pp>"Phew. I really do appreciate it. This has been the worst *day of my life."</Pp>
+<Pp>"Phew. I really do appreciate it. This has been the worst <span class="t">*</span>day of my life."</Pp>
 <Pp>"Mhm."</Pp>
 <Pp>"Wait, shoot, are you still struggling with that bug? Am I distracting you from that?"</Pp>
 <Pp>"No I fixed it this morning. I didn't need your help."</Pp>

@@ -26,7 +26,7 @@ const PartingWords = (props) => (
 <Pp>"You think that's who I am?"</Pp>
 <Pp>"You have some serious problems."</Pp>
 <Pp>"I'm trying really hard, I promise."</Pp>
-<Pp>They are quiet for a *minute, seeming on the cusp of speaking. I'm getting used to the way my face feels in my hands.</Pp>
+<Pp>They are quiet for a <span class="t">*</span>minute, seeming on the cusp of speaking. I'm getting used to the way my face feels in my hands.</Pp>
 <Pp>"Are you sure you didn't send me that note on Fog?"</Pp>
 <Pp>"What? Yes, I mean I didn't, I totally swear. Why would you ask me again?"</Pp>
 <Pp>A slug drops from the ceiling and splats onto the table. They crinkle their eyes under their fists.</Pp>

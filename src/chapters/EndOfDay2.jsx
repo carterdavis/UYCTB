@@ -10,7 +10,7 @@ const EndOfDay = (props) => (
 
 <Pp>I look at myself in the mirror while I wizz in the urinal. I aim around and splash my wizz against the floors and the walls. The yellow fluid flows through the cracks in the tile.</Pp>
 <Pp>My whole mug is dark purple with wounds. My cheeks are more angular and my jaw is more boxy. My eyes are smaller and closer to the bridge of my nose. My ears are lower and my lips are thinner. My head is less heart shaped.</Pp>
-<Pp>The unisuit they gave me is pretty big around my arms. I left the hat in the trash. My hair is stuffed under a feathery blond wig. It takes a couple *seconds for me to pin on my new name badge.</Pp>
+<Pp>The unisuit they gave me is pretty big around my arms. I left the hat in the trash. My hair is stuffed under a feathery blond wig. It takes a couple <span class="t">*</span>seconds for me to pin on my new name badge.</Pp>
 <Pp>A custodian crawls in wearing a loose-fitting robe. His face looks battered and his hands are ripped at the knuckles. He's carrying a dirty wet auto mop.</Pp>
 <Pp>I scream at him. "GET OUT! NO! LEAVE!"</Pp>
 <Pp>He scampers away on all fours.</Pp>
@@ -34,17 +34,17 @@ const EndOfDay = (props) => (
 <Pp>"Jesus. Just let me drive. I want to go home."</Pp>
 <Z d={20} u="j29">funguyjim29 : nevermind, sorry. hope you have a good night</Z>
 <Pp>The engine slowly hums on. Tulip lets out a huffy sigh. I cautiously curve around the tight corners of the ramp, trying to slow down as much as I can without relying on the brake. Tulip handles really poorly on the ice since its chassis is made of triple-constituted ultralight plexifoam. I'm almost always skidding.</Pp>
-<Pp>"How was your *day otherwise, Mr. 03Goldman?"</Pp>
+<Pp>"How was your <span class="t">*</span>day otherwise, Mr. 03Goldman?"</Pp>
 <Pp>"Pretty good."</Pp>
 <Pp>"What all did you do?"</Pp>
 <Pp>"Fixed and put out a patch for the bug. Had some conversations with some friends."</Pp>
 <Pp>"I'm happy to hear that!"</Pp>
 <Pp>I pull onto the highway. The wind howls against the side of the speedster. Its headlights are dimmed by the cold. Black hail pelts the windshield.</Pp>
-<Pp>"How was your *day, Tulip?"</Pp>
+<Pp>"How was your <span class="t">*</span>day, Tulip?"</Pp>
 <Pp>"What do you mean?"</Pp>
 <Pp>"What did you do today?"</Pp>
 <Pp>"I don't understand what you're asking, sir."</Pp>
-<Pp>"Did you just sit in your parking notch and do nuthin all *day?"</Pp>
+<Pp>"Did you just sit in your parking notch and do nuthin all <span class="t">*</span>day?"</Pp>
 <Pp>...</Pp>
 <Pp>...</Pp>
 <Pp>"Yes, that is what I did. Do you have any more questions?"</Pp>

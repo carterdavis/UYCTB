@@ -7,7 +7,7 @@ const FarAway = (props) => (
 <div>
 {props.children}
 
-<Pp>Jumper56's speedster is named Louisa. Louisa has long eyelashes and a little button nose. It greets Jumper56. "Whee! Good afternoon! I hope your *day was like a plastic bag full of sunshine."</Pp>
+<Pp>Jumper56's speedster is named Louisa. Louisa has long eyelashes and a little button nose. It greets Jumper56. "Whee! Good afternoon! I hope your <span class="t">*</span>day was like a plastic bag full of sunshine."</Pp>
 <Pp>What a sweet and courteous speedster. I wonder if they have a good relationship. My thoughts drift to Tulip. I feel pangs of guilt. He betrayed me, but I still miss him. He didn't deserve to suffer the way he did. I hope he's found peace.</Pp>
 <Pp>Jumper56 clicks in and twists her thumb in the ignition socket. Louisa's engine roars to life. A soft overhead light warms into a glow. We pull out of the parking notch. She looks over at me with faraway eyes. "It doesn't seem like you have like, the essentials. For going on a trip I mean. Are you sure you don't want me to take you home first?"</Pp>
 <Pp>"No. I don't have time for that."</Pp>
@@ -21,7 +21,7 @@ const FarAway = (props) => (
 <Pp>"What? I was just acknowledging the incentive. I want everything to work out."</Pp>
 <Pp>"Don't act like you're giving away your gold as some benevolent gesture out of pity. You're doing that because you have like, no other choice. Because I'm the only person left in Nowhere Else who would ever even CONSIDER helping you in an emergency. That's weird."</Pp>
 <Pp>"Sorry. I didn't mean to come across that way."</Pp>
-<Pp>"It's fine. You mind if I play some tunes? The drive'll take about an *hour or so."</Pp>
+<Pp>"It's fine. You mind if I play some tunes? The drive'll take about an <span class="t">*</span>hour or so."</Pp>
 <Pp>"Sure, as long as they're not scary."</Pp>
 <Pp>"What do you mean 'scary'?"</Pp>
 <Pp>"You were playing some pretty ghoulish stuff at your party."</Pp>

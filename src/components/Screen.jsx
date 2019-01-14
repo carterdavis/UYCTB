@@ -65,12 +65,12 @@ const Screen = ({ screenValue }) => {
       {
         screenValue == 3 &&
           <div>
-            <Pp c="command"><Hue c='#c17ba0'>WYSHWALD52</Hue> tell me how was your *day has been?</Pp>
+            <Pp c="command"><Hue c='#c17ba0'>WYSHWALD52</Hue> tell me how was your <span class="t">*</span>day has been?</Pp>
             <Pp c="command">You are my <Hue c='#b6d7a7'>BUDDY</Hue>!</Pp>
             <Pp c="command">&gt;&gt; <Typing speed={75} startDelay={1400} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> tell me [which] files in <span style={{ color: '#75a5af' }}>HERE</span></Typing></Pp>
             <CLI delay={47}><Hue c='#75a5af'>HERE</Hue> are many files. <Hue c='#f0c153'>TELLING YOU</Hue>...</CLI>
             <CLI delay={49}>/gumpy /pumb /ridiculus db.zb</CLI>
-            <CLI delay={54}>How has was your *day <Hue c='#d57d6b'>DUDE</Hue>!</CLI>
+            <CLI delay={54}>How has was your <span class="t">*</span>day <Hue c='#d57d6b'>DUDE</Hue>!</CLI>
             <CLI delay={56}>&gt;&gt; <Typing speed={75} startDelay={800} class="type">It's been <span style={{ color: '#4783e6' }}>FINE</span>.</Typing></CLI>
             <CLI delay={80}><Hue c='#c17ba0'>OK</Hue>...</CLI>
             <CLI delay={82}>&gt;&gt; <Typing speed={75} startDelay={500} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> give me [MAPPING_DATA] from <span style={{ color: '#75a5af' }}>LIB</span></Typing></CLI>

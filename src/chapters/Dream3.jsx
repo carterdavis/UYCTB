@@ -8,8 +8,8 @@ const Dream3 = (props) => (
 {props.children}
 
 <Pp>So I'm alone. Walking down the long hallway. Can't find the door. Could be walking the wrong way. So impossible for me to tell. Never remembered to get the directions. Stupid stupid stupid so stupid.</Pp>
-<Pp>Each flight of stairs I ascend places me lower. Each barred window overlooks a barren field. The air stinks of sweat. It's been a million *years since I last saw the wonderful sky. I walk onto the basement balcony and look out over the edge. My rosy cheeks sting from grinning.</Pp>
-<Pp>The perfect door I find is a hole and I crawl in. I lurch forward on my hands and knees for *days, weeks, months, *years. My skin stretches thin and my bones hollow out. God dam it's really taking a long time. Time swarms like flies when you're having fun. Ain't that what they always used to say? Is anyone there? Tell me you can hear me. Tell me what to know. Let me know that I'm alright. And I am here.</Pp>
+<Pp>Each flight of stairs I ascend places me lower. Each barred window overlooks a barren field. The air stinks of sweat. It's been a million <span class="t">*</span>years since I last saw the wonderful sky. I walk onto the basement balcony and look out over the edge. My rosy cheeks sting from grinning.</Pp>
+<Pp>The perfect door I find is a hole and I crawl in. I lurch forward on my hands and knees for <span class="t">*</span>days, weeks, months, <span class="t">*</span>years. My skin stretches thin and my bones hollow out. God dam it's really taking a long time. Time swarms like flies when you're having fun. Ain't that what they always used to say? Is anyone there? Tell me you can hear me. Tell me what to know. Let me know that I'm alright. And I am here.</Pp>
 <Pp>I crawl out onto the island of crunched tin canisters. Murky grey waves crash hungrily against the coast, starving and thick. Rony22 bounds toward me panting on all fours. The leash pulls taut and he chokes against his collar. He whines and digs his fingers into the faded metal turf. Gobs of drool dribble from his slobbery lips. I offer my hand for a shake. He licks my palm. I jerk away.</Pp>
 <Pp>I'm done with this, so I'm walking into the slimy water. It's up to my knees. I'm walking into my workpod. It's dark except my monitor's Ultradef glow. The keyboard feels rough neath my gnarled arthritic fingers. I hook my umbilical data plug into my tummy and type every key at once. Belly button tingles with incoming zoips.</Pp>
 <Pp>[[ TO DO: This text is gonna glow in wild colors, just iimaginee ]]</Pp>
@@ -31,11 +31,11 @@ const Dream3 = (props) => (
 <Pp>"Am I asleep? Will I wake up?"</Pp>
 <Pp>"You aren't awake."</Pp>
 <Pp>"Can I go to sleep?"</Pp>
-<Pp>I crouch down in the tall grass. I yawn for the entirety of four hundred *years. I cross my legs on the bench.</Pp>
+<Pp>I crouch down in the tall grass. I yawn for the entirety of four hundred <span class="t">*</span>years. I cross my legs on the bench.</Pp>
 <Pp>"Am I done yet?"</Pp>
 <Pp>"Everyone else isn't."</Pp>
 <Pp>"Am I sweet yet?" I yank out my tongue and wipe it on my skin.</Pp>
-<Pp>"Don't forget," she yawns for just a *second, "who, who you are."</Pp>
+<Pp>"Don't forget," she yawns for just a <span class="t">*</span>second, "who, who you are."</Pp>
 <Pp>Grandma looks back down at her crossword. "Nine letter word, down, last name of the best grandson." She scribblies in the boxes. "0-3-G-O-L-D-M-A-N."</Pp>
 {props.children}</div>
 );
