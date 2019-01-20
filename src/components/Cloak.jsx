@@ -37,7 +37,7 @@ class Cloak extends React.Component {
 
     const props = {
       state: this.state,
-      setZoip: this.setZoip
+      chapter: this.props.num
     }
 
     return (

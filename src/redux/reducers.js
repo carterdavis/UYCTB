@@ -1,4 +1,4 @@
-import { UPDATE_CURRENT, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL } from "./constants.js";
+import { UPDATE_CURRENT, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL, ZOIP } from "./constants.js";
 
 const regex = /([0-9]+)/g;
 let num = location.hash;
@@ -10,6 +10,7 @@ const initialState = {
   beginning: start,
   end: start,
   scrolling: false,
+  zoips: {},
   viewScreen: 0,
   visibleToC: false
 };
@@ -29,6 +30,10 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, scrolling: !state.scrolling };
     case TOGGLE_TOC:
       return { ...state, visibleToC: !state.visibleToC };
+    case ZOIP:
+      let dupe = state.zoips;
+      dupe[action.payload.id] = action.payload.place;
+      return { ...state, zoips: dupe }
     case INITIAL:
       return { ...state, current: action.payload, beginning: action.payload, end: action.payload };
     default:

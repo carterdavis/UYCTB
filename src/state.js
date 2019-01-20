@@ -4,7 +4,7 @@ import Cloak from './components/Cloak.jsx';
 import Z from './components/Z.jsx';
 import store from './redux/store.js';
 import { chapters } from './chapters.js';
-import { toggleToC, updateCurrent, updateScreen, updateScrolling, initial } from './redux/actions.js';
+import { toggleToC, updateCurrent, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
 
 const range = (start, end) => [...Array(1+end-start).keys()].map(v => start+v);
 
@@ -19,6 +19,10 @@ export const setScreen = (num) => {
   } else {
     document.body.classList.remove('no-scroll');
   }
+}
+
+export const setZoip = (chapter, seq, value) => {
+  store.dispatch(zoip({ id: `ch${chapter}_${seq}`, place: value }));
 }
 
 const scrollTop = (target) => {

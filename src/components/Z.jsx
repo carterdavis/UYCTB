@@ -4,13 +4,15 @@ import VisibilitySensor from 'react-visibility-sensor';
 import Typing from 'react-typing-animation';
 
 import Pp from './Pp.jsx';
+import {setZoip} from './../state.js';
 
 const Z = (props) => {
   const user = props.u || 'j29';
   const order = props.o || 0;
-  const state = props.s || {};
+  const zoips = props.z;
   const sequence = props.seq || "a";
-  const setZoip = props.f || (() => {});
+  const chapter = props.ch || 0;
+  const id = `ch${chapter}_${sequence}`;
   const delay = props.d || 0;
   const speed = props.spe || 50;
   const users = {
@@ -23,17 +25,21 @@ const Z = (props) => {
 
   const bg = user ? `repeating-linear-gradient(0deg, #ffffff, ${users[user]} 4px)` : 'none';
 
+  console.log(chapter);
+  console.log(order);
+  console.log(zoips);
+
   return (
   <div class={`zoip ${user}`}>
     <Pp bg={bg}>
     { order == 0 &&
       <VisibilitySensor onChange={
         (visible) => {
-          if (visible && !(sequence in state)) setZoip(sequence, order)
+          if (visible && !(id in zoips)) setZoip(chapter, sequence, order)
         }
       } />
     }
-    { state[sequence] >= order &&
+    { zoips[id] >= order &&
       <div class="msg" style={{color: users[user]}}>
         { props.first &&
           <span class="prefix" style={{backgroundColor: users[user]}}>{ user }</span>
