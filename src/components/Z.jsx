@@ -34,12 +34,12 @@ const Z = (props) => {
       } />
     }
     { state[sequence] >= order &&
-      <span style={{color: users[user]}}>
+      <div class="msg" style={{color: users[user]}}>
         { props.first &&
           <span class="prefix" style={{backgroundColor: users[user]}}>{ user }</span>
         }
         <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(sequence, order+1) }}>{props.children}</Typing>
-      </span>
+      </div>
     }
     </Pp>
   </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+import LazyAudio from './../components/LazyAudio.jsx';
 import Pp from './../components/Pp.jsx';
 
 const ThePit = (props) => (
@@ -101,7 +101,7 @@ const ThePit = (props) => (
 <Pp>"CANTH...DOO...BIG..."</Pp>
 <Pp>"You are an URCHIN! Swallow!"</Pp>
 <Pp>My throat constricted around the Indulgence. It lodged into my windpipe. I tried to cough or heave but I couldn't. The pressure built in my lungs and my vision got blurry. I squeezed my neck frantically in hopes I could squeeze it out or something. Everything went black and I kept falling.</Pp>
-<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
+<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <span class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" /></span> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
 <Pp>"What's up with my throat?"</Pp>
 <Pp>Wyshwald52: "I performed an emergency tracheotomy to keep you alive."</Pp>
 <Pp>"Thanks."</Pp>

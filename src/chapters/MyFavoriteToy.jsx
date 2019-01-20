@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
 
 const MyFavoriteToy = (props) => (
 <div>
@@ -18,7 +19,7 @@ const MyFavoriteToy = (props) => (
 <Pp>"Shall I treat you to an island dance?"</Pp>
 <Pp>What kind of question is that? Of course I'd love to see your island dance! I wish I knew which island it was inspired by.</Pp>
 <Pp>"And so it begins."</Pp>
-<Pp>Look! There it goes! What I admire most about its island dance is how nimbly its hips rock back and forth. It must have taken it a very long time to learn how to do this. And at the same time the song that plays through its lip speaker is super interesting and unique. It sounds like steel drums played in reverse over the lapping of digital coastal waves. It's clapping now! It's kicking its tiny feet up high! Papa Boinkus you are the BEST! Blows my mind every time. Oh wow.</Pp>
+<Pp>Look! There it goes!  What I admire most about its island dance is how nimbly its hips rock back and forth. It must have taken it a very long time to learn how to do this. <span class="chapterSong"><LazyAudio src="assets/Papa Boinkus Island Dance.mp3" loop={true} bg="rgb(214, 255, 225)" fg="#000" /></span> And at the same time the song that plays through its lip speaker is super interesting and unique. It sounds like steel drums played in reverse over the lapping of digital coastal waves. It's clapping now! It's kicking its tiny feet up high! Papa Boinkus you are the BEST! Blows my mind every time. Oh wow.</Pp>
 <Pp>"Bunndy22, would you like to see a radiant display?"</Pp>
 <Pp>YES! A trillion times YES!</Pp>
 <Pp>"And so it begins."</Pp>

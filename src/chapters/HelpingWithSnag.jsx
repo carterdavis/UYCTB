@@ -12,8 +12,8 @@ const HelpingWithSnag = ({ children, setZoip, state }) => (
 <Pp>As a way to solve this issue, our proprietary algorithm sorts every segment of the code in the codebase by its general purpose. Those purposes are then symbolically organized and visualized as the inside of a three-dimensional domicile. The programmer controls a lumpy, wobbly, low polygon humanoid entity to navigate the internals of Dimples. A small team of developers put together this navigation interface about five <span class="t">*</span>years ago. It hasn't gotten an update since. It is what it is.</Pp>
 <Pp>"Do you think it'd be over here?" She speaks very slowly when she's concentrating. "This chair?" Her avatar examines a large stool, curling it in its burly arms.</Pp>
 <Pp>"No, see, the stool is the test directory. The error said it was in the SCREEN class. Maybe see if the window has it?" I squint. She must have her brightness turned all the way up.</Pp>
-<Z d={50} spe={60} u="n31" seq="a" o={0} f={setZoip} s={state.zoips} first> I'm sorry for not responding last night.</Z>
-<Z d={20} spe={40} u="n31" seq="a" o={1} f={setZoip} s={state.zoips}>What's been rough lately? I'm free tonight, if you want to have dinner.</Z>
+<Z d={70} spe={70} u="n31" seq="a" o={0} f={setZoip} s={state.zoips} first> I'm sorry for not responding last night.</Z>
+<Z d={40} spe={80} u="n31" seq="a" o={1} f={setZoip} s={state.zoips}>What's been rough lately? I'm free tonight, if you want to have dinner.</Z>
 <Pp>Her avatar lopes over to the window. The skin around its legs wiggles with each step. "I don't think I see it over here."</Pp>
 <Pp>"Open up when-spat-screen-upside-down.tangle, I think that's what the error was referring to. Are you familiar with the Spat Screen code?"</Pp>
 <Pp>She turns back and looks at me. "I only know about Scratch Screen."</Pp>

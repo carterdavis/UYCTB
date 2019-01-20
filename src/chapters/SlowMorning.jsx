@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
 
 const SlowMorning = (props) => (
 <div>
@@ -16,7 +17,7 @@ const SlowMorning = (props) => (
 <Pp>"Did you enjoy your specialty rinsing?"</Pp>
 <Pp>"Yes, thank you McBubble."</Pp>
 <Pp>"You are so welcome. Washing your body is my favoreet thing to do."</Pp>
-<Pp>The windows are frosted so much that the whole outside is blurred. I turn on the kitchen light and eat my muffin in my smiley face boxers. The morning national anthem is playing out of my speaker system. It's already on the third verse. A chorus of baritone and bass voices roar in vibrato unison.</Pp>
+<Pp>The windows are frosted so much that the whole outside is blurred. I turn on the kitchen light and eat my muffin in my smiley face boxers. <span class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 3.mp3" loop={true} bg="rgb(106, 131, 255)" fg="#000" /></span> The morning national anthem is playing out of my speaker system. It's already on the third verse. A chorus of baritone and bass voices roar in vibrato unison.</Pp>
 <Pp>[...]</Pp>
 <Pp><em>Don't live in Nowhere Else if you are not proud!</em></Pp>
 <Pp><em>Don't live in Nowhere Else if your cheering is not loud!</em></Pp>
@@ -38,7 +39,7 @@ const SlowMorning = (props) => (
 <Pp>The intersector stretches across a very wide, recent lake. The water's frozen over and black in the darkness. You can spot the tops of roofs poking up out of it. Flood patterns have been unpredictable. Some say there's too much concrete, cement, and asphalt, too few outlets for drainage. Some say they just didn't do enough sandbagging. Who can really say for sure.</Pp>
 <Pp>A green glowing three-dimensional model on the windshield screen indicates how much coal I have left. It's a pile I could easily fit in my hand. As it turns out, an accident was what caused the traffic jam. A speedster got crushed into the highway walls. Its wheels point in different directions. The paint's burned off. Blood's caked on the windows and seeping through the doors, freezing into a puddle. The speedster's alarm keeps ringing, distorted and off-key. No second speedster on the scene. Must have driven away.</Pp>
 <Pp>Tulip speaks sweetly over the speaker system. "Would you like to listen to an award-winning chittychat, Mr. 03Goldman?"</Pp>
-<Pp>I don't respond. The uptempo theme for the Fink and Blowhard Show bursts through my speakers. It's not really a song, moreso a complete chromatic scale performed on a squeaky trumpet, looped over and over, building in volume and rising in octave with each delirious repetition. It ends abruptly. Co-host Blowhard is now dishing his top opinions. "The kind of person who disagrees with me is a lunatic and a sicko. I want to tear off their head and spit down their neck-hole."</Pp>
+<Pp>I don't respond. The uptempo theme for the Fink and Blowhard Show bursts through my speakers. <span class="chapterSong"><LazyAudio src="assets/Fink And Blowhard Show Theme.mp3" loop={true} bg="rgb(255, 106, 106)" fg="#000" /></span> It's not really a song, moreso a complete chromatic scale performed on a squeaky trumpet, looped over and over, building in volume and rising in octave with each delirious repetition. It ends abruptly. Co-host Blowhard is now dishing his top opinions. "The kind of person who disagrees with me is a lunatic and a sicko. I want to tear off their head and spit down their neck-hole."</Pp>
 <Pp>"See now, Blowhard, that's where you're losing me." Co-host Fink is none too pleased. "I'm a strong believer in Courtesy. We agree on many topics, and in this case I do think there needs be a way to penalize those who disagree with us. But I don't think physical violence is ever the answer. I cordially request that you un-suggest that."</Pp>
 <Pp>"I'm about to cordially un-suggest this aluminum cudgel right into your nutsack."</Pp>
 <Pp>Blowhard's voice is especially raspy today, he must be working through some kind of esophageal infection. They discussed his weak immune system a few hundred episodes ago. He clears his throat. "I have a question for our listeners today, Fink. Is it just me, or is anyone else getting sick and tired of having to type in your password in order to shoot out a quick wizz? I don't have time to try and figure out how to type a dam ampersand into a urinal's keypad. I swear I spend half my <span class="t">*</span>day just logging in. And now, before you numbskulls start calling in, yes, I understand that advertisers pay big gold for our urinary biostats and without those funds the private bathroom experience would not be free. I know that nuthin in this nation is free, I'm not some entitled fancy shmancy twinklepriss going around saying 'oh look at me, I'm wearing a tutu and riding a unicycle, I'm so important' or whatever, I just miss how it used to be. Know what I mean? Nowadays I can't even purchase my daily pouch of Monkey Mike's Premium Kettled Corn without forking over a personal salivary donation."</Pp>

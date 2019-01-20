@@ -4,6 +4,7 @@ import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
 import D from './../components/D.jsx';
 import U from './../components/U.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
 
 const ReallyWorkingNow = (props) => (
 <div>
@@ -13,7 +14,7 @@ const ReallyWorkingNow = (props) => (
 <Z d={15} u="d39">~ : I hope you didn't take it personally</Z>
 <Pp>The bug reports describe the error as an IMPOSSIBLE_DIGITS exception for the variable CURVE_QUOTIENT. It occurred on line 495 of intensity-and-dosage.tangle, one of the largest files in the Dimples library. I triple click and highlight the whole line:</Pp>
 <Pp>UNFRACTIONATE(0 ≥ STATE[PHARMA[CURVE_QUOTIENT]] ≤ 1);</Pp>
-<Pp>I'm listening to a programming sound collage designed to palpate my abstract logical nodes or glands or whatever. The noises are pretty complicated and alarming. It's creepy stuff to listen to but apparently it can make your variable names 50% more keen. It's hard to focus while all these zoips keep zipping through my umbilical data plug straight into my mindchip. I'm feeling a little bothered.</Pp>
+<Pp>I'm listening to a programming sound collage designed to palpate my abstract logical nodes or glands or whatever. <span class="chapterSong"><LazyAudio src="assets/Developer Stimulation Collage.mp3" loop={true} bg="rgb(223, 223, 223)" fg="#000" /></span>  The noises are pretty complicated and alarming. It's creepy stuff to listen to but apparently it can make your variable names 50% more keen. It's hard to focus while all these zoips keep zipping through my umbilical data plug straight into my mindchip. I'm feeling a little bothered.</Pp>
 <Z d={15} u="j56">jumper56ok : shoot now two other values are disequalized</Z>
 <Z d={25} u="j56">~ : 5 to 9? i think</Z>
 <Z d={35} u="j29">funguyjim29 : I'm sorry, I'll get back to you</Z>

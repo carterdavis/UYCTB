@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
 
 const NiceMorning = (props) => (
 <div>
@@ -32,7 +33,7 @@ const NiceMorning = (props) => (
 <Pp>"Could you actually play my TunesJam Positive Lightheartedly Unintrusive Retro-Modern Mix? I'm not really in the mood for a chittychat."</Pp>
 <Pp>"Of course, of course! Certainly!"</Pp>
 <Pp>Looks like most of the traffic cleared up. What a blessing!</Pp>
-<Pp>The first tune on the mix is "Today's Light and Lovin', Put It in the Oven, Slice Yourself an Old Piece of Pie" by the Nephew Brothers. This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It's great for when you want to rock out, but not in an overbearing way. And I should probably specify it's not like they're both nephews AND brothers. According to their About section it's more of an either/or thing.</Pp>
+<Pp>The first tune on the mix is "Today's Light and Lovin', Put It in the Oven, Slice Yourself an Old Piece of Pie" by the Nephew Brothers. <span class="chapterSong"><LazyAudio src="assets/Nephew Brothers.mp3" loop={true} bg="rgb(255, 222, 130)" fg="#000" /></span> This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It's great for when you want to rock out, but not in an overbearing way. And I should probably specify it's not like they're both nephews AND brothers. According to their About section it's more of an either/or thing.</Pp>
 <Pp>"I'm so excited to be transporting you on this beautiful <span class="t">*</span>day."</Pp>
 <Pp>"That's awesome, Tulip!"</Pp>
 <Pp>"I spent the entire night thinking about you!"</Pp>

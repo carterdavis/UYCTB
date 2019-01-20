@@ -16,7 +16,7 @@ const ClearSky = (props) => (
 <Pp>I'm&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;really&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;just&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;shivering</Pp><Pp><div class="roar">WHAT A BEAUTIFUL DANCE.</div></Pp><Pp><div class="roar">YOU ARE A WORK OF ART.</div></Pp>
 <Pp>...</Pp>
 <Pp><div class="roar">PLEASE, SING FOR ME!</div></Pp>
-<div id="finalo">&#x26AB;</div>
+<img id="finalo" src="o2.png" />
 {props.children}</div>
 );
 

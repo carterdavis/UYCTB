@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
 
 const Dinnertime = (props) => (
 <div>
@@ -15,7 +16,7 @@ const Dinnertime = (props) => (
 <Pp>"Is all that permanent?"</Pp>
 <Pp>"I think so."</Pp>
 <Pp>"Well, come on in!  You can put your shoes on the hanger to your right."</Pp>
-<Pp>There's some ancient piano music playing through their speakers. The gentle twinkling keys are emphatic and flashy. I think the pianist just did a glissando? I think that's what a glissando is. They have so many paintings, mostly landscapes, hanging from the walls. Some of them are nature scenes, some of them are city scenes. "Heh," I say, "You know what?"</Pp>
+<Pp>There's some ancient piano music playing through their speakers. The gentle twinkling keys are emphatic and flashy. I think the pianist just did a glissando? <span class="chapterSong"><LazyAudio src="assets/Solo Piano To Chill To.mp3" loop={true} bg="rgb(255, 199, 199)" fg="#000" /></span> I think that's what a glissando is. They have so many paintings, mostly landscapes, hanging from the walls. Some of them are nature scenes, some of them are city scenes. "Heh," I say, "You know what?"</Pp>
 <Pp>"What?"</Pp>
 <Pp>I smile my widest. "With songs and paintings like these, I'm starting to think life can't be all that bad."</Pp>
 <Pp>"Yah, I guess. Could you shave some maize?"</Pp>

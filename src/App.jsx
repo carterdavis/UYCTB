@@ -13,7 +13,7 @@ class App extends React.Component {
     return (
       <div id="main">
         <Cover toc={this.props.state.visibleToC} />
-        <div id="o">&#x1f785;</div>
+        <img id="o" src="o.png" />
         <ToC toggle={toggleVisibilityToC} visible={this.props.state.visibleToC} />
         <div id="content" tabIndex="0">
           <Navbar />

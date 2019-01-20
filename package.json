@@ -32,13 +32,12 @@
     "react-dom": "^16.4.2",
     "react-headroom": "^2.2.4",
     "react-height": "^3.0.0",
+    "react-lazyload": "^2.3.0",
     "react-redux": "^5.0.7",
     "react-reveal": "^1.2.2",
-    "react-typing": "^1.0.0",
     "react-typing-animation": "^1.4.0",
     "react-visibility-sensor": "^3.11.1",
     "sass-loader": "^7.1.0",
-    "scroll-restoration-polyfill": "^0.6.1",
     "yarn": "^1.9.4"
   }
 }

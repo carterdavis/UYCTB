@@ -11,6 +11,8 @@
 @include font('DIN', './assets/fonts/DIN');
 @include font('DIN', './assets/fonts/DIN Bold');
 
+$bezier: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
 body {
   position: relative;
   margin: 0;
@@ -46,15 +48,24 @@ body {
     text-align: center;
 
     button {
-      color: white;
-      background-color: transparent;
+      color: black;
+      background-color: yellow;
+      padding: 1rem 1;
+      width: 13rem;
+      border-radius: 2rem;
       cursor: pointer;
       border: none;
       font-size: 1.25rem;
-      transition: transform .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      transition: transform 0.3s $bezier, background-color 0.3s $bezier;
       transform: none;
 
+      &:hover {
+        transform: scale(1.15) perspective(1px);
+        background-color: #a9ff00;
+      }
+
       &.hidden {
+        background-color: #ff8100;
         transform: rotate(0.4turn) skew(38deg, 11deg);
       }
     }
@@ -82,6 +93,69 @@ h2 {
 
 .chapter {
   padding: 6rem 0 1rem;
+}
+
+.chapterImage {
+  width: 33rem;
+  padding: 3.2rem 0;
+  margin: auto;
+  display: block;
+  background-color: #FFF;
+}
+
+$width: 30px;
+$transitionSpeed: 300ms;
+
+.coverButton {
+  position: absolute;
+  bottom: 3rem;
+  left: 3rem;
+}
+
+.chapterSong {
+  float: right;
+  margin: 0.5rem;
+  text-indent: 0;
+}
+
+.playButton {
+  padding: 1rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: all 100ms;
+
+  &:hover {
+    transform: scale(1.15) perspective(1px);
+  }
+
+  .symbol {
+    width: $width;
+    height: $width;
+    box-sizing: border-box;
+    transition: all 100ms;
+
+    border-top: 0 solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: 0 solid transparent;
+    border-left: 0 solid transparent;
+    transform: translateX(0px);
+  }
+
+  .symbol.paused {
+    border-top: $width/2 solid transparent;
+    border-right: 0 solid transparent;
+    border-bottom: $width/2 solid transparent;
+    border-left: $width*0.85 solid #000;
+    transform: translateX(6px);
+  }
+
+  .symbol.playing {
+    border-top: 0 solid transparent;
+    border-right: $width/3 solid #000;
+    border-bottom: 0 solid transparent;
+    border-left: $width/3 solid #000;
+  }
 }
 
 .inner {
@@ -175,8 +249,10 @@ h2 {
 
 #finalo {
   padding-top: 7rem;
-  color: #000;
-  text-align: center;
+  width: 1rem;
+  display: block;
+  margin: auto;
+  background-color: #FFF;
 }
 
 .s {
@@ -272,13 +348,16 @@ $n20: #ba6c1a;
 .zoip {
   .inner p {
     text-indent: 0;
-    width: 25rem;
-    padding-left: 8rem;
   }
 
-  &.j29 .inner p {
-    padding-left: 0;
-    padding-right: 8rem;
+  .msg {
+    width: 70%;
+    padding-left: 20%;
+  }
+
+  &.j29 .msg {
+    width: 70%;
+    padding-left: 10%;
   }
 
   .prefix {
@@ -286,6 +365,7 @@ $n20: #ba6c1a;
     font-weight: bold;
     padding: .2rem;
     border-radius: 0.3rem;
+    margin-right: .2rem;
   }
 }
 
@@ -322,8 +402,17 @@ $n20: #ba6c1a;
   transform: translateX(0);
   transition: transform .3s;
 
+  ol {
+    font-size: 1.2rem;
+  }
+
+  li {
+    padding: 0.4rem 0;
+  }
+
   a {
     color: #393939;
+    text-decoration: none;
   }
 
   &.hidden {
@@ -332,16 +421,18 @@ $n20: #ba6c1a;
 }
 
 @media all and (max-width: 600px) and (min-width: 401px) {
-  .inner p { width: 80%; }
+  .inner p { width: 90%; }
   .snippet { width: 80%; }
+  .chapterImage { width: 100%; }
 }
 
 @media all and (max-width: 400px) {
-  .inner p { width: 75%; font-size: 16px; }
+  .inner p { width: 90%; font-size: 16px; }
   .snippet-wrapper .snippet {
     width: 70%;
     padding: 2rem;
     margin-left: 0;
     left: 3%;
   }
+  .chapterImage { width: 100%; }
 }

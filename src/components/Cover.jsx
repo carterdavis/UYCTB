@@ -1,5 +1,6 @@
 import React from 'react';
 
+import LazyAudio from './../components/LazyAudio.jsx';
 import { toggleVisibilityToC } from './../state.js';
 
 const Cover = ({ toc }) => (
@@ -13,7 +14,11 @@ const Cover = ({ toc }) => (
         Table of Contents
       </button>
     </div>
+    <div class="coverButton">
+      <LazyAudio src="assets/Overture.mp3" loop={true} bg="#FFF" fg="#000" />
+    </div>
   </div>
 );
+
 
 export default Cover;

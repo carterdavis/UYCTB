@@ -140,7 +140,7 @@ const MeetingTheChief = (props) => (
 <Pp>"Cuz God made us humans."</Pp>
 <Pp>"There's no such thing as a human. We're all ants, big fleshy ants. The sad reality is, some of us appear to have lost that determination, that intensity, given to us by God. Those people, and by that I mean the people like you, are all gonna die out. Unless, of course, you all read my book <em>The 01Stone Method</em>."</Pp>
 <Pp>"I'm never going to read your garbage book."</Pp>
-<Pp>"Come on! It's good! I think it would teach you some really valuable lessons. I'm sincerely trying to help you right now. We got a zoip from Tulip the other <span class="t">*</span>day, boo hoo hoo, may it rest in peace. It was very worried about you. It said you were using your dead name. Jim__ __Goldman."</Pp>
+<Pp>"Come on! It's good! I think it would teach you some really valuable lessons. I'm sincerely trying to help you right now. We got a zoip from Tulip the other <span class="t">*</span>day, boo hoo hoo, may it rest in peace. It was very worried about you. It said you were using your decomissioned name. Jim__ __Goldman."</Pp>
 <Pp>"Jesus Christ. Tulip actually contacted you? He was <em>such</em> a booger."</Pp>
 <Pp>"You breached our contract. Plain and simple. We're going to have to punish you."</Pp>
 <Pp>"You don't decide who I am."</Pp>
