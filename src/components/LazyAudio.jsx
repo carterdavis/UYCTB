@@ -14,7 +14,6 @@ export default class LazyAudio extends React.Component {
   componentDidMount() {
     this.audio = new Audio();
     this.audio.oncanplaythrough = () => {
-      console.log("loaded");
       this.setState({
         loaded: "loaded"
       });
@@ -31,6 +30,11 @@ export default class LazyAudio extends React.Component {
     }
     this.audio.src = this.props.src;
     this.audio.loop = this.props.loop;
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (nextState == this.state) return false;
+    return true;
   }
 
   mainClick() {
@@ -52,8 +56,6 @@ export default class LazyAudio extends React.Component {
       : { boxShadow: `0 0 1rem ${this.props.bg}`, background: this.props.bg }
     const styleSymbol = this.state.paused == 'paused' ? { borderLeftColor: this.props.fg }
       : { borderLeftColor: this.props.fg, borderRightColor: this.props.fg };
-    console.log(styleButton);
-    console.log(this.state.paused);
 
     return <button class={`playButton ${this.state.loaded}`} onClick={() => { this.mainClick() }} style={styleButton}><div class={`symbol ${this.state.paused}`} style={styleSymbol}></div></button>
   }

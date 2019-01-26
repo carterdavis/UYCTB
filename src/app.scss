@@ -164,6 +164,10 @@ $transitionSpeed: 300ms;
   margin: auto;
   background-color: #FFF;
 
+  &.padTop {
+    padding-top: .4rem;
+  }
+
   p {
     display: block;
     line-height: 1.6;
@@ -356,7 +360,6 @@ $n20: #ba6c1a;
   }
 
   &.j29 .msg {
-    width: 70%;
     padding-left: 10%;
   }
 
@@ -424,6 +427,10 @@ $n20: #ba6c1a;
   .inner p { width: 90%; }
   .snippet { width: 80%; }
   .chapterImage { width: 100%; }
+  .zoip .msg, .zoip.j29 .msg {
+    width: 100%;
+    padding-left: 0;
+  }
 }
 
 @media all and (max-width: 400px) {
@@ -433,6 +440,10 @@ $n20: #ba6c1a;
     padding: 2rem;
     margin-left: 0;
     left: 3%;
+  }
+  .zoip .msg, .zoip.j29 .msg {
+    width: 100%;
+    padding-left: 0;
   }
   .chapterImage { width: 100%; }
 }

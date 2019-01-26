@@ -25,26 +25,24 @@ const Z = (props) => {
 
   const bg = user ? `repeating-linear-gradient(0deg, #ffffff, ${users[user]} 4px)` : 'none';
 
-  console.log(chapter);
-  console.log(order);
-  console.log(zoips);
-
   return (
   <div class={`zoip ${user}`}>
-    <Pp bg={bg}>
+    <Pp bg={bg} innerClass={props.first ? 'padTop' : ''} z>
     { order == 0 &&
       <VisibilitySensor onChange={
         (visible) => {
-          if (visible && !(id in zoips)) setZoip(chapter, sequence, order)
+          console.log(visible);
+          console.log(zoips);
+          if ((visible && zoips) && !(id in zoips)) setZoip(chapter, sequence, order)
         }
       } />
     }
-    { zoips[id] >= order &&
+    { zoips && (zoips[id] >= order) &&
       <div class="msg" style={{color: users[user]}}>
         { props.first &&
           <span class="prefix" style={{backgroundColor: users[user]}}>{ user }</span>
         }
-        <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(sequence, order+1) }}>{props.children}</Typing>
+        <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
       </div>
     }
     </Pp>
