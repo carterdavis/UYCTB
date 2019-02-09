@@ -5,12 +5,14 @@ import Pulse from 'react-reveal/Pulse';
 import D from './../components/D.jsx';
 import U from './../components/U.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
 import Code from './../components/Code.jsx';
 
-const OfficeChitChat = (props) => (
+const OfficeChitChat = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>"Are VORPs enabled by a knob?" I thumb through a table of knob locales.</Pp>
 <Pp>Nug20 has fast fingers that blur when they're in motion. He scuffs his mouse around on a rubbery custom-printed mousepad of his smiling family. "Yes it's a private knob."</Pp>
@@ -58,7 +60,7 @@ const OfficeChitChat = (props) => (
 <Pp>"Word on the street is that they'll give you a Tragedy Bonus Splash."</Pp>
 <Pp>"That's really cool. Super amazingly awesome. Wow!"</Pp>
 <Pp>I march my way from the east wing of the office to the central hub. Along the way I load up TroughDaddy, my scoop app of choice. I simply tap my favorite feeds, and it loads them straight into my celly.</Pp>
-<Pp>I'm a media maniac, so I get hungry for new scoops every few <span class="t">*</span>hours or so. They're so much fun. Each scoop is a tiny little tidbit to keep me aware, a mini snapshot of our world in motion. I also have to admit, they've made me much more caring and empathetic. I understand the suffering that happens in this country because I read about it on my celly.</Pp>
+<Pp>I'm a media maniac, so I get hungry for new scoops every few <span class="t">*</span>hours or so. They're so much fun. Each scoop is a tiny little tidbit to keep me aware, a mini snapshot of our world in motion. I also have to admit, they've made me much more caring and empathetic.</Pp>
 <Pp>At this instant, my top scoops are:</Pp>
 <Pp> [[ still figuring out how to format this ]]</Pp>
 <Pp>
@@ -77,8 +79,8 @@ const OfficeChitChat = (props) => (
   </Pulse>
 </Pp>
 <Pp>When the BizOps team makes a major sale, the whole building is notified. The overhead intercom speakers make a loud crunchy cash register noise, like "ch-ching!" Anyways, it's been ch-chinging a lot today. Frustratingly frequent. I shall log them henceforth.</Pp>
-<Pp>My desk is all the way up in the Neck. I climb into the mouth of an escalator slide and lie down with my arms at my sides. The inside of the slide is dark and red and warm and it makes me feel safe. The structure pulses and gurgles. Eyes closed, I feel my back rub across the plastic and the heartbeat in my head.</Pp>
-{props.children}</div>
+<Pp>My desk is all the way up the on fifth floor, aka "The Neck." I climb into the mouth of an escalator slide and lie down with my arms at my sides. The inside of the slide is dark and red and warm and it makes me feel safe. The structure pulses and gurgles. Eyes closed, I feel my back rub across the plastic and the heartbeat in my head.</Pp>
+{children}</div>
 );
 
 export default OfficeChitChat;

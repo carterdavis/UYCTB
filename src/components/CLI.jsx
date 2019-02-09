@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Pp from './Pp.jsx';
+import Command from './Command.jsx';
 
 class CLI extends React.Component {
   constructor(props) {
@@ -15,7 +15,7 @@ class CLI extends React.Component {
   render() {
     return (
       this.state.visible &&
-        <Pp c="command">{this.props.children}</Pp>
+        <Command>{this.props.children}</Command>
     )
   }
 }

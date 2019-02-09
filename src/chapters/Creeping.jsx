@@ -3,10 +3,12 @@ import React from 'react';
 import ViewScreen from './../components/ViewScreen.jsx';
 import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const Creeping = (props) => (
+const Creeping = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 
 <Pp>I climbed the rope ladder as soon as I finished puking. I managed to squeeze Wyshwald52's fnucked up body out of his outfit. His wounds looked awful, like gooshburger meat. Everything smelled really weird too. I tried to lift his corpse up by its head but his neck skin was so pappery thin that his whole neck and head ripped straight off of his shoulders. I couldn't carry him up the ladder but I could carry his clothes. I had to leave his nude dismembered parts soaking in the crappy pit.</Pp>
@@ -53,7 +55,7 @@ const Creeping = (props) => (
 <Pp>It's starting to seem like Wyshwald52 doesn't own many actual items or tools. He mostly just has stuffed plushy animal toys. They're kind of cute but it's still pretty weird. Like, who would want this big stuffed alligator past the age of, like, 4? It's really heavy, uncomfortable to hold. It's not even adorable or anything. Its smile is very unrealistic. Yuck. He also has some froggies and a ducky and a bunny. Those are fine I guess. I just don't like that they're a dead guy's toys, I don't want to touch them. He has large jugs of powerful soap, you can tell by the color of the label, it's dark red. He has odd fluffy wigs. He has half-empty tubes of wart ointment and rash cream. Underneath the tubes, he has a Dimples FaceFriend. I guess I should be using the past tense, he <em>had</em> a Dimples FaceFriend. He can't claim ownership when his dead body is bleeding out in a pit of dark sauce.</Pp>
 <Pp>I plug the FaceFriend into the wall socket and it whirrs to life. This must be an earlier model, it's taking much longer to boot up and its visual design is notably less slick. The human face-shaped indentation sinks into the side of the machine. I scroll through the face options on the touch screen. They all honestly look pretty good. But I don't want to stick out, so I select the most basic default facial arrangement ratios available.</Pp>
 <Pp>The foamy indentation gargles. I carefully slide my face in.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default Creeping;

@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Z from './../components/Z.jsx';
 
-const EndOfDay = (props) => (
+const EndOfDay = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
   <Pp>"I'm having trouble replicating the bug." I can't help but sound meek. I straighten my shirt and shift my weight on the beanie bag. I'm feeling pretty down and bad about myself. It's so hard to focus. I can think of way too much to think about. I trace functions calling other functions, instantiating reference models that sort through bundles of streams of function references, looping around and around like a whirly wheel, so many structures operating in fragile dependent tandem. I've been tracking the metadata of a VORP request through an especially wrinkly equality matrix. As variables equal-bounce from node to node they leave behind a unique trail.</Pp>
   <Pp>The glyphs are blending together and I'm mostly just scrolling. It's hard to carefully follow the flow of logic when its ramifications could very well possibly include another human freaking death any <span class="t">*</span>second now and I'm sweating like a bovine. My eyes unfocus to the ticking of the clock.</Pp>
@@ -28,13 +30,10 @@ const EndOfDay = (props) => (
   <Z d={92} u="j29">funguyjim29 : yah, we'll work on it tomorrow</Z>
   <Z d={97} u="j56">jumper56ok : sick. thanks</Z>
   <Pp>Nug20 continues his silence. I'm tired and hopeless. The sky is dark. A thin bit of light peeks through the smoky clouds and dances on the glistening lawn. Nug20's nameplate is etched in a stately white serif letters against a maroon background. They read NUGGORT20 43DUNC - TECHNO FREEK."</Pp>
-  <Pp>He does a slight frown whenever he's thinking hard. He squints at his screen. "I got pulled over by the GOTCHA! Guys last night."</Pp>
-  <Pp>"Is that right?"</Pp>
-  <Pp>"Speedster's rump didn't shut right, was slamming up and down when I was going over bumps. Folks behind me must've spied some of the tools I got back there."</Pp>
-  <Pp>"Oh gosh. How'd it go?"</Pp>
-  <Pp>"Guys let me off with a warning tattoo. They're laughing, slamming my face against the hood. I'm 32 <span class="t">*</span>years old, you know? I have kids. And that needle's hot."</Pp>
-  <Pp>"Jeez, nuthin but jeez. That's so bad. I'm really sorry to hear that." I'm not sure what to say. He's never mentioned his tools before. "I'm glad that you're OK."</Pp>
-  <Pp>He presses the spacebar four times in a row. His throat bump rolls up and down like he's swallowing. He coughs like he's summoning a loogie. "Not any big deal or nuthin."</Pp>
+  <Pp>He does a slight frown whenever he's thinking hard. He squints at his screen. "Going to heat up a frozen dinner when I get home."</Pp>
+  <Pp>"Really? What kind?"</Pp>
+  <Pp>"Casserole."</Pp>
+  <Pp>"Nice. I love those."</Pp>
   <Z d={1} u="j29">funguyjim29 : are you doing anything tonight ?</Z>
   <Z d={12} u="j29">~ : I was thinkin itd be fun to watch a slamdown at the arena</Z>
   <Z d={19} u="j29">~ : or purchase dizzy drinks at a gulping den</Z>
@@ -49,7 +48,7 @@ const EndOfDay = (props) => (
   <Pp>"Nug20, I'm not making any progress." I shiver atop my beany bag. "At this point I think I'm just gonna put out a hotfix first thing tomorrow morning."</Pp>
   <Pp>He looks over at me. "You can't put out a fix tonight?"</Pp>
   <Pp>"I poked around through all of the VORP Requests. None of them were throwing errors. I've read through the lines I modified in the update three times already. It doesn't make any sense. I don't know what more to do."</Pp>
-  <Pp>"Sometimes, you must quadruple-duple check."</Pp>
+  <Pp>"Sometimes, one must quadruple-duple check."</Pp>
   <Pp>"I really have to go home and feed my birds."</Pp>
   <Pp>He appears taken aback. "You're serious?"</Pp>
   <Pp>"I would never let them go hungry."</Pp>
@@ -60,7 +59,7 @@ const EndOfDay = (props) => (
   <Pp>"Hmm, I don't know. I'm sorry. I'll think about it and get back to you. I'm trying really hard to do the right thing."</Pp>
   <Pp>"I know how this goes, Jim29. Listen to me." He's being so scoldy right now. His eyes bug out of their sockets. "This will not be good. You are making a big mistake."</Pp>
   <Pp>I stuff my computering device into my bag. "I'm sorry. I wish I could keep working. I really have to go."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default EndOfDay;

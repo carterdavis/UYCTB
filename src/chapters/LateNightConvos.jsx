@@ -3,10 +3,12 @@ import React from 'react';
 
 import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const LateNightConvos = (props) => (
+const LateNightConvos = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I receive a zoip from my good friend Daisy39 42Scrumpet.</Pp>
 <Pp>[[ this timing is terrible, will figure out how to fix ]]</Pp>
@@ -36,7 +38,7 @@ const LateNightConvos = (props) => (
 <Z d={197} u="j29" nc>~ : my <span class="t">*</span>week has honestly been kind of rough these past two <span class="t">*</span>days.</Z>
 <Z d={205} u="j29" nc>~ : do you have any plans tonight?</Z>
 <Z d={220} u="j29" nc>~ : zoip me if you want to do something</Z>
-{props.children}</div>
+{children}</div>
 );
 
 export default LateNightConvos;

@@ -5,10 +5,24 @@ import ToC from './components/ToC.jsx';
 import Screen from './components/Screen.jsx';
 import Cover from './components/Cover.jsx';
 import Navbar from './components/Navbar.jsx';
-import { getChapters, getAllChapters, toggleVisibilityToC } from './state.js';
+import { getChapters, getAllChapters, toggleVisibilityToC, setDimensions } from './state.js';
 import './app.scss';
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.resizeTimer = null;
+  }
+
+  componentDidMount() {
+    window.addEventListener("resize", this.waitToResize);
+  }
+
+  waitToResize() {
+    clearTimeout(this.resizeTimer);
+    this.resizeTimer = setTimeout(setDimensions(), 500);
+  }
+
   render() {
     return (
       <div id="main">

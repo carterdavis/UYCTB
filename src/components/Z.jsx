@@ -4,13 +4,15 @@ import VisibilitySensor from 'react-visibility-sensor';
 import Typing from 'react-typing-animation';
 
 import Pp from './Pp.jsx';
+import {setZoip} from './../state.js';
 
 const Z = (props) => {
   const user = props.u || 'j29';
   const order = props.o || 0;
-  const state = props.s || {};
+  const zoips = props.z;
   const sequence = props.seq || "a";
-  const setZoip = props.f || (() => {});
+  const chapter = props.ch || 0;
+  const id = `ch${chapter}_${sequence}`;
   const delay = props.d || 0;
   const speed = props.spe || 50;
   const users = {
@@ -25,20 +27,22 @@ const Z = (props) => {
 
   return (
   <div class={`zoip ${user}`}>
-    <Pp bg={bg}>
+    <Pp bg={bg} innerClass={props.first ? 'padTop' : ''} z>
     { order == 0 &&
       <VisibilitySensor onChange={
         (visible) => {
-          if (visible && !(sequence in state)) setZoip(sequence, order)
+          console.log(visible);
+          console.log(zoips);
+          if ((visible && zoips) && !(id in zoips)) setZoip(chapter, sequence, order)
         }
       } />
     }
-    { state[sequence] >= order &&
+    { zoips && (zoips[id] >= order) &&
       <div class="msg" style={{color: users[user]}}>
         { props.first &&
           <span class="prefix" style={{backgroundColor: users[user]}}>{ user }</span>
         }
-        <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(sequence, order+1) }}>{props.children}</Typing>
+        <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
       </div>
     }
     </Pp>

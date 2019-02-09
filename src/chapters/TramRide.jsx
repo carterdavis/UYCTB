@@ -2,10 +2,13 @@ import React from 'react';
 
 import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
+import Snip from './../components/Snip.jsx';
 
-const TramRide = (props) => (
+const TramRide = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Z d={1} u="sys">%SYS_OP% : Congratulations, BUNNDY22!</Z>
 <Z d={1} u="sys">~ : Your new workpod is located on FLOOR_3, CELL_5_EAST</Z>
@@ -41,7 +44,7 @@ const TramRide = (props) => (
 <Pp>Chadmuth48 smiles wide. "You wanna know what I really like?"</Pp>
 <Pp>"What?"</Pp>
 <Pp>"Making out with women. I like smooching on the lips. I've done it quite a few times, and I think it's feels amazing. I like to use my lips like a hand to grab and squeeze their lips between my lips. Really clutch them between my smackers. Ladies love my lips, apparently they feel awesome and strong. That's just what multiple women have told me. Do you kiss much, bud?"</Pp>
-<Pp>It's hard for me to come up with an answer because the very tall man is looming behind his shoulder. Chadmuth48 turns around. (I kiss a lot FYI.)</Pp>
+<Pp>It's hard for me to come up with an answer because the very tall man is looming behind his shoulder. Chadmuth48 turns around. <Snip state={state} bg="red, yellow">I kiss a lot by the way.</Snip></Pp>
 <Pp>"Hey champ, there are plenty of other seats. I value my personal space."</Pp>
 <Pp>Pale man grins. His voice is silky. "Let me sit on your lap."</Pp>
 <Pp>"You are absolutely not allowed to do that."</Pp>
@@ -55,7 +58,7 @@ const TramRide = (props) => (
 <Pp>"Please enter or exit now."</Pp>
 <Pp>Chadmuth48 jams the barrel of the gun between the man's dry purple lips. Then a splashy bang. Stringy hair on the back of his head disintegrates in a beam of fiery red water. I lock my eyes shut. Bolt towards the exit. Step off onto the platform. Doors close and roll away.</Pp>
 <Pp>I'll have to walk very far. My clompy bootsteps echo down the long dark corridors. My eyes keep dripping and it's hard to breathe. Sometimes I swear the brown fungusy walls are squeezing in around me, like I'm walking through the stomach of an inwardly hairy urchin. I try my best to come up with some prayers, but none of them turn out good enough. Hope that soul finds peace.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default TramRide;

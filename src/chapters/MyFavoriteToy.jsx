@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const MyFavoriteToy = (props) => (
+const MyFavoriteToy = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I take two more Jubimum tabs and wash it down with some Lemmon-Liime Queam. They just aren't doing anything for me. I can't stand it. My brain feels constantly sore or getting scraped. When I close my eyes I see thrashing legs mashed into dripping gristle and hear the multipart snapping of a human skeleton. It sucks!!</Pp>
 <Pp>OK, now they're starting to kick in. The colors are starting to look a bit more vivid. Yah now I feel a lot better. Hell yah. Darn. I'm starting to feel good as freaking crap. Ahahaha. This is about to make me say OMG. One <span class="t">*</span>second actually, OK, I'm going to go grab my favorite toy Papa Boinkus. I love you Papa Boinkus! Where are you! That's right, you're right here at the top of the toy pile. Boinkus, I must be honest with you. I feel so good that I'm not sure whether I should puke, or start chirping.</Pp>
@@ -19,7 +21,7 @@ const MyFavoriteToy = (props) => (
 <Pp>"Shall I treat you to an island dance?"</Pp>
 <Pp>What kind of question is that? Of course I'd love to see your island dance! I wish I knew which island it was inspired by.</Pp>
 <Pp>"And so it begins."</Pp>
-<Pp>Look! There it goes!  What I admire most about its island dance is how nimbly its hips rock back and forth. It must have taken it a very long time to learn how to do this. <span class="chapterSong"><LazyAudio src="assets/Papa Boinkus Island Dance.mp3" loop={true} bg="rgb(214, 255, 225)" fg="#000" /></span> And at the same time the song that plays through its lip speaker is super interesting and unique. It sounds like steel drums played in reverse over the lapping of digital coastal waves. It's clapping now! It's kicking its tiny feet up high! Papa Boinkus you are the BEST! Blows my mind every time. Oh wow.</Pp>
+<Pp>Look! There it goes!  What I admire most about its island dance is how nimbly its hips rock back and forth. It must have taken it a very long time to learn how to do this. <div class="chapterSong"><LazyAudio src="assets/Papa Boinkus Island Dance.mp3" loop={true} bg="rgb(214, 255, 225)" fg="#000" /></div> And at the same time the song that plays through its lip speaker is super interesting and unique. It sounds like steel drums played in reverse over the lapping of digital coastal waves. It's clapping now! It's kicking its tiny feet up high! Papa Boinkus you are the BEST! Blows my mind every time. Oh wow.</Pp>
 <Pp>"Bunndy22, would you like to see a radiant display?"</Pp>
 <Pp>YES! A trillion times YES!</Pp>
 <Pp>"And so it begins."</Pp>
@@ -40,7 +42,7 @@ const MyFavoriteToy = (props) => (
 <Pp>"And so it begins."</Pp>
 <Pp>This is what Papa Boinkus is best at. It's able to clutch so much of the rubber bedcloth between in its little gloved claws, and it always pulls the cloth snug against the lump on the front of my throat. Now that I'm thinking about it I am very insanely tired. I'm practically about to yawn my head off.</Pp>
 <Pp>"Goodnight my special butterfly. Flap gently through your dreams."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MyFavoriteToy;

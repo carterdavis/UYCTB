@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const FarAway = (props) => (
+const FarAway = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>Jumper56's speedster is named Louisa. Louisa has long eyelashes and a little button nose. It greets Jumper56. "Whee! Good afternoon! I hope your <span class="t">*</span>day was like a plastic bag full of sunshine."</Pp>
 <Pp>What a sweet and courteous speedster. I wonder if they have a good relationship. My thoughts drift to Tulip. I feel pangs of guilt. He betrayed me, but I still miss him. He didn't deserve to suffer the way he did. I hope he's found peace.</Pp>
@@ -29,8 +31,8 @@ const FarAway = (props) => (
 <Pp>"Ha ha that scared you? That was just some fun dance music."</Pp>
 <Pp>"I thought it was simply horrendous. Such a worrisome array of nightmarish noises."</Pp>
 <Pp>"Jesus, OK, I'll play something more mellow."</Pp>
-<Pp>The sounds are like neon dots warping in distant vision. Rainbow clouds floof between. The rhythms throb vertically. <span class="chapterSong"><LazyAudio src="assets/Ambient.mp3" loop={true} bg="rgb(240, 234, 245)" fg="#000" /></span> My face is so strange now. The curves are unnatural to touch. I sink into the seat. I imagine myself on the edge of the sky. I open the Bblackberry Guaava Queam, pork knobs, and frosted corn nuggets I'd stuffed in my jacket. I close my eyes and I'm on the edge of the sky again eating pork knobs, watching the networks of dots in motion, digging the pork veins out from between my teeth. The eyes of my eyes gently descend into vapor.</Pp>
-{props.children}</div>
+<Pp>The sounds are like neon dots warping in distant vision. Rainbow clouds floof between. The rhythms throb vertically. <div class="chapterSong"><LazyAudio src="assets/Ambient.mp3" loop={true} bg="rgb(240, 234, 245)" fg="#000" /></div> My face is so strange now. The curves are unnatural to touch. I sink into the seat. I imagine myself on the edge of the sky. I open the Bblackberry Guaava Queam, pork knobs, and frosted corn nuggets I'd stuffed in my jacket. I close my eyes and I'm on the edge of the sky again eating pork knobs, watching the networks of dots in motion, digging the pork veins out from between my teeth. The eyes of my eyes gently descend into vapor.</Pp>
+{children}</div>
 );
 
 export default FarAway;

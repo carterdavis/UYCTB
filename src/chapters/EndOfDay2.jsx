@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Z from './../components/Z.jsx';
 
-const EndOfDay = (props) => (
+const EndOfDay = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I look at myself in the mirror while I wizz in the urinal. I aim around and splash my wizz against the floors and the walls. The yellow fluid flows through the cracks in the tile.</Pp>
 <Pp>My whole mug is dark purple with wounds. My cheeks are more angular and my jaw is more boxy. My eyes are smaller and closer to the bridge of my nose. My ears are lower and my lips are thinner. My head is less heart shaped.</Pp>
@@ -49,7 +51,7 @@ const EndOfDay = (props) => (
 <Pp>...</Pp>
 <Pp>"Yes, that is what I did. Do you have any more questions?"</Pp>
 <Pp>"No, I was just wondering."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default EndOfDay;

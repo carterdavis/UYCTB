@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const PartingWords = (props) => (
+const PartingWords = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I'm sitting in a chair at their dining room table. Neher31 is seated across from me.</Pp>
 <Pp>"Are you feeling OK?"</Pp>
@@ -31,7 +33,7 @@ const PartingWords = (props) => (
 <Pp>"What? Yes, I mean I didn't, I totally swear. Why would you ask me again?"</Pp>
 <Pp>A slug drops from the ceiling and splats onto the table. They crinkle their eyes under their fists.</Pp>
 <Pp>"Will you just leave? I wanted to be alone tonight. This was such a waste."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default PartingWords;

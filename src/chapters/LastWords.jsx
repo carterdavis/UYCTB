@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const LastWords = (props) => (
+const LastWords = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>"Hey dude. Wake up."</Pp>
 <Pp>"Wha...hmmnnn..."</Pp>
@@ -30,7 +32,7 @@ const LastWords = (props) => (
 <Pp>"Oh my God though! I really hope not."</Pp>
 <Pp>"Hm. I regret leaving you with a bad impression."</Pp>
 <Pp>"Yah dude, ha ha. You're definitely going straight to Hell."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default LastWords;

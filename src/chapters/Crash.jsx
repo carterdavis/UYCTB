@@ -1,15 +1,17 @@
 import React from 'react';
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
 import Code from './../components/Code.jsx';
 // import LazyImage from './../components/LazyImage.jsx';
 import LazyLoad from 'react-lazyload';
 
 
-const Crash = (props) => (
+const Crash = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} bg="#000, #e3126b" />
+{children}
 
   <Pp bg="#e3126b, #edd1e5"><p><em>"It's completely broken and it seems like it's all your fault."</em></p>
   <p>It's feeling hard to think.</p>
@@ -19,21 +21,22 @@ const Crash = (props) => (
   <p>"Gotcha. Yah! Understood. What should I be doing right now?"</p>
   <p>Nug20 is my supervisor. He gives me my assignments and I report back to him on my progress. I sit in his workpod when mine feels lonely. I like knowing that he can help me if I run into a problem I can't solve, like this one. He shifts around in his understuffed beanie bag chair and the fabric squeaks like a mouse. He's a senior developer, been working here for like fifteen NiceTime Perfect Years, and he knows almost everything there is to know about our code. He talks pretty quiet and seems to make an effort to say as few words as possible. He's always had a bad case of wrist edema, which means he probably lives somewhere near the eastern Big Town aquifer. I know little else about him. Snot pools in a shiny ball underneath his nose, eager to drip. The sun sets behind the black clouds of the horizon, filtered red through the window's particular tint.</p>
   <p>"Find it in the map."</p>
-  <p>I step on a stool so I can reach above the dusty cabinets and hoist down the package directory; the cabinets are too high for average person arms to reach above without the assistance of the special stool. This giant honker of a book is bound in smooth green leather and its pages are about as wide as my chest. It's filled with alphabetically listed locations for every single knot in our codebase, each printed in a shrimpy bold font. The tome's burdensome heft makes my stringy triceps shake and burn.</p>
-  <p>The scoop is that some jacked up code in one of these knots made it through the testing phase into this morning's release and caused two crashes by lunchtime. It might be an issue with <Code>intensity-and-dosage.tangle</Code>, the top leaf on the traceback tree, or it might be an issue with a branch it relies on.  But what's especially pertinent is that I made a change a couple NiceTime Perfect Days ago in the section where the error occurred, so I'm in the hot seat here.</p>
-  <LazyLoad offset={100} once>
+  <p>I step on a stool so I can reach above the dusty cabinets and hoist down the package directory; the cabinets are too high for average person arms to reach above without the assistance of the special stool. This giant honker of a book is bound in green pleather and its pages are about as wide as my chest. It's filled with alphabetically listed locations for every single knot in our codebase, each printed in a shrimpy bold font. The tome's heft makes my stringy triceps shake and burn.</p>
+  <LazyLoad offset={100} height={661} once>
     <img class="chapterImage" src="assets/chapter1.png" />
   </LazyLoad>
+  <p>The scoop is that some jacked up code in one of these knots made it through the testing phase into this morning's release and caused two crashes by lunchtime. It might be an issue with <Code>intensity-and-dosage.tangle</Code>, the top leaf on the traceback tree, or it might be an issue with a branch it relies on.  But what's especially pertinent is that I made a change a couple NiceTime Perfect Days ago in the section where the error occurred, so I'm in the hot seat here.</p>
   </Pp>
-  <Pp bg="#edd1e5, #0096ce"><p>I appreciate Nug20's laconic nature. Most of us talk as much as possible to feel less alone but he seems to have alone pretty under control. Come to think of it, as a verbosity suppression technique, I'll henceforth relay NiceTime Perfect Units in this log as truncated <span class="t">*</span>seconds, <span class="t">*</span>minutes, <span class="t">*</span>days, etc. I know that violates NiceTime's branding or whatever. But out of everyone, shouldn't they particularly understand that our time together is limited? Is that OK with you? I hope that doesn't make you uncomfortable. I can also convert it to a different chronobrand if you'd like. This whole sector uses NiceTime which, if you ask me, has really taken a toll on Big Town. Business Time feels so long and Pleasure Time feels so short. No time for relaxing. Sometimes I can tell when they're dilating the <span class="t">*</span>minutes. Like this one, for instance. Very lengthy.</p>
-  <p>I blink hard to wake my eyes up. My fingers moisten the <Snip bg='red, yellow' label={`papper`}>PaPPER = Pulpy and Papery Polymer Extract Reconstituted</Snip> and I sip my bubbly Strawbberry Queam. Have you ever tried Queam? I suck down a few canisters of this stuff every <span class="t">*</span>day. It's sticky and gummy and viscous, and every sip is a zippity zappity BURST of fruity flavor that rocks my world. Red ropes of corn syrup congeal against my teeth and I chisel em off with my tongue. "How have the users been?" I crack a hesitant grin. "Are they whining? Throwing tantrums?"</p>
+  <Pp bg="#edd1e5, #0096ce"><p>I appreciate Nug20's laconic persona. Most of us talk as much as possible to feel less alone but he seems to have alone pretty under control. Come to think of it, as a verbosity suppression technique, I'll henceforth relay NiceTime Perfect Units in this log as truncated <span class="t">*</span>seconds, <span class="t">*</span>minutes, <span class="t">*</span>days, etc. I'll explain why in this little spheroid if you want to give it a click, up to you: <Snip state={state} bg='red, yellow'>Oh goody, you clicked it! I think I'll use these to fill you in on stuff you might not know and embark on fanciful detours. Anyways, I know this violates NiceTime's branding or whatever. But out of everyone, shouldn't they particularly understand that our time together is limited? Is that OK with you? I hope that doesn't make you uncomfortable. I can also convert it to a different chronobrand if you'd like. This whole sector uses NiceTime which, if you ask me, has really taken a toll on Big Town. Business Time feels so long and Pleasure Time feels so short. No time for relaxing. Sometimes I can tell when they're dilating the <span class="t">*</span>minutes. Like this one, for instance. Very lengthy.</Snip></p>
+  <p>I blink hard to wake my eyes up and sip my bubbly Strawbberry Queam. Have you ever tried Queam? I suck down a few canisters of this stuff every <span class="t">*</span>day. It's sticky and gummy and viscous, and every sip is a zippity zappity BURST of fruity flavor that rocks my world. Red ropes of corn syrup congeal against my teeth and I chisel em off with my tongue. "How have the users been?" I crack a hesitant grin. "Are they whining? Throwing tantrums?"</p>
   <p>Nug20's loose brown striped button-down is moist with afternoon sweat. His posture is stiff and his eyebrows knit. He cleans his spectacles gingerly with his sleeve. "We've got conflicting reports, maybe one dead and one in a coma, maybe two flat-out dead."</p></Pp>
-  <Pp bg="#0096ce, #e5e5e5"><p>My face feels a specific way, almost like it's ready to slip off the side of my head. I'm a nice guy, cross my heart and hope to die. I believe in the Lord and I go to church pretty often. I'm handsome and I'm smart and I'm nice. My grandma always used to say I'm exactly the sort of guy you'd be lucky to know. God though, in an instant I feel smaller than I ever have before. Skyscraper to an anthill. My thoughts go silent, my mouth fills with warm thin nauseous spit.</p>
+  <Pp bg="#0096ce, #e5e5e5"><p>My face feels a specific way, almost like it's ready to slip off the side of my head. My thoughts go silent. My mouth fills with warm thin nauseous spit. I can't process. I'm far away from it.</p>
+  <p>I'm a nice guy, cross my heart and hope to die. I believe in the Lord and I go to church pretty often. I'm handsome and I'm smart and I'm nice. My grandma always used to say I'm exactly the sort of guy you'd be lucky to know. God though, in an instant I feel smaller than I ever have before. Skyscraper to an anthill.</p>
   <p>"Jesus Christ in heaven! Oh no oh no," I yell. My cheeks are flushed. I look down because I don't want to look up because then he might be looking at me. "Are you trying to make me laugh right now?" I lose my grip on the directory and it drops with a whump.</p>
   <p>"This is not an attempt at humor."</p>
   <p>"What do you mean?? How could that happen?" I don't know what to do with my body. I'm staying perfectly still.</p>
   <p>"One was a pacemaker crash. The other was an iron lung crash."</p>
-  <p>I slam down my canister and start stress-skimming the pages. He pounds down on his keyboard like it's offended him personally, but that's his normal behavior, he's a pounder. The walls rattle a little bit. I clear my throat, mush some runny phlegm to the side.</p></Pp>
+  <p>I slam down my canister and start stress-skimming the pages. He pounds down on his keyboard like it's offended him personally, but that's his normal behavior, he's a pounder. The walls rattle a little bit. My fingers moisten the papper. <Snip state={state} bg='red, yellow'>PaPPER = Pulpy and Papery Polymer Extract Reconstituted</Snip> I clear my throat, mush some runny phlegm to the side.</p></Pp>
   <Pp bg="#e5e5e5, #f4c940"><p>"Why didn't a tester catch this?"</p>
   <p>"The testers have a difficult job. Don't try to shift the blame."</p>
   <p>"Sorry. That was unbecoming of me. I'm trying my best, I promise. I don't really know how to process this."</p>
@@ -49,7 +52,7 @@ const Crash = (props) => (
   <p>I shut my eyes to block out the fluorescent light. My mind is racing. "One of them was in an iron lung? We still support those?"</p>
   <p>"That's pretty messed up of you man. They were a customer." He pushes his glasses up. "They were a human being."  </p>
   <p>I flip to page 1416B and skim for the heading on VORP Requests. "Yah no, I shouldn't have said that. You're totally right."</p></Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default Crash;

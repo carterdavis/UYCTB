@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const GoingDown = (props) => (
+const GoingDown = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>"Can you hold the lantern for just one jiff?"</Pp>
 <Pp>"Sure thing."</Pp>
@@ -63,7 +65,7 @@ const GoingDown = (props) => (
 <Pp>neher31, you are disgusting.you are completely worthless and your brain is made of putty.if you slit your wrists or drowned or got run over or shot thru the brain no one would even realize.it would feel so good to crunch your ugly face in my hand</Pp>
 <Pp>and so I kept hearing that in my head all <span class="t">*</span>day."</Pp>
 <Pp>"Huh. Yah. Stay off the net."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default GoingDown;

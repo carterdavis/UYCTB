@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const MeetingTheChief = (props) => (
+const MeetingTheChief = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>The suction spits us out in a cavernous globular room. The walls curl in sort of like a split spheroid or the bend of a human kidney. Magnificent glass windows span the outer perimeter, drinking in the ample late morning glow. Wonder how come they're not tinted red like the rest of em. The rug underfoot is plush and shag, the same grey shade as the nighttime sky. The walls are adorned with a tessellated pattern of a cat digging its claws into a mouse's back.  The entire surface of Augustinius00 01Stone's big honking desk is an digital display lit with bright Ultradef data. The graphs and charts flip and zoom around. There is no sign of the man himself.</Pp>
 <Pp> Grabbus clears his throat. "Wait here. Mr. 01Stone will be with you shortly."</Pp>
@@ -165,7 +167,7 @@ const MeetingTheChief = (props) => (
 <Pp>Huge clammy palm rubs against my neck. The fingers push into my hair.</Pp>
 <Pp>"I will pray for you."</Pp>
 <Pp>They clench and yank me upwards by the skull. My neck stings taut like it's going to rip. Grabbus grunts and thrusts me headfirst down into the shag carpet. The grey fibers aren't nearly plush enough to cushion my descent. My nose crunches and the thudding crack of skeleton against concrete is almost pronounceable. My front teeth crunch. Blood gushes into my field of vision. I gag on something in the throat before I'm yanked up by my hair once more, and smashed once more against the ground, feeling my face give way, erupting, warm onto myself enough to melt the vision into void.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MeetingTheChief;

@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const MrAndMrs28Bumperton = (props) => (
+const MrAndMrs28Bumperton = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>Here's what Mr. and Mrs. 28Bumperton Did Every Sunday</Pp>
 <Pp>by Pnicholas45 20Luther</Pp>
@@ -14,7 +16,7 @@ const MrAndMrs28Bumperton = (props) => (
 <Pp>"While reading online news, while cooking my corn meal, while walking down the street, while wizzing in a urinal, while looking at birds," he stops to catch his breath.</Pp>
 <Pp>They'd paint flowers in the woods. They'd set up their canvas in front of their latest specimen. She'd draw the lines and he'd fill them with just the right color.</Pp>
 <Pp>They would sit out on the hill and watch the setting sun and it crept down the horizon. it'd be so warm. They'd take their shirts off and lay on the grass in each other's arms.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MrAndMrs28Bumperton;

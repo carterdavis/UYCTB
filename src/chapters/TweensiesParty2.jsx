@@ -2,15 +2,17 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Code from './../components/Code.jsx';
 
 
-const TweensiesParty2 = (props) => (
+const TweensiesParty2 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>It sounds much less creepy down here, as I'd hoped. The lamp glow is like orange noon light. Jumper56 is sipping a canister of Brain Drill wearing a squiggle skirt, an assortment of neon bangles, and her usual hard hat. She and some other person are engaged in smiling conversation. It seems like it's a fairly good chat, I wouldn't want to interrupt.</Pp>
-<Pp>The walls down here are speckled with personal photographic images printed onto glossy papper and carefully trimmed into various creative shapes. I have to squint to make out the scenes in the dimness. They primarily depict quiet moments in interior spaces like arms around shoulders, hands holding one another, candid laughter, muffins steaming in the tray, or an angled view of pink sunset clouds through a dusty window. I'm not in any of them, but I'm not taking it personally; it doesn't seem like she snaps any work photos. I myself only have a few hundred pics saved to my mindchip since my last wipe, I'm terrible at knowing what bits of my life are worth recording. It's sounds like their chat is winding down.</Pp>
+<Pp>The walls down here are speckled with personal photographic images printed onto glossy papper and carefully trimmed into various creative shapes. I have to squint to make out the scenes in the dimness. They primarily depict quiet moments in interior spaces like arms around shoulders, hands holding one another, candid laughter, muffins steaming in the tray, or an angled view of pink sunset clouds through a dusty window. I'm not in any of them, but I'm not taking it personally; it doesn't seem like she snaps any work photos. I myself only have a few hundred pics saved to my mindchip since my last wipe. I'm terrible at knowing what bits of my life are worth recording. It sounds like their chat is winding down.</Pp>
 <Pp>I intrude. "Hey thanks for throwing this party! I've been having such an awesome time, dam!!"</Pp>
 <Pp>She smiles wide. "Well that is really dope to hear dude!" We tap wrists. "The thing is, you must forgive me, but, my memory is so so bad. What's your name again?"</Pp>
 <Pp>"It's me! Jim29! This is how I look now forever, ha ha. Pretty <em>strange</em>, huh? Life sure loves to throw us for a loop."</Pp>
@@ -30,7 +32,7 @@ const TweensiesParty2 = (props) => (
 <Pp>"It would be an understatement to say it was the pits. We had to traverse the full diameter of Terrace Star-Circle-Octagon to get back home. One thing's for sure, there's a reason why they call it Stinky Town! Peee-yoo!! Ha ha."</Pp>
 <Pp>Her face drains into blankness. "Don't say stuff like that."</Pp>
 <Pp>"Stuff like what?"</Pp>
-<Pp>"The region's actual name is Oochie Doodaw, which means 'valley of abundance' in the ancient language. 'Stinky Town' is like, a super hurtful neo-imperialist epithet. Does that make sense?"</Pp>
+<Pp>"The region's actual name is Oochie Doodaw, which means 'valley of abundance' in the ancient language. 'Stinky Town' is like, a super hurtful altitudinalist epithet. Does that make sense?"</Pp>
 <Pp>"OK, I'm sorry. It's not like there's anything down there besides rats and sewage."</Pp>
 <Pp>"Actually I'm from there. And my family still lives there. Do you think I'm a rat?"</Pp>
 <Pp>I jut my lips into a classic pout, lower my chin, point my eyes up, and speak like a cute baby. "I'm sowwy!! Pwease fowgive me??"</Pp>
@@ -38,9 +40,11 @@ const TweensiesParty2 = (props) => (
 <Pp>"I apologized! What more do you want? I'm SORRY! I never meant to hurt your feelings. I've just been having a really really hard time lately. I'm learning to accept that my life won't ever be the same again. And in the meantime I'm just trying to do what makes the most sense, and maybe that just so happens to mean me acting like a messed up moron every now and again. I'm an engine burning chemicals with no control over my destination. But you're right, nuthin's been funny for <span class="t">*</span>years and <span class="t">*</span>years and <span class="t">*</span>years. I shouldn't have tried."</Pp>
 <Pp>"Dam, you are pretty quick to exonerate yourself completely!"</Pp>
 <Pp>I'm breathing too fast. "C'mon. Give me a break. You're not being fair."</Pp>
-<Pp>"It's so creepy how little regard you show for other people. Like yah, you're in an awful situation, I get that for sure, totally, but even if your old life is over, you are still a rich, educated, healthy young guy with a grotesquely lucratively easy and need I not mention WORTHLESS job. Not like you need to be ashamed of it but you gotta maintain some kind of relative scope. Do you know how hard I had to work to get your exact same job? I'm swimming in debt and I doubt I even make half your salary."</Pp>
+<Pp>"It's so creepy how little regard you show for other people. Like yah, you're in an awful situation, I get that for sure, totally, but even if your old life is over, you are still a rich, educated, healthy young guy with a grotesquely lucratively easy and need I not mention WORTHLESS job. Not like--"</Pp>
+<Pp>"The work I do isn't worthless. I'm sure I generate a big profit. They're making lots off of me."</Pp>
+<Pp>"I mean worth in terms of improving the lives of others. But see like, that's also part of the problem with people like you. You're complacent and complicit. Why would you let them make money off of you? You say that like it's a permanent fact. You don't understand how much gold they have up there. No one does. It's an inconceivable amount. So instead you look down on those with the least. Do you know how hard I had to work to get your exact same job? I'm swimming in debt and I doubt I even make half your salary."</Pp>
 <Pp>"Have you talked to your supervisor about seeking a pay increase?"</Pp>
-<Pp>"You say that like I'm an idiot. Of course I did. I'm doing everything I can."</Pp>
+<Pp>"You say that like I'm an idiot. Of course I have. I'm doing everything I can."</Pp>
 <Pp>"I'm seriously not trying to make you mad. I just wanted to have a nice conversation."</Pp>
 <Pp>"You know how I'm always typing at work? And how that always bothers you so much?"</Pp>
 <Pp>"Yop."</Pp>
@@ -57,7 +61,7 @@ const TweensiesParty2 = (props) => (
 <Pp>"I thought I did."</Pp>
 <Pp>"STOP it! Please!! Just chill out. I'll do better. I swear. Give me a chance."</Pp>
 <Pp>"I don't need people like you. There are <em>so many</em> people like you. Please get out of my house."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default TweensiesParty2;
