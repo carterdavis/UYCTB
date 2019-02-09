@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
 
-const StinkyTown = (props) => (
+const StinkyTown = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>Mjmubhe__ unlocks the rusty family turboshed, reaches in, unzips something, unknots something, pulls out two helmets, and extends them toward us. "Put it right up on your head, now do it. Right up on."</Pp>
 <Pp>Neher31 starts putting theirs on. Mine smells like ancient head sweat. I ask, politely, "Why do we need helmets?"</Pp>
@@ -36,7 +38,7 @@ const StinkyTown = (props) => (
 <Pp>Mjmubhe__ turns back to us. "They are the transferrers. They take you there so safely, stupendous, not a problem at any point. OK?"</Pp>
 <Pp>My entire sense of geography is based on the curly, squiggly anti-logic of the highway system. I never know where I am. Some people have an intuitive, bird's-eye comprehension of where things are in NWE, but in my mind I'm a single tiny point placed randomly on a bumpy plane so vast it might as well be endless. Endless and cold. I haven't been able to move a single toe for the past twenty <span class="t">*</span>minutes. A few of my muscles have thrown in the towel. "What makes this area so dangerous?"</Pp>
 <Pp>"This neck of the woods is what some of the folks call 'high enforcement zone.' Boasts quite a myriad of hazards, is just how it goes, just how it goes."</Pp>
-<Pp>The three speedsters look woefully neglected. Their noses are broken and misshapen, their eyes are loosely dangling by their retinal wiring, their cheeks are enormously swollen. They don't have that standard shiny "flesh" layer that most speedsters do. Their rusted skeletons are exposed and greasy. Some wires are sparking near where the engine and its processors are generally located, which leads me to suspect that the transferrers surgically installed a bypass to get around the <Snip bg="red, yellow" label="satellite registration system">I won't get too in-depth, but a federal server endpoint assigns each speedster a unique, accessible hashcode, and most all stoplights, parking notches, and speed checks use it to dole out instantaneous automated punishments. It's a simple 1-to-1 lookup in the hashmound, then boom, bada bang, now you owe us fifty hunks. It's rumored that one's personal code can factor into things like red light lengths, super red rates, and parking fees, but there's really no way to know; those systems are black boxes. Anyway, driving an unregistered vehicle is a regionally-prohibited offense, punishable by forced drowning. I just keep staring at these speedsters' mangled bodies. I might be finding them very relatable.</Snip>.</Pp>
+<Pp>The three speedsters look woefully neglected. Their noses are broken and misshapen, their eyes are loosely dangling by their retinal wiring, their cheeks are enormously swollen. They don't have that standard shiny "flesh" layer that most speedsters do. Their rusted skeletons are exposed and greasy. Some wires are sparking near where the engine and its processors are generally located, which leads me to suspect that the transferrers surgically installed a bypass to get around the satellite registration system. <Snip state={state} bg="red, yellow">I won't get too in-depth, but a federal server endpoint assigns each speedster a unique, accessible hashcode, and most all stoplights, parking notches, and speed checks use it to dole out instantaneous automated punishments. It's a simple 1-to-1 lookup in the hashmound, then boom, bada bang, now you owe us fifty hunks. It's rumored that one's personal code can factor into things like red light lengths, super red rates, and parking fees, but there's really no way to know; those systems are black boxes. Anyway, driving an unregistered vehicle is a regionally-prohibited offense, punishable by forced drowning. I just keep staring at these speedsters' mangled bodies. I might be finding them very relatable.</Snip></Pp>
 <Pp>I gently nudge Neher31's shin with my boot. "How are you?"</Pp>
 <Pp>"Not very good, obviously. No offense."</Pp>
 <Pp>"None taken. What're you reading?"</Pp>
@@ -56,7 +58,7 @@ const StinkyTown = (props) => (
 <Pp>"Do not want it. Piece of zigzog. I return back to home now. See you later."</Pp>
 <Pp>Neher31: "No offense taken, he he! But I don't think we'll probably see you again. "</Pp>
 <Pp>"Someday we climb up and kill you spoiled pigs. This is what you deserve. That night we splash laughing in the river of your blood. Run back to your ugly home. Do not sleep." The shadows swallow the glow of her torch. "Good night."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default StinkyTown;

@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const Lunchtime = (props) => (
+const Lunchtime = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>Lunch time! Yum yum. Jumper56 is sitting at the other end of the chow station. I'm eating a bowl of grey kernel-fed pork lumps with a side of chewy Froot Pop Ems. She's eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
 <Pp>I burp and dig for a particularly appealing lump. "I wish the tables in here weren't so wobbly."</Pp>
@@ -63,7 +65,7 @@ const Lunchtime = (props) => (
 <Pp>"I bet those birds know as much about life as you do."</Pp>
 <Pp>"Ch-ching!"</Pp>
 <Pp>"Yah. We've just been studyin different topics."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default Lunchtime;

@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const HappySplash2 = (props) => (
+const HappySplash2 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>"Dr. 85Grinski, I am in desperate need of today's Happy Splash."</Pp>
 <Pp>He enters the splashing chamber from behind a velvet curtain. He's wearing an earthtone man-gown and has his hair up in a vertical ponytail. Smiling, grinning, beaming.</Pp>
@@ -20,7 +22,7 @@ const HappySplash2 = (props) => (
 <Pp>"I wish I could hold you under for longer, never pull you back up. Wouldn't you like that you dumb sack of flesh? Huh?"</Pp>
 <Pp>"I feel...good..."</Pp>
 <Pp>"Yah. Of course you do, dumbass."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default HappySplash2;

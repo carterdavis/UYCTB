@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const EdgeOfEverything = (props) => (
+const EdgeOfEverything = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>We take the stairs two at a time. Their hand is warm and soft. The steps are deep and not quite wide enough. I can feel those dizzy spins. I'm having trouble thinking of what exactly to say, but I'm enjoying trying to figure it out in my head. Flight after flight of stairs.</Pp>
 <Pp>We're going west, which means we need to ride the red rail, Cabooster. I'm hoping my Cabooster profile has some netgold left. I scan my face and order us two choo choo tickets. The system assigns us fourth class seats after calculating my <span class="t">*</span>yearly income and cheerfully greets "Good evening, Bunndy22 35Fludge." The cabin is clean and comfortable. Could be worse.</Pp>
@@ -70,7 +72,7 @@ const EdgeOfEverything = (props) => (
 <Pp>"I don't think we'll go to hell when we die. Or heaven. I think we'll just start to float forever."</Pp>
 <Pp>"That just sounds like heaven, muchacho. Except in heaven you get wings."</Pp>
 <Pp>The ground trembles. It throbs and roars enormously beneath us. They grab hold of my midsection. The sound is a deafening growl, it makes my ears sting. It's a sound that can devour the sky. I bend over and cover my neck. The soil shudders, metal screams as it bends. They're squeezing tightly. I forget to breathe.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default EdgeOfEverything;

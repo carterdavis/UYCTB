@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const MeAndTulip = (props) => (
+const MeAndTulip = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>"Good morning Mr. 35Fludge!"</Pp>
 <Pp>"Hello Tulip."</Pp>
@@ -18,7 +20,7 @@ const MeAndTulip = (props) => (
 <Pp>"I see. In what way would you like me to speak differently?"</Pp>
 <Pp>"Never. Seriously don't talk at all."</Pp>
 <Pp>"I am so sorry. This is devastating news."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MeAndTulip;

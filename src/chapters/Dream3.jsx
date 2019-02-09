@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const Dream3 = (props) => (
+const Dream3 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>So I'm alone. Walking down the long hallway. Can't find the door. Could be walking the wrong way. So impossible for me to tell. Never remembered to get the directions. Stupid stupid stupid so stupid.</Pp>
 <Pp>Each flight of stairs I ascend places me lower. Each barred window overlooks a barren field. The air stinks of sweat. It's been a million <span class="t">*</span>years since I last saw the wonderful sky. I walk onto the basement balcony and look out over the edge. My rosy cheeks sting from grinning.</Pp>
@@ -37,7 +39,7 @@ const Dream3 = (props) => (
 <Pp>"Am I sweet yet?" I yank out my tongue and wipe it on my skin.</Pp>
 <Pp>"Don't forget," she yawns for just a <span class="t">*</span>second, "who, who you are."</Pp>
 <Pp>Grandma looks back down at her crossword. "Nine letter word, down, last name of the best grandson." She scribblies in the boxes. "0-3-G-O-L-D-M-A-N."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default Dream3;

@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Z from './../components/Z.jsx';
 
-const SmilingHour = (props) => (
+const SmilingHour = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Z d={12} u="j29">: yah, that should work for me</Z>
 <Pp>I sit on the circular couch watching teevee. The couch is circular, shaped like a donut, and I'm the filling. My celly vibrates on the cushion. It's been buzzing nonstop. Completely sucks to use. I'm currently watching a news program called "Smiling <span class="t">*</span>Hour" brought to you by Ha Ha Entertainment. This reporter always picks very tender stories. Generally they warm my heart. The film is filtered to look especially rosy. Two friends are walking, arms around each other's shoulders.</Pp>
@@ -21,7 +23,7 @@ const SmilingHour = (props) => (
 <Pp>"Of course. I wad up thousands of tissues and wipe him up."</Pp>
 <Pp>"Why do you do that for him?"</Pp>
 <Pp>"He's my friend. I stick up for my friends."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default SmilingHour;

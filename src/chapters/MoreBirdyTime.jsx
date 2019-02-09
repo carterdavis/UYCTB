@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Z from './../components/Z.jsx';
 
-const MoreBirdyTime = (props) => (
+const MoreBirdyTime = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>How'd you get all the way over here Boom? Yah it's me, Jim29, don't worry. I'm going to look a little different from now on but that's just how life goes. Did you have a nice Respectfulday? Don't you get tired climbing around with just your toes and your beak? Your jaw must be so strong. You're so curious. Aren't you! I love the way your eyes move around. You always look so puzzled.</Pp>
 <Pp>Little Buzz always gets about three <span class="t">*</span>seconds of seed for dinner. I just shake it like that, one-two-three. She always knows when it's time to eat. I feel like she's the one that really watches me. <span class="t">*</span>day in and <span class="t">*</span>day out she lurks in the corner of her cage, glowering at me. Must be trying to figure out what I'm up to. What're you thinking about Buzz? What do you think of me? Ha ha. When she runs her beak through her feathers she's cleaning herself. She must think she's pretty dirty. I love you Buzz! You know I do.</Pp>
@@ -30,7 +32,7 @@ const MoreBirdyTime = (props) => (
 <Pp>"Yah. How did you get my number?"</Pp>
 <Pp>"I can't wait to wrap my hands around your little neck tonight. The last thing you'll taste is my hot sour sweat."</Pp>
 <Pp>The line goes dead. I guess he hung up.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MoreBirdyTime;

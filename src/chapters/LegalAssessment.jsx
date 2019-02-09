@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const LegalAssessment = (props) => (
+const LegalAssessment = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I sign into the computering device at the legal desk. The chairs for visitors are really modern and pretty hard on my back. I can hear the sound of shouting through the walls. My head pulses in pain. The receptionist must be doing something elsewhere. I check a checkbox labelled "I Am Here" and uncheck the "I Am Elsewhere" one before clicking submit. The speakers are quietly playing "Buddy I Love You" by Tim the Little Lover Man, a simmering ballad of low volume passion. The room is empty. The overhead lights burn my eyes. I shake another Jubimum tablet out of the canister. I'll take up to three a <span class="t">*</span>day on the dire occasions.</Pp>
 <Pp>A woman trudges through the side door in a grey legal gown. She has short black hair and looks very tired. That's not a critique of her appearance, she just seems truly fatigued. "Mr. 03Goldman...?"</Pp>
@@ -59,7 +61,7 @@ const LegalAssessment = (props) => (
 <Pp>"You're serious?"</Pp>
 <Pp>She slides a folder over to me. "Yes...this is not a comedy prank...this is standard procedure at all the great big companies these <span class="t">*</span>days."</Pp>
 <Pp>I flip open the folder.</Pp>
-<Pp>"Your new name was algorithmically generated to be stylish, funky, and 'totally you.' Your first name is now Bunndy...two n's...and your last name is Fludge. Your registration numbers are 009 and 35."</Pp>
+<Pp>"Your new name was algorithmically generated to be stylish, funky, and 'totally you.' Your first name is now Bunndy...two n's...and your last name is Fludge. Your registration numbers are 22 and 35."</Pp>
 <Pp>"Bunndy22 is my name now?" I pull out my birth certificate. Sure enough.</Pp>
 <Pp>"It's short for Bunnson22."</Pp>
 <Pp>"Interesting, I've never heard of someone named Bunnson." I lift up my new driver's license. The 3D portrait barely looks like me. My hand shakes.</Pp>
@@ -84,7 +86,7 @@ const LegalAssessment = (props) => (
 <Pp>"Sometimes I wonder what they think down there as they throw those colored balls back and forth...all <span class="t">*</span>day, they just throw them at each other...must be nice I imagine..."</Pp>
 <Pp>I breathe in halting gasps. "Is Mr. 21Ninkus's door on the left or the right side?"</Pp>
 <Pp>"It is at the very end..." She pushes her glasses up on her nose. "...I'm very sorry."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default LegalAssessment;

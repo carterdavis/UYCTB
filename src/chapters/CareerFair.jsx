@@ -1,10 +1,12 @@
 import React from 'react';
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const CareerFair = (props) => (
+const CareerFair = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
   <Pp>I never "intended" to work here. I ended up here.</Pp>
   <Pp>I went to an employment fair during my last <span class="t">*</span>year at Knowledge Dome, about a <span class="t">*</span>month before my ultimate review. I wasn't going to be graduating with a degree that clearly lent itself to work in any certain specific industry so I just wandered kinda listlessly past all the bright foam booths. It was a scorching hot nasty summer <span class="t">*</span>day and the gymnasium was boiling damp. My nice grey unisuit was hanging in a closet in my grandma's house 50 twentyleaps north and I didn't have access to a speedster so I was wearing my least wrinkled button up tucked into my least baggy gym khakis. My hair was combed straight down and gelled into lumps and my bushy caterpillar moustache trimmed as best as I could. All the other kids were wearing their bright yellow interview shoes. My advisor forgot to forward me the form to order a pair.</Pp>
@@ -30,7 +32,7 @@ const CareerFair = (props) => (
   <Pp>"Is it OK if I haven't done much programming? I only used a little bit of FlashScript in one of my microlessons."</Pp>
   <Pp>"Yes! Why are you underselling yourself?" For a fraction of a <span class="t">*</span>second her eyes bored through mine, deep into my sensitive noodle brain. But then she smiled. "I'm sure you'll get the hang of it. You'll pick it up quick. You're a star, Jim29! We're looking for people just like you."</Pp>
   <Pp>The interview process was relatively painless. I can't really complain. In my first interview they made me wear a weighted vest like you wear when they snap images of your bones and they tested to see how quickly I could escape a maze. In my second interview they made me wear a blindfold and took me underground and had me answer questions about my personality in the middle of what sounded like a large empty stadium. I really didn't enjoy hearing my wispy voice echo back to me off the walls of that cavernous interior. I got an offer the next Activeday.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default CareerFair;

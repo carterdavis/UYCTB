@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const CheckInWithNug20 = (props) => (
+const CheckInWithNug20 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>The slides are especially slippery today. I plop out on the 3rd floor center hub and make my way to the east wing. I'm figuring I'll check in with Nug20 first in case he has any important updates, then I'll get some yummy nummies from the Belly, then I'll had back up to the Neck so I can finally charge my celly and get to work. This area isn't in its usual state of mania. It kind of seems like people are just chilling.</Pp>
 <Pp>The door's shut. I consider knocking, but I figure it's probably fine to let myself in.</Pp>
@@ -47,7 +49,7 @@ const CheckInWithNug20 = (props) => (
 <Pp>"Nop. This is our last conversation. You're gone, OK? We don't know each other."</Pp>
 <Pp>"Hm. Goodbye."</Pp>
 <Pp>"Yop."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default CheckInWithNug20;

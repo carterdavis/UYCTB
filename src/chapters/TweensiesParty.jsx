@@ -3,13 +3,15 @@ import React from 'react';
 
 import Snip from './../components/Snip.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const TweensiesParty = (props) => (
+const TweensiesParty = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
-<Pp>These highways don't see much traffic. Jumper56 lives in sort of a weird residential zone on the outskirts of Big Town's factory district. I <Snip label="downloaded" bg="red, yellow">Only recently did I pony up the extra four hunks a <span class="t">*</span>month to upgrade to TOTALNet Tier Four Dynamite PLUS+ High-Speed Powernet Digital Connection ( + Social & Video), since I can be sort of a data hog. The speeds of my lesser data package, Tier Three Dynamite Unstoppably Qwik Powernet Digital Connection (+ Social & Video), would get miserably throttled unless I was using one of TOTALNet's dinky sponsored Premium Programs. This time the download bar indicated it'd be done downloading in a <span class="t">*</span>minute, then it jumped to three <span class="t">*</span>hours, two and a half <span class="t">*</span>hours, and settled on one <span class="t">*</span>hour. Maps are complicated, I don't blame em.</Snip> the route to her place using Nation Map Extreme.</Pp>
+<Pp>These highways don't see much traffic. Jumper56 lives in sort of a weird residential zone on the outskirts of Big Town's factory district. I downloaded <Snip state={state} bg="red, yellow">Only recently did I pony up the extra four hunks a <span class="t">*</span>month to upgrade to TOTALNet Tier Four Dynamite PLUS+ High-Speed Powernet Digital Connection ( + Social & Video), since I can be sort of a data hog. The speeds of my lesser data package, Tier Three Dynamite Unstoppably Qwik Powernet Digital Connection (+ Social & Video), would get miserably throttled unless I was using one of TOTALNet's dinky sponsored Premium Programs. This time the download bar indicated it'd be done downloading in a <span class="t">*</span>minute, then it jumped to three <span class="t">*</span>hours, two and a half <span class="t">*</span>hours, and settled on one <span class="t">*</span>hour. Maps are complicated, I don't blame em.</Snip> the route to her place using Nation Map Extreme.</Pp>
 <Pp>The lanes coil like fraying wires.  Rusty adscreens loom between em, compression artifacts brightly flickering. Wrong turns around here are met with dead ends, raised streets dropping off with no barricades.</Pp>
 <Pp>"Take a right turn onto the vertical speedramp. Prepare for quickness! Jim29, will you grant me the temporary privilege to speak personally?"</Pp>
 <Pp>"What's up Tulip?"</Pp>
@@ -24,7 +26,7 @@ const TweensiesParty = (props) => (
 <Pp>"You are my personal Christ! Jim29 you are my motorist Messiah! I am reborn! HALLELU--"</Pp>
 <Pp>Tulip's ebullient voice fades out as I switch off the coal. Jumper56's hut is tightly wedged between its neighbors. The architecture around here always looks so crammed in. This terrace's local ordinances levy a heavy tax on above-ground floors to ensure that the neighborhoods around here would be very easy to build turnpikes over. With uniformly low-roofed domiciles, the homes tend to be mostly basement. Jumper56 told me one time that she has to keep her bedroom on the lowest floor, the only interior space where she doesn't constantly hear the noise of rumbling wheels. It was very recently discovered that the Serenity and Grace megafaults intersect just South of this zone, which is unfortunate to say the least. Her subhut, #12, faces the diagonal intersection of East 35th Street, Northeast 49th Street, and Southwest 93rd Street. The front of her home is bedecked in colorful vinyl siding and her tiny pebble garden is neatly raked.</Pp>
 <Pp>I'm considering knocking. It's probably fine to let myself in, right?</Pp>
-<Pp>Inside is packed with strobing lights, sparkling fog, and throbbing percussion. People are swiveling and lurching their limbs to the noise in complicated patterns. <span class="chapterSong"><LazyAudio src="assets/Industrial.mp3" loop={true} bg="rgb(151, 158, 245)" fg="#000" /></span> This beat is utterly terrifying. It sounds like a storm of metallic tritones over thunderous electro-gong beats pounding out ornate euclidean rhythms. It's hard to tell in the thick fog where bodies begin and end. All I can do is move forward, hoping I don't step on anyone's toes. It's impossible to make out faces in the dark or hear words among the chatter. I hope that people think my pants are cool. Need to remember not to slouch. Smile! The lights are too bright, stop wincing. Think about good things to say. Being natural is hard work. Stop thinking about worrying. But I absolutely cannot see where I'm going. I knock my arm into one person's shoulder and I brush another person's right hand with my left. I breathe deep the muggy exhalations of others.</Pp>
+<Pp>Inside is packed with strobing lights, sparkling fog, and throbbing percussion. People are swiveling and lurching their limbs to the noise in complicated patterns. <div class="chapterSong"><LazyAudio src="assets/Industrial.mp3" loop={true} bg="rgb(151, 158, 245)" fg="#000" /></div> This beat is utterly terrifying. It sounds like a storm of metallic tritones over thunderous electro-gong beats pounding out ornate euclidean rhythms. It's hard to tell in the thick fog where bodies begin and end. All I can do is move forward, hoping I don't step on anyone's toes. It's impossible to make out faces in the dark or hear words among the chatter. I hope that people think my pants are cool. Need to remember not to slouch. Smile! The lights are too bright, stop wincing. Think about good things to say. Being natural is hard work. Stop thinking about worrying. But I absolutely cannot see where I'm going. I knock my arm into one person's shoulder and I brush another person's right hand with my left. I breathe deep the muggy exhalations of others.</Pp>
 <Pp>I'm pretty close to the staircase. I haven't spotted Jumper56 on this floor. It might be quieter and less stuffed downstairs. Potentially a little less scary. A group of very tall big freaking guys are unintentionally blocking the stairway. They're loudly hooting and chiding. I'm looming at the perimeter of their social ring.</Pp>
 <Pp>"--long ago one of my friendly fellow citizens shot up sting know what I mean? Poor snouch said it made him imagine himself as the living embodiment of sin. Ever since he can't remember anyone's name anymore, says he always feels like he's falling from a great height."</Pp>
 <Pp>"Help! Me falling! DOINK!!"</Pp>
@@ -43,7 +45,7 @@ const TweensiesParty = (props) => (
 <Pp>Slither: "Harmony is a freaking amazing person. Definitely the bomb. If you're friends with her, that means you're a good person too."</Pp>
 <Pp>"Thank you! She's definitely really great. Do you know where she is actually?"</Pp>
 <Pp>Zoetrope: "Last I saw her she was down in basement 2. Happy Tweensies Mr. 35Fludge!"</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default TweensiesParty;

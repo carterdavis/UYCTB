@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const LastDitch = (props) => (
+const LastDitch = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I drag myself to the slide room. I hop in the slide that loops all the way up to the Neck. I don't have time for describing.</Pp>
 <Pp>I'm trying really hard to process things. I know God must've had a reason for this. He has so many awesome reasons for everything, but they're just really weird reasons, and we're never going to figure them out. He's playing the long game...testing our faith...trying to trick us, but in a benevolent, weird way. I suspect he's just that much of a mastermind.</Pp>
@@ -67,7 +69,7 @@ const LastDitch = (props) => (
 <Pp>"Wait, shoot, are you still struggling with that bug? Am I distracting you from that?"</Pp>
 <Pp>"No I fixed it this morning. I didn't need your help."</Pp>
 <Pp>"Oh OK. Very cool, nice."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default LastDitch;

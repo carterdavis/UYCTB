@@ -3,11 +3,13 @@ import React from 'react';
 import Pulse from 'react-reveal/Pulse';
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
 
-const ThroughTheGorge = (props) => (
+const ThroughTheGorge = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>The cold plastic trailer bed makes my bungcheeks cold. The wheels beneath roll over crunchy trash and rocky terrain. I can feel every impact. It's hard to tell know how fast we're moving through the inky darkness; the big men instructed us to turn off our lightpieces. My legs are crossed. My feet don't feel cold anymore, they just don't feel at all. I can hear a peculiar humming noise off in the distance to my right. One of my gloves is gripping the railing, the other is gripping my celly as I browse through some recent scoops. I feel comfortably occupied. I set the brightness to extremely dim, so I have to hold it up real close to my face and squint to make out the letters.</Pp>
 <Pp>The TroughDaddy feed is pretty tasty right now, we've got:</Pp>
@@ -58,7 +60,7 @@ const ThroughTheGorge = (props) => (
 <Pp>"--LET ME WRAP AROUND YOU LET ME WRAAP--"</Pp>
 <Pp>(its slick tubes lurch to engulf four big men, slurping the outlines of their writhing bodies up slowly, I can barely see through the searing gunfire light,)</Pp>
 <Pp>"--YUM, YUM, YUMMY!!! YOU ARE SO SCRUMPTIOUS! YOUR SKIN, YOUR BONES, YOUR HAIR! YOUR EYES AND YOUR ARMS AND YOUR LEGS AND YOUR LIPS! OOOUUUMMMM YOU ARE A DELIGHT TO CONSUME! MY PERFECT TONGUE WILL ALWAYS TASTE YOU!"</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default ThroughTheGorge;

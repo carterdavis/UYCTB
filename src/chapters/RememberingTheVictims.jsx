@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const RememberingTheVictims = (props) => (
+const RememberingTheVictims = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>Remembering the Victims of the Dimples Disaster</Pp>
 <Pp>by Greg98 92Stephephenson</Pp>
@@ -23,7 +25,7 @@ const RememberingTheVictims = (props) => (
 <Pp>"Is daddy in Hell now?"</Pp>
 <Pp>[...]</Pp>
 <Pp>The families ask that you not harass them on social media programs. Mr. 79Shmanderson has been lovingly taxidermied and made into a piece of high-end furniture. Mr. 28Bumperton has been cautiously burned and used to grill a savory meal. The 79Shmanderson family is currently running a LetsPayThem campaign, raising gold to open a factory that crafts miniature pewter statues of their patriarch. It ends in two <span class="t">*</span>months.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default RememberingTheVictims;

@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const MorningChat2 = (props) => (
+const MorningChat2 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I'm three <span class="t">*</span>minutes late for Morning Chat. Augustinius00 01Stone is center stage, arms akimbo, deep into the Morning Stretch. His hologram face is calmly smiling, eyes closed. I find a seat way up in the 70th west row. My legs feel like jelly. I've been trying to scrape some coagulated bloodsquirt (from when the guy's head blew up) off the sleeve of my button round using my sharp fingernails. I'm giggling to myself a little bit, can't help it. Feeling Happy. The CEO of the company I work for addresses the crowd.</Pp>
 <Pp>"Good morning, Dimplers! Can I get a Modestday Boo-yah?"</Pp>
@@ -26,7 +28,7 @@ const MorningChat2 = (props) => (
 <Pp>"They say blessed are those who can smile in trouble, who can gather strength from distress, and grow brave by reflection. 'Tis the business of little minds to shrink, but they whose heart is firm, and whose conscience approves their conduct, will pursue their principles unto death. Which is to say, all I ask is that you take chances, make mistakes. That's how you grow, my dear friends. Neither a wise man nor a brave man lies down on the tracks of history to wait for the choo choo of the future to run him over. Pain will nourish your courage."</Pp>
 <Pp>His hologram's eyes turn into huge cartoon hearts.</Pp>
 <Pp>"I love you all. So, so much. God put us here together for a very good reason. We're the lead architects of soon-to-be history. Are ye not mighty? HA HA! Let's make names for ourselves. Let's be the finest, think the loudest, and fill every corner with our supernatural grace. Amen, amen, amen."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default MorningChat2;

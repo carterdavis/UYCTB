@@ -2,13 +2,15 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const CyberTherapy = (props) => (
+const CyberTherapy = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
-<Pp>I close the hatch to my workpod and open up Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. <span class="chapterSong"><LazyAudio src="assets/Counsel Startup Music.mp3" loop={true} bg="rgb(255, 219, 222)" fg="#000" /></span> The serene startup music melts into my ears. This is what it would sound like if a cloud could yawn. I don't mind it at all. I've been going to virtual appointments with Dr. Kindbrain off and on for the better part of a <span class="t">*</span>year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. "How have you been feeling lately, Jim29?"</Pp>
+<Pp>I close the hatch to my workpod and open up Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. <div class="chapterSong"><LazyAudio src="assets/Counsel Startup Music.mp3" loop={true} bg="rgb(255, 219, 222)" fg="#000" /></div> The serene startup music melts into my ears. This is what it would sound like if a cloud could yawn. I don't mind it at all. I've been going to virtual appointments with Dr. Kindbrain off and on for the better part of a <span class="t">*</span>year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. "How have you been feeling lately, Jim29?"</Pp>
 <Pp>"Not very good, Dr. Kindbrain."</Pp>
 <Pp>"Is your computering device's microphone enabled?" It pronounces microphone like MICK-ruh-phone. "Try enabling your computering device's microphone."</Pp>
 <Pp>"Whoops! Sorry, can you hear me now?"</Pp>
@@ -39,7 +41,7 @@ const CyberTherapy = (props) => (
 <Pp>"Do you swear to God that you will notify them, Jim29?"</Pp>
 <Pp>"Yah."</Pp>
 <Pp>"OK. Thank you Jim29. Now, tell me more about how you have been feeling lately."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default CyberTherapy;

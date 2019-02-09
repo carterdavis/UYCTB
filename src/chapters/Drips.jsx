@@ -2,10 +2,12 @@ import React from 'react';
 
 import D from './../components/D.jsx';
 import U from './../components/U.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const Drips = (props) => (
+const Drips = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <D><U>[Jonny freek Out##]</U> > hey jim29 <U>[Mr Jim29 That'sme((]</U> i want to rip off yor testicals and make them my chewtoy</D>
 <D><U>[tony smash $MA$HER KREW]</U> > <U>[Mr Jim29 That'sme((]</U> kick your puny head so hard it bounces off the walls like bouncey ball. BBOINK</D>
@@ -18,7 +20,7 @@ const Drips = (props) => (
 <D><U>[dddfffdfdd]</U> > If youre against Violent Aron but still support Jimmi Smxooxth, who litrally chucked his dog onto the roof of his living facility (video in bio), then you are apart of the problem.</D>
 <D><U>[wesley smash $MA$HER KREW]</U> > <U>[Mr Jim29 That'sme((]</U> going to freeze you in my fridge</D>
 <D><U>[OOZING!*!GUSHING]</U> > <U>[Mr Jim29 That'sme((]</U> jim29 i will make you scream</D>
-{props.children}</div>
+{children}</div>
 );
 
 export default Drips;

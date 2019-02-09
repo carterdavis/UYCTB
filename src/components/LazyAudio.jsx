@@ -1,12 +1,15 @@
 import React from 'react';
 
-export default class LazyAudio extends React.Component {
+import VisibilitySensor from 'react-visibility-sensor';
+
+export default class LazyAudio extends React.PureComponent {
   constructor(props) {
     super(props);
     this.state = {
       loaded: "unloaded",
       error: false,
-      paused: "paused"
+      paused: "paused",
+      corner: ""
     };
     this.audio = null;
   }
@@ -32,11 +35,6 @@ export default class LazyAudio extends React.Component {
     this.audio.loop = this.props.loop;
   }
 
-  shouldComponentUpdate(nextProps, nextState) {
-    if (nextState == this.state) return false;
-    return true;
-  }
-
   mainClick() {
     if (this.state.paused == 'paused') {
       this.audio.play();
@@ -46,7 +44,16 @@ export default class LazyAudio extends React.Component {
     } else {
       this.audio.pause();
       this.setState({
-        paused: "paused"
+        paused: "paused",
+        corner: ""
+      });
+    }
+  }
+
+  inView(visible) {
+    if (this.state.paused == "playing" && !visible) {
+      this.setState({
+        corner: "corner"
       });
     }
   }
@@ -57,6 +64,6 @@ export default class LazyAudio extends React.Component {
     const styleSymbol = this.state.paused == 'paused' ? { borderLeftColor: this.props.fg }
       : { borderLeftColor: this.props.fg, borderRightColor: this.props.fg };
 
-    return <button class={`playButton ${this.state.loaded}`} onClick={() => { this.mainClick() }} style={styleButton}><div class={`symbol ${this.state.paused}`} style={styleSymbol}></div></button>
+    return <VisibilitySensor onChange={(visible) => { this.inView(visible) } } intervalDelay={500} partialVisibility><button class={`playButton ${this.state.loaded} ${this.state.corner}`} onClick={() => { this.mainClick() }} style={styleButton}><div class={`symbol ${this.state.paused}`} style={styleSymbol}></div></button></VisibilitySensor>
   }
 }

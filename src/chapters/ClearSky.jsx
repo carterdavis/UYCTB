@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const ClearSky = (props) => (
+const ClearSky = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I awake in the fetal position with a mouth full of salty ocean water. The rays of dawn are brilliant and pink in the perfectly clear sky. My body feels horrendous. My head is pumping with pressure and my stomach is full of spikes. I'm feeling the withdrawal symptoms for Nervacor, Dexagent, Nutridote, and Jubimum simultaneously. I'm completely soaked. The ice floe is bobbing up and down. My guts feel like they're imploding. In the warm sun I am terrified and weak. I'm glad my mindchip still has battery. It feels good to know I can at least get this story down and tell it in my inimitable style.</Pp>
 <Pp>I must've been trapped in the Soaking Pit for longer than I was aware. Otherwise I don't get why everything melted so fast. I sit up on my rear and attempt to orient myself. I'm sitting on a substantially large, gradually rotating slab of ice. How can I know which way is north? I feel nothing but panic and dread.</Pp>
@@ -17,7 +19,7 @@ const ClearSky = (props) => (
 <Pp>...</Pp>
 <Pp><div class="roar">PLEASE, SING FOR ME!</div></Pp>
 <img id="finalo" src="o2.png" />
-{props.children}</div>
+{children}</div>
 );
 
 export default ClearSky;

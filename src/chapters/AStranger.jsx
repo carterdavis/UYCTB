@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const AStranger = (props) => (
+const AStranger = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>There is a very big guy standing outside of my new workpod. He's gotta be at least three leaps taller than me. His pink unwrinkled skin is slick, his hair thin and blond, his eyes deeply inset and closed. He looks so peaceful, I'm hesitant to disturb him. But that seems like what I ought to do.</Pp>
 <Pp>"Excuse me mister, do you need anything?"</Pp>
@@ -22,7 +24,7 @@ const AStranger = (props) => (
 <Pp>"Whoa, OK gotcha sorry. Lead the way big guy. Ha ha."</Pp>
 <Pp>Grabbus walks to the farthest wall and inscribes a sequence of geometric symbols into his celly. The wall melts into a pile of sludge the color of Strawbberry cereal. The revealed passage looks carved out of the same shiny pink material, glaring lurid under incandescent light.</Pp>
 <Pp>I follow him into a dim cyan cylindrical chamber. The entrance refills behind us. I shut my eyes before the blinding light sears em. We are lifted skyward.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default AStranger;

@@ -4,7 +4,7 @@ import Cloak from './components/Cloak.jsx';
 import Z from './components/Z.jsx';
 import store from './redux/store.js';
 import { chapters } from './chapters.js';
-import { toggleToC, updateCurrent, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
+import { toggleToC, updateCurrent, updateDimensions, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
 
 const range = (start, end) => [...Array(1+end-start).keys()].map(v => start+v);
 
@@ -59,7 +59,7 @@ export const getToC = (toggle) => (
 );
 
 export const getChapters = (state) => (
-  range(state.beginning, state.end+2).map(i => { if (chapters[i]) return (
+  range(state.beginning, state.end+7).map(i => { if (chapters[i]) return (
     <Cloak appState={state} chapter={chapters[i]} num={i} />
   )})
 );
@@ -71,3 +71,17 @@ export const getAllChapters = (state) => (
     </div>
   )})
 );
+
+export const getDimensions = () => {
+  var w = window,
+      d = document,
+      documentElement = d.documentElement,
+      body = d.getElementsByTagName('body')[0],
+      width = w.innerWidth || documentElement.clientWidth || body.clientWidth,
+      height = w.innerHeight|| documentElement.clientHeight|| body.clientHeight;
+  return { width, height };
+}
+
+export const setDimensions = () => {
+  store.dispatch(updateDimensions(getDimensions()));
+}

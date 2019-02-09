@@ -2,10 +2,12 @@ import React from 'react';
 
 import LazyAudio from './../components/LazyAudio.jsx';
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const ThePit = (props) => (
+const ThePit = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>When I saw light again I was floating. I dragged my arms through brackish lukewarm magenta goo which smelled like powdered cumin. I was floating in a circular pool full of it. Pretty big pool. The fluid was about up to my nipples. My feet touched the ground. The interior stone walls of the pool stretched upward, I craned my neck back but it hurt. Far up on the outside rim a man gazed down at me. His smile was beaming and his face skin was sagging like it was melted. I couldn't seem to find a ladder up and out. I felt very exposed. I couldn't remember most of my fundamental knowledge. They must've disconnected my mindchip from my brain vein. I was wearing this thick white smock. It was heavy, must have sucked up a lot of the magenta fluid. Besides the smock I was nude.</Pp>
 <Pp>I projected my voice. "Excuse me mister! Excuse me! Can you hear me?"</Pp>
@@ -101,7 +103,7 @@ const ThePit = (props) => (
 <Pp>"CANTH...DOO...BIG..."</Pp>
 <Pp>"You are an URCHIN! Swallow!"</Pp>
 <Pp>My throat constricted around the Indulgence. It lodged into my windpipe. I tried to cough or heave but I couldn't. The pressure built in my lungs and my vision got blurry. I squeezed my neck frantically in hopes I could squeeze it out or something. Everything went black and I kept falling.</Pp>
-<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <span class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" /></span> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
+<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <div class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" /></div> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
 <Pp>"What's up with my throat?"</Pp>
 <Pp>Wyshwald52: "I performed an emergency tracheotomy to keep you alive."</Pp>
 <Pp>"Thanks."</Pp>
@@ -126,7 +128,7 @@ const ThePit = (props) => (
 <Pp>He hurled a rope ladder over the wall and began his descent, gripping a miniature shovel in his big left glove. I stood perfectly still. He scurried down the ladder pretty fast. His saggy face dipped into the marinade. His watery eyes stared up at me before they focused in on my man mud island. My body went completely tense. He smelled much stinkier than I expected, even worse than my putty. He slid his shovel into the sauce below that brown log.</Pp>
 <Pp> "This is just beyond depraved. Not in the marinade. What sort of person would--"</Pp>
 <Pp>I smashed my knuckles into the back of his skull, he screamed, I shoved his head down into the fluid. He thrashed desperately, my muscles were hot coils igniting my limbs into furious motion. I kicked him as hard as I could and cracked my elbow against his neck vertebrae which I could feel snap cracking. His hair felt silky in my hands, I ripped some of it out. His rubbery torso wriggled and squirmed. I sunk my teeth into the back of his neck. Red warmth and the taste of iron. I kept gnawing and ripping as it gushed. I bit through tendons and veins, the cables and wiring, until his screams became whimpers. I licked my tongue deep into the wound and I dragged him by the hair up against the wall and bashed his skull against the concrete. Over and over, OVER and OVER, until the bone crunkled and out dripped some stinky grey sponge, and the blood dried beneath your fingernails and skin stuck between your teeth, you ripped out what was in there, all of him, even from long ago, birthdays, sunny vacations, notes in the lunchbox from mom, the first jokes he heard, the first songs he sung, the archived reflections of everyone he knew and anyone he could be, as stranger, friend, or family. Every perfect moment of joy and kindness and loving warmth he enjoyed crumbling grey between your fingers to drip drop into the salty slime, sploosh!</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default ThePit;

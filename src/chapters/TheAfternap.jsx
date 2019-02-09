@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const TheAfternap = (props) => (
+const TheAfternap = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 
 <Pp>A rough hand jostles my shoulder. I open my eyes. Chadmuth48, the apparent jostler, is leaning in the entrance hatch of my workpod. My eyes are tender and crusty and my cheek's slick with drool. It's sunset. My celly is quiet for half a <span class="t">*</span>second before resuming its buzzing fit. The Chief Consumer Perception Director stuffs his hands in the pockets of his pink slacks. "You sleep well, pal?"</Pp>
@@ -33,7 +35,7 @@ const TheAfternap = (props) => (
 <Pp>But that's the thing, I can't read right now. Mr. Rony22 95Barnard is hollering again. I can't help but stare through the floor. He's running in circles, hands on his head, shouting things such as "PLEASE no no no, PLEASE PLEASE no no, NO! OH NO!!" His face is as red as Tomahto Queam.</Pp>
 <Pp>He slams headfirst into the tan wall and collapses into a wriggling heap. I can see his eyes for the first time. They're bright brown and wide like he's about to get run over by a choo choo. It's not even like I know who this guy is! I'm not invested in his well-being. He's a random person in my life that I see everyday but never talk to, one among the millions. But I hate watching him writhe like an eel down there. It's really starting to freak me out.</Pp>
 <Pp>OK now he's on all fours. He's racing around the room on all fours like a canine. Tongue is hanging out too. He's struggling to itch himself behind the ears with his knee. He can't quite reach em. He's wearing dress pants and his butt is up wagging in the air. Now he's just licking the wall.</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default TheAfternap;

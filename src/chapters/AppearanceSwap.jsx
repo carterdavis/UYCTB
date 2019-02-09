@@ -2,10 +2,12 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const AppearanceSwap = (props) => (
+const AppearanceSwap = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I've been thinking about my expression: where my eyes are placed, where my mouth is placed, what my eyes look like. Soft and rubbery, soggy and blank. That's who I am to every other person. I walk for a while, take a slide, do some more walking.</Pp>
 <Pp>Glem22 21Ninkus swings the door open as soon as my knuckles make contact. His head is completely obscured, densely wrapped in black cords roughly a quarter inch thick like a rubber band ball. They shift and wriggle as he moves through space. "Bunndy22! Do I have that right?"</Pp>
@@ -41,7 +43,7 @@ const AppearanceSwap = (props) => (
 <Pp>...</Pp>
 <Pp>"You're going to have to get up at some point. Act like an adult."</Pp>
 <Pp>...</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default AppearanceSwap;

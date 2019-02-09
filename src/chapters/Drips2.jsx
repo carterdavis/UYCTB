@@ -3,10 +3,12 @@ import React from 'react';
 import D from './../components/D.jsx';
 import U from './../components/U.jsx';
 import H from './../components/H.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 
-const Drips2 = (props) => (
+const Drips2 = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <D><U>[whizzzp]</U> > such a loovely night for the land to shake.. devastating.. Look on the bright side, for those buried by the shakes, will not need to purchase burial grave land</D>
 <D><U>[Great deal175175]</U> > DESIGNER SLIPPER, SO COMFY, 92% OFF <U>nnet://store/store-items</U> BUY OR YOU ARE THE FREAK! BUY OR YOU ARE THE PIG!</D>
@@ -19,7 +21,7 @@ const Drips2 = (props) => (
 <D><U>['porp]</U> > GggghhhhhggggGGGGGggggg  <H>&EarthquakeTravis</H> g########</D>
 <D><U>[chilling_guy^]</U> > cornbreads done cookin</D>
 <D><U>[jason_%_isolation]</U> > feeling completely, completely miserable and so sad today</D>
-{props.children}</div>
+{children}</div>
 );
 
 export default Drips2;

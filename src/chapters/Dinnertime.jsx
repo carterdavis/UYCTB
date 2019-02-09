@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const Dinnertime = (props) => (
+const Dinnertime = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I knock on their cubby door. The number is 4931W. The nameplate says Neher31 11Yately. There's some rustling behind the door. It swings open.</Pp>
 <Pp>"Hey. What can I do for you?"</Pp>
@@ -16,14 +18,14 @@ const Dinnertime = (props) => (
 <Pp>"Is all that permanent?"</Pp>
 <Pp>"I think so."</Pp>
 <Pp>"Well, come on in!  You can put your shoes on the hanger to your right."</Pp>
-<Pp>There's some ancient piano music playing through their speakers. The gentle twinkling keys are emphatic and flashy. I think the pianist just did a glissando? <span class="chapterSong"><LazyAudio src="assets/Solo Piano To Chill To.mp3" loop={true} bg="rgb(255, 199, 199)" fg="#000" /></span> I think that's what a glissando is. They have so many paintings, mostly landscapes, hanging from the walls. Some of them are nature scenes, some of them are city scenes. "Heh," I say, "You know what?"</Pp>
+<Pp>There's some ancient piano music playing through their speakers. The gentle twinkling keys are emphatic and flashy. I think the pianist just did a glissando? <div class="chapterSong"><LazyAudio src="assets/Solo Piano To Chill To.mp3" loop={true} bg="rgb(255, 199, 199)" fg="#000" /></div> I think that's what a glissando is. They have so many paintings, mostly landscapes, hanging from the walls. Some of them are nature scenes, some of them are city scenes. "Heh," I say, "You know what?"</Pp>
 <Pp>"What?"</Pp>
 <Pp>I smile my widest. "With songs and paintings like these, I'm starting to think life can't be all that bad."</Pp>
 <Pp>"Yah, I guess. Could you shave some maize?"</Pp>
 <Pp>I start shaving the maize. It's an especially juicy cob. My eyes water. "Did you have a good <span class="t">*</span>day?"</Pp>
 <Pp>"Yah! It was really nice. I did some exercise and chores, volunteered," they make a huffing sigh, "signed some petitions, called my parents."</Pp>
 <Pp>"Where sorts of volunteering do you do?"</Pp>
-<Pp>"I recently started helping at this non-profit called Kids Roll. I blow glass to make marbles for mid-income children. They love their marbles. It's so fun using all the different of colors and patterns. Sometimes I'll use swirly black, grey, and brown so it looks like the planet."</Pp>
+<Pp>"I recently started helping at this non-profit called Kids Roll. I blow glass to make marbles for mid-income children. They love their marbles. It's so fun using all the different colors and patterns. Sometimes I'll use swirly black, grey, and brown so it looks like the planet."</Pp>
 <Pp>"Glass blowing sounds like it'd be pretty tricky to do."</Pp>
 <Pp>"I've literally burned my knuckles so many times. It's worth it, though, to see the looks on those kids' faces, knowing that they're going to get some marbles."</Pp>
 <Pp>I slice through the layers of juicy cob. "It would be cool to get a marble."</Pp>
@@ -201,7 +203,7 @@ const Dinnertime = (props) => (
 <Pp>They scrape my plate into the trash pit.</Pp>
 <Pp>"I want to go outside."</Pp>
 <Pp>"OK, let's go outside."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default Dinnertime;

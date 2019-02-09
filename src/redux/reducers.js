@@ -1,14 +1,18 @@
-import { UPDATE_CURRENT, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL, ZOIP } from "./constants.js";
+import { UPDATE_CURRENT, UPDATE_DIMENSIONS, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL, ZOIP } from "./constants.js";
+import { getDimensions } from "./../state.js";
 
 const regex = /([0-9]+)/g;
 let num = location.hash;
 num = num.match(regex) || [''];
 const start = num[num.length - 1] ? parseInt(num[num.length - 1]) : 0;
+const dimensions = getDimensions();
 
 const initialState = {
   current: start,
   beginning: start,
   end: start,
+  screenHeight: dimensions.height,
+  screenWidth: dimensions.width,
   scrolling: false,
   zoips: {},
   viewScreen: 0,
@@ -24,6 +28,8 @@ const rootReducer = (state = initialState, action) => {
         return { ...state, current: action.payload, end: action.payload };
       }
       return { ...state, current: action.payload };
+    case UPDATE_DIMENSIONS:
+      return { ...state, screenWidth: action.payload.width, screenHeight: action.payload.height };
     case UPDATE_SCREEN:
       return { ...state, viewScreen: action.payload };
     case UPDATE_SCROLLING:

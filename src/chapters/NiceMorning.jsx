@@ -2,11 +2,13 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
 
-const NiceMorning = (props) => (
+const NiceMorning = ({ children, num, state }) => (
 <div>
-{props.children}
+<ChapterStart num={num} />
+{children}
 
 <Pp>I wake dreamlessly, like I never slept. Today's the first morning of tweensies. The air is warm, but cool, but humid. My room is uncommonly bright, halfway like the gleam off polished chrome. The alarm's laughter hoots cyclically. He he he he! My blood is electric, surging with oxygen, urging me towards locomotion. What a glorious <span class="t">*</span>day God has given me! I will not let the <span class="t">*</span>day wash over me; I will be the fountain. I will act with intention and purpose, to the best of all possible ends! To every and each of those infinitely endless ends!</Pp>
 <Pp>Gregory McBubble claps its thin lips together in delight. "Just the usual rinse for you Mr. 35Fludge?"</Pp>
@@ -33,7 +35,7 @@ const NiceMorning = (props) => (
 <Pp>"Could you actually play my TunesJam Positive Lightheartedly Unintrusive Retro-Modern Mix? I'm not really in the mood for a chittychat."</Pp>
 <Pp>"Of course, of course! Certainly!"</Pp>
 <Pp>Looks like most of the traffic cleared up. What a blessing!</Pp>
-<Pp>The first tune on the mix is "Today's Light and Lovin', Put It in the Oven, Slice Yourself an Old Piece of Pie" by the Nephew Brothers. <span class="chapterSong"><LazyAudio src="assets/Nephew Brothers.mp3" loop={true} bg="rgb(255, 222, 130)" fg="#000" /></span> This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It's great for when you want to rock out, but not in an overbearing way. And I should probably specify it's not like they're both nephews AND brothers. According to their About section it's more of an either/or thing.</Pp>
+<Pp>The first tune on the mix is "Today is Light and Lovin', Put It Inside the Oven, Slice Yourself an Old Piece of Pie" by the Nephew Brothers. <div class="chapterSong"><LazyAudio src="assets/Nephew Brothers.mp3" loop={true} bg="rgb(255, 222, 130)" fg="#000" /></div> This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It's great for when you want to rock out, but not in an overbearing way. And I should probably specify it's not like they're both nephews AND brothers. According to their About section it's more of an either/or thing.</Pp>
 <Pp>"I'm so excited to be transporting you on this beautiful <span class="t">*</span>day."</Pp>
 <Pp>"That's awesome, Tulip!"</Pp>
 <Pp>"I spent the entire night thinking about you!"</Pp>
@@ -92,7 +94,7 @@ const NiceMorning = (props) => (
 <Pp>"And you're assuming mine isn't?"</Pp>
 <Pp>"My celly only has about 3% battery. I was planning on charging it once I got to my pod."</Pp>
 <Pp>"Always on the razor's edge, aren't ya? Such an aimless child. It's unbelievable. I'm not sure whether I should hate you or worry about you."</Pp>
-{props.children}</div>
+{children}</div>
 );
 
 export default NiceMorning;

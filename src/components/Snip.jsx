@@ -1,10 +1,13 @@
 import React from 'react';
 import ClickOutside from 'react-click-outside'
 
-class Snip extends React.Component {
+class Snip extends React.PureComponent {
   constructor(props) {
-      super(props);
-      this.state = { open: false };
+    super(props);
+    this.setWrapperRef = element => {
+      this.wrapper = element;
+    };
+    this.state = { open: false, left: 0 };
   }
 
   handleClickOutside() {
@@ -13,25 +16,36 @@ class Snip extends React.Component {
     }
   }
 
+  componentDidMount() {
+    setTimeout(() => this.setLeft(), 200);
+  }
+
+  componentDidUpdate(prevProps) {
+    if (this.props.state.screenWidth !== prevProps.state.screenWidth) {
+      this.setLeft();
+    }
+  }
+
+  setLeft() {
+    const box = this.wrapper.getBoundingClientRect();
+    this.setState({ left: box.left });
+  }
+
   toggle() {
     this.setState({ open: !this.state.open });
   }
 
    render() {
      const colors = this.props.bg.split(', ');
+     const open = this.state.open ? 'open' : '';
+     const leftStyle = this.state.open ? '50%' : `${this.state.left}px`;
 
      return (
-      <span class="snippet-wrapper">
-        <a class="snippet-link" onClick={() => { this.toggle() }} style={{backgroundImage: `linear-gradient(120deg, ${this.props.bg})`}}>
-          { this.props.label }
-        </a>
-        <span class="snippet" style={{ display: this.state.open ? 'block' : 'none', borderColor: colors[0] }}>
-          <span class="snippet-header" style={{ borderColor: colors[1] }}>
-            TID BIT
-          </span>
+      <div class="snippet-wrapper" ref={this.setWrapperRef}>
+        <div class={`snippet ${open}`} onClick={() => { this.toggle() }} style={{ borderColor: colors[0], left: leftStyle }}>
           { this.props.children }
-        </span>
-      </span>
+        </div>
+      </div>
     )
   }
 }
