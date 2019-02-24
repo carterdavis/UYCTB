@@ -13,7 +13,7 @@ const Dinnertime = ({ children, num, state }) => (
 <Pp>I knock on their cubby door. The number is 4931W. The nameplate says Neher31 11Yately. There's some rustling behind the door. It swings open.</Pp>
 <Pp>"Hey. What can I do for you?"</Pp>
 <Pp>"It's me. Jim29."</Pp>
-<Pp>"Goodness gracious."  Their auburn hair hangs past their cheeks. The way their lip curls up when they see me makes me feel pretty bad. They're wearing an apron that says "Cooking Currently".</Pp>
+<Pp>"Goodness gracious." Their auburn hair hangs past their cheeks. The way their lip curls up when they see me makes me feel pretty bad. They're wearing an apron that says "Cooking Currently."</Pp>
 <Pp>"I'm sorry that I look so weird."</Pp>
 <Pp>"Is all that permanent?"</Pp>
 <Pp>"I think so."</Pp>

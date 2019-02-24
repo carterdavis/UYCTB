@@ -19,27 +19,27 @@ const Creeping = ({ children, num, state }) => (
 <Pp>I backtracked and took a left instead. Behind a door on my left I found a place I could charge my celly. I hooked into my celly's UDP port and reactivated my mindchip. I sat and recapped everything into this log for about fifteen <span class="t">*</span>minutes, the whole time until right now. This is right now!</Pp>
 <Pp>I'm doing my best to stay focused and present. I don't know where I am. I just escaped execution. They're going to look for me soon. When I think about the bad things my whole body just clenches up and I belch. I'm really dizzy. I just saw a guy's guts, I think it's normal to feel weird after that. I just saw a guy's GUTS. I can't get it out of my mind. I smashed his brain out of his skull.</Pp>
 <Pp>Do you feel strange about how much of a piglet I am? I really want the honest truth. It's killing me, not knowing what you think. I get it if you just think I'm slime. You must think I'm a total creep. It feels like I'm performing for you, you're my constant audience, following me everywhere I go. So listen to me right now, OK? I don't want this. Absolutely none of it. I have been sinned against. I am a victim. This is all wrong. You know how freaking nice I am, right? It was him or me. I've tried to be as much of a documentarian as possible. But I don't know if I'm going to be able to get out of here. I don't know where I am! I don't even know where I'm going. And even if I could get out of here, I don't have a speedster. I'm seriously stuck.</Pp>
-<Z d={1} u="j29">funguyjim29 : are u at your desk</Z>
-<Z d={1} u="j56">jumper56ok : yes, why tho? I dont want to talk to you</Z>
-<Z d={1} u="j29">funguyjim29 : Please I am being Serious it's an EMERGENCY!!</Z>
-<Z d={1} u="j56">jumper56ok : is it actually?</Z>
-<Z d={1} u="j29">funguyjim29 : Yes</Z>
-<Z d={1} u="j29">~ : I'm not comfortable talking about it over the network</Z>
-<Z d={1} u="j29">~ : someone could be reading our zoips</Z>
-<Z d={1} u="j56">jumper56ok : i already told you</Z>
-<Z d={1} u="j56">~ : i ddon't want to be a part of your life</Z>
-<Z d={1} u="j56">~ : don't</Z>
-<Z d={1} u="j29">funguyjim29 : I'm in danger!!! I'm begging you</Z>
-<Z d={1} u="j29">~ : help me one last time</Z>
-<Z d={1} u="j29">~ : and I promise you'll never see me again.</Z>
-<Z d={1} u="sys">%SYS_OP% => funguyjim29 : Your account has gotten signed out.</Z>
-<Z d={1} u="sys">~ : Would you please sign in again?</Z>
-<Z d={1} u="j29">funguyjim29 : username funguyjim29</Z>
-<Z d={1} u="j29">~ : passcode **tHuNdErDrAgOn91919</Z>
-<Z d={1} u="sys">%SYS_OP% : Sign in failed. Did you enter the correct passcode?</Z>
-<Z d={1} u="j29">funguyjim29 : username funguyjim29</Z>
-<Z d={1} u="j29">~ : passcode **tHuNdErDrAgOn19191</Z>
-<Z d={1} u="sys">%SYS_OP% : Sign in failed. Did you enter the correct passcode?</Z>
+<Z d={5} spe={55} u="j29" ch={num} o={0} z={state} f l> are u at your desk</Z>
+<Z d={40} spe={85} u="j56" ch={num} o={1} z={state} f l> yes, why tho? I dont want to talk to you</Z>
+<Z d={10} spe={60} u="j29" ch={num} o={2} z={state} f l> Please I am being Serious it's an EMERGENCY!!</Z>
+<Z d={8} spe={70} u="j56" ch={num} o={3} z={state} f l> is it actually?</Z>
+<Z d={10} spe={58} u="j29" ch={num} o={4} z={state} f> Yes</Z>
+<Z d={5} spe={55} u="j29" ch={num} o={5} z={state}>I'm not comfortable talking about it over the network</Z>
+<Z d={9} spe={57} u="j29" ch={num} o={6} z={state} l>someone could be reading our zoips</Z>
+<Z d={15} spe={80} u="j56" ch={num} o={7} z={state} f> i already told you</Z>
+<Z d={5} spe={75} u="j56" ch={num} o={8} z={state}>i ddon't want to be a part of your life</Z>
+<Z d={1} spe={70} u="j56" ch={num} o={9} z={state} l>don't</Z>
+<Z d={10} spe={56} u="j29" ch={num} o={10} z={state} f> I'm in danger!!! I'm begging you</Z>
+<Z d={3} spe={60} u="j29" ch={num} o={11} z={state}>help me just this once</Z>
+<Z d={10} spe={70} u="j29" ch={num} o={12} z={state} l>and I promise you'll never see me again.</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={13} z={state} f> Your account has gotten signed out.</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={14} z={state} l>Would you please sign in again?</Z>
+<Z d={15} spe={60} u="j29" ch={num} o={15} z={state} f> username funguyjim29</Z>
+<Z d={4} spe={63} u="j29" ch={num} o={16} z={state} l>passcode **tHuNdErDrAgOn91919</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={17} z={state} f> Sign in failed. Did you enter the correct passcode?</Z>
+<Z d={9} spe={62} u="j29" ch={num} o={18} z={state} f> username funguyjim29</Z>
+<Z d={6} spe={65} u="j29" ch={num} o={19} z={state} l>passcode **tHuNdErDrAgOn19191</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={20} z={state} f l> Sign in failed. Did you enter the correct passcode?</Z>
 <Pp>Those are the only two passcodes I ever use. I swear I typed them in correctly. I'm worried that someone in data management might've locked my zoip profile, as part of my resculpting, since it's under my actual name. That means I might not have Drip access either, since that was synced to my zoip profile. Those are probably my two favorite programs! This sucks.</Pp>
 <Pp>If I can find a computerior somewhere around here maybe I can at least hook in and communicate with Deward. Deward is miserable in almost every aspect, but it does know a lot of really detailed maps, and I have no idea where I am. I'm worried about walking back into the hallway. What if someone's around the corner? I still smell like marinade and my face looks like scrambled yolks, browned over with scabs, rippled and cracking around muscle. I wonder if there's some way I could wear a mask or ease my stench. It's cold down here. I feel very worried.</Pp>
 <Pp>I work up the guts to creep back out into the hallway. My boots are sticky against the floor, squishing splish splosh sounds. I feel the way I feel when I'm about to get a headache. I'm sorry for complaining so much. I feel like a dumb stupid freak.</Pp>

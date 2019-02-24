@@ -23,7 +23,7 @@ const Crash = ({ children, num, state }) => (
   <p>"Find it in the map."</p>
   <p>I step on a stool so I can reach above the dusty cabinets and hoist down the package directory; the cabinets are too high for average person arms to reach above without the assistance of the special stool. This giant honker of a book is bound in green pleather and its pages are about as wide as my chest. It's filled with alphabetically listed locations for every single knot in our codebase, each printed in a shrimpy bold font. The tome's heft makes my stringy triceps shake and burn.</p>
   <LazyLoad offset={100} height={661} once>
-    <img class="chapterImage" src="assets/chapter1.png" />
+    <img class="chapterImage" src="assets/chapter0.png" />
   </LazyLoad>
   <p>The scoop is that some jacked up code in one of these knots made it through the testing phase into this morning's release and caused two crashes by lunchtime. It might be an issue with <Code>intensity-and-dosage.tangle</Code>, the top leaf on the traceback tree, or it might be an issue with a branch it relies on.  But what's especially pertinent is that I made a change a couple NiceTime Perfect Days ago in the section where the error occurred, so I'm in the hot seat here.</p>
   </Pp>

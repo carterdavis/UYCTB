@@ -17,7 +17,8 @@ class Snip extends React.PureComponent {
   }
 
   componentDidMount() {
-    setTimeout(() => this.setLeft(), 200);
+    this.setLeft()
+    setTimeout(() => this.setLeft(), 500);
   }
 
   componentDidUpdate(prevProps) {

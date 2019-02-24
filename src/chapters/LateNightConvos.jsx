@@ -11,33 +11,32 @@ const LateNightConvos = ({ children, num, state }) => (
 {children}
 
 <Pp>I receive a zoip from my good friend Daisy39 42Scrumpet.</Pp>
-<Pp>[[ this timing is terrible, will figure out how to fix ]]</Pp>
-<Z d={1} u="d39" nc>dingdongdaisy39 : has it been snowy where you are?</Z>
-<Z d={15} u="j29" nc>funguyjim29 : no snow at all, actually</Z>
-<Z d={22} u="j29" nc>~ : too cold. just lots of ice. potholes too</Z>
-<Z d={35} u="d39" nc>dingdongdaisy39 : it's snowed so much down here!! josie81 and I really miss you.</Z>
-<Z d={48} u="j29" nc>funguyjim29 : how has she been ?</Z>
-<Z d={60} u="d39" nc>dingdongdaisy39 : she's applying to be a Praygal at Prayer Dome</Z>
-<Z d={68} u="d39" nc>~ : working on the application upstairs in bed!</Z>
-<Z d={76} u="d39" nc>~ : how has work been?</Z>
-<Z d={89} u="j29" nc>funguyjim29 : I'm glad to hear she's doing well !</Z>
-<Z d={96} u="j29" nc>~ : work has been really hard. I do feel like I'm learning a lot though</Z>
-<Z d={110} u="d39" nc>dingdongdaisy39 : you're really smart. I'm sure it'll get easier!</Z>
-<Z d={120} u="j29" nc>funguyjim29 : thanks. what are you up to tonight ?</Z>
+<Z d={20} spe={75} u="d39" ch={num} o={0} z={state} f l> has it been snowy where you are?</Z>
+<Z d={15} spe={65} u="j29" ch={num} o={1} z={state} f> no snow at all, actually</Z>
+<Z d={5} spe={70} u="j29" ch={num} o={2} z={state} l>too cold. just lots of ice. potholes too</Z>
+<Z d={25} spe={60} u="d39" ch={num} o={3} z={state} f l> it's snowed so much down here!! josie81 and I really miss you.</Z>
+<Z d={10} spe={72} u="j29" ch={num} o={4} z={state} f l> how has she been ?</Z>
+<Z d={15} spe={61} u="d39" ch={num} o={5} z={state} f> she's applying to be a Praygal at Prayer Dome</Z>
+<Z d={7} spe={69} u="d39" ch={num} o={6} z={state}>working on the application upstairs in bed!</Z>
+<Z d={17} spe={72} u="d39" ch={num} o={7} z={state} l>how has work been?</Z>
+<Z d={20} spe={65} u="j29" ch={num} o={8} z={state} f> I'm glad to hear she's doing well!</Z>
+<Z d={40} spe={80} u="j29" ch={num} o={9} z={state} l>work has been really hard. I do feel like I'm learning a lot though</Z>
+<Z d={45} spe={83} u="d39" ch={num} o={10} z={state} f l> you're really smart. I'm sure it'll get easier!</Z>
+<Z d={20} spe={70} u="j29" ch={num} o={11} z={state} f l> thanks. what are you up to tonight?</Z>
 <Pp>I send a zoip to my good friend Neher31 11Yately.</Pp>
-<Z d={105} u="j29" nc>funguyjim29 : what's on the menu tonight?</Z>
-<Z d={115} u="n31" nc>kindneher31 : I actually just got done with dinner,</Z>
-<Z d={122} u="n31" nc>~ : having some warm corn cider.</Z>
-<Z d={129} u="j29" nc>funguyjim29 : that sounds pretty nice</Z>
-<Z d={135} u="j29" nc>~ : hope you had a really good <span class="t">*</span>week</Z>
-<Z d={147} u="n31" nc>kindneher31 : Yah mine was really validating, actually. Went on a number of dates.</Z>
-<Z d={159} u="n31" nc>~ : Saw a few movies, went to a couple bookstores.</Z>
-<Z d={175} u="n31" nc>~ : Really engaged with my community.</Z>
-<Z d={180} u="n31" nc>~ : Things have been really good.</Z>
-<Z d={190} u="j29" nc>funguyjim29 : yah. that's awesome, dam</Z>
-<Z d={197} u="j29" nc>~ : my <span class="t">*</span>week has honestly been kind of rough these past two <span class="t">*</span>days.</Z>
-<Z d={205} u="j29" nc>~ : do you have any plans tonight?</Z>
-<Z d={220} u="j29" nc>~ : zoip me if you want to do something</Z>
+<Z d={50} spe={68} u="j29" ch={num} o={12} z={state} f l> what's on the menu tonight?</Z>
+<Z d={30} spe={82} u="n31" ch={num} o={13} z={state} f> I actually just got done with dinner,</Z>
+<Z d={10} spe={85} u="n31" ch={num} o={14} z={state} l>having some warm corn cider.</Z>
+<Z d={15} spe={66} u="j29" ch={num} o={15} z={state} f> that sounds pretty nice</Z>
+<Z d={8} spe={71} u="j29" ch={num} o={16} z={state} l>hope you had a really good *week</Z>
+<Z d={20} spe={81} u="n31" ch={num} o={17} z={state} f> Yah mine was really validating, actually. Went on a number of dates.</Z>
+<Z d={15} spe={79} u="n31" ch={num} o={18} z={state}>Saw a few movies, went to a couple bookstores.</Z>
+<Z d={10} spe={85} u="n31" ch={num} o={19} z={state}>Really engaged with my community.</Z>
+<Z d={13} spe={80} u="n31" ch={num} o={20} z={state} l>Things have been really good.</Z>
+<Z d={20} spe={72} u="j29" ch={num} o={21} z={state} f> yah. that's awesome, dam</Z>
+<Z d={40} spe={83} u="j29" ch={num} o={22} z={state}>my *week has honestly been kind of rough these past two *days.</Z>
+<Z d={50} spe={85} u="j29" ch={num} o={23} z={state}>do you have any plans tonight?</Z>
+<Z d={60} spe={90} u="j29" ch={num} o={24} z={state} l>zoip me if you want to do something</Z>
 {children}</div>
 );
 

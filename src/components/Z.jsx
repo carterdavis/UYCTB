@@ -9,7 +9,7 @@ import {setZoip} from './../state.js';
 const Z = (props) => {
   const user = props.u || 'j29';
   const order = props.o || 0;
-  const zoips = props.z;
+  const zoips = props.z ? props.z.zoips : {};
   const sequence = props.seq || "a";
   const chapter = props.ch || 0;
   const id = `ch${chapter}_${sequence}`;
@@ -18,16 +18,19 @@ const Z = (props) => {
   const users = {
     j29: '#5e8d41',
     j56: '#99005d',
+    k51: '#2968a1',
     d39: '#371989',
-    n31: '#daab00',
-    n20: '#ba6c1a'
+    n31: '#0800b6',
+    n20: '#ba6c1a',
+    SYS: '#737373'
   }
 
   const bg = user ? `repeating-linear-gradient(0deg, #ffffff, ${users[user]} 4px)` : 'none';
+  const displaying = zoips && (zoips[id] >= order);
 
   return (
-  <div class={`zoip ${user}`}>
-    <Pp bg={bg} innerClass={props.first ? 'padTop' : ''} z>
+  <div class={`zoip ${user}`} style={ displaying ? {} : { height: 0 }}>
+    <Pp bg={ displaying ? bg : '#FFF, #FFF'} innerClass={`${props.f ? 'padTop' : ''} ${props.l ? 'padBtm' : ''}`} z>
     { order == 0 &&
       <VisibilitySensor onChange={
         (visible) => {
@@ -37,12 +40,12 @@ const Z = (props) => {
         }
       } />
     }
-    { zoips && (zoips[id] >= order) &&
+    { displaying &&
       <div class="msg" style={{color: users[user]}}>
-        { props.first &&
+        { props.f &&
           <span class="prefix" style={{backgroundColor: users[user]}}>{ user }</span>
         }
-        <Typing delay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
+        <Typing startDelay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
       </div>
     }
     </Pp>

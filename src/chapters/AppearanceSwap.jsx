@@ -15,7 +15,7 @@ const AppearanceSwap = ({ children, num, state }) => (
 <Pp>"Glem22, nice to meet ya." His voice is gruff. We scan each other's fingerprints. His hand is soft and warm, his grip gentle but firm. "You're the one in need of some resculpting?"</Pp>
 <Pp>"I guess."</Pp>
 <Pp>"You can take a seat. I'm just getting my equipment set up."</Pp>
-<Pp>"Do I have to do this? From a legal standpoint?" The chair is wooden and rigid. My body feels foreign, like I'm actually located two inches below where I was sitting.</Pp>
+<Pp>"Do I have to do this? From a legal standpoint?" The chair is wooden and rigid. My body feels foreign, like I'm actually located two inches below where I'm sitting.</Pp>
 <Pp>"Yes sir!" He wheels out a large amorphous white machine with a hefty touchscreen on its side. "This is just normal corporate procedure. You'll be back to living like normal in no time."</Pp>
 <Pp>"What are you going to do to me?"</Pp>
 <Pp>"I'm just going to use this Dimples FaceFriend to get some measurements. We'll factor them into generating your outfit."</Pp>

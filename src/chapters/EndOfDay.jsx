@@ -19,31 +19,31 @@ const EndOfDay = ({ children, num, state }) => (
   <Pp>I drag a window for an electrocardiogram simulation in circles on my screen. The heartbeats are following the right rhythm. Th-thump, th-thump, th-thump. Much slower than mine, but chances are I'm hyper. Sometimes the beats per <span class="t">*</span>minute increase to simulate the bot patient getting excited or agitated. This simbot is named Cormy__ __Shnabbett, age 63, a short hairy old man with a heart problem. It's sitting on a bench in the sun, squinting to watch a blockbuster film on his celly. I'm trying to blink an eyelash out of my eye. I feel empty and fainty and kinda like there's a thin layer of sticky transparent crud covering my skin. "Everything looks fine so far."</Pp>
   <Pp>Nug20 doesn't look up. He continues hammering away at his keys. They have dynamite haptic feedback and rumble the table each time they're pressed. Each tap sounds like the tiniest thunderstorm. When he's really concentrating he makes little rhythmic grunting noises under his breath. His hair is long and greasy and hangs down past his shoulders. It thins as it reaches the top of his head, where he's bald for a three inch radius. His cheeks are long and dangly, and the shape of his skull is clearly visible. I don't know where he worked before this role. I don't know much about him at all. But I'm aware that he has no intention to respond. He won't say a word.</Pp>
   <Pp>I receive a zoip from Jumper56. In case you're wondering, that "zoip" acronym stands for "Zero Overhead Interchange [Proprietary]." It's the main chat protocol we use around here.</Pp>
-  <Z d={1} u="j56">jumper56ok : howdy!! would you be able to help me with a snag?</Z>
-  <Z d={15} u="j29">funguyjim29 : sure what's the snag?</Z>
-  <Z d={30} u="j56">jumper56ok : i'm getting some ERR::DisequalizedIntToInt thing now all of a sudden</Z>
-  <Z d={40} u="j29">funguyjim29 : oh, that just means one of your numbers is set to another number.</Z>
-  <Z d={45} u="j29">~ : like the interpreter thinks  5 = 9 or something like that.</Z>
-  <Z d={60} u="j56">jumper56ok : oh ok. so how do i fix it then?</Z>
-  <Z d={73} u="j29">funguyjim29 : you need to trace the error trail</Z>
-  <Z d={82} u="j56">jumper56ok : might you be able to help me?</Z>
-  <Z d={92} u="j29">funguyjim29 : yah, we'll work on it tomorrow</Z>
-  <Z d={97} u="j56">jumper56ok : sick. thanks</Z>
+  <Z d={1} spe={65} u="j56" ch={num} o={0} z={state} f l> howdy!! would you be able to help me with a snag?</Z>
+  <Z d={20} spe={70} u="j29" ch={num} o={1} z={state} f l> sure what's the snag?</Z>
+  <Z d={10} spe={68} u="j56" ch={num} o={2} z={state} f l> i'm getting some ERR::DisequalizedIntToInt thing now all of a sudden</Z>
+  <Z d={10} spe={65} u="j29" ch={num} o={3} z={state} f> oh, that just means one of your numbers is set to another number.</Z>
+  <Z d={5} spe={60} u="j29" ch={num} o={4} z={state} l>like the interpreter thinks  5 = 9 or something like that.</Z>
+  <Z d={20} spe={73} u="j56" ch={num} o={5} z={state} f l> oh ok. so how do i fix it then?</Z>
+  <Z d={10} spe={68} u="j29" ch={num} o={6} z={state} f l> you need to trace the error trail</Z>
+  <Z d={15} spe={60} u="j56" ch={num} o={7} z={state} f l> might you be able to help me?</Z>
+  <Z d={20} spe={70} u="j29" ch={num} o={8} z={state} f l> yah, we'll work on it tomorrow</Z>
+  <Z d={5} spe={55} u="j56" ch={num} o={9} z={state} f l> sick. thanks</Z>
   <Pp>Nug20 continues his silence. I'm tired and hopeless. The sky is dark. A thin bit of light peeks through the smoky clouds and dances on the glistening lawn. Nug20's nameplate is etched in a stately white serif letters against a maroon background. They read NUGGORT20 43DUNC - TECHNO FREEK."</Pp>
   <Pp>He does a slight frown whenever he's thinking hard. He squints at his screen. "Going to heat up a frozen dinner when I get home."</Pp>
   <Pp>"Really? What kind?"</Pp>
   <Pp>"Casserole."</Pp>
   <Pp>"Nice. I love those."</Pp>
-  <Z d={1} u="j29">funguyjim29 : are you doing anything tonight ?</Z>
-  <Z d={12} u="j29">~ : I was thinkin itd be fun to watch a slamdown at the arena</Z>
-  <Z d={19} u="j29">~ : or purchase dizzy drinks at a gulping den</Z>
-  <Z d={25} u="j29">~ : I just want to do something.. interesting and entertaining !</Z>
-  <Z d={35} u="j56">jumper56ok : i value the invite jim29!!</Z>
-  <Z d={42} u="j56">~ : how ever i think i will stay and work on this error.</Z>
-  <Z d={53} u="j29">funguyjim29 : yah understood noo problem</Z>
-  <Z d={65} u="j56">jumper56ok : but i'm having a party next activeday</Z>
-  <Z d={71} u="j56">~ : to celebrate tweensies! you're invited =:~)</Z>
-  <Z d={80} u="j29">funguyjim29 : wow very cool !!</Z>
+  <Z d={200} spe={80} u="j29" ch={num} o={10} z={state} f> are you doing anything tonight ?</Z>
+  <Z d={6} spe={70} u="j29" ch={num} o={11} z={state}>I was thinkin itd be fun to watch a slamdown at the arena</Z>
+  <Z d={10} spe={60} u="j29" ch={num} o={12} z={state}>or purchase dizzy drinks at a gulping den</Z>
+  <Z d={5} spe={65} u="j29" ch={num} o={13} z={state} l>I just want to do something.. interesting and entertaining !</Z>
+  <Z d={35} spe={55} u="j56" ch={num} o={14} z={state} f> i value the invite jim29!!</Z>
+  <Z d={8} spe={60} u="j56" ch={num} o={15} z={state} l>how ever i think i will stay and work on this error.</Z>
+  <Z d={30} spe={75} u="j29" ch={num} o={16} z={state} f l> yah understood noo problem</Z>
+  <Z d={13} spe={67} u="j56" ch={num} o={17} z={state} f> but i'm having a party next activeday</Z>
+  <Z d={7} spe={60} u="j56" ch={num} o={18} z={state} l>to celebrate tweensies! you're invited =:~)</Z>
+  <Z d={8} spe={58} u="j29" ch={num} o={19} z={state} f l> wow very cool !!</Z>
   <Pp>Everybody within about a three sector radius celebrates this cool holiday called Tweensies. As nasty winter shifts into nasty summer, there's about a <span class="t">*</span>week of fantastic warm sweet temperatures, and amidst this tween time a great merriment can be shared. This <span class="t">*</span>year Tweensies starts on Activeday. I'm pretty pumped.</Pp>
   <Pp>"Nug20, I'm not making any progress." I shiver atop my beany bag. "At this point I think I'm just gonna put out a hotfix first thing tomorrow morning."</Pp>
   <Pp>He looks over at me. "You can't put out a fix tonight?"</Pp>

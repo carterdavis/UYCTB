@@ -31,13 +31,14 @@ import CodeInContext from './chapters/CodeInContext.jsx';
 import ReallyWorkingNow from './chapters/ReallyWorkingNow.jsx';
 import Dream2 from './chapters/Dream2.jsx';
 import TheAfternap from './chapters/TheAfternap.jsx';
+import HotNews from './chapters/HotNews.jsx';
 import LegalAssessment from './chapters/LegalAssessment.jsx';
 import AppearanceSwap from './chapters/AppearanceSwap.jsx';
 import EndOfDay2 from './chapters/EndOfDay2.jsx';
 import SmilingHour from './chapters/SmilingHour.jsx';
 import DrivingToNehers from './chapters/DrivingToNehers.jsx';
 import Dinnertime from './chapters/Dinnertime.jsx';
-import Drips from './chapters/Drips.jsx';
+import Drips1 from './chapters/Drips1.jsx';
 import EdgeOfEverything from './chapters/EdgeOfEverything.jsx';
 import MrAndMrs28Bumperton from './chapters/MrAndMrs28Bumperton.jsx';
 import GoingDown from './chapters/GoingDown.jsx';
@@ -112,13 +113,14 @@ export const chapters = [
   [ReallyWorkingNow, 'really_working_now', 'Really Working Now'],
   [Dream2, 'dream_2', 'Dream 2'],
   [TheAfternap, 'the_afternap', 'The Afternap'],
+  [HotNews, 'hot_news', 'Hot News'],
   [LegalAssessment, 'legal_assessment', 'Legal Assessment'],
   [AppearanceSwap, 'appearance_swap', 'Appearance Swap'],
   [EndOfDay2, 'end_of_day_2', 'End Of *Day 2'],
   [SmilingHour, 'smiling_hour', 'Smiling *Hour'],
   [DrivingToNehers, 'driving_to_nehers', "Driving To Neher's"],
   [Dinnertime, 'dinnertime', 'Dinnertime'],
-  [Drips, 'drips', 'Drips'],
+  [Drips1, 'drips', 'Drips'],
   [EdgeOfEverything, 'edge_of_everything', 'Edge Of Everything'],
   [MrAndMrs28Bumperton, 'mr_and_mrs28_bumperton', 'Mr And Mrs28 Bumperton'],
   [GoingDown, 'going_down', 'Going Down'],

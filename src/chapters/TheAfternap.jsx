@@ -33,7 +33,7 @@ const TheAfternap = ({ children, num, state }) => (
 <Pp>"You are a complete waste of a person. Just utterly miserable." He turns around to walk away. "Go talk to legal by the way. They've been tryin to get ahold of you." Slams the door behind himself.</Pp>
 <Pp>I have the shivers even though it's warm in here. I'm feeling very dreadful. I boot up my celly and start scrolling through some of my top scoops.</Pp>
 <Pp>But that's the thing, I can't read right now. Mr. Rony22 95Barnard is hollering again. I can't help but stare through the floor. He's running in circles, hands on his head, shouting things such as "PLEASE no no no, PLEASE PLEASE no no, NO! OH NO!!" His face is as red as Tomahto Queam.</Pp>
-<Pp>He slams headfirst into the tan wall and collapses into a wriggling heap. I can see his eyes for the first time. They're bright brown and wide like he's about to get run over by a choo choo. It's not even like I know who this guy is! I'm not invested in his well-being. He's a random person in my life that I see everyday but never talk to, one among the millions. But I hate watching him writhe like an eel down there. It's really starting to freak me out.</Pp>
+<Pp>He slams headfirst into the tan wall and collapses into a wriggling heap. I can see his eyes for the first time. They're bright brown and wide like he's about to get run over by a choo choo. I hate watching him writhe like an eel down there.</Pp>
 <Pp>OK now he's on all fours. He's racing around the room on all fours like a canine. Tongue is hanging out too. He's struggling to itch himself behind the ears with his knee. He can't quite reach em. He's wearing dress pants and his butt is up wagging in the air. Now he's just licking the wall.</Pp>
 {children}</div>
 );

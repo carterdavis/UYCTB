@@ -217,6 +217,10 @@ $transitionSpeed: 300ms;
     padding-top: .4rem;
   }
 
+  &.padBtm {
+    padding-bottom: .4rem;
+  }
+
   p {
     display: block;
     line-height: 1.6;
@@ -233,7 +237,7 @@ $transitionSpeed: 300ms;
 
   .drip-body {
     color: #4d75b7;
-    border: #79a8f6 solid 5px;
+    border: #79a8f6 solid 4px;
     padding: 1rem;
     border-radius: 1rem;
   }
@@ -245,6 +249,68 @@ $transitionSpeed: 300ms;
   .h {
     background-color: #ffeff2;
   }
+
+  .dripButton {
+    margin-top: .8rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #475fd3;
+    outline: none;
+
+    &:hover {
+      color: #7a1cd0;
+
+      .icon {
+        fill: #7a1cd0;
+      }
+    }
+
+    &.clicked {
+      color: #d000d0;
+
+      .icon {
+        fill: #d000d0;
+
+        &.thumb { animation: rotate-thumb .5s ease; }
+        &.flip { animation: rotate-flip .5s ease; }
+      }
+    }
+
+    .icon {
+      transform-origin: 50% 50% 0;
+      width: 1.4rem;
+      fill: #475fd3;
+    }
+
+    .dripButtonText {
+      display: inline-block;
+      vertical-align: top;
+      padding: .1rem 0 .1rem .5rem;
+    }
+  }
+}
+
+@keyframes rotate-thumb {
+    0% {
+      transform: rotate(0);
+    }
+    50% {
+        transform: rotate(-45deg);
+    }
+    100% {
+      transform: rotate(0);
+    }
+}
+
+@keyframes rotate-flip {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(-360deg);
+    }
 }
 
 .snippet-wrapper {
@@ -414,19 +480,21 @@ $n20: #ba6c1a;
 
   &.j29 .msg {
     padding-left: 10%;
+
+    .prefix {
+      animation: slide-down-zoip .5s ease;
+    }
   }
 
   .prefix {
     color: white !important;
     font-weight: bold;
-    padding: .2rem;
+    padding: 0 .2rem;
     border-radius: 0.3rem;
     margin-right: .2rem;
+    display: inline-block;
+    animation: slide-up-zoip .5s ease;
   }
-}
-
-.prefix {
-  animation: slide-up-zoip 0.5s ease;
 }
 
 @keyframes slide-up-zoip {
@@ -438,6 +506,32 @@ $n20: #ba6c1a;
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@keyframes slide-down-zoip {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes dream {
+  0% {
+    opacity: 0;
+  }
+
+  70%,
+  90% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: .5;
+  }
 }
 
 .toc-link {

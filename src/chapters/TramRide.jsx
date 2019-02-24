@@ -10,10 +10,10 @@ const TramRide = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Z d={1} u="sys">%SYS_OP% : Congratulations, BUNNDY22!</Z>
-<Z d={1} u="sys">~ : Your new workpod is located on FLOOR_3, CELL_5_EAST</Z>
-<Z d={1} u="sys">~ : 162 gold hunks deducted from your salary sack for this <span class="t">*</span>month,</Z>
-<Z d={1} u="sys">~ : to cover cost of repairs to OVERHEAD_INTERCOM_SPEAKER</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={0} z={state} f> Congratulations, BUNNDY22!</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={1} z={state}>Your new workpod is located on FLOOR_3, CELL_5_EAST</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={2} z={state}>162 gold hunks deducted from your salary sack for this *month,</Z>
+<Z d={1} spe={10} u="SYS" ch={num} o={3} z={state} l>to cover cost of repairs to OVERHEAD_INTERCOM_SPEAKER</Z>
 <Pp>I'm leaning against a pole. Chadmuth48 is reclining sideways across three chairs. He hasn't said a word to me since we boarded the tram. No one else is in our carriage. The overhead fluorescent is flickering. The concrete tunnel walls outside the foggy glass windows are overgrown with fuzzy brown fungus. He's scrolling through zoips on his celly but I don't have anything to entertain myself with. With this in mind, I sigh expressively.</Pp>
 <Pp>Chadmuth48: "How's it poppin?"</Pp>
 <Pp>"Hm?"</Pp>

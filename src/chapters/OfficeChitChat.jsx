@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Pulse from 'react-reveal/Pulse';
+import LazyLoad from 'react-lazyload';
 
-import D from './../components/D.jsx';
-import U from './../components/U.jsx';
+import Drips from './../components/Drips.jsx';
+
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
@@ -38,11 +39,14 @@ const OfficeChitChat = ({ children, num, state }) => (
 <Pp>"Oh shoot. How bad?" I walk around behind his monitor to take a peek.</Pp>
 <Pp>"It's been dripped almost forty frickin times." Posts from all across the nation map quickly scroll down across his Ultradef screen, forming a never-ending stream. The Ultradef technology enhances the letters, making them bulbously pop out in three-dimensional space, glowing in every magnificent hue of the spectrum, ultraviolet to infrared. "In the biz we'd say it's making a real splash, if you're snatchin up what I'm slammin down."</Pp>
 <Pp>One of the drips trickling down is a gallery of two livestreams. The left stream shows a man with his eyes closed, laying down, motionless, almost peaceful. The right shows a family wailing and grieving in the hospital with no sound. The post reads:</Pp>
-<D><U>[NewsNEWSjc$d*]</U> > TWO DEAD cuz of crashing Dimples <U>[Dimples:)]</U> zoftware? DOINK! Sip for more updates.</D>
+<Drips chapter="officeChitChat" />
 <Pp>It descends off the screen in a wink.</Pp>
 <Pp>"Dang alright. This is really really bad, right? How many people do you think have seen it?"</Pp>
 <Pp>"The most recent Drip update made it so everyone sees all the drips." His voice is gravelly. "That was a big part of Drip 9.4 Focus," which he says like it's something I should know, duh.</Pp>
 <Pp>"So you think every single living person saw it?"</Pp>
+<LazyLoad offset={100} height={661} once>
+  <img class="chapterImage" src="assets/chapter2.jpg" />
+</LazyLoad>
 <Pp>It's one thing to know you've done something insanely terrible, and a completely different thing to know that everyone else knows also. I get freaked out if I think too much about what people think of me. I want to be considered strictly fondly!</Pp>
 <Pp>The room is distractingly cold, but that's just how the media folks like it. I cross my arms and gaze through the glass floor. The folks a floor below us argue around shiny tables.</Pp>
 <Pp>"Well, some people probably weren't looking at their screens. But I'd estimate at least...half of everyone." Chadmuth48 has thin eyebrows set high above his eyes. He raises them even higher. "It's a pretty sexy, savory scoop."</Pp>

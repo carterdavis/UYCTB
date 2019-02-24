@@ -1,5 +1,5 @@
 import React from 'react';
-
+import LazyLoad from 'react-lazyload';
 
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
@@ -17,6 +17,9 @@ const HappySplash = ({ children, num, state }) => (
 <Pp>"Your temperature is elevated and you're perspiring. Your mind is teeming with pathetic screams of worry. Morally, I feel obligated to splash you."</Pp>
 <Pp>I bend my torso downward as a display of deference. "Thank you Dr. Grinski."</Pp>
 <Pp>He thrusts my head and neck down into the tub of gooey pink Happy fluid. I didn't get enough of a breath and I flounder in the bubbling depths, feeling my pores swell up as the positive chemicals seep in. I instinctively thrash my arms and legs, choking on my lack of air, feeling his hands dunk me deeper. He slams my face against against the metallic basin of the tub and I feel my nose cartilage crunch. The rosy solution slides down my throat and into my lungs.</Pp>
+<LazyLoad offset={100} height={661} once>
+  <img class="chapterImage" src="assets/chapter4.jpg" />
+</LazyLoad>
 <Pp>He yanks me up by my dripping disc of hair. "You feel better, dumbass?"</Pp>
 <Pp>"I feel so outrageously good. I love you."</Pp>
 {children}</div>

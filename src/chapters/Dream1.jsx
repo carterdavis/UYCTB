@@ -9,7 +9,7 @@ const Dream1 = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Pp>
+<Pp bg="#000, #000">
   <p>Walking up a hill that keeps getting steeper.</p>
   <p>Flower I can't remember name of.</p>
   <p>Dr. Kindbrain tells me I'm a rotten fool.</p>

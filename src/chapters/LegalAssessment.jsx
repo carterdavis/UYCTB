@@ -84,7 +84,7 @@ const LegalAssessment = ({ children, num, state }) => (
 <Pp>"You'll need to visit Mr. Glem22 21Ninkus, fourth floor, northeast quadrant...he is our in-house Appearance Swap designer..."</Pp>
 <Pp>I don't say anything. I gag as some more red acid lurches past my tongue. Stringy drips of it hang from my lips. Silent for a few <span class="t">*</span>seconds.</Pp>
 <Pp>"Sometimes I wonder what they think down there as they throw those colored balls back and forth...all <span class="t">*</span>day, they just throw them at each other...must be nice I imagine..."</Pp>
-<Pp>I breathe in halting gasps. "Is Mr. 21Ninkus's door on the left or the right side?"</Pp>
+<Pp>I breathe in halting gasps. "Is. Mr. 21Ninkus's door. On the left or the right side?"</Pp>
 <Pp>"It is at the very end..." She pushes her glasses up on her nose. "...I'm very sorry."</Pp>
 {children}</div>
 );
