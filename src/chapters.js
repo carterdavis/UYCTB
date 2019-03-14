@@ -12,7 +12,7 @@ import MindTime from './chapters/MindTime.jsx';
 import DrivingHome from './chapters/DrivingHome.jsx';
 import MeetMyBirdies from './chapters/MeetMyBirdies.jsx';
 import LateNightConvos from './chapters/LateNightConvos.jsx';
-import TaffyChoke5 from './chapters/TaffyChoke5.jsx';
+import WatchingVids from './chapters/WatchingVids.jsx';
 import Contract from './chapters/Contract.jsx';
 import Sleepytime from './chapters/Sleepytime.jsx';
 import Dream1 from './chapters/Dream1.jsx';
@@ -94,7 +94,7 @@ export const chapters = [
   [DrivingHome, 'driving_home', 'Driving Home'],
   [MeetMyBirdies, 'meet_my_birdies', 'Meet My Birdies'],
   [LateNightConvos, 'late_night_convos', 'Late Night Convos'],
-  [TaffyChoke5, 'taffy_choke_5', 'Taffy Choke 5'],
+  [WatchingVids, 'watching_vids', 'Watching Vids'],
   [Contract, 'contract', 'Contract'],
   [Sleepytime, 'sleepytime', 'Sleepytime'],
   [Dream1, 'dream_1', 'Dream 1'],

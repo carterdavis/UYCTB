@@ -25,20 +25,22 @@ export default class LazyImage extends React.Component {
   }
 
   render() {
+    let image;
+
     if (this.state.error) {
-      return <img
-        className="chapterImage"
+      image = <img
         src=""
         alt={this.props.alt} />
     } else if (!this.state.loaded) {
-      return <img
-        className="chapterImage"
+      image = <img
         src=""
         alt={this.props.alt} />
+    } else {
+      image = <img
+        src={this.props.src}
+        alt={this.props.alt} />
     }
-    return <img
-      className="chapterImage"
-      src={this.props.src}
-      alt={this.props.alt} />
+
+    return <Pp c="chapterImage">{image}</Pp>
   }
 }

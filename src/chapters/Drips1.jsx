@@ -9,7 +9,7 @@ const Drips1 = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Drips chapter="one" />
+<Drips current={state.current} num={num} chapter="one" />
 {children}</div>
 );
 

@@ -10,18 +10,18 @@ const ConvoWithKerri = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Pp>I receive a zoip from my cousin Kerri51 79Dermott. I haven't heard from him in <span class="t">*</span>years.</Pp>
+<Pp>I receive a zoip from my cousin Kerri51 79Dermott. I haven’t heard from him in <span class="t">*</span>years.</Pp>
 <Z d={1} spe={80} u="k51" ch={num} o={0} z={state} f l> Hey Jim29, how are you doing little Bud</Z>
-<Z d={40} spe={70} u="j29" ch={num} o={1} z={state} f l> I've been better. how are you ?</Z>
+<Z d={40} spe={70} u="j29" ch={num} o={1} z={state} f l> I’ve been better. how are you ?</Z>
 <Z d={10} spe={82} u="k51" ch={num} o={2} z={state} f> Things are going good, Ha Ha</Z>
 <Z d={10} spe={75} u="k51" ch={num} o={3} z={state}>My brand new female partner, Tami62, has long hair... me likey!</Z>
-<Z d={15} spe={78} u="k51" ch={num} o={4} z={state} l>Whats the matter What's bringing you down</Z>
+<Z d={15} spe={78} u="k51" ch={num} o={4} z={state} l>Whats the matter What’s bringing you down</Z>
 <Z d={25} spe={76} u="j29" ch={num} o={5} z={state} f l> have you kept up with the scoops at all ?</Z>
 <Z d={12} spe={80} u="k51" ch={num} o={6} z={state} f> No</Z>
 <Z d={11} spe={76} u="k51" ch={num} o={7} z={state} l>Our net lord doesnt permit transfer of the current events</Z>
 <Z d={20} spe={73} u="j29" ch={num} o={8} z={state} f> gotcha</Z>
-<Z d={30} spe={82} u="j29" ch={num} o={9} z={state}>it's stupid, I won't bother you with the details</Z>
-<Z d={5} spe={72} u="j29" ch={num} o={10} z={state} l>how'd you and your partner meet ?</Z>
+<Z d={30} spe={82} u="j29" ch={num} o={9} z={state}>it’s stupid, I won’t bother you with the details</Z>
+<Z d={5} spe={72} u="j29" ch={num} o={10} z={state} l>how’d you and your partner meet ?</Z>
 <Z d={6} spe={80} u="k51" ch={num} o={11} z={state} f> Tell me</Z>
 <Z d={13} spe={82} u="k51" ch={num} o={12} z={state} l>I want to know whats wrong</Z>
 <Z d={80} spe={65} u="j29" ch={num} o={13} z={state} f> I feel very lost</Z>
@@ -31,11 +31,11 @@ const ConvoWithKerri = ({ children, num, state }) => (
 <Z d={30} spe={85} u="j29" ch={num} o={17} z={state} f l> no not yet</Z>
 <Z d={15} spe={87} u="k51" ch={num} o={18} z={state} f> Hes wise and merciful,</Z>
 <Z d={12} spe={83} u="k51" ch={num} o={19} z={state} l>and the key to our salvation.</Z>
-<Z d={100} spe={78} u="j29" ch={num} o={20} z={state} f> yah you're right</Z>
-<Z d={10} spe={75} u="j29" ch={num} o={21} z={state} l>I just haven't been feeling very spiritual lately</Z>
+<Z d={100} spe={78} u="j29" ch={num} o={20} z={state} f> yah you’re right</Z>
+<Z d={10} spe={75} u="j29" ch={num} o={21} z={state} l>I just haven’t been feeling very spiritual lately</Z>
 <Z d={5} spe={80} u="k51" ch={num} o={22} z={state} f> Return to Him</Z>
 <Z d={3} spe={82} u="k51" ch={num} o={23} z={state} l>His arms are open to embrace the prodigal son</Z>
-<Z d={15} spe={70} u="j29" ch={num} o={24} z={state} f> yah you're completely right</Z>
+<Z d={15} spe={70} u="j29" ch={num} o={24} z={state} f> yah you’re completely right</Z>
 <Z d={5} spe={65} u="j29" ch={num} o={25} z={state}>for sure. totally</Z>
 <Z d={10} spe={73} u="j29" ch={num} o={26} z={state} l>do you still live in Oily Town?</Z>
 <Z d={1} spe={68} u="k51" ch={num} o={27} z={state} f l> Jim29 you are such a good Friend</Z>

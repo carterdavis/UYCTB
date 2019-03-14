@@ -5,7 +5,7 @@ import { toggleVisibilityToC } from './../state.js';
 
 const Cover = ({ toc }) => (
   <div class="cover">
-    <h1>UNTIL YOU CONTINUE TO BEHAVE</h1>
+    <h1>Until You Continue To Behave</h1>
     <div class="spacer"></div>
     <div class="button-container">
       <button

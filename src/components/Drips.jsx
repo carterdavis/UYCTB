@@ -8,15 +8,20 @@ import Pp from './Pp.jsx';
 class Drips extends React.PureComponent {
   constructor(props) {
     super(props);
-    this.state = { counter: 0 };
+    this.state = { counter: 0, interval: null };
   }
 
   componentDidMount() {
-    console.log('bonko');
-    setInterval(() => {
-      console.log('binko');
-      this.setState({ counter: this.state.counter + 1 });
+    const interval = setInterval(() => {
+      if ((this.props.current > this.props.num - 2) && (this.props.current < this.props.num + 2)) {
+        this.setState({ counter: this.state.counter + 1 });
+      }
     }, 3000);
+    this.setState({ interval: interval });
+  }
+
+  componentWillUnmount() {
+    clearInterval(this.state.interval);
   }
 
   render() {

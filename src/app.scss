@@ -8,16 +8,18 @@
   }
 }
 
-@include font('DIN', './assets/fonts/DIN');
-@include font('DIN', './assets/fonts/DIN Bold');
+@font-face {
+  font-family: "Bembo";
+  src: url('assets/fonts/SinaNovaReg.otf');
+}
 
 $bezier: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
 body {
   position: relative;
   margin: 0;
-  font-family: 'DIN', sans-serif;
-  font-size: 18px;
+  font-family: 'Bembo', serif;
+  font-size: 21px;
   overflow-x: hidden;
 
   &.no-scroll {
@@ -72,8 +74,12 @@ body {
   }
 }
 
+#content {
+  outline: none;
+}
+
 h1 {
-  font-family: 'DIN Bold', sans-serif;
+  font-family: 'Bembo', serif;
   text-align: center;
   font-size: 2.5rem;
   color: #FFF;
@@ -82,10 +88,11 @@ h1 {
 h2 {
   font-size: 1.25rem;
   text-align: center;
+  text-indent: 0;
 }
 
 .roar {
-  font-family: 'DIN Bold', sans-serif;
+  font-family: 'Bembo', serif;
   font-weight: 800;
 }
 
@@ -113,7 +120,7 @@ h2 {
     p {
       padding: 2rem;
       text-indent: 0;
-      width: 33rem;
+      width: 38rem;
       font-size: 2rem;
 
       &.odd {
@@ -124,11 +131,19 @@ h2 {
 }
 
 .chapterImage {
-  width: 33rem;
+  width: 38rem;
   padding: 3.2rem 0;
   margin: auto;
   display: block;
   background-color: #FFF;
+
+  .inner p {
+    text-indent: 0;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 $width: 30px;
@@ -223,11 +238,12 @@ $transitionSpeed: 300ms;
 
   p {
     display: block;
-    line-height: 1.6;
-    width: 33rem;
+    line-height: 1.5;
+    width: 38rem;
     margin: auto;
-    text-indent: 2rem;
     color: #393939;
+    padding: .5rem 0;
+    text-indent: 2.5rem;
   }
 }
 
@@ -244,6 +260,7 @@ $transitionSpeed: 300ms;
 
   .u {
     color: #3b55d0;
+    word-wrap: break-word;
   }
 
   .h {
@@ -403,7 +420,7 @@ $transitionSpeed: 300ms;
     width: 100%;
     font-weight: 800;
     font-size: 1.5rem;
-    font-family: 'DIN Bold', sans-serif;
+    font-family: 'Bembo', serif;
     margin: 2rem auto;
     padding: 1rem 0;
     cursor: pointer;
@@ -534,6 +551,22 @@ $n20: #ba6c1a;
   }
 }
 
+.brochures {
+  padding: 1.5rem 0;
+
+  .brochure {
+    min-height: 42rem;
+    color: #FFF;
+    box-sizing: border-box;
+    padding: 3rem;
+
+    p {
+      color: #FFF;
+      width: 100%;
+    }
+  }
+}
+
 .toc-link {
   text-decoration: underline;
   cursor: pointer;
@@ -570,19 +603,61 @@ $n20: #ba6c1a;
   }
 }
 
-@media all and (max-width: 600px) and (min-width: 401px) {
-  .inner p { width: 90%; }
+@media all and (max-width: 720px) and (min-width: 401px) {
+  .inner p { width: 93%; }
   .snippet { width: 80%; }
-  .chapterImage { width: 100%; }
+  .chapterImage {
+    padding: 3.2rem 0;
+    width: 100%;
+
+    .inner {
+      width: 100%;
+
+      p {
+        width: 100%;
+      }
+    }
+  }
+
   .zoip .msg, .zoip.j29 .msg {
     width: 100%;
     padding-left: 0;
   }
+  .brochures {
+    .inner p {
+      width: 100%;
+    }
+
+    .brochure {
+      min-height: 42rem;
+      color: #FFF;
+      box-sizing: border-box;
+      padding: 3rem ;
+    }
+  }
 }
 
 @media all and (max-width: 400px) {
-  .inner p { width: 90%; font-size: 16px; }
-  .chapterStart .inner p { width: 82%; }
+  .inner p {
+    width: 94%;
+    font-size: 17px;
+    text-indent: 1.5rem;
+  }
+
+  .brochures {
+    .inner p {
+      width: 100%;
+    }
+
+    .brochure {
+      min-height: 42rem;
+      color: #FFF;
+      box-sizing: border-box;
+      padding: 3rem ;
+    }
+  }
+
+  .chapterStart .inner p { width: 93%; }
   .snippet-wrapper .snippet.open {
     width: 100%;
     margin-left: -50%;
@@ -591,5 +666,16 @@ $n20: #ba6c1a;
     width: 100%;
     padding-left: 0;
   }
-  .chapterImage { width: 100%; }
+  .chapterImage {
+    padding: 1.5rem 0;
+    width: 100%;
+
+    .inner {
+      width: 100%;
+
+      p {
+        width: 100%;
+      }
+    }
+  }
 }
