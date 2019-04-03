@@ -20,10 +20,10 @@ const TheAfternap = ({ children, num, state }) => (
 <Pp>“Ah yah I guess I was getting a lot of notifications.”</Pp>
 <Pp>“Listen, champ. This is just how it goes. “</Pp>
 <Pp>“What do you mean?”</Pp>
-<Pp>“The net can be a real meat grinder. People like to rip people up nowadays. At some point they made it illegal to abuse and murder animals and now this is probably now our most comparable outlet. Human beings are natural hunters. Don’t you love the sound of snapping bone? We love seeing faces curl up while they bleed. Now we just do that crap with keyboards. It is, quite frankly, the way we're wired. Definitely a bummer.”</Pp>
+<Pp>“The net can be a real meat grinder. People like to rip people up nowadays. At some point they made it illegal to torture animals for sport and this is probably our most comparable outlet. Human beings are natural hunters. Don’t you love the sound of snapping bone? We love seeing faces curl up while they bleed. Now we just do that crap with keyboards. It is, quite frankly, the way we’re wired. Definitely a bummer.”</Pp>
 <Pp>“Uh,” I rub my sleepy head, “what are you talking about?”</Pp>
-<Pp>“You'll want to turn off your celly for the whole <span class="t">*</span>weekend I imagine. Don’t go outside too much. You’re a murderer now, so you’re kinda kicked out of the human tribe. Don’t give up. Things are going to get better eventually. It take a while. But I’m rootin for ya.”</Pp>
-<Pp> I cross my arms and lean them against the back of my seat. “I think I might need a <span class="t">*</span>second to process. I’m...I’m really sorry.”</Pp>
+<Pp>“You’ll want to turn off your celly for the whole <span class="t">*</span>weekend I imagine. Don’t go outside too much. You’re a murderer now, so you’re kinda kicked out of the human tribe. Don’t give up. Things are going to get better eventually. It take a while. But I’m rootin for ya.”</Pp>
+<Pp> I cross my arms and lean them against the back of my seat. “I think I might need a <span class="t">*</span>second to process. I’m…I’m really sorry.”</Pp>
 <Pp>“Makes no sense to apologize to me! Did you finish the hotfix, by the way? Is that ready?”</Pp>
 <Pp>“I can’t figure out what caused the error.”</Pp>
 <Pp>“So, not ready?”</Pp>
@@ -33,7 +33,7 @@ const TheAfternap = ({ children, num, state }) => (
 <Pp>“You are a complete waste of a person. Just utterly miserable.” He turns around to walk away. “Go talk to legal by the way. They’ve been tryin to get ahold of you.” Slams the door behind himself.</Pp>
 <Pp>I have the shivers even though it’s warm in here. I’m feeling very dreadful. I boot up my celly and start scrolling through some of my top scoops.</Pp>
 <Pp>But that’s the thing, I can’t read right now. Mr. Doby22 95Blunker is hollering again. I can’t help but stare through the floor. He’s running in circles, hands on his head, shouting things such as “PLEASE no no no, PLEASE PLEASE no no, NO! OH NO!!” His face is as red as Tomahto Queam.</Pp>
-<Pp>He slams headfirst into the tan wall and collapses into a wriggling heap. I can see his eyes for the first time. They're bright brown and wide like he’s about to get run over by a choo choo. I hate watching him writhe like an eel down there.</Pp>
+<Pp>He slams headfirst into the tan wall and collapses into a wriggling heap. I can see his eyes for the first time. They’re bright brown and wide like he’s about to get run over by a choo choo. I hate watching him writhe like an eel down there.</Pp>
 <Pp>OK now he’s on all fours. He’s racing around the room on all fours like a canine. Tongue is hanging out too. He’s struggling to itch himself behind the ears with his knee. He can’t quite reach em. He’s wearing dress pants and his butt is up wagging in the air. Now he’s just licking the wall.</Pp>
 {children}</div>
 );

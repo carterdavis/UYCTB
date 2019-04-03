@@ -11,8 +11,8 @@ const MyFavoriteToy = ({ children, num, state }) => (
 {children}
 
 <Pp>I take two more Jubimum tabs and wash it down with some Lemmon-Liime Queam. They just aren’t doing anything for me. I can’t stand it. My brain feels constantly sore or getting scraped. When I close my eyes I see thrashing legs mashed into dripping gristle and hear the multipart snapping of a human skeleton. It sucks!!</Pp>
-<Pp>OK, now they're starting to kick in. The colors are starting to look a bit more vivid. Yah now I feel a lot better. Hell yah. Darn. I’m starting to feel good as freaking crap. Ahahaha. This is about to make me say OMG. One <span class="t">*</span>second actually, OK, I’m going to go grab my favorite toy Papa Boinkus. I love you Papa Boinkus! Where are you! That’s right, you’re right here at the top of the toy pile. Boinkus, I must be honest with you. I feel so good that I’m not sure whether I should puke, or start chirping.</Pp>
-<Pp>So here’s the thing. Papa Boinkus is not a very good-looking toy. We're all aware of that. Its purple skin is rough and bubbly, its eyes are swollen shut, it has no hair, its face looks like the face of an eagle sans the beak, its ears are big and butt-ugly, its green lips are always smirking, its speech is gruff and stentorian, its legs are grubby, it smells like multiple armpits, it’s dressed like a barbarian clown crossed with a haunted ninja, and I just positively hate the way it feels when I hold it in my hands. But alas, it is my favorite toy.</Pp>
+<Pp>OK, now they’re starting to kick in. The colors are starting to look a bit more vivid. Yah now I feel a lot better. Hell yah. Darn. I’m starting to feel good as freaking crap. Ahahaha. This is about to make me say OMG. One <span class="t">*</span>second actually, OK, I’m going to go grab my favorite toy Papa Boinkus. I love you Papa Boinkus! Where are you! That’s right, you’re right here at the top of the toy pile. Boinkus, I must be honest with you. I feel so good that I’m not sure whether I should puke, or start chirping.</Pp>
+<Pp>So here’s the thing. Papa Boinkus is not a very good-looking toy. We’re all aware of that. Its purple skin is rough and bubbly, its eyes are swollen shut, it has no hair, its face looks like the face of an eagle sans the beak, its ears are big and butt-ugly, its green lips are always smirking, its speech is gruff and stentorian, its legs are grubby, it smells like multiple armpits, it’s dressed like a barbarian clown crossed with a haunted ninja, and I just positively hate the way it feels when I hold it in my hands. But alas, it is my favorite toy.</Pp>
 <Pp>I just have to plug it in, one <span class="t">*</span>second. It only wakes up if it’s seated on its special pedestal right here. The plug goes deep into the back of its skull. Bzzzt! This is that black rock energy. That lovely coal. Yummy. Smells like God’s burning hair. Look! It’s standing up!</Pp>
 <Pp>“Greetings, Bunndy22. I am your daddy.”</Pp>
 <Pp>You sure are! I always forget how low your voice is, ha ha. You can still call me Jim29 if you want. Ha ha ha!</Pp>
@@ -25,18 +25,18 @@ const MyFavoriteToy = ({ children, num, state }) => (
 <Pp>“Bunndy22, would you like to see a radiant display?”</Pp>
 <Pp>YES! A trillion times YES!</Pp>
 <Pp>“And so it begins.”</Pp>
-<Pp>Every time, like clockwork, the vision orb slurps up out of Papa Boinkus’s brain. Boinkus itself is sporting that smug self-satisfied smirk that it pulls off so perfectly. Gives me the chills, you know? Pay close attention, because the vision orb is gathering voltage. That’s where that static noise is coming from. Man I love this orb so dam much. 3...2...1...0...bingo...</Pp>
+<Pp>Every time, like clockwork, the vision orb slurps up out of Papa Boinkus’s brain. Boinkus itself is sporting that smug self-satisfied smirk that it pulls off so perfectly. Gives me the chills, you know? Pay close attention, because the vision orb is gathering voltage. That’s where that static noise is coming from. Man I love this orb so dam much. 3…2…1…0…bingo…</Pp>
 <Pp>Kaboom!! Just look that. Jesus Mary and Joseph would you just look at that?! 360 degree projected Ultradef light glimmering off every surface in my bedchamber, bursting in brilliant algorithmically-generated splendor. In all honesty it doesn’t need to be so bright, it kind of hurts my eyes, but it’s oh so spectacularly worth it! The vivid patterns and shapes morph from tessellating fractals into men into phantoms into women into skies and water and land into spiraling magma into flowers blooming into corporate executives shaking hands into landmines exploding into money falling from the sky etc etc. You get the gist. Hallelujah, right?</Pp>
 <Pp>Now please just let me watch.</Pp>
 <Pp>I’m not done yet. I’m still watching. What do you want from me? I’m not talking to Papa Boinkus. I’m talking to you. YOU!</Pp>
-<Pp>...</Pp>
-<Pp>...</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
+<Pp>…</Pp>
+<Pp>…</Pp>
 <Pp>Please allow me to just watch OK?</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
 <Pp>Tell me what I need to do to get you to stop looking at me.</Pp>
-<Pp>...</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
+<Pp>…</Pp>
 <Pp>“Bunndy22, would you like me to tuck you in?”</Pp>
 <Pp>Of course, Papa Boinkus. You decide my bedtime.</Pp>
 <Pp>“And so it begins.”</Pp>

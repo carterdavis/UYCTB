@@ -32,10 +32,10 @@ const scrollTop = (target) => {
 export const update = (current) => {
   if (store.getState().current != current) {
     const url = `#${chapters[current][1]}_${current}`;
-    if (history.pushState) {
-      history.pushState(null, null, url);
+    if (history.replaceState) {
+      history.replaceState(null, null, url);
     } else {
-      location.hash = url;
+      location.replace(url);
     }
     store.dispatch(updateCurrent(current));
   }

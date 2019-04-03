@@ -9,15 +9,17 @@ const Lunchtime = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Pp>Lunch time! Yum yum. Jumper56 is sitting at the other end of the chow station. I’m eating a bowl of grey kernel-fed pork lumps with a side of chewy Froot Pop Ems. She’s eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
-<Pp>I burp and dig for a particularly appealing lump. “I wish the tables in here weren’t so wobbly.”</Pp>
+<Pp>The slides that lead to the second floor drop off in the company library. The shelves are filled with dog-eared technical manuals and copies of <em>The 01Stone Method: How To Wring Your Enemies’ Necks and Seize Everything You Desire</em>. Employees mostly use it as a place to quietly focus on their work. The acoustics in here are crazy. I swear you can hear every creak and pop and groan people’s bodies made as they concentrate.</Pp>
+<Pp>The library leads into The GrubZone, or the employee cafeteria. Every <span class="t">*</span>day around 12:00bt it’s teeming with bodies. Low wage cooks are stowed away behind a wide Ultradef screen that zooms in and out on images of the steamy entrees. Their sweaty gnarled hands reach through holes in the screen, holding plates for hungry eaters. Every now and then a developer will forcefully slap a cook’s hand and it’ll jerk back into the hole. I select a bowl of grey kernel-fed pork lumps with a side of chewy Froot Pop Ems. The floor is spongy underfoot, covered in a dense layer of soggy discarded wrappers, napkins, and food bits. Every footfall makes a shyuk shyuk noise. The ambience is thick with the din of slappin smackin lips.</Pp>
+<Pp>Food time! I can’t wait to munch. Jumper56 is sitting at the other end of our reserved chow station. She’s eating a bowl of dry tortilla chips with one hand, typing with her other.</Pp>
+<Pp>I burp and dig for a particularly appealing lump. “I wish the chow stations in here weren’t so wobbly.”</Pp>
 <Pp>“It’s intentional though. Maintaining stability builds teamwork.”</Pp>
 <Pp>“You ever feel like you’re unqualified for this job?”</Pp>
 <Pp>“Hm.” She sets her chip down and picks up a different one. “Yah I spose, but I try not to think like that. Is programming not your thing? What’d you study at Knowledge Dome?”</Pp>
 <Pp>“I got my smartie sash in Finite Concepts with an Art of Mystery concentration pin.”</Pp>
 <Pp>“Very interesting! I’ve never heard about those.”</Pp>
-<Pp>“They're boring topics. Waste of time. What’d you study?”</Pp>
-<Pp>She pushes her glasses up. “I worked my rear end off to receive smartie sashes in both New Sayings and Popular Thinking. They're still hanging in my closet. But like, I don’t appreciate how the fabric feels against my neck, know what I mean?”</Pp>
+<Pp>“They’re boring topics. Waste of time. What’d you study?”</Pp>
+<Pp>She pushes her glasses up. “I worked my rear end off to receive smartie sashes in both New Sayings and Popular Thinking. They’re still hanging in my closet. But like, I don’t appreciate how the fabric feels against my neck, know what I mean?”</Pp>
 <Pp>“The fibers can certainly be abrasive.”</Pp>
 <Pp>“What made you choose to be employed by Dimples?”</Pp>
 <Pp>“They were the only place to give me an offer.”</Pp>
@@ -38,7 +40,7 @@ const Lunchtime = ({ children, num, state }) => (
 <Pp>“No, I was an only child. My parents were killed in a speedster accident when I was eight. I was strapped in my velvety kid-seat and they got into a head-on collision. The front of the speedster was totally crunched, blood oozing out between chunks of glass.”</Pp>
 <Pp>“Oh my gosh, I’m so sorry to hear that. That’s literally too bad.”</Pp>
 <Pp>“It’s OK! Ha ha. It was a long time ago. I only recall it really fuzzy. It’s one of my earliest memories. Not any big deal, don’t worry. I never even knew them enough to miss them, you know? How about your folks?”</Pp>
-<Pp>“They're so super nice. They live a few thousand twentyleaps away, but like, I’m still really extremely close with them. I talk to them every couple of <span class="t">*</span>days or so. I love them so much. It’s like, every good part of me was part of them first.”</Pp>
+<Pp>“They’re so super nice. They live a few thousand twentyleaps away, but like, I’m still really extremely close with them. I talk to them every couple of <span class="t">*</span>days or so. I love them so much. It’s like, every good part of me was part of them first.”</Pp>
 <Pp>I pick a greasy pork toenail out from between my front teeth.  “Do you have any hobbies outside of work?”</Pp>
 <Pp>“I play my viola in a symphony.”</Pp>
 <Pp>“Are you the only violist?”</Pp>
@@ -53,15 +55,13 @@ const Lunchtime = ({ children, num, state }) => (
 <Pp>“Did you just pick them up from a pet mart or something?”</Pp>
 <Pp>“I’m kind of obsessed with pet adoption sites on the net. That’s how they found me. I scroll through those sites at least a few times a <span class="t">*</span>week. I find them so engaging. It’s a hobby I guess.”</Pp>
 <Pp>“Does it cost a lot to feed them?”</Pp>
-<Pp>“Not really. They don’t have very big appetites. They mostly eat Froot and kernels. I’m pretty frugal. I just let my gold pile up. I don’t know what else to do with it. And I can’t stand the thought of those gentle beings stuck in cages for their whole lives, without any interaction! They're so smart! They feel so much. Imagine what it’d be like to grow up in a prison and die in a prison without ever knowing anything or anyone else. Trapped every <span class="t">*</span>day without anyone to even worry about you.”</Pp>
+<Pp>“Not really. They don’t have very big appetites. They mostly eat Froot and kernels. I’m pretty frugal. I just let my gold pile up. I don’t know what else to do with it. And I can’t stand the thought of those gentle beings stuck in cages for their whole lives, without any interaction! They’re so smart! They feel so much. Imagine what it’d be like to grow up in a prison and die in a prison without ever knowing anything or anyone else. Trapped every <span class="t">*</span>day without anyone to even worry about you.”</Pp>
 <Pp>“I wouldn’t like dealing with all of the stenches.”</Pp>
 <Pp>“My birds don’t smell.”</Pp>
 <Pp>“Sorry sorry, ha ha, OK, how could I know that I guess.”</Pp>
-<Pp>“Sometimes I worry that I'll never know how much they're thinking. They could be thinking the exact same kinds of thoughts that I’m thinking. Or they could be thinking in totally different dimensions of thought. I don’t think they even know right or wrong. But they know what they like, and they have a rough concept of what I like too. Plus they'll live forever; for instance macaws can live to be like a hundred. WOW y’know? What kind of person will I be in a hundred <span class="t">*</span>years?”</Pp>
-<Pp>“But you can’t like really be sure of one hundred full <span class="t">*</span>years. We don’t know our own fortunes is what I mean. Something could happen any <span class="t">*</span>day to you or them also. So every <span class="t">*</span>day with them is such a gift to cherish.”</Pp>
-<Pp>“Yes totally, I agree. Super true.”</Pp>
+<Pp>“Sometimes I worry that I’ll never know how much they’re thinking. They could be thinking the exact same kinds of thoughts that I’m thinking. Or they could be thinking in totally different dimensions of thought. I don’t think they even know right or wrong. But they know what they like, and they have a rough concept of what I like too. Plus they’ll live forever; for instance macaws can live to be like a hundred. WOW y’know? What kind of person will I be in a hundred <span class="t">*</span>years?”</Pp>
 <Pp>“You should show me pictures of them!”</Pp>
-<Pp>“Sure. I’ve got some on my computering device. I'll zoip them to you.” I pop a tablet of Grumbletine, my lunch digestion supplement.</Pp>
+<Pp>“Sure. I’ve got some on my computering device. I’ll zoip them to you.” I pop a tablet of Grumbletine, my lunch digestion supplement.</Pp>
 <Pp>“I bet those birds know as much about life as you do.”</Pp>
 <Pp>“Ch-ching!”</Pp>
 <Pp>“Yah. We’ve just been studyin different topics.”</Pp>

@@ -16,7 +16,7 @@ const HappySplash = ({ children, num, state }) => (
 <Pp>He rests his dry thumb against my forehead for about ten <span class="t">*</span>seconds.</Pp>
 <Pp>“Your temperature is elevated and you’re perspiring. Your mind is teeming with pathetic screams of worry. Morally, I feel obligated to splash you.”</Pp>
 <Pp>I bend my torso downward as a display of deference. “Thank you Dr. Grinski.”</Pp>
-<Pp>He thrusts my head and neck down into the tub of gooey pink Happy fluid. I didn’t get enough of a breath and I flounder in the bubbling depths, feeling my pores swell up as the positive chemicals seep in. I instinctively thrash my arms and legs, choking on my lack of air, feeling his hands dunk me deeper. He slams my face against against the metallic basin of the tub and I feel my nose cartilage crunch. The rosy solution slides down my throat and into my lungs.</Pp>
+<Pp>He thrusts my head and neck down into the tub of gooey pink Happy fluid. I didn’t get enough of a breath and I flounder in the bubbling depths, feeling my pores swell up as the positive chemicals seep in. I instinctively thrash my arms and legs, choking on my lack of air, feeling his hands dunk me deeper. He slams my face against against the metallic basin of the tub and I feel my cartilage crunch. The rosy solution slides down my throat and into my lungs.</Pp>
 <Pp c="chapterImage">
   <LazyLoad offset={100} height={661} once>
     <img src="assets/chapter4.jpg" />

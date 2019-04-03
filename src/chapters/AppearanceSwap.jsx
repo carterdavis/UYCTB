@@ -16,9 +16,9 @@ const AppearanceSwap = ({ children, num, state }) => (
 <Pp>“I guess.”</Pp>
 <Pp>“You can take a seat. I’m just getting my equipment set up.”</Pp>
 <Pp>“Do I have to do this? From a legal standpoint?” The chair is wooden and rigid. My body feels foreign, like I’m actually located two inches below where I’m sitting.</Pp>
-<Pp>“Yes sir!” He wheels out a large amorphous white machine with a hefty touchscreen on its side. “This is just normal corporate procedure. You'll be back to living like normal in no time.”</Pp>
+<Pp>“Yes sir!” He wheels out a large amorphous white machine with a hefty touchscreen on its side. “This is just normal corporate procedure. You’ll be back to living like normal in no time.”</Pp>
 <Pp>“What are you going to do to me?”</Pp>
-<Pp>“I’m just going to use this Dimples FaceFriend to get some measurements. We'll factor them into generating your outfit.”</Pp>
+<Pp>“I’m just going to use this Dimples FaceFriend to get some measurements. We’ll factor them into generating your outfit.”</Pp>
 <Pp>“Interesting. How does the algorithm generate outfits? Like, what sorts of data does the FaceFriend collect?”</Pp>
 <Pp>A human face-shaped indentation sinks into the side of the machine. Glem22 beckons with his fingers. “Would you mind squeezing your head on in there?”</Pp>
 <Pp>I get up out of my chair. “No problem.”</Pp>
@@ -27,22 +27,22 @@ const AppearanceSwap = ({ children, num, state }) => (
 <Pp>After a <span class="t">*</span>minute of crushing the machine lets go of my head. I droop down to the floor limp and whimpering, tasting and smelling blood leaking out my mouth and nose.</Pp>
 <Pp>He gestures to the machine. “This baby’s actually running on Dimples Z21. Kind of cool to think that some of your code probably helps it kick into gear.”</Pp>
 <Pp>My temples throb combustibly. Vision is fog.</Pp>
-<Pp>“I tell people we're just going to take measurements because it’s always easier if they don’t know what’s in store. I hope you can forgive me, sport.”</Pp>
+<Pp>“I tell people we’re just going to take measurements because it’s always easier if they don’t know what’s in store. I hope you can forgive me, sport.”</Pp>
 <Pp>I feel my face in my hands. It’s covered in a smooth, soft synthetic material. I can open my mouth and breath through my nose. The contours are someone else’s.</Pp>
 <Pp>“We start you off with one of those plasticky things to make sure your face doesn’t reject its new shape. Think of it like a cast for your whole face.”</Pp>
 <Pp>I lie face down on the floor. My skin is void of sensation.</Pp>
-<Pp>Glem22 makes an effort to be cheerful. “I have your brand new outfit picked out for you! I think it'll look really special.”</Pp>
-<Pp>...</Pp>
+<Pp>Glem22 makes an effort to be cheerful. “I have your brand new outfit picked out for you! I think it’ll look really special.”</Pp>
+<Pp>…</Pp>
 <Pp>“It’s a blue unisuit with a pink shirt. And a bowler hat, to boot.”</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
 <Pp>“I understand if you’re not much of a hat fella. I just thought it was a little snazzy.”</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
 <Pp>“You sure you don’t want to try it on?”</Pp>
-<Pp>...</Pp>
-<Pp>“I'll leave it hanging on the hook here. Does that sound OK with you?”</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
+<Pp>“I’ll leave it hanging on the hook here. Does that sound OK with you?”</Pp>
+<Pp>…</Pp>
 <Pp>“You’re going to have to get up at some point. Act like an adult.”</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
 {children}</div>
 );
 

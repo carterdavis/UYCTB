@@ -16,8 +16,8 @@ const EndOfDay = ({ children, num, state }) => (
 <Pp>A custodian walks in. His knuckles are covered in scabs. He’s carrying a dirty wet auto mop.</Pp>
 <Pp>I scream at him. “GET OUT! NO! LEAVE!”</Pp>
 <Pp>He promptly exits.</Pp>
-<Pp>It feel like I’m spying on someone through their own eyes in the mirror. It might be a SmartMirror! I look like a complete freak. People already think I'm weird and now I look like this. It's alarming. Like I'd amost rather peel the face skin off and just show people my skull. I wash my hands and scrub really hard with the lavender soap.</Pp>
-<Z d={40} spe={85} u="n31" seq="a" ch={num} o={0} z={state} f l> Is it OK if we take a rain-check?</Z>
+<Pp>It feel like I’m spying on someone through their own eyes in the mirror. It might be a SmartMirror! I look like a complete freak. People already think I’m weird and now I look like this. It’s alarming, like I'd almost rather peel my face off and just show people my skull. I wash my hands and scrub really hard with the lavender soap.</Pp>
+<Z d={40} spe={85} u="q31" seq="a" ch={num} o={0} z={state} f l> Is it OK if we take a rain-check?</Z>
 <Pp>There isn’t much of anyone left in the office. People leave early on Respectfuldays. Probably to get a headstart on the <span class="t">*</span>weekend. I wish I had cool <span class="t">*</span>weekend plans. That would make me feel much better. I need to spend less time alone. The only noise is the clomp clomp of my dress shoes. I can stare through the floor into the foyer without spotting a soul.</Pp>
 <Z d={30} spe={68} u="j29" seq="a" ch={num} o={1} z={state} f> is there any way I could still see you tonight?</Z>
 <Z d={5} spe={72} u="j29" seq="a" ch={num} o={2} z={state}>I don’t think I should be alone.</Z>
@@ -47,8 +47,8 @@ const EndOfDay = ({ children, num, state }) => (
 <Pp>“What did you do today?”</Pp>
 <Pp>“I don’t understand what you’re asking, sir.”</Pp>
 <Pp>“Did you just sit in your parking notch and do nuthin all <span class="t">*</span>day?”</Pp>
-<Pp>...</Pp>
-<Pp>...</Pp>
+<Pp>…</Pp>
+<Pp>…</Pp>
 <Pp>“Yes, that is what I did. Do you have any more questions?”</Pp>
 <Pp>“No, I was just wondering.”</Pp>
 {children}</div>

@@ -22,7 +22,7 @@ const Dream1 = ({ children, num, state }) => (
       <p>I wake up. Walk into the bathroom, push out some wizz. Return to the warm sheets and roll onto my belly. Jellybed feels especially soggy tonight. My body aches in whichever contortion.</p>
       <p>Sitting in my speedster again.</p>
       <p>Trying to cut my hand with safety scissors, doesn’t work.</p>
-      <p>Sitting in the garden atrium eating a frozen casserole, somewhat frozen in the middle.</p>
+      <p>Sitting in the garden atrium eating a casserole, somewhat frozen in the middle.</p>
     </div>
   </Fade>
 </Pp>

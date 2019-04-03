@@ -17,7 +17,7 @@ const AStranger = ({ children, num, state }) => (
 <Pp>His eyes are wide, like he’s shocked by the sight of something unseeable. He smiles. “Excellently good to meet you, sir. Boo-yah! My name is Grabbus. Mr. Augustinius00 01Stone requests your presence.”</Pp>
 <Pp>“Oh. OK. I’m just gonna hop in my pod to get my celly charging, be back in a jiff.” I rifle through my pouch, looking for my new name badge. I need it to unseal my workpod’s portal.</Pp>
 <Pp>He exhales heavily. His entire face curls up. “My apologies Mr. 35Fludge, but Mr. 01Stone demands your presence now.”</Pp>
-<Pp>“Really? It'll only take a <span class="t">*</span>second.”</Pp>
+<Pp>“Really? It’ll only take a <span class="t">*</span>second.”</Pp>
 <Pp>“Come with me.” He cracks his knuckles and chews his lip.</Pp>
 <Pp>“Please?? I’m on 1%. It took an entire percent for me to look up my new pod location.”</Pp>
 <Pp>He flares out his nostrils. “Do not make me beat you. I will smash you into a memory and fashion you into my personal dumpster.”</Pp>

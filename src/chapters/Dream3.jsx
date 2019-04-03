@@ -22,7 +22,7 @@ const Dream3 = ({ children, num, state }) => (
       <p>Mr. McBubble giving me a gigantic scrub. Suds cleansing my soul.</p>
       <p>Dark except my monitor’s Ultradef glow. I hook my umbilical data plug into my tummy and type every key at once.</p>
       <Z d={30} spe={70} u="j56" ch={num} o={0} z={state} f l no> ONE</Z>
-      <Z d={30} spe={70} u="n31" ch={num} o={1} z={state} f l no> WHERE</Z>
+      <Z d={30} spe={70} u="q31" ch={num} o={1} z={state} f l no> WHERE</Z>
       <Z d={30} spe={70} u="n20" ch={num} o={2} z={state} f l no> THING</Z>
       <p>Data plug starting to hurt. Digging deep into my stomach. Can’t pull it out. Crawling down intestines, up throat. Scraping deeper as I gag coughing choking. I pull more and my body rips. Wheezing and retching. Cord squirms and squirts itself up deeper. Scraping up into my skull through the weak bone. Eyes slip out into my hands. Turn em around. Looking back up at my self bruised of oozing holes. Walls rumble as brain leaks through mouth’s ceiling. Swallowing myself.</p>
       <p>Everyone seems to think I’m rude?</p>

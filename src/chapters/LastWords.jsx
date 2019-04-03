@@ -10,13 +10,13 @@ const LastWords = ({ children, num, state }) => (
 {children}
 
 <Pp>“Hey dude. Wake up.”</Pp>
-<Pp>“Wha...hmmnnn...”</Pp>
+<Pp>“Wha…hmmnnn…”</Pp>
 <Pp>“I pulled over to a rest station. This is as far as I go.”</Pp>
-<Pp>“...OK...I’m going to go back to sleep...”</Pp>
+<Pp>“…OK…I’m going to go back to sleep…”</Pp>
 <Pp>“Jim29, I’m on my last rest token. I bought three when I got here. I’ve been waiting for you to wake up for a long time.”</Pp>
 <Pp>“Where am I?”</Pp>
 <Pp>“The northern coast? Exactly where you told me to drive?”</Pp>
-<Pp>“Oh. Right. Yah. Can I just sit here for a *sec?”</Pp>
+<Pp>“Oh. Right. Yah. Can I just sit here for a <span class="t">*</span>sec?”</Pp>
 <Pp>“Sorry my knucklehead. Traffic was already horrible on the way here. I’d like to get home before midnight.”</Pp>
 <Pp>“I’m your knucklehead?”</Pp>
 <Pp>“Yop. At least as much as anyone else is.”</Pp>
@@ -28,7 +28,7 @@ const LastWords = ({ children, num, state }) => (
 <Pp>“OK. Just ran out of tokens. Gotta go.”</Pp>
 <Pp>“Goodbye Jumper56.”</Pp>
 <Pp>“Goodbye Jim29.”</Pp>
-<Pp>“Maybe I'll see you again someday.”</Pp>
+<Pp>“Maybe I’ll see you again someday.”</Pp>
 <Pp>“Oh my God though! I really hope not.”</Pp>
 <Pp>“Hm. I regret leaving you with a bad impression.”</Pp>
 <Pp>“Yah dude, ha ha. You’re definitely going straight to Hell.”</Pp>

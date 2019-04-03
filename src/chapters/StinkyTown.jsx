@@ -10,54 +10,53 @@ const StinkyTown = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Pp>Mjmubhe__ unlocks the rusty family turboshed, reaches in, unzips something, unknots something, pulls out two helmets, and extends them toward us. “Put it right up on your head, now do it. Right up on.”</Pp>
-<Pp>Quimby31 starts putting theirs on. Mine smells like ancient head sweat. I ask, politely, “Why do we need helmets?”</Pp>
-<Pp>Mjmubhe__ looks at me like I’m not too clever. “The sky brings gifts, but the sky is not safe. So you don’t pass away.”</Pp>
-<Pp>I fasten the helmet’s flexo-cords under my chin. I can’t smell the helmet anymore, so the stink must be absorbing into my scalp. “What kinds of things fall from the sky?”</Pp>
-<Pp>“Oh, the usual garbages. Craps. Canisters. Half-eaten corndog. Diaper. Knife. Crumpled up printed out scoops. Blocks of ice. Nuthin too bad. That’s life, they say.” She marches onward, swinging her torch, melting away the night. “And yet, the truth is, sometimes the sky sprinkles down such treasures. Brush, for my teeth. Teevee in box, half-cracked. Bag of delicious Froot Pop Ems, half of them left, yommy! Sometimes the entrepreneur charities give to us, give to everyone in community at large. They give me mousepads, cup koozies, branded pens, these sweaters which I wear, the machine which keeps grandpop alive, I already said seesaw, also many many bottles of food.”</Pp>
-<Pp>Quimby31 is making an impressed face. “That’s very admirable and generous of them.”</Pp>
-<Pp>“Yes. Many love to worship them, like God. They shoot 360 degree highest definition virtual film of us, once out of every few of the <span class="t">*</span>days, now and again.”</Pp>
-<Pp>It’s impossible for me to not notice the ants now. Their shiny bodies scurry left and right. Every now and then I hear one of em crunch beneath my shoe and feel their runny blood squirt out. Our breath puffs out like steam and freezes into tiny grains.</Pp>
-<Pp>The high walls of the gorge fan out into a sprawling plaza packed with people. There’s a noticeable heat to their bodies as ours join the mix. Each member of the crowd is moving asynchronously from the rest, with a distinct destination, darting out of each other’s way.</Pp>
-<Pp>“What kind of movies do they make?”</Pp>
-<Pp>“There are plenty of installments of the virtual films they produce. They are displayed on the net, together as a series. How stupendous. Each film lasts five <span class="t">*</span>minutes. It is mine which is the program called 'Poor Little People Below, Completely Sad, So Depressing To Make You Kill Yarself', brought to you by Ha Ha Entertainment, every week just before sundown, now available to view. I consider myself actor. They tell me to frown.”</Pp>
-<Pp>Ultradef screens glow at much too high a wattage over every square inch of the twisted rusted cramped skyscrapers lining the edge of the square. They're illuminated with vivid, high-definition advertisements featuring dancing, glistening text over images in alphabets I can’t pronounce. Gloopy bright glowing sludge drips out of some of the screens in spots where they're cracked, bubbling and glistening in rainbow hues. Exits are to the right and left.</Pp>
-<Pp>“Does your father live somewhere else?”</Pp>
-<Pp>Mjmubhe__ weaves to the right of a woman carrying a saggy, human-sized bag of Graip Froot syrup and to the left of two tall hairy men pounding each other with their fists. I think she heard the question. I narrowly slip through unpounded and unstained. Was that a weird thing for me to ask? We follow a ziggy zaggy path to the left exit.</Pp>
-<Pp>She stops and turns around to look at us. The lantern is at the same level as her nostrils. The glow illuminates the deep color of her sapphire eyes. People mill around us as we disturb the current. The air is moist and human-humid. Her cheeks are rosy from the cold. “Poppie, like all men, turns the Crank always, and every <span class="t">*</span>day. He is a good man, quiet and mighty, always does what has got to be done. He works at Crank Facility, among so many other fellas turning the Cranks. Puts sand on his palms, so he can grip crank to turn it as quick as a whistle, that’s why he’s proclaimed the fastest cranker! Another <span class="t">*</span>day, another teensy tiny gold hunk. It’s the same size every time, never bigger. So one <span class="t">*</span>day he does not turn the Crank. 'Oh, for the sake of Christ,' he says. 'Why do we even turn this Crank? What does this cranking achieve? Where does this energy go?' Everyone sees him stopping cranking, and act like they couldn’t care. He begs 'Please, listen to me now, stop cranking,' but they continue to turn those Cranks. Big terrible nutjob freaks in matching vests take him into the different room, and we do not see him ever again. Poof.” She turns around again and continues walking. “Up ahead, keep in mind it simply could not be more dangerous. So, we will join the caravan of strong tough guys.”</Pp>
-<Pp>There’s a raised platform in the center of the plaza adorned with silver statues bathing in golden light. I can infer that each statue in this shrine represents a corporation involved in the foundation of Stinky Town, such as: a super-sized drill bit for Crunch Ecodrilling, a vortex for TOTAL Corp, a shiny badge for GOTCHA! Safety Enforcement Corps, and an open toothy mouth for Ha Ha Entertainment. They're the cleanest objects I’ve seen in a twentyleap. It must be someone’s occupation to clean them. All sorts of people appear to be leaving polyester flowers next to the statues as a means of paying tribute. There’s a whole cluster of orchids, daisies, lilies, and roses forever blooming in hand-painted individual pots. A man lies prostrate on the cracked stone ground before the shrine, demonstrating his fealty. He is weeping.</Pp>
-<Pp>I’ve been crafting a little piece of humor for the past couple <span class="t">*</span>minutes. It’s finally ready: “For a place called Stinky Town, this place doesn’t smell half bad!”</Pp>
-<Pp>No response so they must’ve not heard me. Glad I got that down in the log ha ha. </Pp>
-<Pp>The crowds dissipate as we near the far end of the plaza. There’s a line of speedsters parked against the gorge wall. The middle speedster is hitched to a flatbed trailer. On its immediate right, a huddled conglomeration of families shiver and attend to their young ones. Their sweaters are sewn together to equally distribute body heat. Lots of tired eyes. Somewhere in the mix an infant is wailing.</Pp>
-<Pp>Tall burly guys in matching shiny jackets and fluffy stockings patrol the area. Their muscles are seriously chunked up. They're wearing shaded ring spectacles that wrap fully around their heads. Their faces are ragged and cracked like concrete. The spikes sticking out of their reinforced helmets pulsate with an omnicolor glow. They look powerful like dragons.</Pp>
-<Pp>I’ve seen burly powerful guys like that on the teevee, but I’ve never really been around them in person. I’m sure they earn most of their gold at the arena. I feel really, really glad that fighting people is not what I rely on to afford food. I don’t mean that in a judgy way, I’ve just never hit anyone on purpose before, and if I did hit a person I don’t think it would necessarily go super well, because my body is in no way optimized for smacking. There’s an unignorable awareness in my brain that all of these men could end my life in a brief grisly display.</Pp>
-<Pp>Mjmubhe__ puts her hands on her face and does what I’m gathering is the traditional greeting-scream.</Pp>
-<Pp>All the tough men do it in return. I assume the tired families on the right are suffering too much to say hello. I don’t blame them.</Pp>
-<Pp>Mjmubhe__ starts making a chopping motion with her hands, which comes across as pretty assertive. “Xook teeto. Jooba wooba.” She does a jogging motion in place, still carrying her torch. “Hwadonk b'Ascent Station.”</Pp>
-<Pp>All the tough men nod a few times and the tallest one in the middle wearing an eye patch shoots us a thumbs up.</Pp>
-<Pp>Mjmubhe__ turns back to us. “They are the transferrers. They take you there so safely, stupendous, not a problem at any point. OK?”</Pp>
-<Pp>My entire sense of geography is based on the curly, squiggly anti-logic of the highway system. I never know where I am. Some people have an intuitive, bird’s-eye comprehension of where things are in NWE, but in my mind I’m a single tiny point placed randomly on a bumpy plane so vast it might as well be endless. Endless and cold. I haven’t been able to move a single toe for the past twenty <span class="t">*</span>minutes. A few of my muscles have thrown in the towel. “What makes this area so dangerous?”</Pp>
-<Pp>“This neck of the woods is what some of the folks call 'high enforcement zone.' Boasts quite a myriad of hazards, is just how it goes, just how it goes.”</Pp>
-<Pp>The three speedsters look woefully neglected. Their noses are broken and misshapen, their eyes are loosely dangling by their retinal wiring, their cheeks are enormously swollen. They don’t have that standard shiny “flesh" layer that most speedsters do. Their rusted skeletons are exposed and greasy. Some wires are sparking near where the engine and its processors are generally located, which leads me to suspect that the transferrers surgically installed a bypass to get around the satellite registration system. <Snip state={state} bg="red, yellow">I won’t get too in-depth, but a federal server endpoint assigns each speedster a unique, accessible hashcode, and most all stoplights, parking notches, and speed checks use it to dole out instantaneous automated punishments. It’s a simple 1-to-1 lookup in the hashmound, then boom, bada bang, now you owe us fifty hunks. It’s rumored that one’s personal code can factor into things like red light lengths, super red rates, and parking fees, but there’s really no way to know; those systems are black boxes. Anyway, driving an unregistered vehicle is a regionally-prohibited offense, punishable by forced drowning. I just keep staring at these speedsters' mangled bodies. I might be finding them very relatable.</Snip></Pp>
-<Pp>I gently nudge Quimby31’s shin with my boot. “How are you?”</Pp>
-<Pp>“Not very good, obviously. No offense.”</Pp>
-<Pp>“None taken. What're you reading?”</Pp>
-<Pp>“Well, I finished reading all the facts. Now I’m skimming the opinions about the facts.”</Pp>
-<Pp>“That’s good. Good progress.”</Pp>
-<Pp>“I think it'll be a few <span class="t">*</span>hours yet until the opinions about the opinions start getting published.”</Pp>
-<Pp>“Have I ever told you that I like your hairstyle?”</Pp>
-<Pp>“Come to think of it, I’m not sure you ever have. Thanks.”</Pp>
-<Pp>“Yah, no problem. I’m trying to work on my mentality. I think I’ve been acting like a pile of snart tonight. And that’s not OK, you know?”</Pp>
-<Pp>“There’s always room to improve.” They slide their celly into their torso pouch. “But was complimenting my hairstyle just a mentality improvement exercise for you?”</Pp>
-<Pp>“I don’t think so. Pretty sure I just thought it’d be a good thing to say.”</Pp>
-<Pp>The big men shoot their guns together straight into the sky, igniting the air, KABOOSH!!! The ground shakes amid the deafening roar. A few of the sweatered families are climbing into the trailer, hoisting each other up over the railing. Three of the big men sit in the driver’s seats of their respective speedsters while the rest cling to the sides of the trailer like barnacles. The engines growl awake.</Pp>
-<Pp>Mjmubhe__ bows. “I do not go farther.”</Pp>
-<Pp>“Thank you very much for your help,” I say. “We couldn’t have made it without you. For real. Super good job.”</Pp>
-<Pp>“And so now I return to my home.”</Pp>
-<Pp>Quimby31 lifts a marble out of their pant pouch. “Please take this as a gift. It’s a marble but it looks like the world. Isn’t that special?”</Pp>
-<Pp>“Do not want it. Piece of zigzog. I return back to home now. See you later.”</Pp>
-<Pp>Quimby31: “No offense taken, he he! But I don’t think we'll probably see you again. “</Pp>
-<Pp>“Someday we climb up and kill you spoiled pigs. This is what you deserve. That night we splash laughing in the river of your blood. Run back to your ugly home. Do not sleep.” The shadows swallow the glow of her torch. “Good night.”</Pp>
+<Pp>
+<p>Vivi__ unlocks the rusty family turboshed, reaches in, unzips something, unknots something, pulls out two helmets, and extends them toward us. “Put it right up on your head, like mine.” She exaggeratedly mimes her helmet application maneuver. “Right up on.”</p>
+<p>Quimby31 starts putting theirs on. Mine smells like ancient head sweat. </p>
+<p>I ask, politely, “Why do we need helmets?”</p>
+<p>Vivi__ looks at me like I’m not too clever. “So you don’t pass away, DUH! Stuff is always falling from the sky.”</p>
+<p>I fasten the helmet’s flexo-cords under my chin. I can’t smell the helmet anymore, so the stink must be absorbing into my scalp. “Really? What kinds of stuff?”</p>
+<p>“Oh, well, the usual garbages. Craps. Canisters. Half-eaten corndog. Diaper. Knife. Crumpled up printed out scoops. Blocks of ice. Whatever the people up above want to chuck. Nuthin too bad. That’s life, they say.” She marches onward, swinging her torch, melting away the night. “Sometimes the sky sprinkles down stupendous treasures. Here are some examples. Brush, for my teeth. Teevee in box, half-cracked. Bag of delicious Froot Pop Ems, half of them left, yommy! Sometimes the charities give to us and the community at large. They give us mostly merchandise. Mousepads, cup koozies, branded pens, but also these sweaters I’m wearing, the machine which keeps grandpop alive, I already said the seesaw, and great big bottles of food.”</p>
+<p>Quimby31 is making an impressed face. “That’s very admirable and generous of them.”</p>
+<p>“Yah really nice. In return they film vids of us with their humongous cameras.”</p>
+<p>“What sort of vids?”</p>
+<p>“It’s a teevee program called ‘People Below: Completely Sad’ brought to you by Ha Ha Entertainment. Every <span class="t">*</span>week just before sundown. Now available to view. I get nervous. I try to act like myself. They always tell me to frown.”</p>
+<p>It’s impossible for me to not notice the ants now. Their shiny bodies scurry left and right. Every now and then I hear one of em crunch beneath my shoe and feel their runny guts squirt out. Our breath puffs out like steam and freezes into tiny grains.</p>
+<p>The high walls of the gorge fan out into a sprawling plaza packed with people. There’s a noticeable heat to their bodies as ours join the mix. Each member of the crowd is moving asynchronously from the rest, with a distinct destination, darting out of each other’s way.</p>
+<p>Vivi__ swivels her arms in circles. “Pop hasn’t been in the past coupla episodes. He’s been gone working for lots of <span class="t">*</span>days. I miss him.”</p>
+<p>Sweet and savory smells waft from street vendor booths. It’s hard to make out words in the chatter of everyone. Ultradef screens glow at much too high a wattage over every square inch of the twisted rusted cramped skyscrapers lining the edge of the square. They’re illuminated with vivid, high-definition advertisements featuring text dancing and glistening across images of desirable products. Exits are to the right and left.</p>
+<p>Quimby31: “What does he do for work?”</p>
+<p>We weave to the right of a woman carrying a saggy, human-sized bag of Graip Froot syrup and to the left of two tall hairy men pounding each other with their fists. I narrowly slip through unpounded and unstained. We follow a ziggy zaggy path to the left exit.</p>
+<p>“He turns a crank. Like this--” (she grimaces and cranks her balled up fists around a horizontal axis) ”--but for reeeally long! No one knows what the crank is cranking. He says they don’t let him sit down or take a breather. He comes home and his face looks like this.”</p>
+<p>Her eyes droop with fatigue. Her pupils are unfocused, like they’re looking but not finding. Her sapphire eyes glimmer in the lantern light. I am unnerved.</p>
+<p>Me: “I’m really sorry to hear that.”</p>
+<p>“It’s OK. I’m just sharing.”</p>
+<p>There’s a raised platform in the center of the plaza adorned with silver statues bathing in golden light. I can infer that each statue in this shrine represents a corporation involved in the foundation of Stinky Town, such as: a super-sized drill bit for Crunch Ecodrilling, a vortex for TOTAL Corp, and an open toothy mouth for Ha Ha Entertainment. They’re the cleanest objects I’ve seen in a twentyleap. It must be someone’s occupation to clean them.</p>
+<p>I’ve been crafting a little piece of humor for the past couple <span class="t">*</span>minutes. It’s finally ready: “For a place called Stinky Town, this place doesn’t smell half bad!”</p>
+<p>No response so they must’ve not heard me. Glad I got that down in the log ha ha. I gently nudge Quimby31’s shin with my boot. “How are you?”</p>
+<p>“Well, this night has been pretty annoying obviously. No offense.”</p>
+<p>“None taken. What’re you reading?”</p>
+<p>“Well, I finished reading all the facts. Now I’m skimming the opinions about the facts.”</p>
+<p>“That’s good. Good progress.”</p>
+<p>“I think it’ll be a few <span class="t">*</span>hours yet until the opinions about the opinions start getting published.”</p>
+<p>“Have I ever told you that I like your hairstyle?”</p>
+<p>“Come to think of it, I’m not sure you ever have. Thanks.”</p>
+<p>“Yah, no problem. I’m trying to work on my mentality. I think I’ve been acting like a pile of snart tonight. And that’s not OK, you know?”</p>
+<p>“There’s always room to improve.” They slide their celly into their torso pouch. “But was complimenting my hairstyle just a mentality improvement exercise for you?”</p>
+<p>“I don’t think so. Pretty sure I just thought it’d be a good thing to say.”</p>
+<p>	The nighttime murk closes back in as we leave the warmth of others. The cliff walls are jagged and immense. I can’t imagine living all the way down here. I’d feel so trapped. I’ve lost sensation in my nose and ears. My eyes hurt from staying open. </p>
+<p>	Vivi__ stops walking. “It’s only a bit farther. I wanna go home.”</p>
+<p>“Thank you very much for your help,” I say. “Super good job!”</p>
+<p>“OK you’re welcome.”</p>
+<p>Quimby31 lifts a marble out of their pant pouch. “Please take this as a gift. It’s a marble but it looks like the world. Isn’t that special?”</p>
+<p>“Why would I want that? It’s a piece of crap. We need gold.”</p>
+<p>“OK, uh…” </p>
+<p>They search their pouch and dredge up a few hunks. I would give some too but all my ingots are back at my cubby. </p>
+<p>She accepts the donation. “I need the helmets back too.”</p>
+<p>We unclip and hand over the headgear.</p>
+<p>“Thankya. Nighty night!” </p>
+<p>She bows and exits into the shadows.</p>
+</Pp>
 {children}</div>
 );
 

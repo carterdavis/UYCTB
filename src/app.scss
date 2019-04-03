@@ -91,6 +91,10 @@ h2 {
   text-indent: 0;
 }
 
+h3 {
+  font-size: 1.15rem;
+}
+
 .roar {
   font-family: 'Bembo', serif;
   font-weight: 800;
@@ -117,7 +121,7 @@ h2 {
     background-color: transparent;
     vertical-align: top;
 
-    p {
+    p, .mock-p {
       padding: 2rem;
       text-indent: 0;
       width: 38rem;
@@ -132,7 +136,7 @@ h2 {
 
 .chapterImage {
   width: 38rem;
-  padding: 3.2rem 0;
+  padding: 1rem 0;
   margin: auto;
   display: block;
   background-color: #FFF;
@@ -236,7 +240,7 @@ $transitionSpeed: 300ms;
     padding-bottom: .4rem;
   }
 
-  p {
+  p, .mock-p {
     display: block;
     line-height: 1.5;
     width: 38rem;
@@ -450,6 +454,7 @@ $transitionSpeed: 300ms;
   max-height: 100%;
   box-sizing: border-box;
   overflow-y: auto;
+  font-family: monospace;
 
   .paragraph {
     background-color: transparent;
@@ -485,6 +490,17 @@ $d39: #371989;
 $n31: #daab00;
 $n20: #ba6c1a;
 
+.inner .codeblock {
+  background-color: #000;
+  padding: 1rem;
+
+  p {
+    text-indent: 0;
+    font-family: monospace;
+    width: 100%;
+  }
+}
+
 .zoip {
   .inner p {
     text-indent: 0;
@@ -492,11 +508,11 @@ $n20: #ba6c1a;
 
   .msg {
     width: 70%;
-    padding-left: 20%;
+    padding-left: 5rem;
   }
 
   &.j29 .msg {
-    padding-left: 10%;
+    padding-left: 2.5rem;
 
     .prefix {
       animation: slide-down-zoip .5s ease;
@@ -548,6 +564,56 @@ $n20: #ba6c1a;
 
   80% {
     opacity: .5;
+  }
+}
+
+.paragraph.tdaddy {
+  padding: 1rem 0;
+  background-color: #FFF;
+
+  .mock-p {
+    background: linear-gradient(#e5e5e5, #aaaaaa);
+    border-radius: 3rem;
+    padding: 2rem 0;
+
+    .wrapper {
+      background-color: #FFF;
+      border-radius: 3rem;
+      padding: 0;
+      overflow: hidden;
+      width: 97%;
+      margin: auto;
+
+      ul {
+        margin: 0;
+        padding: 0;
+      }
+      li, .section {
+        list-style: none;
+        margin-left: 0;
+        text-indent: 0;
+        padding: .75rem 2rem;
+        border: solid #a1a1a1;
+        border-width: 0 0 1px 0;
+        transition: background-color 0.3s;
+      }
+
+      li:nth-child(odd):hover {
+        background-color: #fff1f3;
+      }
+      li:nth-child(even):hover {
+        background-color: #fffff1;
+      }
+      .headline {
+        font-weight: 800;
+      }
+      .byline {
+      }
+      p {
+        width: 100%;
+        text-indent: 0;
+      }
+    }
   }
 }
 
@@ -607,7 +673,7 @@ $n20: #ba6c1a;
   .inner p { width: 93%; }
   .snippet { width: 80%; }
   .chapterImage {
-    padding: 3.2rem 0;
+    padding: 1rem 0;
     width: 100%;
 
     .inner {
@@ -617,6 +683,11 @@ $n20: #ba6c1a;
         width: 100%;
       }
     }
+  }
+  .chapterStart .inner p { width: 100%; box-sizing: border-box; }
+
+  .tdaddy .inner .mock-p {
+    width: 100%;
   }
 
   .zoip .msg, .zoip.j29 .msg {
@@ -640,8 +711,17 @@ $n20: #ba6c1a;
 @media all and (max-width: 400px) {
   .inner p {
     width: 94%;
-    font-size: 17px;
+    font-size: 18px;
     text-indent: 1.5rem;
+  }
+
+  .paragraph.tdaddy .inner .mock-p {
+    width: 100%;
+    font-size: 18px;
+
+    .wrapper .section {
+      padding: .85rem;
+    }
   }
 
   .brochures {
@@ -667,7 +747,7 @@ $n20: #ba6c1a;
     padding-left: 0;
   }
   .chapterImage {
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     width: 100%;
 
     .inner {
@@ -675,6 +755,7 @@ $n20: #ba6c1a;
 
       p {
         width: 100%;
+        box-sizing: border-box;
       }
     }
   }

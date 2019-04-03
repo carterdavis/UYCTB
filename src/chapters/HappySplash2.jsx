@@ -20,7 +20,7 @@ const HappySplash2 = ({ children, num, state }) => (
 <Pp>I rest my neck on the lip of the basin. He grips my uncombed disc hair and shoves me face first into the pink splash. It stings in my eyes. I kick my legs and wriggle like a worm. I’ve lost count of the <span class="t">*</span>seconds. Can’t hear anything in the fluid besides bubblies. The chemicals are burning my receptors. I can’t breathe, but that’s just because I don’t have air. Which is starting to hurt. There’s nothing left. So lungs are shrinking. I’m swinging my fists back into my Happy Specialist’s belly but he keeps pushing me deeper. I’ve lost full sensation in my body. Then I’m yanked upward into the air, dripping.</Pp>
 <Pp>My vision is blurry. He drops my limp body onto the sofa.</Pp>
 <Pp>“I wish I could hold you under for longer, never pull you back up. Wouldn’t you like that you dumb sack of flesh? Huh?”</Pp>
-<Pp>“I feel...good...”</Pp>
+<Pp>“I feel…good…”</Pp>
 <Pp>“Yah. Of course you do, dumbass.”</Pp>
 {children}</div>
 );

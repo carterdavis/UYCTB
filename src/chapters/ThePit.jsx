@@ -17,9 +17,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Can you answer it?”</Pp>
 <Pp>“Why yes I can indeed. You are presently in the Soaking Pit.”</Pp>
 <Pp>“How did I get here?”</Pp>
-<Pp>“Yes, yes. You are really knocking it out of the kronky stadium with these questions. Very good things to establish. You were brought here by one of Mr. 01Stone’s men. He took a vein from the Skull all the way down here.”</Pp>
-<Pp>“A vein?”</Pp>
-<Pp>“Aaaah, yes. Sorry my deepest apologies. I mean a ’slide.' I should not have used that terminology.”</Pp>
+<Pp>“Yes, yes. These queries are simply sensational. Very good things to establish. You were brought here by one of Mr. 01Stone’s men. He took a slide from the top floor.”</Pp>
 <Pp>“Is there a ladder I can use to climb out of here?”</Pp>
 <Pp>“Sadly no, there is not one that you can use.”</Pp>
 <Pp>“What’s going on? I don’t remember anything. I don’t remember this smock at all. Did you take off all of my clothes? In order to get me in this smock?”</Pp>
@@ -30,26 +28,26 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“My most deepest apologies, but you will not have your garments back until you behave.”</Pp>
 <Pp>“I am behaving!”</Pp>
 <Pp>“No offense intended sir but I think I know quite a lot more about behavior than you do.”</Pp>
-<Pp>“How can you know more about 'behavior'? Everything that ever happens is a behavior.”</Pp>
+<Pp>“How can you know more about ‘behavior’? Everything that ever happens is a behavior.”</Pp>
 <Pp>“Splendid. My only request is that from now on you please refrain from erroneously challenging my expert conclusions. OK? Does that work for you?”</Pp>
 <Pp>“How am I not behaving? What have I ever done wrong? I’m a man with good intentions! I have a funny sense of humor and a vibrant inner world. Please let me go home!”</Pp>
 <Pp>“I resent that I have to say this but, sadly, you will not exit the pit until you behave.”</Pp>
 <Pp>“What is this fnucking goo? I feel sooo gross!! Oh my God!”</Pp>
 <Pp>“It’s a special marinade. The King’s favorite recipe.”</Pp>
-<Pp>“Can you PLEASE explain to me who this 'King' is?”</Pp>
+<Pp>“Can you PLEASE explain to me who this ‘King’ is?”</Pp>
 <Pp>“He is so huge. Just enormous.”</Pp>
 <Pp>“Wh-why is he big?”</Pp>
-<Pp>“Because a King must be big. In addition, his skin is slimy and mauve. His lips are so rubbery and wet, and they're so big that he barely has space to store them anywhere. He lives deep underground, takes a really long elevator ride to get down there. I have to bring his breakfast down every morning. He feasts on a large bag of gold, and then he pushes a healthy volume of putty into his very gigantic diaper. He—"</Pp>
+<Pp>“Because a King must be big. In addition, his skin is slimy and mauve. His lips are so rubbery and wet, and they’re so big that he barely has space to store them anywhere. He lives deep underground, takes a really long elevator ride to get down there. I have to bring his breakfast down every morning. He feasts on a large bag of gold, and then he pushes a healthy volume of putty into his very gigantic diaper. He—"</Pp>
 <Pp>“Is this a prank teevee show or something?”</Pp>
 <Pp>“I’m sorry sir, but this is the absolute most realistic reality.”</Pp>
-<Pp>“Jesus...um, and, why am I in The King’s sauce?”</Pp>
+<Pp>“Jesus…um, and, why am I in The King’s sauce?”</Pp>
 <Pp>“If you cannot behave, you will serve as The King’s afternoon treat.”</Pp>
 <Pp>“I AM BEHAVING! I HAVE ALWAYS BEHAVED! PLEASE! OH MY GOD!!”</Pp>
 <Pp>“I’m willing to compromise.”</Pp>
-<Pp>“I DON'T WANT TO BE EATEN! PLEASE!! Get me out of here!!”</Pp>
+<Pp>“I DON’T WANT TO BE EATEN! PLEASE!! Get me out of here!!”</Pp>
 <Pp>“I believe I can meet you in the middle. How does that sound?”</Pp>
-<Pp>“PLEASE...sir...Jesus, holy fnuck. Oh my God.”</Pp>
-<Pp>“If what you have said is true, and you have always behaved, then I will revise the bylaws of this seminar. Henceforth, according to the 19th clause of the King Needs Delicious Snack (Human) statute in the Dimples national legislature, you are the King’s yummy lunch until you <em>continue</em> to behave. Did you notice the subtle alteration? I added the word 'continue,' in homage to your previous behaving.”</Pp>
+<Pp>“PLEASE…sir…Jesus, holy fnuck. Oh my God.”</Pp>
+<Pp>“If what you have said is true, and you have always behaved, then I will revise the bylaws of this seminar. Henceforth, according to the 19th clause of the King Needs Delicious Snack (Human) statute in the Dimples national legislature, you are the King’s yummy lunch until you <em>continue</em> to behave. Did you notice the subtle alteration? I added the word ‘continue,’ in homage to your previous behaving.”</Pp>
 <Pp>“Uh. Yes.”</Pp>
 <Pp>“Did you appreciate that? Is that more or less what you wanted?”</Pp>
 <Pp>“No. Because it makes no sense.”</Pp>
@@ -57,22 +55,22 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Nothing makes sense. This is just complete nightmare nonsense.”</Pp>
 <Pp>“Well, yes, I actually think that might be true.”</Pp>
 <Pp>Eventually I grew tired of pleading. My demands yielded answers to questions I didn’t ask which led to questions without answers, round and round, super stupid and tedious. I wanted to rip my hair out or scoop my eyeballs out and I just ran in circles round the pool until my legs crumpled. When that happened I just floated for awhile.</Pp>
-<Pp>I’m using the past tenses because my mind chip got unplugged at some point, so this is all from biomemory. It can be hard to keep all the details straight. Bear with me.</Pp>
+<Pp>I’m using the past tenses because my mind chip got unplugged at some point and I couldn’t log stuff in the moment. This is all from biomemory, so it can be hard to keep all the details straight. Bear with me.</Pp>
 <Pp>“Do you want me to teach you how to behave?”</Pp>
-<Pp>I looked up. Dumfrey52 was still gazing down at me. He didn’t blink much. I stood up tiptoes in the water.</Pp>
+<Pp>I looked up. Dumfrey52 was still gazing down at me. He didn’t blink much. I stood up on my tiptoes.</Pp>
 <Pp>“Please! I just want to go home!”</Pp>
 <Pp>“Are you ready for your first behavior?”</Pp>
 <Pp>“OK.”</Pp>
-<Pp>“In order to behave, you must suck your own toes.”</Pp>
+<Pp>“In order to behave, you must nibble your own toes.”</Pp>
 <Pp>“I don’t think I can do that. My legs aren’t that bendy.”</Pp>
 <Pp>“You must behave!”</Pp>
-<Pp>“I’m being honest! I would totally suck my own toes if I could.”</Pp>
+<Pp>“I’m being honest! I would totally nibble my toes if I could.”</Pp>
 <Pp>“Have you ever been in another creature’s belly? Besides your mother’s?”</Pp>
 <Pp>“What kind of question is that?”</Pp>
 <Pp>“You ever burn in the tummy acid? Get digested into nutrients? I don’t think it would feel very good, Mr. 35Fludge.”</Pp>
 <Pp>“You’re being fnucked up. Why are you so disgusting? I hate the way your face sags down like a ballsack.”</Pp>
 <Pp>“That is a highly immature comment to make.”</Pp>
-<Pp>“I don’t get why I have to suck my toes. What’s the point. I can’t even do it. My body doesn’t work like that. I’m tired and hungry. How long have I been here?”</Pp>
+<Pp>“I don’t get why I have to nibble my piggies. What’s the point. I can’t even do it. My body doesn’t work like that. I’m tired and hungry. How long have I been here?”</Pp>
 <Pp>“You won’t know what time it is until you continue to behave.”</Pp>
 <Pp>“I’m hungry! I feel weak!”</Pp>
 <Pp>“You are permitted to drink the marinade.”</Pp>
@@ -80,27 +78,27 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Are you ready for your second behavior?”</Pp>
 <Pp>“What is it?”</Pp>
 <Pp>“Describe to me the sensations of how it would feel to kill your own best friend.”</Pp>
-<Pp>“Why is that a good 'behavior'? You’re jacked up in the head.”</Pp>
+<Pp>“Why is that a good ‘behavior’? You’re jacked up in the head.”</Pp>
 <Pp>“Do it. If you don’t do it you’re a moron.”</Pp>
 <Pp>“NO! Fnuck! I hate you!”</Pp>
 <Pp>“These two behaviors were designed to test your understanding of the first two precepts of The 01Stone Method.”</Pp>
 <Pp>“I’m never going to read that book.”</Pp>
-<Pp>“Precept 1 is 'Embrace Indignity.' Precept 2 is 'Abandon Sympathy.' You scored very poorly on each. Such a shame.”</Pp>
+<Pp>“Precept 1 is ‘Embrace Indignity.’ Precept 2 is ‘Abandon Sympathy.’ You scored very poorly on each. Such a shame.”</Pp>
 <Pp>“You’re not even giving me a chance. I feel like I’m at the mercy of some vicious, unknowable apparatus. I don’t understand.”</Pp>
 <Pp>“Do you want to know the rest of the precepts?”</Pp>
 <Pp>“Sure, might as well.”</Pp>
-<Pp>“Precept 3 is 'Savor Indulgence.' Precept 4 is 'Achieve Torment.' Precept 5 is 'Trust Death.' If you can pass the final three behavioral exams, you'll just barely make the grade at a 60% success rate.”</Pp>
+<Pp>“Precept 3 is ‘Savor Indulgence.’ Precept 4 is ‘Achieve Torment.’ Precept 5 is ‘Trust Death.’ If you can pass the final three behavioral exams, you’ll just barely make the grade at a 60% success rate.”</Pp>
 <Pp>“And then I can go home?”</Pp>
 <Pp>“Yes. Are you ready to Savor Indulgence?”</Pp>
 <Pp>“I guess so.”</Pp>
-<Pp>Something plunked into the magenta goo. A sausage rose up to the surface.</Pp>
-<Pp>“Eat this frankfurter without chewing.”</Pp>
-<Pp>I shoved it into my piehole. The taste was savory and greasy. I mushed it around with my tongue. My tongue didn’t have much space, because the frankfurter was quite large. It had a great flavor, very peppery. My belly felt so empty.</Pp>
+<Pp>Something plunked into the magenta goo. A big piece of taffy floated up to the surface.</Pp>
+<Pp>“Eat this bonbon without chewing.”</Pp>
+<Pp>I shoved it into my piehole. The taste was like Bananna mixed with armpit. I mushed it around with my tongue. My tongue didn’t have much space to move around. The taffy wasn’t getting much softer. Still very tough and rubbery. My belly felt so empty.</Pp>
 <Pp>“Hah doo I shwallow? Wivout hooing? Doo big.”</Pp>
 <Pp>“You have to swallow it.”</Pp>
 <Pp>“DOO BIG!”</Pp>
 <Pp>“Behave!”</Pp>
-<Pp>“CANTH...DOO...BIG...”</Pp>
+<Pp>“CANTH…DOO…BIG…”</Pp>
 <Pp>“You are an URCHIN! Swallow!”</Pp>
 <Pp>My throat constricted around the Indulgence. It lodged into my windpipe. I tried to cough or heave but I couldn’t. The pressure built in my lungs and my vision got blurry. I squeezed my neck frantically in hopes I could squeeze it out or something. Everything went black and I kept falling.</Pp>
 <Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <div class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" /></div> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
@@ -114,7 +112,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Not fully! Nope! Sorry, you did not swallow it fully. It did not make it all the way down your throat.”</Pp>
 <Pp>“Go fnuck yourself! You are insane! GET ME OUT OF HERE! PLEASE!!!”</Pp>
 <Pp>“From now on, focus on making yourself as delicious as possible. Think scrumptious thoughts. In addition, are you wearing any metal, jewelry for instance? The King hates the taste of metal that isn’t pure gold.”</Pp>
-<Pp>“Don’t let him eat me. I’m begging you. I have three birds back in my cubby. They're probably so worried. I don’t want them to starve. Please just let me go, I need to be back home, I need to, I need to go, oh my God, oh my GOD oh my goodness, oh my God...”</Pp>
+<Pp>“Don’t let him eat me. I’m begging you. I have three birds back in my cubby. They’re probably so worried. I don’t want them to starve. Please just let me go, I need to be back home, I need to, I need to go, oh my God, oh my GOD oh my goodness, oh my God…”</Pp>
 <Pp>“I really do pity your situation. But the rules are the rules for reasonable reasons.”</Pp>
 <Pp>“I just made putty.”</Pp>
 <Pp>“What?”</Pp>
@@ -123,7 +121,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>I pointed at the brown blobs floating next to me.</Pp>
 <Pp>“You disgusting rat. You just HAD to do it in the marinade. The King absolutely hates the taste of feces. This is a complete disaster.”</Pp>
 <Pp>“I’m sorry. I couldn’t help it. I’m so scared.”</Pp>
-<Pp>“Well I'll have to go down there and scoop it then. Let me go get my scooper. Don’t let it float anywhere else. I’m serious.”</Pp>
+<Pp>“Well I’ll have to go down there and scoop it then. Let me go get my scooper. Don’t let it float anywhere else. I’m serious.”</Pp>
 <Pp>“OK, OK. I won’t.”</Pp>
 <Pp>He hurled a rope ladder over the wall and began his descent, gripping a miniature shovel in his big left glove. I stood perfectly still. He scurried down the ladder pretty fast. His saggy face dipped into the marinade. His watery eyes stared up at me before they focused in on my man mud island. My body went completely tense. He smelled much stinkier than I expected, even worse than my putty. He slid his shovel into the sauce below that brown log.</Pp>
 <Pp> “This is just beyond depraved. Not in the marinade. What sort of person would—"</Pp>

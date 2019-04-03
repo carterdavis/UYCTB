@@ -14,7 +14,7 @@ const ConvoWithKerri = ({ children, num, state }) => (
 <Z d={1} spe={80} u="k51" ch={num} o={0} z={state} f l> Hey Jim29, how are you doing little Bud</Z>
 <Z d={40} spe={70} u="j29" ch={num} o={1} z={state} f l> I’ve been better. how are you ?</Z>
 <Z d={10} spe={82} u="k51" ch={num} o={2} z={state} f> Things are going good, Ha Ha</Z>
-<Z d={10} spe={75} u="k51" ch={num} o={3} z={state}>My brand new female partner, Tami62, has long hair... me likey!</Z>
+<Z d={10} spe={75} u="k51" ch={num} o={3} z={state}>My brand new female partner, Tami62, has long hair… me likey!</Z>
 <Z d={15} spe={78} u="k51" ch={num} o={4} z={state} l>Whats the matter What’s bringing you down</Z>
 <Z d={25} spe={76} u="j29" ch={num} o={5} z={state} f l> have you kept up with the scoops at all ?</Z>
 <Z d={12} spe={80} u="k51" ch={num} o={6} z={state} f> No</Z>
@@ -58,7 +58,7 @@ const ConvoWithKerri = ({ children, num, state }) => (
 <Z d={1} spe={35} u="k51" ch={num} o={44} z={state}>WHY dont you CLIK</Z>
 <Z d={1} spe={25} u="k51" ch={num} o={45} z={state}>THey kill me.is THAT what you WANT?????</Z>
 <Z d={1} spe={20} u="k51" ch={num} o={46} z={state}>Fill out survey in 10 *seconds or i die OK!?</Z>
-<Z d={1} spe={65} u="k51" ch={num} o={47} z={state}>HELP ME...CLICK IT BEEYOTCH.....</Z>
+<Z d={1} spe={65} u="k51" ch={num} o={47} z={state}>HELP ME…CLICK IT CHIMPNUT…..</Z>
 <Z d={1} spe={70} u="k51" ch={num} o={48} z={state} l>I NEED YOU!!!!!</Z>
 {children}</div>
 );
