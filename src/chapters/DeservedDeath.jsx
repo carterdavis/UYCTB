@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import Ad from './../components/Ad.jsx';
 import TDaddy from './../components/TDaddy.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 
@@ -17,8 +18,9 @@ const DeservedDeath = ({ children, num, state }) => (
   </div>
   <div class="section">
   	<p>It seems as though people love nothing more than to whinge and grouse. To be perfectly frank, I find it tiresome. Gone are the days in which men and women minded their own business and tended to their own affairs. Nowadays they reach for the pitchforks at the slightest provocation, eager to pillory our most beloved corporations with libelous claims and unsavory slurs. Tsk, tsk. Where has civility gone?</p>
-  	<p>When news broke on Busyday that two Dimples customers, Toyler58 28Bumperton and Mort62 79Shmanderson, had unexpectedly passed away, I raised a skeptical eyebrow. I thought to myself, <em>Oh how convenient. Another insipid little sob story for the crybabies to weep about.</em> I kicked my feet up on my plush ottoman and tuned into my favorite program on the teevee. And that’s what you should do, too.</p>
-  	<p>Why must we all get so lathered up about things we cannot change? Why don’t we just sit down, “chillax,” and have a nice evening? For all we know, the two nobodies who died in this “disaster” could’ve very well been perverts or future-murderers. Are those the kinds of people you seek to defend? Give me a break. Life is short. Go outside and play catch with your son.</p>
+    <Ad src="assets/ads/geniuses" c="left" />
+  	<p>When news broke on Busyday that two Dimples customers, Toyler58 28Bumperton and Mort62 79Shmanderson, had unexpectedly passed away as a result of a zoftware malfunction, I raised a skeptical eyebrow. I thought to myself, <em>Oh how convenient. Another insipid little sob story for the crybabies to weep about.</em> I kicked my feet up on my plush ottoman and tuned into my favorite program on the teevee. And that’s what you should do, too.</p>
+  	<p>Why must we all get so lathered up about that which we cannot change? Why don’t we just sit down, “chillax,” and have a nice evening? For all we know, the two nobodies who died in this “disaster” could’ve very well been perverts or future-murderers. Are those the kinds of people you seek to defend? Give me a break. Life is short. Go outside and play catch with your son.</p>
   </div>
 </TDaddy>
 {children}</div>

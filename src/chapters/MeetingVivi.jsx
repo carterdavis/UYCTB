@@ -3,6 +3,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 import Z from './../components/Z.jsx';
 import Snip from './../components/Snip.jsx';
 import ViewScreen from './../components/ViewScreen.jsx';
@@ -45,11 +46,11 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Ah. Gotcha.”</p>
 <p>Quite a few <span class="t">*</span>seconds pass. The expression on her face is serene.</p>
 <p>“When do you think you’ll get cold?”</p>
-<p>Quimby31, whispering in my ear: “Uh, so, what are we doing…?”</p>
-<p>“I’m being nice.”</p>
-<p>“It’s like 12:30! I’m tired! I want to go home.”</p>
-<p>“You were just telling me how important the work I do is! I want to try and help these people.”</p>
-<p>“Look, I get that, it’s just--”</p>
+<p>Quimby31, whispering in my ear: <em>“Uh, so, what are we doing…?”</em></p>
+<p><em>“I’m being nice.”</em></p>
+<p><em>“It’s like 12:30! I’m tired! I want to go home.”</em></p>
+<p><em>“You were just telling me how important the work I do is! I want to try and help these people.”</em></p>
+<p><em>“Look, I get that, it’s just—”</em></p>
 <p>“OK I’m cold now.” She picks up her lantern. “Let’s go inside.” She starts walking into the darkness.</p>
 <p>I do an “ah shoot, what the heck” kind of shrug. Quimby31 seems annoyed but resigned.</p>
 <p>Vivi__’s stride is loping and fairly brisk. She guides us over jagged outcroppings only half visible in the murk. The ground is menacing, littered with assorted things such as ants, supplement bottles, busted gizmos, fool’s gold, soiled bandages, and sharp half-eaten canisters of frosty golden creamed kernels. I really have to watch my step.</p>
@@ -57,9 +58,14 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Well mostly I like to sing, talk to Broophy, and play Cold-Hot-Cold. I help all <span class="t">*</span>day, and I only get to play at night.”</p>
 <p>“How responsible of you. What do you do to help?”</p>
 <p>Her home enters the lantern glow. It’s a modest residence, probably contains two or three rooms max. The concrete and metal is painted pink and orange. A garland of papper flowers festoons the roof’s edge. There’s a seesaw off to the right, and a small shed to the left. Smoke billows out of the chimney.</p>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/10.jpg" />
+</p>
+</Pp>
 <p>“I play on the seesaw.”</p>
 <p>“That’s fun!”</p>
-<p>“The seesaw SUCKS!! UGGH…no one will seesaw with me, not even Broophy. But it’s a water pump seesaw. Playworks gave it to us. <Snip state={state} bg='red, yellow'>Playworks is a charity founded by Spcl. Duke Edward00 00Normus with a stated purpose of “pragmatically harnessing the joyful productivity of our nation’s youngest workers”</Snip> If I don’t seesaw we don’t drink water. Momma is too busy to do it. Seesawing means my legs are so strong and fast now! Look, I’m running! Wheee!”</p>
+<p>“The seesaw SUCKS!! UGGH…no one will seesaw with me, not even Broophy. But it’s a water pump seesaw. Playworks gave it to us. <Snip state={state} bg='red, yellow'>Playworks is a charity founded by Spcl. Duke Edward00 00Normus with a stated purpose of “pragmatically harnessing the joyful productivity of our nation’s youngest workers.”</Snip> If I don’t seesaw we don’t drink water. Momma is too busy to do it. Seesawing means my legs are so strong and fast now! Look, I’m running! Wheee!”</p>
 <p>Vivi__ runs an oval path around us. She sure is speedy.</p>
 </Pp>
 <Z d={20} spe={68} u="j56" ch={num} seq="b" o={0} z={state} f> i’m sorry. i wasn’t being very empathetic</Z>
@@ -67,7 +73,7 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <Pp>
 <p>The welcome mat looks fairly flattened. The wiring around the door buzzer is exposed. It sparks when Vivi__ gives it a buzz. We wait half a <span class="t">*</span>minute for her mother to answer the door. She’s slouched over and massaging the back of her neck. The rims of her eyes are red.</p>
 <p>“Vivian__, who are these people?”</p>
-<p>“He’ll help grandpoppa!” She points at me. “He said--”</p>
+<p>“He’ll help grandpoppa!” She points at me. “He said—”</p>
 <p>“No, sorry, but no. I’m sorry sir. Have a good night.”</p>
 <p>“Are you sure? I think I can fix it.”</p>
 <p>Vivi__ scampers into the hot interior. Mrs. __Grimple rubs her temples. Her face betrays some mild agony.</p>
@@ -87,7 +93,7 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“One night he stepped on an ant nest. Came home with about 200 bites. The venom still hasn’t left his system and, well, he’s old, so…”</p>
 <p>“Where is he?”</p>
 <p>She points across the room. “Door on the left.” She proceeds to hurriedly scrub a saucepan.</p>
-<p>I make an effort to step around Vivi__’s various papper art projects. She’s watching a cracked plasmoid teevee. Must be old as dirt. There’s a bright yellow 3D monkey on screen. It’s head is rolling around on the ground with no apparent destination. Neon colors are strobing. Some kind of noodle monster just walked into the frame. Why does the camera keep zooming in and out? The music is all squiggly and rubbery. Doesn’t sound quite like anything that would be listened to. Maybe this is what kids like now? I don’t know. It’s not for me.</p>
+<p>I make an effort to step around Vivi__’s various papper art projects. She’s watching a cracked plasmoid teevee. Must be old as dirt. There’s a bright yellow 3D monkey on screen. It’s head is rolling around on the ground with no apparent destination. Neon colors are strobing. <div class="chapterSong"><LazyAudio src="assets/Teevee Music.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> Some kind of noodle monster just walked into the frame. Why does the camera keep zooming in and out? The music is all squiggly and rubbery. Doesn’t sound quite like anything that would be listened to. Maybe this is what kids like now? I don’t know. It’s not for me.</p>
 <p>The door creaks resonantly and the room behind it is filled with the dim, blue and pink glow of lifesaving technology. Quimby31 followed me in but she seems pretty engrossed in her celly. I guess Vivi__ followed us in too. Her grandfather is floating in a plexi-glass chamber full of foggy liquid, which is attached to his Dimples All-In-One Life Sustainment System Z20 Extreme. I started work at Dimples around the time we were shipping out the Z23 Extreme, but this model is still a few <span class="t">*</span>months away from total obsolescence.</p>
 <p>“Do you have the login token for this machine?”</p>
 <p>She blinks at me. "What’s a login token?”</p>
@@ -116,7 +122,7 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>The loading man finally rolls the stone all the way up to the hill’s apex. He looks triumphant before instantly fading into the black void of the command line.</p>
 <ViewScreen num={1} />
 <p>It’s pretty hard to concentrate with Vivi__ vocalizing another advertisement anthem, <div class="chapterSong"><LazyAudio src="assets/Splishtime.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> this time singing the lyrics for the SplishTime Broop (a half-broom/half-mop with a wide, enchanting smile and a bulbous chin) and Quimby31 is still muttering quake statistics under their breath. Vivi__ is doodling a lovely 3D-printed plexiglass cottage tucked between the cement supports of a blocked-off expressway ramp, tracing her unsteady lines with a black surgical marker on the back of a red-lettered medical debt bill.</p>
-<p>Quimby31’s taps the upper-left corner of their screen, then the bottom-right, then the upper-left again. Their celly is a sleek, stylish model, wide and long enough to really get lost in. “…and that’s not even counting any children. Heavens, can you even imagine?…”</p>
+<p>Quimby31 taps the upper-left corner of their screen, then the bottom-right, then the upper-left again. Their celly is a sleek, stylish model, wide and long enough to really get lost in. “…and that’s not even counting any children. Heavens, can you even imagine?…”</p>
 <ViewScreen num={2} />
 <p>“Alright Vivi__, I think this machine will work better now. It got turned off because of some kind of error. I’m pretty sure the error is fixed now. He’ll be getting more medicine.”</p>
 <p>She stands up from her doodling. “So he’ll be OK now?”</p>

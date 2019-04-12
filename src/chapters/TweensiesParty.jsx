@@ -5,6 +5,7 @@ import Snip from './../components/Snip.jsx';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 
 const TweensiesParty = ({ children, num, state }) => (
 <div>
@@ -25,9 +26,14 @@ const TweensiesParty = ({ children, num, state }) => (
 <Pp>I park between two heaping mounds of trash. The stink is intolerable.</Pp>
 <Pp>“You are my personal Christ! Jim29 you are my motorist Messiah! I am reborn! HALLELU—"</Pp>
 <Pp>Tulip’s ebullient voice fades out as I switch off the coal. Jumper56’s hut is tightly wedged between its neighbors. The architecture around here always looks so crammed in. This terrace’s local ordinances levy a heavy tax on above-ground floors to ensure that the neighborhoods around here would be very easy to build turnpikes over. With uniformly low-roofed domiciles, the homes tend to be mostly basement. Jumper56 told me one time that she has to keep her bedroom on the lowest floor, the only interior space where she doesn’t constantly hear the noise of rumbling wheels. It was very recently discovered that the Serenity and Grace megafaults intersect just South of this zone, which is unfortunate to say the least. Her subhut, #12, faces the diagonal intersection of East 35th Street, Northeast 49th Street, and Southwest 93rd Street. The front of her home is bedecked in colorful vinyl siding and her tiny pebble garden is neatly raked.</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/11.jpg" />
+</p>
+</Pp>
 <Pp>I’m considering knocking. It’s probably fine to let myself in, right?</Pp>
 <Pp>Inside is packed with strobing lights, sparkling fog, and throbbing percussion. People are swiveling and lurching their limbs to the noise in complicated patterns. <div class="chapterSong"><LazyAudio src="assets/Industrial.mp3" loop={true} bg="rgb(151, 158, 245)" fg="#000" /></div> This beat is utterly terrifying. It sounds like a storm of metallic tritones over thunderous electro-gong beats pounding out ornate euclidean rhythms. It’s hard to tell in the thick fog where bodies begin and end. All I can do is move forward, hoping I don’t step on anyone’s toes. It’s impossible to make out faces in the dark or hear words among the chatter. I hope that people think my pants are cool. Need to remember not to slouch. Smile! The lights are too bright, stop wincing. Think about good things to say. Being natural is hard work. Stop thinking about worrying. But I absolutely cannot see where I’m going. I knock my arm into one person’s shoulder and I brush another person’s right hand with my left. I breathe deep the muggy exhalations of others.</Pp>
-<Pp>I’m pretty close to the staircase. I haven’t spotted Jumper56 on this floor. It might be quieter and less stuffed downstairs. Potentially a little less scary. A group of very tall big freaking guys are unintentionally blocking the stairway. They’re loudly hooting and chiding. I’m looming at the perimeter of their social ring.</Pp>
+<Pp>I’m pretty close to the staircase. I haven’t spotted Jumper56 on this floor. It might be quieter and less stuffed downstairs. Potentially a little less scary. A group of very tall big freaking guys are unintentionally blocking the stairway. They’re loudly hooting and chiding. I loom at the perimeter of their social ring.</Pp>
 <Pp>“—long ago one of my friendly fellow citizens shot up sting know what I mean? Poor snouch said it made him imagine himself as the living embodiment of sin. Ever since he can’t remember anyone’s name anymore, says he always feels like he’s falling from a great height.”</Pp>
 <Pp>“Help! Me falling! DOINK!!”</Pp>
 <Pp>“Ha ha he…that shweet.”</Pp>

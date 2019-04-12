@@ -5,6 +5,7 @@ import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 
 const MorningChat1 = ({ children, num, state }) => (
 <div>
@@ -22,8 +23,13 @@ const MorningChat1 = ({ children, num, state }) => (
 <Pp>The lights fade to darkness. Gurgling bass throbs rumble the bleachers. Spotlights swing through the crowd, <div class="chapterSong"><LazyAudio src="assets/Boogie Quite A Bit.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> illuminating cheering faces. The song builds steam and starts to thump and bump. The energy is electric.</Pp>
 <Pp>Mr. 01Stone walks onstage two <span class="t">*</span>minutes after 10. He’s always the exact same amount of late. He wears a navy unisuit that clings to his muscular frame. The watch on his right wrist is gold and his left wrist silver. I love his smile. It’s so confident and casual. He has such a confident, brassy personality. He looks in his mid-forties. I like to hear him talk.</Pp>
 <Pp>A colossal hologram of his head appears in the air above the stage. Augustinius00’s jaw is angular, his hair slicked back and brown, his eyes glowing and kind. The generated head mimics his every movement as he talks and smiles. I haven’t figured out what’s projecting it. Must be some pretty advanced hardware; the projected face maintains eye contact with me regardless of where I’m sitting or how my face is angled. Apparently it locks eyes with everyone else too.</Pp>
-<Pp>“Good morning, Dimplers! Can you give me a Respectfulday boo-yah?” The speakers boom with his thick voice. The vowels reverberates cavernously.</Pp>
+<Pp>“Good morning, Dimplers!” His thick voice booms through the speakers, reverberating cavernously. “Can you give me a Respectfulday boo-yah?”</Pp>
 <Pp>The bleachers roar.</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/7.jpg" />
+</p>
+</Pp>
 <Pp>“Let’s make this weekend special, alright? Boo-yah! But first, we’ve got a <span class="t">*</span>day of hard work ahead of us. And I think we can make this <span class="t">*</span>day special.</Pp>
 <Pp>“Our company has been swelling up like a balloon. Seriously, you know I’m not trying to make you laugh right now. It really has been. This was a great <span class="t">*</span>month for us. We added so much more gold to our company goldpit. We hired a thousand new people. And believe it or not, they’re learning. They’re growing. They’re taking risks. Christ, it’s inspiring.”</Pp>
 <Pp>The room erupts in applause. The hologram freezes for a split <span class="t">*</span>second before resuming speech.</Pp>

@@ -6,7 +6,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Dream1 = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#0d4300, #000" />
 {children}
 
 <Pp bg="#000, #000">

@@ -29,7 +29,7 @@ const TramRide = ({ children, num, state }) => (
 <p>“What’s difficult about it? I’ve never had a wife before.”</p>
 <p>“Well you know how I’m good-natured, funky, and free spirited?” He wiggles his hands around in a couple of kooky ways.</p>
 <p>“Yah.”</p>
-<p>“I think the reality is that I’m too good-natured, funky, and free-spirited. People can barely keep up with me, especially my wives. It’s like I can’t be tamed…I’m a real dynamo.”</p>
+<p>“I think the reality is that I’m <em>too</em> good-natured, funky, and free-spirited. People can barely keep up with me, especially my wives. It’s like I can’t be tamed…I’m a real dynamo.”</p>
 <p>“Got it.”</p>
 <p>“My Gingerbell__ was everything to me. Or at least a third of everything, since I had three wives in total. But she was my favorite. She really rocked.”</p>
 <p>“Why aren’t you saying her registration numbers?”</p>

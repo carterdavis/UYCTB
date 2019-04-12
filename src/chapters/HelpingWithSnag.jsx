@@ -22,7 +22,7 @@ const HelpingWithSnag = ({ children, num, state }) => (
 <Pp>She turns back and looks at me. “I only know about Scratch Screen.”</Pp>
 <Pp>“So, <Code>spat-screen</Code> is a knot of tangles that determine how a device reacts when its screen has been spat on by the user.”</Pp>
 <Pp>“Right.”</Pp>
-<Pp>“And so if I remember correctly, one of the tangles specifically configures how to react when the screen has been spat upon and the device is currently upside down. It has special stuff to deal with like, gravity, and all that.”</Pp>
+<Pp>“And so if I remember correctly, one of the tangles specifically configures how to react when the screen has been spat upon and the device is currently upside down. It has special stuff to deal with like, gravity, in case the spit dribbles or whatever.”</Pp>
 <Pp>“So wait.” She tap tap taps her chin. “Why would I get an error here? I was working in the <Code>wheels</Code> code.” She picks up her celly and the keys start buzzing.</Pp>
 <Pp>“I guess one of the global variables you were working with affects how both the screens and the wheels of the devices function. Why do you always use your celly to type?”</Pp>
 <Pp>“My thoughtscription subscriptional ran out.”</Pp>

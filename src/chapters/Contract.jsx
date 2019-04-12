@@ -6,10 +6,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Contract = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#5d6167, #2b4153"/>
 {children}
 
-<Pp>
+<Pp bg="#2b4153, #702358, #702358, #305760">
 <p>I pace around my cubby. I feel quite ill at ease. Could I lose my job? I’m worried about my contract.</p>
 <p>On my first <span class="t">*</span>day I met with Veronica25 97Snoat in the fifth floor Hiring Chamber. She explained to me that every new Dimples hire signs the same gilded contract. The chamber was freezing cold, apparently so the ink would dry better. I hadn’t seen it yet, but I had been given a pretty comfortable quill to sign it with.</p>
 <p>“Do you have any questions?” She was wearing an excited grin. “This should be really quick, no biggie.”</p>

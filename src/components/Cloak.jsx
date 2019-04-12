@@ -15,10 +15,14 @@ class Cloak extends React.Component {
     if (height != 0) this.setState({ height: height });
   }
 
-  // shouldComponentUpdate(nextProps, nextState) {
-  //   return ((nextProps.num >= nextProps.appState.current - 5)
-  //     && (nextProps.num <= nextProps.appState.current + 5)) || this.state.height === undefined;
-  // }
+  shouldComponentUpdate(nextProps, nextState) {
+    // console.log(nextProps);
+    // console.log(nextState);
+    // console.log(((nextProps.num >= nextProps.appState.current - 9)
+    //   && (nextProps.num <= nextProps.appState.current + 9)) || this.state.height === undefined);
+    return ((nextProps.num >= nextProps.appState.current - 9)
+      && (nextProps.num <= nextProps.appState.current + 9)) || this.state.height === undefined;
+  }
 
   render() {
     const visibility = <VisibilitySensor onChange={(visible) => { if (visible) update(this.props.num)} } />

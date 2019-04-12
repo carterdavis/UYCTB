@@ -33,7 +33,7 @@ class App extends React.Component {
           <Navbar />
           { getChapters(this.props.state) }
         </div>
-        <Screen screenValue={this.props.state.viewScreen} />
+        <Screen screenValue={this.props.state.viewScreen} state={this.props.state} />
       </div>
     );
   }

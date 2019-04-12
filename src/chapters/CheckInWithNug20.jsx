@@ -25,7 +25,7 @@ const CheckInWithNug20 = ({ children, num, state }) => (
 <Pp>“Of course not. And I never want to.”</Pp>
 <Pp>He squeezes the bulb at the end of the needle, squirts the last couple drops into his tummy, and pulls it out tenderly. The hole in his skin is bubblingly violet. He patches it up with bandages that are the precise hue of his pale skin.</Pp>
 <Pp>“I can’t descriibe the feeling. I suppose it feels like the taste of ripe cherries. I don’t mean Froot Cherri syrup. I guess you were born post-extinction. Buuut, the real flavor. Rich. Deep. Dark. That’s all my body tastes like. Hooo <em>wheee</em>.”</Pp>
-<Pp>“Interesting.”</Pp>
+<Pp>“Huh.”</Pp>
 <Pp>“Don’t gawk at me.”</Pp>
 <Pp>“What? No way. I wasn’t.”</Pp>
 <Pp>“This is the only way I can feel good anymore. Trust me. This world kills you from the inside.”</Pp>

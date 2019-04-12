@@ -100,7 +100,7 @@ const Dinnertime = ({ children, num, state }) => (
 <Pp>“Hey.”</Pp>
 <Pp>“Could this be Mr. Jim29 03Goldman?”</Pp>
 <Pp>“Yah, that’s me.”</Pp>
-<Pp>“I go by the name of Boyce38 52Sminsel. Perhaps you’ve seen a few of my bylines?” His voice crackles with sass and verve. “I’m an esteemed journalist for an astonishingly important online journalism website called ‘Funny Laughs, Hot News, and Cool Trivia 🙂’. Ever heard of us?”</Pp>
+<Pp>“I go by the name of Boyce38 52Sminsel. Perhaps you’ve seen a few of my bylines?” His voice crackles with sass and verve. “I’m an esteemed journalist for an astonishingly important online journalism website called ‘Funny Laughs, Hot News, and Cool Trivia <img src="assets/emoj/smiley.png" class="emoji" alt="🙂" />’. Ever heard of us?”</Pp>
 <Pp>“For sure, absolutely! Wow.”</Pp>
 <Pp>“I’m working hard on a very crucial piece about you, Mr. 03Goldman. Might you spare a <span class="t">*</span>minute to answer a few of my most important questions?”</Pp>
 <Pp>I look up at Quimby31. “Would you mind if I take this?”</Pp>
@@ -109,23 +109,23 @@ const Dinnertime = ({ children, num, state }) => (
 <Pp>“I suppose I’ll take it right from the top of the top. What’s your reaction to the last couple <span class="t">*</span>days?”</Pp>
 <Pp>I lean my back against the wall. I think it’s important to pause and collect my thoughts.</Pp>
 <Pp>“It’s been really hard. I’m honestly struggling to think of how to talk about it. I never meant for any of this to happen. My world’s been <em>very</em> topsy turvy. My feelings change from <span class="t">*</span>hour to <span class="t">*</span>hour, but mostly I feel really horrible. I’m trapped in a cage of despair and self-loathing. It’s a mistake I’ll regret for the rest of my life.”</Pp>
-<Pp>“Hmm. Very interesting. Would you describe your reaction to the last couple <span class="t">*</span>days as being like Hubba Hubba😍, Whuzza Wha?😳, Yuck Machine🤢, Hellz Yes😎, or Fail Monkey🙈?”</Pp>
-<Pp>“Oh…well…Fail Monkey🙈, I guess.”</Pp>
+<Pp>“Hmm. Very interesting. Would you describe your reaction to the last couple <span class="t">*</span>days as being like Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" />, Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" />, Yuck Machine<img src="assets/emoj/yuck-machine.png" class="emoji" alt="🤢" />, Hellz Yes<img src="assets/emoj/hellz-yes.png" class="emoji" alt="😎" />, or Fail Monkey<img src="assets/emoj/fail-monkey.png" class="emoji" alt="🙈" />?”</Pp>
+<Pp>“Oh…well…Fail Monkey<img src="assets/emoj/fail-monkey.png" class="emoji" alt="🙈" />, I guess.”</Pp>
 <Pp>“That makes sense. What do you think when people say you’re a murderer?”</Pp>
 <Pp>“I’d like to clear that up. These deaths are considered ‘corporate casualties,’ so I did not commit a crime. And even if I did, it isn’t my fault!! OK? Their machines just stopped keeping them alive. And, actually, hmm, I don’t know, is there any way you could just not print this answer, I’m just—"</Pp>
-<Pp>“Do you think Whuzza Wha?😳 or Hubba Hubba😍?”</Pp>
-<Pp>“Oh, right! I think Whuzza Wha?😳"</Pp>
+<Pp>“Do you think Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" /> or Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" />?”</Pp>
+<Pp>“Oh, right! I think Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" />"</Pp>
 <Pp>“Do you feel sorry for the families of the victims involved in this nightmare?”</Pp>
-<Pp>“Hubba Hubba😍. Wait, I mean, Hellz Yes😎.”</Pp>
+<Pp>“Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" />. Wait, I mean, Hellz Yes<img src="assets/emoj/hellz-yes.png" class="emoji" alt="😎" />.”</Pp>
 <Pp>“What’s your opinion on the rumors that this whole scandal was manufactured by the government to distract us from far worse news pouring in from the approximately eight hundred ongoing violent conflicts that our military is currently engaged in around the globe? And that you’re an actor under a fake name in a well-orchestrated hoax or possibly even some sort of artificially intelligent computering beastoid launched here through a psychic ripple in timespace?”</Pp>
 <Pp>“What? Can you say that again?”</Pp>
 <Pp>…</Pp>
-<Pp>“I mean, either Whuzza Wha?😳 or Fail Monkey🙈 I guess. Was that real? Do lots of people think that?”</Pp>
+<Pp>“I mean, either Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" /> or Fail Monkey<img src="assets/emoj/fail-monkey.png" class="emoji" alt="🙈" /> I guess. Was that real? Do lots of people think that?”</Pp>
 <Pp>“Pineapple on pizza?”</Pp>
-<Pp>“Yuck Machine🤢.”</Pp>
+<Pp>“Yuck Machine<img src="assets/emoj/yuck-machine.png" class="emoji" alt="🤢" />.”</Pp>
 <Pp>“Boxers, briefs, or panties?”</Pp>
 <Pp>“Uh, boxers.”</Pp>
-<Pp>“So Hubba Hubba😍 boxers?”</Pp>
+<Pp>“So Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" /> boxers?”</Pp>
 <Pp>“Yah, I think so. By the way, if I gave you a statement on this whole thing, would you publish that? I just want to say sorry to the people I’ve hurt.”</Pp>
 <Pp>“Hmm.”</Pp>
 <Pp>“I don’t want people to think I’m a monster.”</Pp>

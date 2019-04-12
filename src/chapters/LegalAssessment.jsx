@@ -1,7 +1,8 @@
 import React from 'react';
 
-
 import Pp from './../components/Pp.jsx';
+import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 import ChapterStart from './../components/ChapterStart.jsx';
 
 const LegalAssessment = ({ children, num, state }) => (
@@ -9,7 +10,7 @@ const LegalAssessment = ({ children, num, state }) => (
 <ChapterStart num={num} />
 {children}
 
-<Pp>I sign into the computering device at the legal desk. The chairs for visitors are really modern and pretty hard on my back. I can hear the sound of shouting through the walls. My head pulses in pain. The receptionist must be occupied. I check a checkbox labelled “I Am Here” and uncheck the “I Am Elsewhere” one before clicking submit. The speakers are quietly playing “Buddy I Love You” by Tim the Little Lover Man, a simmering ballad of low volume passion. The room is empty. The overhead lights burn my eyes. I shake another Jubimum tablet out of the canister. I’ll take up to three a <span class="t">*</span>day on the dire occasions.</Pp>
+<Pp>I sign into the computering device at the legal desk. The chairs for visitors are really modern and pretty hard on my back. I can hear the sound of shouting through the walls. My head pulses in pain. The receptionist must be occupied. I check a checkbox labelled “I Am Here” and uncheck the “I Am Elsewhere” one before clicking submit. <div class="chapterSong"><LazyAudio src="assets/Buddy I Love You.mp3" loop={true} bg="rgb(179, 236, 236)" fg="#000" /></div> The speakers are quietly playing “Buddy I Love You” by Tim the Little Lover Man, a simmering ballad of low volume passion. The room is empty. The overhead lights burn my eyes. I shake another Jubimum tablet out of the canister. I’ll take up to three a <span class="t">*</span>day on the dire occasions.</Pp>
 <Pp>A woman trudges through the side door in a grey legal gown. She has short black hair and looks very tired. That’s not a critique of her appearance, she just seems truly fatigued. “Mr. 03Goldman…?”</Pp>
 <Pp>I follow her into the halls of the legal nest. The walls are covered in strange, menacing items. I spot among them bloody knives, frayed ropes, poisonous flowers, rips of papper, handguns, shotguns, rifles, body parts, etc. “What’s all this stuff from?”</Pp>
 <Pp>“These walls are covered with objects involved in intra-office crimes…employees harming other employees mostly…usually small disputes…it is all dealt with internally.”</Pp>
@@ -33,7 +34,12 @@ const LegalAssessment = ({ children, num, state }) => (
 <Pp>“Are you paying attention currently?”</Pp>
 <Pp>I look up at her. My eyelids feel heavy. “Yah for sure, sorry.”</Pp>
 <Pp>“This is very serious…you do not have time to watch them toss the balls…”</Pp>
-<Pp>“Sorry, I’ll admit I was watching but I  promise I was listening too.”</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/8.jpg" />
+</p>
+</Pp>
+<Pp>“Sorry, I’ll admit I was watching but I promise I was listening too.”</Pp>
 <Pp>“Here is the thing…people already know what you look like. They know what you did…they know oh ‘Jim29? He is not a good guy’…some of them might want to hurt you with their hands, and that is just the way it goes…”</Pp>
 <Pp>The vocalizations begin to sound more like screaming. I’m starting to feel fairly weird. My heart is racing. “I don’t really understand what you’re getting at.”</Pp>
 <Pp>“If you would just let me finish…”</Pp>
@@ -46,28 +52,28 @@ const LegalAssessment = ({ children, num, state }) => (
 <Pp>She slides me a brochure. It’s printed on heavy stock papper that has a plastic sheen. The design is modern and sleek. It outlines The Four Easy Steps to Resculpting Your Identity:</Pp>
 <div class="brochures">
   <Pp>
-    <div class="brochure" style={{background: 'linear-gradient(rgb(149, 0, 38), rgb(173, 48, 245))'}}>
+    <div class="brochure b1">
       <h2>STEP ONE: NAME CHANGE</h2>
       <p><em>[the icon for this section is a quill drawing an X] </em></p>
       <p>The first step of the identity resculpting process is to change your name. Make sure you pick a new name that you are very happy with! You will be given a new driver’s license, passport, private security card, birth certificate, name badge, and shirt with your name screenprinted thanks to our partnership with ShirtDonkey. Try practicing that new name in the mirror tonight. Our Name Change team will personally burn all of your old identification materials. Good riddance!</p>
     </div>
   </Pp>
   <Pp>
-    <div class="brochure" style={{background: 'linear-gradient(#3051f5, #8030f5)'}}>
+    <div class="brochure b2">
       <h2>STEP TWO: SOCIAL DELETE</h2>
       <p><em>[the icon for this section is a filing cabinet knocked over]</em></p>
       <p>Next, we’ll run your old information through a script our Social Delete engineers cooked up that individually terminates each and every one of your social media accounts. All your drips, flips, drops, and flops, gone in a flash! We will generate new accounts for you under your new name using photographic images we render of your body and data we gather from your resculpting questionnaire. We’ll work hard to make sure that your new accounts are a perfect fit for someone like you.</p>
     </div>
   </Pp>
   <Pp>
-    <div class="brochure" style={{background: 'linear-gradient(#009d8e, #3051f5)'}}>
+    <div class="brochure b3">
       <h2>STEP THREE: FRIEND RESET</h2>
       <p><em>[the icon for this section is the recycling symbol with a person inside of it] </em></p>
       <p>Your friends are going to wonder where you are. You can’t tell them about any of this. They can’t know that you still exist. You can send out your own custom final zoips to each of them individually, or you can use one of our award-winning final zoip templates. They might miss you, but it’ll be fine in the long run. You’re all going to forget about each other. And once you’ve executed a total Friend Reset, you can use our excellent FriendSearch zoftware (patent-pending) to meet new companions that are your age and living in your area. That shweet!</p>
     </div>
   </Pp>
   <Pp>
-    <div class="brochure" style={{background: 'linear-gradient(#c4621d, #009d8e)'}}>
+    <div class="brochure b4">
       <h2>STEP FOUR: APPEARANCE SWAP</h2>
       <p><em>[the icon for this section is a trash can filled to the brim with clothes and stink lines float above it]</em></p>
       <p>Last but certainly not least, you’ll need to shake up your look. Studies estimate that by the age of twenty-five, two hundred thousand people remember what you look like. In order to finish your complete resculpting, our licensed Appearance Swap designers will give you a head-to-toe makeover so you look like no one ever. Welcome to your new you!</p>

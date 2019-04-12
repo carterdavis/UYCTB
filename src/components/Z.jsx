@@ -34,6 +34,7 @@ const Z = (props) => {
   return (
     <div class={`zoip ${user}`} style={ displaying ? {} : { height: 0 }}>
       <Pp bg={ displaying ? noCheckBg : '#FFF, #FFF'} innerClass={`${props.f ? 'padTop' : ''} ${props.l ? 'padBtm' : ''}`} z>
+      <p>
       { order == 0 &&
         <VisibilitySensor onChange={
           (visible) => {
@@ -46,9 +47,10 @@ const Z = (props) => {
           { props.f &&
             <span class="prefix" style={{backgroundColor: users[user]}}>{ noCheckText }</span>
           }
-          <Typing startDelay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
+          <Typing startDelay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { console.log('finished'); setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
         </div>
       }
+      </p>
       </Pp>
     </div>
   );

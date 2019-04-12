@@ -22,7 +22,7 @@ const EndOfDay = ({ children, num, state }) => (
 <Z d={30} spe={68} u="j29" seq="a" ch={num} o={1} z={state} f> is there any way I could still see you tonight?</Z>
 <Z d={5} spe={72} u="j29" seq="a" ch={num} o={2} z={state}>I don’t think I should be alone.</Z>
 <Z d={20} spe={80} u="j29" seq="a" ch={num} o={3} z={state} l>is that messed up?</Z>
-<Pp>I have my bag packed and my fluffy coat and hat on. The fluff’s a bit matted down from going down the slides. I turn on my lantern and push open the double doors into the cold pitch black outside. I’m parked on the second level. The concrete is coated in a thin sheet of ice. The cold makes my whole face burn. It makes my body weak. My eyes are thin slits from the swelling. Moving my lips hurts horribly. I try humming to myself. Just some little melodies.</Pp>
+<Pp>I have my bag packed and my fluffy coat and hat on. The fluff’s a bit matted down from going down the slides. I turn on my lantern and push open the double doors into the cold pitch black outside. I’m parked on the second level. The concrete is coated in a thin sheet of ice. The cold makes my whole face burn. It makes my body weak. My eyes are thin slits from the swelling. Moving my lips hurts horribly. I try humming to myself. Just some little random melodies.</Pp>
 <Pp>I cast my lantern’s pale golden light over my car. It has a wide glow that reached about five leaps away from me. I shiver and shake in my seat.</Pp>
 <Pp>“Hello Mr. 35Fludge!” Tulip sounds on edge. “Are you going to be driving Jim29 home this evening?”</Pp>
 <Pp>“You know it’s me, Tulip. C’mon! I’m Jim29.”</Pp>

@@ -6,10 +6,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const WatchingVids = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#2c2a66, #b8bec5" />
 {children}
 
-<Pp>
+<Pp bg="#b8bec5, #FFDFDB, #EEFFA4, #5d6167">
 <p>I sit on the circular couch with my lap computerior. The couch is circular, shaped like a donut, and I’m the filling. I type in “cool-vidz.watch” and click the GO button. Thumbnails ripple down my screen. Any one of these could be what I want to watch.</p>
 <p>First I click “7 Major Bloopers That Are Costing Industries A Pretty Penny” by Viducation. These are pretty nice infographics. I like the way they break it down and make it seem really obvious. I don’t really have the stamina to watch this whole thing, even though I agree with it.</p>
 <p>Next I click “Taffy Choke Compilation 5: Zero Airflow Edition” by Best Chokes. The vid is the fifth installment in a series all about people choking on taffy. I’ve watched all four prior installments. His name is Morris34 and he has a big wad of Strawbberry taffy in his mouth on a wooden roller coaster. First bump and he’s wheezing. Whoa! His face is bright red. He whacks his arm against the railing.</p>

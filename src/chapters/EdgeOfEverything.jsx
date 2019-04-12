@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyLoad from 'react-lazyload';
 import ChapterStart from './../components/ChapterStart.jsx';
 
 const EdgeOfEverything = ({ children, num, state }) => (
@@ -39,6 +40,11 @@ const EdgeOfEverything = ({ children, num, state }) => (
 <Pp>“For sure. Spill it.”</Pp>
 <Pp>“Nah, I shouldn’t say it.”</Pp>
 <Pp>“Come on you dweeb!!”</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/9.jpg" />
+</p>
+</Pp>
 <Pp>My cheeks are warm. “No, I really shouldn’t.”</Pp>
 <Pp>“Please tell me?”</Pp>
 <Pp>“OK, fine.” I look them right in the green eyes. “I love you.”</Pp>

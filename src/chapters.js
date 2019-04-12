@@ -3,7 +3,7 @@ import EmploymentFair from './chapters/EmploymentFair.jsx';
 import OfficeChitChat from './chapters/OfficeChitChat.jsx';
 import MovingIn from './chapters/MovingIn.jsx';
 import HappySplash from './chapters/HappySplash.jsx';
-import FirstFloor from './chapters/FirstFloor.jsx';
+import DimplesTour from './chapters/DimplesTour.jsx';
 import BackAtPod from './chapters/BackAtPod.jsx';
 import MeDescription from './chapters/MeDescription.jsx';
 import WhatsTangle from './chapters/WhatsTangle.jsx';
@@ -67,7 +67,7 @@ import AStranger from './chapters/AStranger.jsx';
 import MeetingTheChief from './chapters/MeetingTheChief.jsx';
 import ThePit from './chapters/ThePit.jsx';
 import Creeping from './chapters/Creeping.jsx';
-import EBC from './chapters/EBC.jsx';
+import Gala from './chapters/Gala.jsx';
 import LastDitch from './chapters/LastDitch.jsx';
 import FarAway from './chapters/FarAway.jsx';
 import LastWords from './chapters/LastWords.jsx';
@@ -82,8 +82,8 @@ export const chapters = [
   [EmploymentFair, 'employment_fair', 'Employment Fair'],
   [OfficeChitChat, 'office_chit_chat', 'Office Chitty Chat'],
   [MovingIn, 'moving_in', 'Moving In'],
-  [HappySplash, 'happy_splash', 'Happy Splash 1'],
-  [FirstFloor, 'first_floor', 'First Floor'],
+  [HappySplash, 'happy_splash', 'Happy Splash'],
+  [DimplesTour, 'tour_of_dimples', 'Tour Of Dimples'],
   [BackAtPod, 'back_at_pod', 'Back At Pod'],
   [MeDescription, 'me_description', 'Me Description'],
   [WhatsTangle, 'whats_tangle', "What’s Tangle?"],
@@ -95,10 +95,10 @@ export const chapters = [
   [WatchingVids, 'watching_vids', 'Watching Vids'],
   [Contract, 'contract', 'Contract'],
   [Sleepytime, 'sleepytime', 'Sleepytime'],
-  [Dream1, 'dream_1', 'Dream 1'],
+  [Dream1, 'dream_1', 'Dream'],
   [SlowMorning, 'slow_morning', 'Slow Morning'],
   [PoliticsTime, 'politics_time', 'Politics Time'],
-  [MorningChat1, 'morning_chat_1', 'Morning Chat 1'],
+  [MorningChat1, 'morning_chat_1', 'Morning Chat'],
   [ProgrammingAsCommunication, 'programming_as_communication', 'Programming As Communication'],
   [DeservedDeath, 'deserved_death', 'Deserved Death'],
   [HelpingWithSnag, 'helping_with_snag', 'Helping With Snag'],
@@ -147,7 +147,7 @@ export const chapters = [
   [MeetingTheChief, 'meeting_the_chief', 'Meeting The Chief'],
   [ThePit, 'the_pit', 'The Pit'],
   [Creeping, 'creeping', 'Creeping'],
-  [EBC, 'ebc', 'EBC'],
+  [Gala, 'gala', 'Gala'],
   [LastDitch, 'last_ditch', 'Last Ditch'],
   [FarAway, 'far_away', 'Far Away'],
   [LastWords, 'last_words', 'Last Words'],

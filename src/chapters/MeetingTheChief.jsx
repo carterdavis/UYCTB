@@ -2,6 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
+import LazyLoad from 'react-lazyload';
 import ChapterStart from './../components/ChapterStart.jsx';
 
 const MeetingTheChief = ({ children, num, state }) => (
@@ -15,7 +16,12 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>A rectangular passage melts out of the right-hand wall. Mr. 01Stone enters with a loping gait. “Howdy Bunndy22! My deepest apologies! I did not mean to keep you waiting.” He’s way taller than I expected. His entire upper torso is soaked in viscous yellow fluid. Big glops of it drip to the floor. “Grabbus? Could you fetch me my rag? I need to wipe down.”</Pp>
 <Pp>I smile like a professional. “Uh, so what’s that goop? If you don’t mind me asking?”</Pp>
 <Pp>“Ah, yes. I just got back from a meeting with The King. When he gets excited, things get slobbery. I hope you don’t mind.”</Pp>
-<Pp>“That’s OK. Who’s ‘The King'?”</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/13.jpg" />
+</p>
+</Pp>
+<Pp>“That’s OK. Who’s ‘The King’?”</Pp>
 <Pp>“He’s who we’re doing all this for. Would you like a beverage by chance? Or a snack perhaps?”</Pp>
 <Pp>“No I’m good without, thanks though.”</Pp>
 <Pp>“It’s my pleasure. God I love looking at all this information.” He’s pointing at his desk screen. “These figures are my entire earthly existence.”</Pp>
@@ -83,7 +89,7 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“You’re having a hard <span class="t">*</span>day?”</Pp>
 <Pp>“Yah.”</Pp>
 <Pp>“What’s made it hard so far? The crash?”</Pp>
-<Pp>“How’d you know I got into a crash?”</Pp>
+<Pp>“How do you know about that?”</Pp>
 <Pp>“Tulip’s death report flashed across my screen this morning. It sounded very sad when it realized it was dying.”</Pp>
 <Pp>“I’m sad that I killed it.”</Pp>
 <Pp>“Ha ha ha. Whatever.”</Pp>
@@ -92,7 +98,7 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“I think you might be acting a little callous.”</Pp>
 <Pp>“Whooops. My bad.”</Pp>
 <Pp>“OK. I don’t get why you’re smiling.”</Pp>
-<Pp>“You’re clearly much sadder about your compromised mode of transportation than you are about those actual former living people. Whereas a few <span class="t">*</span>minutes ago: ‘The cost of…DEATH? Loss of LIFE??’ Ha ha. Isn’t that weird?”</Pp>
+<Pp>“You’re clearly much sadder about your compromised mode of transportation than you are about those actual former living people. Whereas like a <span class="t">*</span>minute ago: ‘The cost of…DEATH? Loss of LIFE??’ Ha ha. Isn’t that weird?”</Pp>
 <Pp>“Seriously, can I leave? I have a lot to do today.”</Pp>
 <Pp>“No, no, no! God, a thousand times NO! You are legally required to be here.”</Pp>
 <Pp>“Really?”</Pp>

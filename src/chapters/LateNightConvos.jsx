@@ -7,10 +7,12 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const LateNightConvos = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#e75f8d, #552a66" />
 {children}
 
-<Pp>I receive a zoip from my good friend Daisy39 42Scrumpet.</Pp>
+<Pp bg="#552a66, #552a66">
+<p>I receive a zoip from my good friend Daisy39 42Scrumpet.</p>
+</Pp>
 <Z d={20} spe={75} u="d39" ch={num} o={0} z={state} f l> has it been snowy where you are?</Z>
 <Z d={15} spe={65} u="j29" ch={num} o={1} z={state} f> no snow at all, actually</Z>
 <Z d={5} spe={70} u="j29" ch={num} o={2} z={state} l>too cold. just lots of ice. potholes too</Z>
@@ -23,7 +25,9 @@ const LateNightConvos = ({ children, num, state }) => (
 <Z d={40} spe={80} u="j29" ch={num} o={9} z={state} l>work has been really hard. I do feel like I’m learning a lot though</Z>
 <Z d={45} spe={83} u="d39" ch={num} o={10} z={state} f l> you’re really smart. I’m sure it’ll get easier!</Z>
 <Z d={20} spe={70} u="j29" ch={num} o={11} z={state} f l> thanks. what are you up to tonight?</Z>
-<Pp>I send a zoip to my good friend Quimby31 11Nush.</Pp>
+<Pp bg="#552a66, #2c2a66">
+<p>I send a zoip to my good friend Quimby31 11Nush.</p>
+</Pp>
 <Z d={50} spe={68} u="j29" ch={num} o={12} z={state} f l> what’s on the menu tonight?</Z>
 <Z d={30} spe={82} u="q31" ch={num} o={13} z={state} f> I actually just got done with dinner,</Z>
 <Z d={10} spe={85} u="q31" ch={num} o={14} z={state} l>having some warm corn cider.</Z>

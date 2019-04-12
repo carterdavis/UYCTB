@@ -28,7 +28,8 @@ export default class LazyAudio extends React.PureComponent {
     };
     this.audio.onended = () => {
       this.setState({
-        paused: "paused"
+        paused: "paused",
+        corner: ""
       });
     }
     this.audio.src = this.props.src;

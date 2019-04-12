@@ -37,13 +37,12 @@ class Snip extends React.PureComponent {
   }
 
    render() {
-     const colors = this.props.bg.split(', ');
      const open = this.state.open ? 'open' : '';
      const leftStyle = this.state.open ? '50%' : `${this.state.left}px`;
 
      return (
       <div class="snippet-wrapper" ref={this.setWrapperRef}>
-        <div class={`snippet ${open}`} onClick={() => { this.toggle() }} style={{ borderColor: colors[0], left: leftStyle }}>
+        <div class={`snippet ${open}`} onClick={() => { this.toggle() }} style={{ borderColor: this.props.bg || 'red', left: leftStyle }}>
           { this.props.children }
         </div>
       </div>

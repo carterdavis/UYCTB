@@ -13,8 +13,14 @@ const ReallyWorkingNow = ({ children, num, state }) => (
 
 <Z d={10} spe={76} u="d39" seq="a" ch={num} o={0} z={state} f> I’m sorry for not responding last night</Z>
 <Z d={12} spe={70} u="d39" seq="a" ch={num} o={1} z={state} l>I hope you didn’t take it personally</Z>
-<Pp>The bug reports describe the error as an IMPOSSIBLE_DIGITS exception for the variable CURVE_QUOTIENT. It occurred on line 495 of intensity-and-dosage.tangle, one of the largest files in the Dimples library. I triple click and highlight the whole line:</Pp>
-<Pp>UNFRACTIONATE(0 ≥ STATE[PHARMA[CURVE_QUOTIENT]] ≤ 1);</Pp>
+<Pp>The bug reports describe the error as an IMPOSSIBLE_DIGITS exception for the variable CURVE_QUOTIENT. It occurred on line 495 of intensity-and-dosage.tangle, one of the largest files in the Dimples library. I triple click and highlight the whole block of code:</Pp>
+<Pp>
+  <div class="codeblock">
+    <p><span style={{color: '#58e6f1'}}>UNFRACTIONATE</span><span style={{color: '#b68bff'}}>(</span></p>
+    <p style={{ paddingLeft: '2.5rem' }}><span style={{color: '#ffa44c'}}>0</span> <span style={{color: '#e2ffa8'}}>≥</span> <span style={{color: '#ff5ac8'}}>STATE</span><span style={{color: '#b68bff'}}>[</span><span style={{color: '#ff5ac8'}}>PHARMA</span><span style={{color: '#b68bff'}}>[</span><span style={{color: '#ff5ac8'}}>CURVE_QUOTIENT</span><span style={{color: '#b68bff'}}>]]</span> <span style={{color: '#e2ffa8'}}>≤</span> <span style={{color: '#ffa44c'}}>1</span></p>
+    <p><span style={{color: '#b68bff'}}>)</span></p>
+  </div>
+</Pp>
 <Pp>I’m listening to a programming sound collage designed to palpate my abstract logical nodes or glands or whatever. <div class="chapterSong"><LazyAudio src="assets/Developer Stimulation Collage.mp3" loop={true} bg="rgb(223, 223, 223)" fg="#000" /></div> The noises are pretty complicated and alarming. It’s creepy stuff to listen to but apparently it can make your variable names 50% more keen. It’s hard to focus while all these zoips keep zipping through my umbilical data plug straight into my mindchip. I’m feeling a little bothered.</Pp>
 <Z d={80} spe={65} u="j56" seq="b" ch={num} o={0} z={state} f> shoot now two other values are disequalized</Z>
 <Z d={10} spe={71} u="j56" seq="b" ch={num} o={1} z={state} l>5 to 9? i think</Z>
@@ -22,8 +28,12 @@ const ReallyWorkingNow = ({ children, num, state }) => (
 <Z d={14} spe={86} u="j29" seq="b" ch={num} o={3} z={state} l> but right now isn’t a very good time</Z>
 <Z d={38} spe={73} u="d39" seq="a" ch={num} o={2} z={state} f l> I hope work has been better for you today!</Z>
 <Pp>We just recently started using Dominators in Tangle. I don’t really understand them. Their functionality enables dynamic value control across equality networks. Some objects carry invalid values (informally referred to as “naughty data” at Dimples) that need to be dominated and restricted from proliferating through their multivaluation chains. For instance:</Pp>
-<Pp>IF [NAUGHTY[CURVE_QUOTIENT]]!!:</Pp>
-<Pp>CURVE_QUOTIENT === DOMINATE[CURVE_QUOTIENT, TRUE]</Pp>
+<Pp>
+  <div class="codeblock">
+    <p><span style={{color: '#e2ffa8'}}>IF</span> <span style={{color: '#b68bff'}}>(</span><span style={{color: '#58e6f1'}}>NAUGHTY</span><span style={{color: '#b68bff'}}>[</span><span style={{color: '#ff5ac8'}}>CURVE_QUOTIENT</span><span style={{color: '#b68bff'}}>])</span><span style={{color: '#ff1212'}}>!!</span><span style={{color: '#e2ffa8'}}>:</span></p>
+    <p style={{ paddingLeft: '2.5rem' }}><span style={{color: '#ff5ac8'}}>CURVE_QUOTIENT</span> <span style={{color: '#e2ffa8'}}>===</span> <span style={{color: '#58e6f1'}}>DOMINATE</span><span style={{color: '#b68bff'}}>(</span><span style={{color: '#ff5ac8'}}>CURVE_QUOTIENT</span><span style={{color: '#fff'}}>,</span> <span style={{color: '#ffa44c'}}>TRUE</span><span style={{color: '#b68bff'}}>)</span></p>
+  </div>
+</Pp>
 <Pp>is the sort of line I’m searching for. I press the spacebar five times. My back feels sweaty against the chair.</Pp>
 <Pp>I can’t figure out why CURVE_QUOTIENT needs to be dominated. I’m trying to find examples of where else it’s being used, for context. My search isn’t yielding any results. Nug20 sends me a zoip.</Pp>
 <Z d={18} spe={60} u="n20" seq="c" ch={num} o={0} z={state} f> How’s progress on that hotfix man? We need that up tonight</Z>

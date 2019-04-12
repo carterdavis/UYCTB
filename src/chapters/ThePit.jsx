@@ -1,6 +1,7 @@
 import React from 'react';
 
 import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 
@@ -17,7 +18,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Can you answer it?”</Pp>
 <Pp>“Why yes I can indeed. You are presently in the Soaking Pit.”</Pp>
 <Pp>“How did I get here?”</Pp>
-<Pp>“Yes, yes. These queries are simply sensational. Very good things to establish. You were brought here by one of Mr. 01Stone’s men. He took a slide from the top floor.”</Pp>
+<Pp>“Boy oh boy. These queries are simply sensational. Very good things to establish. You were brought here by one of Mr. 01Stone’s men. He took a slide from the top floor.”</Pp>
 <Pp>“Is there a ladder I can use to climb out of here?”</Pp>
 <Pp>“Sadly no, there is not one that you can use.”</Pp>
 <Pp>“What’s going on? I don’t remember anything. I don’t remember this smock at all. Did you take off all of my clothes? In order to get me in this smock?”</Pp>
@@ -93,6 +94,11 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“I guess so.”</Pp>
 <Pp>Something plunked into the magenta goo. A big piece of taffy floated up to the surface.</Pp>
 <Pp>“Eat this bonbon without chewing.”</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/14.jpg" />
+</p>
+</Pp>
 <Pp>I shoved it into my piehole. The taste was like Bananna mixed with armpit. I mushed it around with my tongue. My tongue didn’t have much space to move around. The taffy wasn’t getting much softer. Still very tough and rubbery. My belly felt so empty.</Pp>
 <Pp>“Hah doo I shwallow? Wivout hooing? Doo big.”</Pp>
 <Pp>“You have to swallow it.”</Pp>

@@ -3,7 +3,6 @@ import React from 'react';
 
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
-import Snip from './../components/Snip.jsx';
 
 const StinkyTown = ({ children, num, state }) => (
 <div>
@@ -27,7 +26,7 @@ const StinkyTown = ({ children, num, state }) => (
 <p>Sweet and savory smells waft from street vendor booths. It’s hard to make out words in the chatter of everyone. Ultradef screens glow at much too high a wattage over every square inch of the twisted rusted cramped skyscrapers lining the edge of the square. They’re illuminated with vivid, high-definition advertisements featuring text dancing and glistening across images of desirable products. Exits are to the right and left.</p>
 <p>Quimby31: “What does he do for work?”</p>
 <p>We weave to the right of a woman carrying a saggy, human-sized bag of Graip Froot syrup and to the left of two tall hairy men pounding each other with their fists. I narrowly slip through unpounded and unstained. We follow a ziggy zaggy path to the left exit.</p>
-<p>“He turns a crank. Like this--” (she grimaces and cranks her balled up fists around a horizontal axis) ”--but for reeeally long! No one knows what the crank is cranking. He says they don’t let him sit down or take a breather. He comes home and his face looks like this.”</p>
+<p>“He turns a crank. Like this—” (she grimaces and cranks her balled up fists around a horizontal axis) “—but for reeeally long! No one knows what the crank is cranking. He says they don’t let him sit down or take a breather. He comes home and his face looks like this.”</p>
 <p>Her eyes droop with fatigue. Her pupils are unfocused, like they’re looking but not finding. Her sapphire eyes glimmer in the lantern light. I am unnerved.</p>
 <p>Me: “I’m really sorry to hear that.”</p>
 <p>“It’s OK. I’m just sharing.”</p>

@@ -1,16 +1,22 @@
+import Cookies from 'universal-cookie';
+
 import { UPDATE_CURRENT, UPDATE_DIMENSIONS, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL, ZOIP } from "./constants.js";
 import { getDimensions } from "./../state.js";
+
+const cookies = new Cookies().get('state') || {};
 
 const regex = /([0-9]+)/g;
 let num = location.hash;
 num = num.match(regex) || [''];
-const start = num[num.length - 1] ? parseInt(num[num.length - 1]) : 0;
+const start = num[num.length - 1] ? parseInt(num[num.length - 1]) : cookies.end || 0;
+const end = cookies.end > start ? cookies.end : start;
 const dimensions = getDimensions();
 
 const initialState = {
   current: start,
   beginning: start,
-  end: start,
+  end: end,
+  settings: cookies.setting || {},
   screenHeight: dimensions.height,
   screenWidth: dimensions.width,
   scrolling: false,

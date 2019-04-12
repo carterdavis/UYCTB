@@ -1,4 +1,5 @@
 import React from 'react';
+import Cookies from 'universal-cookie';
 
 import Cloak from './components/Cloak.jsx';
 import Z from './components/Z.jsx';
@@ -6,9 +7,24 @@ import store from './redux/store.js';
 import { chapters } from './chapters.js';
 import { toggleToC, updateCurrent, updateDimensions, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
 
-const range = (start, end) => [...Array(1+end-start).keys()].map(v => start+v);
+export const getStartUrl = () => {
+  const start = store.getState().beginning || 0;
+  return `#${chapters[start][1]}_${start}`;
+}
+
+const range = (start, end) => {
+  const actualEnd = end ? end : start;
+  return [...Array(1+actualEnd-start).keys()].map(v => start+v);
+}
 
 export const setInitial = (first) => {
+  const cookies = new Cookies();
+  if (store.getState().end < first) {
+    cookies.set('state', {
+      end: first,
+      settings: {},
+    });
+  }
   store.dispatch(initial(first));
 }
 
@@ -38,6 +54,11 @@ export const update = (current) => {
       location.replace(url);
     }
     store.dispatch(updateCurrent(current));
+    const cookies = new Cookies();
+    cookies.set('state', {
+      end: current,
+      settings: {},
+    });
   }
 }
 

@@ -1,15 +1,21 @@
 import React from 'react';
 
 import LazyAudio from './../components/LazyAudio.jsx';
+import LazyLoad from 'react-lazyload';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 
-const EBC = ({ children, num, state }) => (
+const Gala = ({ children, num, state }) => (
 <div>
 <ChapterStart num={num} />
 {children}
 
-<Pp>I step through a vortex door into the Secondary Ballroom. The space is lofty and expansive. It’s very crowded, like they’re having some kind of convention or gala. Men of all kinds walk around each other in opposing directions. There are no women in sight. <div class="chapterSong"><LazyAudio src="assets/Reception Music.mp3" loop={true} bg="rgb(255, 252, 169)" fg="#000" /></div> A cluster of sweaty men off in the corner are performing hyperjazz. Every single man is wearing a white robe that billows with movement. Their hair is gelled. Their cheerful faces capture a calm, dutiful focus. They say “whoops,” “sorry,” “excuse me" as they scoot past one another. No one’s even glanced in my direction.</Pp>
+<Pp>I step through a vortex door into the Secondary Ballroom. The space is lofty and expansive. It’s very crowded, like they’re having some kind of convention or gala. Men of all kinds walk around each other in opposing directions. There are no women in sight. <div class="chapterSong"><LazyAudio src="assets/Reception Music.mp3" loop={true} bg="rgb(255, 252, 169)" fg="#000" /></div> A cluster of sweaty men off in the corner are performing hyperjazz. Every single man is wearing a white robe that billows with movement. Their hair is gelled. Their cheerful faces capture a calm, dutiful focus. They say “whoops,” “sorry,” “excuse me” as they scoot past one another. No one’s even glanced in my direction.</Pp>
+<Pp c="chapterImage">
+<p>
+    <img src="assets/15.jpg" />
+</p>
+</Pp>
 <Pp>My brand new face still hurts really bad in every way, but it’s at least more sculpted, less smashed. From the front my face is perfectly circular, and from a sideways angle my head is honestly kind of thin compared to its perimeter. Also, the machine completely flattened my features. The only bumps are my eyes, mouth, and nose. So basically my head looks like a very large fleshy ancient coin. I’m no longer conventionally attractive, but I’m sure to attract less attention. At least my senses are intact. The process didn’t even hurt that bad. My facial bones and cartilage are pretty squishy and malleable at this point. Now that I’ve gone through two rearrangements they’re easy to mush around like creamed corn.</Pp>
 <Pp>I’m not sure how to slip into the foot traffic. Men are walking between hulking round cream-colored structures with circular windows, sort of like the kind they use to show off the animals at Critter Dome. Robed men immediately start bumping into me as I step into the current: “darn,” “much apologies,” “scuse me coming through.” A long haired man on my left steps in front of me and I follow him. I use his swinging blond dual ponytails as beacons in the noise. I follow him to what appears to be labelled BATCH #272.</Pp>
 <Pp>The exhibit is a bare white room filled with nude deformed humans. These unfortunate souls have arms where their legs should be. Four arms in total. They wriggle on their bellies and seem to execute many tasks at once; one arm answers the phone, another arm uses a suite of office management programs on a computerior, a lower arm assists with eating meat or chugging Queam, and the remaining arm grabs any putties that fall out of their naked rear. There is a lot of putty smeared all over the place. Some pre-recorded audio plays over the speaker system. The voice is brash and confident.</Pp>
@@ -22,4 +28,4 @@ const EBC = ({ children, num, state }) => (
 {children}</div>
 );
 
-export default EBC;
+export default Gala;
