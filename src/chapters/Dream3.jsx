@@ -20,6 +20,7 @@ const Dream3 = ({ children, num, state }) => (
       <p>Finding a hole and crawling in. Lurching forward on my hands and knees for <span class="t">*</span>days, <span class="t">*</span>weeks, <span class="t">*</span>months, <span class="t">*</span>years.</p>
       <p>Is anyone there? Tell me you can hear me. Tell me what to know. Let me know that I’m alright.</p>
       <p>Mr. McBubble giving me a gigantic scrub. Suds cleansing my soul.</p>
+      <p>Dr. Kindbrain tells me I’m a rotten fool.</p>
       <p>Dark except my monitor’s Ultradef glow. I hook my umbilical data plug into my tummy and type every key at once.</p>
       <Z d={30} spe={70} u="j56" ch={num} o={0} z={state} f l no> ONE</Z>
       <Z d={30} spe={70} u="q31" ch={num} o={1} z={state} f l no> WHERE</Z>

@@ -8,7 +8,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const DeservedDeath = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#d0d0d0, #d0d0d0" />
 {children}
 
 <TDaddy story>

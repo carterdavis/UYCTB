@@ -9,7 +9,7 @@ import Snip from './../components/Snip.jsx';
 
 const WhyTangle = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} bg="#d0d0d0, #d0d0d0" />
+<ChapterStart num={num} bg="#F5FFC6, #d0d0d0" />
 {children}
 
 <Pp bg="#d0d0d0, #565656, #d0d0d0, #565656, #d0d0d0">
@@ -17,7 +17,7 @@ const WhyTangle = ({ children, num, state }) => (
 <p>Most of the features I have to write code for are pretty hard to contextualize, in terms of their impact on everyday patients. They usually deal with the specifics of parsing and transferring patient information between different servers. The biggest project I ever worked on was for the Dimples SmartMirror, which hangs in patients’ rooms across from their beds. I was tasked with digesting the SmartMirror’s ReflectionCam data stream into usable data before uploading it onto the data mound. Dimples generates a not insubstantial amount of revenue selling patient face data to face recognition companies and mask manufacturers. I wrote the script that compresses all the snapped reflections into one three-dimensional morph. Kind of cool.</p>
 <p>Programming for this company is pretty nerve-wracking honestly. Nuthin ever runs the way it seems like it ought to. Other employees’ cursors wander constantly around my code, occasionally changing variable names or writing scolding notes about the quality of my syntax like:</p>
 </Pp>
-<Pp c="code" z>
+<Pp c="code" n>
   <div class="codeblock">
     <p style={{ color: '#DD7878' }}>DON’T TRIPLE INDENT AFTER CLOSING BRACKETS OF PSEUDOCLASS
     DEFINITIONS IF YOU KNOW WHAT’S GOOD FOR YOU</p>

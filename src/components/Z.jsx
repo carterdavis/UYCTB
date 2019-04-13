@@ -25,7 +25,7 @@ const Z = (props) => {
     SYS: '#737373'
   }
 
-  const bg = user ? `repeating-linear-gradient(0deg, #ffffff, ${users[user]} 4px)` : 'none';
+  const bg = user ? `repeating-linear-gradient(0deg, #ffffff, ${users[user]} 6px)` : 'none';
   const displaying = zoips && (zoips[id] >= order);
 
   const noCheckBg = props.no ? '#FFF, #FFF' : bg;

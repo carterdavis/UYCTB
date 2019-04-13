@@ -14,7 +14,6 @@ const Dream1 = ({ children, num, state }) => (
     <div>
       <p>Walking up a hill that keeps getting steeper.</p>
       <p>Flower I can’t remember name of.</p>
-      <p>Dr. Kindbrain tells me I’m a rotten fool.</p>
       <p>Spinning room, I’m trying to keep things from rolling.</p>
       <p>Companion from childhood’s sinister glare.</p>
       <p>Vision of dancing elephants, ha ha!</p>
