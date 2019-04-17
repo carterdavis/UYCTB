@@ -38,7 +38,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Can you PLEASE explain to me who this ‘King’ is?”</Pp>
 <Pp>“He is so huge. Just enormous.”</Pp>
 <Pp>“Wh-why is he big?”</Pp>
-<Pp>“Because a King must be big. In addition, his skin is slimy and mauve. His lips are so rubbery and wet, and they’re so big that he barely has space to store them anywhere. He lives deep underground, takes a really long elevator ride to get down there. I have to bring his breakfast down every morning. He feasts on a large bag of gold, and then he pushes a healthy volume of putty into his very gigantic diaper. He—"</Pp>
+<Pp>“Because a King must be big. In addition, his skin is slimy and mauve. His lips are so rubbery and wet, and they’re so big that he barely has space to store them anywhere. He lives deep underground, takes a really long elevator ride to get down there. I have to bring his breakfast down every morning. He feasts on a large bag of gold, and then he pushes a healthy volume of putty into his very gigantic diaper. He—”</Pp>
 <Pp>“Is this a prank teevee show or something?”</Pp>
 <Pp>“I’m sorry sir, but this is the absolute most realistic reality.”</Pp>
 <Pp>“Jesus…um, and, why am I in The King’s sauce?”</Pp>
@@ -111,7 +111,17 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“CANTH…DOO…BIG…”</Pp>
 <Pp>“You are an URCHIN! Swallow!”</Pp>
 <Pp>My throat constricted around the Indulgence. It lodged into my windpipe. I tried to cough or heave but I couldn’t. The pressure built in my lungs and my vision got blurry. I squeezed my neck frantically in hopes I could squeeze it out or something. Everything went black and I kept falling.</Pp>
-<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <div class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" /></div> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
+<Pp>When I woke up I was still standing in the pool again. I felt woozy and numb. Hazy voices were talking. It was so dark. <div class="chapterSong"><LazyAudio src="assets/Calm Down Now.mp3" loop={true} bg="rgb(208, 199, 255)" fg="#000" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>Dr. Calm - Calm Down Now</b></p>
+  <p>Calm down</p>
+  <p>Just take a deep breath</p>
+  <p>Everything is going to be so, so freaking awesome</p>
+  <p>You’re calming down so fast</p>
+  <p>I love how this is going</p>
+  <p>Aren’t we having a good time?</p>
+  </div>
+)} /></div> The room had been much brighter. I was nervous in the shadows. I felt my neck and there were spiky stitches running up and down my throat.</Pp>
 <Pp>“What’s up with my throat?”</Pp>
 <Pp>Dumfrey52: “I performed an emergency tracheotomy to keep you alive.”</Pp>
 <Pp>“Thanks.”</Pp>
@@ -134,7 +144,7 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Well I’ll have to go down there and scoop it then. Let me go get my scooper. Don’t let it float anywhere else. I’m serious.”</Pp>
 <Pp>“OK, OK. I won’t.”</Pp>
 <Pp>He hurled a rope ladder over the wall and began his descent, gripping a miniature shovel in his big left glove. I stood perfectly still. He scurried down the ladder pretty fast. His saggy face dipped into the marinade. His watery eyes stared up at me before they focused in on my man mud island. My body went completely tense. He smelled much stinkier than I expected, even worse than my putty. He slid his shovel into the sauce below that brown log.</Pp>
-<Pp> “This is just beyond depraved. Not in the marinade. What sort of person would—"</Pp>
+<Pp> “This is just beyond depraved. Not in the marinade. What sort of person would—”</Pp>
 <Pp>I smashed my knuckles into the back of his skull, he screamed, I shoved his head down into the fluid. He thrashed desperately, my muscles were hot coils igniting my limbs into furious motion. I kicked him as hard as I could and cracked my elbow against his neck vertebrae which I could feel snap cracking. His hair felt silky in my hands, I ripped some of it out. His rubbery torso wriggled and squirmed. I sunk my teeth into the back of his neck. Red warmth and the taste of iron. I kept gnawing and ripping as it gushed. I bit through tendons and veins, the cables and wiring, until his screams became whimpers. I licked my tongue deep into the wound and I dragged him by the hair up against the wall and bashed his skull against the concrete. Over and over, OVER and OVER, until the bone crunkled and out dripped some stinky grey sponge, and the blood dried beneath your fingernails and skin stuck between your teeth, you ripped out what was in there, all of him, even from long ago, birthdays, sunny vacations, notes in the lunchbox from mom, the first jokes he heard, the first songs he sung, the archived reflections of everyone he knew and anyone he could be, as stranger, friend, or family. Every perfect moment of joy and kindness and loving warmth he enjoyed crumbling grey between your fingers to drip drop into the salty slime, sploosh!</Pp>
 {children}</div>
 );

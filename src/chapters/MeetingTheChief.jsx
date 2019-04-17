@@ -57,19 +57,19 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“Do you?”</Pp>
 <Pp>“No. Of course not.”</Pp>
 <Pp>“You will someday.”</Pp>
-<Pp>“Oh…Hm. What—"</Pp>
+<Pp>“Oh…Hm. What—”</Pp>
 <Pp>“You think I’m being serious?”</Pp>
 <Pp>“I honestly don’t know.”</Pp>
 <Pp>“Do you, by chance, happen to live according to a specific moral creed?”</Pp>
 <Pp>“I’d say the ten commandments mostly.”</Pp>
 <Pp>“Yes. That is very helpful.”</Pp>
-<Pp>“I’m sorry sir but I have a meeting in twenty <span class="t">*</span>minutes, if you could—"</Pp>
+<Pp>“I’m sorry sir but I have a meeting in twenty <span class="t">*</span>minutes, if you could—”</Pp>
 <Pp>“No you don’t. You don’t have any meetings today.” He swipes his fingers across his desk to expand and tilt a three-dimensional diagrammatic prism of my schedule for this <span class="t">*</span>week.</Pp>
 <Pp>“I guess I must’ve gotten mixed up. Sorry.”</Pp>
 <Pp>“It’s no big deal. Relax! We’re friends, dude. Boo-yah!”</Pp>
 <Pp>“Yah. For sure. You have a really beautiful office up here.”</Pp>
 <Pp>“Why thank you!” He does a small curtsy. “It’s a delight to finally meet you in person. I’ve been hearing your names so often. A lot of people have been talking about what you supposedly did!”</Pp>
-<Pp>“I’m so sorry—"</Pp>
+<Pp>“I’m so sorry—”</Pp>
 <Pp>“No! It’s a good thing! Remember what we were just talking about?”</Pp>
 <Pp>“Morality?”</Pp>
 <Pp>“The Benefits of Tragedy!”</Pp>
@@ -88,7 +88,7 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“Am I the throat slitter in this analogy?”</Pp>
 <Pp>“No! I am!”</Pp>
 <Pp>“I don’t think I’m keeping up with this conversation.”</Pp>
-<Pp>“You’re doing great, great job so far…I have another question for you—"</Pp>
+<Pp>“You’re doing great, great job so far…I have another question for you—”</Pp>
 <Pp>“Please Mr. 01Stone. I’m having a hard <span class="t">*</span>day. Can you tell me what’s going on?”</Pp>
 <Pp>“You’re having a hard <span class="t">*</span>day?”</Pp>
 <Pp>“Yah.”</Pp>
@@ -114,7 +114,7 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“How is that possible?”</Pp>
 <Pp>“Provision 47d of the Corporate Nationhood Act. Went into effect last nasty winter.”</Pp>
 <Pp>“OK! Fine. I’ll stay here.”</Pp>
-<Pp>“Yes you will. So the thing I was getting at earlier is—"</Pp>
+<Pp>“Yes you will. So the thing I was getting at earlier is—”</Pp>
 <Pp>“But I don’t have to listen to you.”</Pp>
 <Pp>“Yes you do.”</Pp>
 <Pp>“Really??”</Pp>

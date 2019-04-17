@@ -10,7 +10,7 @@ const BackToWork = ({ children, num, state }) => (
 {children}
 
 <Pp bg="#F5F2B8, #F9DAD0">
-<p>Every <span class="t">*</span>month I spend two hunks of gold on my subscriptional for the “Peaceful Calm, Beautiful, And Quite Tranquil" visual theme which livens up my computerior. It makes the text appear in muted pastel tones, floating above sprawling green vistas and lapping waves.</p>
+<p>Every <span class="t">*</span>month I spend two hunks of gold on my subscriptional for the “Peaceful Calm, Beautiful, And Quite Tranquil” visual theme which livens up my computerior. It makes the text appear in muted pastel tones, floating above sprawling green vistas and lapping waves.</p>
 </Pp>
 <Z d={20} spe={55} u="j29" ch={num} o={0} z={state} f> dinner would be great, actually</Z>
 <Z d={10} spe={65} u="j29" ch={num} o={1} z={state} l>I’ll let you know when I get off work</Z>

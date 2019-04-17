@@ -94,7 +94,7 @@ const Dinnertime = ({ children, num, state }) => (
 <Pp bg="#F6FEAA, #C7DFC5">
 <p>They arrange huge hog chunks on beds of maize. I pull out my chair. The smells are sweet and savory. The hog face stares up at me. It’s grinning and looking real beaten up. Its four eye sockets are vacant, and the skin around them looks to have been blackened from some sort of impact. The stereo stopped playing music. It must’ve reached the end of the disc. My swollen plasticky lips are hard to open wide. “By the way, I can leave whenever you want me to.”</p>
 <p>“What? No, you’re fine.”</p>
-<p> “I’ve been having a really hard time being around people. It’s so hard for me to think of things to say.” I scrape a forkful of roasted meat out of the hog’s smiling mouth. Drips of fat slide down the edge my fork. “It’s as though I only think of garbage. I’m rotting—" (significant burp) “—inside my own brain.”</p>
+<p> “I’ve been having a really hard time being around people. It’s so hard for me to think of things to say.” I scrape a forkful of roasted meat out of the hog’s smiling mouth. Drips of fat slide down the edge my fork. “It’s as though I only think of garbage. I’m rotting—” (significant burp) “—inside my own brain.”</p>
 <p>“Have you been attending your appointments with Dr. Kindbrain?”</p>
 <p>“Yah, every other session or so.” I chew with vigor. Of course it tastes wonderful. Quimby31 makes great food.</p>
 <p>“I think you should make your mental health a higher priority.”</p>
@@ -131,9 +131,9 @@ const Dinnertime = ({ children, num, state }) => (
 <p>“That makes sense. What do you think when people say you’re a murderer?”</p>
 </Pp>
 <Pp bg="#C7DFC5, #C1DBE3">
-<p>“I’d like to clear that up. These deaths are considered ‘corporate casualties,’ so I did not commit a crime. And even if I did, it isn’t my fault!! OK? Their machines just stopped keeping them alive. And, actually, hmm, I don’t know, is there any way you could just not print this answer, I’m just—"</p>
+<p>“I’d like to clear that up. These deaths are considered ‘corporate casualties,’ so I did not commit a crime. And even if I did, it isn’t my fault!! OK? Their machines just stopped keeping them alive. And, actually, hmm, I don’t know, is there any way you could just not print this answer, I’m just—”</p>
 <p>“Do you think Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" /> or Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" />?”</p>
-<p>“Oh, right! I think Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" />"</p>
+<p>“Oh, right! I think Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" />”</p>
 <p>“Do you feel sorry for the families of the victims involved in this nightmare?”</p>
 <p>“Hubba Hubba<img src="assets/emoj/hubba-hubba.png" class="emoji" alt="😍" />. Wait, I mean, Hellz Yes<img src="assets/emoj/hellz-yes.png" class="emoji" alt="😎" />.”</p>
 <p>“What’s your opinion on the rumors that this whole scandal was manufactured by the government to distract us from far worse news pouring in from the approximately eight hundred ongoing violent conflicts that our military is currently engaged in around the globe? And that you’re an actor under a fake name in a well-orchestrated hoax or possibly even some sort of artificially intelligent computering beastoid launched here through a psychic ripple in timespace?”</p>

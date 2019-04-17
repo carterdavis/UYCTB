@@ -18,9 +18,9 @@ const BackAtPod = ({ children, num, state }) => (
 </Pp>
 <Pp bg="#a7a43c, #f6e2ee">
 <p>I sit up on the toilet seat and shiver, holding my breath from the smell. I have a lot to be grateful for. I am buzzing with pure fluid gratitude. Palms pressed together, the words flow.</p>
-<p>“Heavenly father, you have blessed me with such bountiful abundance. I know not how I could ever truly repay you, but I know—"</p>
+<p>“Heavenly father, you have blessed me with such bountiful abundance. I know not how I could ever truly repay you, but I know—”</p>
 <p>(There is grunting and splashing in the stall to my left. The subsequent smell stinks almost impossibly.)</p>
-<p>“—in my heart, which you designed just for me, that the only payment you accept is love. Please forgive me of my sins as I strive to more closely follow the path—"</p>
+<p>“—in my heart, which you designed just for me, that the only payment you accept is love. Please forgive me of my sins as I strive to more closely follow the path—”</p>
 <p>(There is laughter from the left stall. A gravelly voice barks “Fart so hard my buttcheeks almost rip.”)</p>
 <p>“—of righteousness, and shield me from evil within the warmth of your wings. Amen.”</p>
 </Pp>

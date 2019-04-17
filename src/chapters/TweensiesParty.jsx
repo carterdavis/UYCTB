@@ -24,7 +24,7 @@ const TweensiesParty = ({ children, num, state }) => (
 <Pp>I’m not sure where to park. Jumper56’s sub-hut is a quarter twentyleap away. It’s tough to concentrate while Tulip is losing its mind.</Pp>
 <Pp>“Yippy bippy boo-BAH! I’m alive with the warmth of newfound worth!!”</Pp>
 <Pp>I park between two heaping mounds of trash. The stink is intolerable.</Pp>
-<Pp>“You are my personal Christ! Jim29 you are my motorist Messiah! I am reborn! HALLELU—"</Pp>
+<Pp>“You are my personal Christ! Jim29 you are my motorist Messiah! I am reborn! HALLELU—”</Pp>
 <Pp>Tulip’s ebullient voice fades out as I switch off the coal. Jumper56’s hut is tightly wedged between its neighbors. The architecture around here always looks so crammed in. This terrace’s local ordinances levy a heavy tax on above-ground floors to ensure that the neighborhoods around here would be very easy to build turnpikes over. With uniformly low-roofed domiciles, the homes tend to be mostly basement. Jumper56 told me one time that she has to keep her bedroom on the lowest floor, the only interior space where she doesn’t constantly hear the noise of rumbling wheels. It was very recently discovered that the Serenity and Grace megafaults intersect just South of this zone, which is unfortunate to say the least. Her subhut, #12, faces the diagonal intersection of East 35th Street, Northeast 49th Street, and Southwest 93rd Street. The front of her home is bedecked in colorful vinyl siding and her tiny pebble garden is neatly raked.</Pp>
 <Pp c="chapterImage">
 <p>

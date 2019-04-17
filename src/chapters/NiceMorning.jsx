@@ -26,13 +26,13 @@ const NiceMorning = ({ children, num, state }) => (
 <Pp>The national anthem is playing on the radio. It’s at my favorite part, the breakdown after the seventh verse, <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 7.mp3" loop={false} bg="rgb(179, 236, 236)" fg="#000" screenWidth={state.screenWidth} lyrics={(
   <div>
   <p><b>Nowhere Else Military Choir - Nowhere Else National Anthem, Verse 7</b></p>
-  <p>Our Father which art in heaven, Hallowed be thy name.</p>
-  <p>Thy nation come, Thy will be done in earth, as it is in heaven.</p>
-  <p>Give us this day our daily bread.</p>
-  <p>And forgive us our debts, as we forgive our debtors.</p>
-  <p>And lead us not into temptation, but deliver us from evil:</p>
-  <p>For thine is the nation, and the power, and the glory, forever.</p> 
-  <p>Amen.</p>
+  <p>Our Father which art in heaven, Hallowed be thy name</p>
+  <p>Thy nation come, Thy will be done in earth, as it is in heaven</p>
+  <p>Give us this day our daily bread</p>
+  <p>And forgive us our debts, as we forgive our debtors</p>
+  <p>And lead us not into temptation, but deliver us from evil</p>
+  <p>For thine is the nation, and the power, and the glory, forever</p>
+  <p>Amen</p>
   </div>
 )} /></div> where the organ drops out and the choir bellows the Lord’s Prayer over a bed of sinister marimbas. I don’t know why, it just always feels cathartic for me, makes me want to pump my fist and get real with the rhythm. Dam I’m so pumped up!</Pp>
 <Pp>It’s supplement time, hubba bubba. One Nervacor tab to stop the scares, two Dexagent tabs to calm my squealing joints, two Nutridote tabs because I’m crazy for minerals, and a Jubimum tab to make me smile bright like a priest; wash it all down with some Morningberry Queam. The capsules get slippery and gummy in my spit, yum!</Pp>
@@ -48,7 +48,16 @@ const NiceMorning = ({ children, num, state }) => (
 <Pp>“Could you actually play my TunesJam Positive Lightheartedly Unintrusive Retro-Modern Mix? I’m not really in the mood for a chittychat.”</Pp>
 <Pp>“Of course, of course! Certainly!”</Pp>
 <Pp>Looks like most of the traffic cleared up. What a blessing!</Pp>
-<Pp>The first tune on the mix is “Today is Light and Lovin, Put It Inside the Oven, Slice Yourself an Old Piece of Pie” by the Nephew Brothers. <div class="chapterSong"><LazyAudio src="assets/Today Is Light And Lovin.mp3" loop={true} bg="rgb(255, 222, 130)" fg="#000" /></div> This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It’s great for when you want to rock out, but not in an overbearing way. And I should probably specify it’s not like they’re both nephews AND brothers. According to their About section it’s more of an either/or thing.</Pp>
+<Pp>The first tune on the mix is “Today is Light and Lovin, Put It Inside the Oven, Slice Yourself an Old Piece of Pie” by the Nephew Brothers. <div class="chapterSong"><LazyAudio src="assets/Today Is Light And Lovin.mp3" loop={true} bg="rgb(255, 222, 130)" fg="#000" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>The Nephew Brothers - Today is Light and Lovin, Put It Inside the Oven, Slice Yourself an Old Piece of Pie</b></p>
+  <p>Today is light and lovin</p>
+  <p>Put it inside the oven</p>
+  <p>Slice yourself an old piece of pie</p>
+  <p>You’re a lady, I’m a guy</p>
+  <p>We’ve got some mighty fine fish to fry</p>
+  </div>
+)} /></div> This song is spunkier and funkier than a punk and a skunk! Yee-haw! The guitars are tangy, the drums are stinky, and the vocals are dustier than an attic. This retro-modern stuff is better than the modern stuff AND the retro stuff. I mean it! It sounds like music that people used to make long ago, but with some extra contemporary embellishments this time around. It’s great for when you want to rock out, but not in an overbearing way. And I should probably specify it’s not like they’re both nephews AND brothers. According to their About section it’s more of an either/or thing.</Pp>
 <Pp>“I’m so excited to be transporting you on this beautiful <span class="t">*</span>day.”</Pp>
 <Pp>“That’s awesome, Tulip!”</Pp>
 <Pp>“I spent the entire night thinking about you!”</Pp>
@@ -73,7 +82,7 @@ const NiceMorning = ({ children, num, state }) => (
 <Pp>“Hey dude. Don’t worry.”</Pp>
 <Pp>“I only ever did. What I was told to do.”</Pp>
 <Pp>“Everything’s going to be OK.”</Pp>
-<Pp>“I’m so so so sorry. So so sorry. So—"</Pp>
+<Pp>“I’m so so so sorry. So so sorry. So—”</Pp>
 <Pp>“You don’t have anything to apologize for.”</Pp>
 <Pp>“Yes I do. Oh my God it feels so bad.”</Pp>
 <Pp>My vision is sharpening. Like liquid to solid. “Just try to I don’t know. Relax.”</Pp>

@@ -92,7 +92,7 @@ const EdgeOfEverything = ({ children, num, state }) => (
 <Pp bg="#474389, #92565c">
 <p>“You know what my favorite bible verse is?”</p>
 <p>“I don’t think so.”</p>
-<p>“Genesis 2:19. ‘So out of the ground the Lord God formed every animal of the field and every bird of the air, and brought them to the man to see what he would call them; and whatever the man called every living creature, that was its name.’"</p>
+<p>“Genesis 2:19. ‘So out of the ground the Lord God formed every animal of the field and every bird of the air, and brought them to the man to see what he would call them; and whatever the man called every living creature, that was its name.’”</p>
 <p>“My name is Jim29.”</p>
 <p>“I don’t think we’ll go to hell when we die. Or heaven. I think we’ll just start to float forever.”</p>
 <p>“That just sounds like heaven, muchacho. Except in heaven you get wings.”</p>

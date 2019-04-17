@@ -38,7 +38,7 @@ const LegalAssessment = ({ children, num, state }) => (
 <p>“Have I committed a crime? You need to tell me. Even allegedly or whatever?? Does what I did count as manslaughter?”</p>
 <p>She impassively gazes my way.</p>
 <p>“Come on! Oh my God! Please tell me. I’ve been so so worried.”</p>
-<p>“The deaths resulting from your operational oversight are registered as ‘corporate casualties’…which means you, along with Dimples at large, are protected from potential litigation…the courts will not judge you…the burden is strictly for your conscience to bear…”</p>
+<p>“The deaths resulting from your operational oversight are registered as ‘corporate casualties’…the customers waived their right to press charges when they agreed to the terms of service…which means you, along with Dimples at large, are protected from potential litigation…the courts will not judge you…the burden is strictly for your conscience to bear…”</p>
 <p>This is excellent news. Really tremendous and wonderful for me to know. “OK. Alright, so what aspects of my contract are you concerned about me upholding?” Super great, wow. I happily scrape some drool crust off of my cheek.</p>
 <p>“Let me just say it this way…you are at the center of a very, very, very large public relations dilemma…not good at all.”</p>
 <p>She opens the door to her office. It’s positioned above the Primary Ball Room. I watch through the floor as employees chuck inflated multicolor balls at each other. They’re Amusement Studies interns. They’re mostly sons and daughters of accomplished Dimples executives. Once they complete their internships they’ll presumably be offered comfortable administrative roles. The glass floor is very thick but I can at least imagine their laughter.</p>
