@@ -64,13 +64,14 @@ class Drips extends React.PureComponent {
       return (<div><D c={c} t={1274078} f={434259} q={3113}><U>[NewsNEWSjc$d*]</U> > TWO DEAD cuz of crashing Dimples <U>[Dimples:)]</U> zoftware? DOINK! Sip for more updates. <H>&DimplesDisaster</H></D></div>);
       case "reallyWorkingNow":
       return (<div><D c={c} t={1441292} f={583145} q={4112}><U>[Whaats-News--]</U> > EXPOSED: Dimples employee Jim29 03Goldman (<U>[Mr Jim29 That’sme]</U>) reported as architect of zoftware crash that mercilessly slaughtered two</D>
-      <Pp>The drip already has ten thousand thumbs and four thousand flips. My eyes are blurry and my face is wet. Jittery energy pumps behind my brain. My throat pushes into my mouth.</Pp>
+      <Pp bg="#ff3797, #38FF3A"><p>The drip already has ten thousand thumbs and four thousand flips. My eyes are blurry and my face is wet. Jittery energy pumps behind my brain. My throat pushes into my mouth.</p></Pp>
       <D c={c} t={99918} f={23478} q={123}><U>[doctorskum22]</U> > <U>[WhaatsNews]</U> > disgusting</D>
-      <Pp>I skim through the code. Click between the tabs. Highlight letters, words, lines. I close my eyelids and sit in the dark. My head throbs throughout the room. I take short, quick breaths.</Pp>
+      <Pp bg="#38FF3A, #ff3797"><p>I skim through the code. Click between the tabs. Highlight letters, words, lines. I close my eyelids and sit in the dark. My head throbs throughout the room. I take short, quick breaths.</p></Pp>
       <D c={c} t={58345} f={387073} q={105}><U>[porppeprerep]</U> > <U>[Mr Jim29 That’sme]</U> > worthless human being</D>
-      <D c={c} t={65503} f={28898} q={95}><U>[%%RIIPPER%%]</U> > <U>[Mr Jim29 That’sme]</U> > WISH..i could slit your throat myself</D>);
-      <Pp>My celly buzzes around frantically on my desk from all of the notifications it’s getting. It’s already 2:00bt. My mind can't settle on any certain thought. I swallow air wrong and cough.</Pp>
-      <D c={c} t={71197} f={50571} q={3113}><U>[AttractivHotMomma92299]</U> > <U>[Mr Jim29 That’sme]</U> > Nearby harlots BEGGING for a subsequent fling! -- Click here for the sexy new adventure. <U>tttp://h.ot/19489A9</U></D></div>);
+      <D c={c} t={65503} f={28898} q={95}><U>[%%RIIPPER%%]</U> > <U>[Mr Jim29 That’sme]</U> > WISH..i could slit your throat myself</D>
+      <Pp bg="#ff3797, #38FF3A"><p>My celly buzzes around frantically on my desk from all of the notifications it’s getting. It’s already 2:00bt. My mind can't settle on any certain thought. I swallow air wrong and cough.</p></Pp>
+      <D c={c} t={71197} f={50571} q={3113}><U>[AttractivHotMomma92299]</U> > <U>[Mr Jim29 That’sme]</U> > Nearby harlots BEGGING for a subsequent fling! -- Click here for the sexy new adventure. <U>tttp://h.ot/19489A9</U></D></div>
+      );
     }
   }
 }

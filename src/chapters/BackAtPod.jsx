@@ -1,5 +1,5 @@
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+
 
 import Drips from './../components/Drips.jsx';
 
@@ -27,7 +27,15 @@ const BackAtPod = ({ children, num, state }) => (
 <Pp bg="#f6e2ee, #eaf1c5">
 <p>Outside, my workpod is situated between a wall and a load bearing column, directly below a toasty heat vent. A circular window in my pod lets some light in but it’s slightly too high up for me to comfortably peer. Mostly it creates a bunch of glare for my computerior’s screen. My pod desk is a mess and I’m pretty ashamed of it if I’m being totally honest. It’s piled up with treat wrappers, snotty balled-up tissues, empty Queam canisters, plastic bags, crumbs, soiled bandages, hunks of gold, branded pens, colorful squishy toys, print-outs of a few online articles, and a glass terrarium one of my friends sent me with a plastic succulent inside that I named Genius. I’m not a messy person, I just have a very hard and stressful job, and almost all experts agree that it’s normal to accumulate a bit of clutter.</p>
 <p>My personal computering device is very sleek and flimsy, and its keys are illuminated with multisegmented efficiency glyphs. When I sit at my desk I leave it hooked up to my monitor, which has a state-of-the-art razor-thin curved Ultradef screen that wraps partly around my head. My typing stool squawks as I roll it into sitting position. One of the custodians must have forgotten to grease its axles. That’s the third time this <span class="t">*</span>week. I’ll have to submit a report. Either way, the cushion feels great when I plop my big booty on it.</p>
-<p>I hook in my umbilical data plug and load up TunesJam, my music subscriptional of choice. <div class="chapterSong"><LazyAudio src="assets/Requiem For The Aether Maidens.mp3" loop={true} bg="#f6e2ee" fg="#c45c31" /></div> My Recommended Jam of the <span class="t">*</span>Day is “Requiem For The Aether Maidens” by Bladetooth. I eagerly press play. They’re my favorite legendary metal group. They mostly sing about the kind of stuff our great ancestors were up to a gazillion <span class="t">*</span>years ago. The guitars chug and wail as I imagine legions of goblins approaching on horseback.</p>
+<p>I hook in my umbilical data plug and load up TunesJam, my music subscriptional of choice. <div class="chapterSong"><LazyAudio src="assets/Requiem For The Aether Maidens.mp3" loop={true} bg="#f6e2ee" fg="#c45c31" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>Bladetooth - Requiem For The Aether Maidens</b></p>
+  <p>The pegasus will seize the orb</p>
+  <p>As the warlock whispers his curse</p>
+  <p>My golden sabre will lick their throats</p>
+  <p>In the final goblin brawl</p>
+  </div>
+)} /></div> My Recommended Jam of the <span class="t">*</span>Day is “Requiem For The Aether Maidens” by Bladetooth. I eagerly press play. They’re my favorite legendary metal group. They mostly sing about the kind of stuff our great ancestors were up to a gazillion <span class="t">*</span>years ago. The guitars chug and wail as I imagine legions of goblins approaching on horseback.</p>
 </Pp>
 <Pp bg="#eaf1c5, #c45c31">
 <p>My workpod must've been installed before the office was carpeted; there's a little patch where I can see through the transparent floor. Sometimes when I’m bored I’ll take a little break to gaze down at the guy who works below me. He never seems to notice me looking. Unless the aerial angle is deceptive, he’s a rather tall man. His brown hair is buzzed very short and he wears the same grey unisuit every <span class="t">*</span>day. He looks very skinny and bony and his desk is covered in treat wrappers.  I looked him up in the public employee directory a while ago. It had so much information! His name is Doby22 95Blunker. He works as the Assistant Chairman for the Managerial Executive Sub-Council on Inter- and Intradepartmental Affairs. He’s 57 <span class="t">*</span>years old. He is single and childless. He’s been working at Dimples for more than twenty <span class="t">*</span>years. He’s never been promoted. His greatest fear is megabacteria. His blood type is Z negative. He spends his whole <span class="t">*</span>day pacing in circles around the perimeter of his workpod. The walls of his pod are all covered in the same weird tan fabric. Every now and then he’ll suffer a tantrum, during which he turns bright red and shoves whatever furniture is closest to him, causing much crashing and clatter as he sucks down huge breaths, beating the side of his head with his fist, shouting “NO! STUPID! NO! NO! NO!”</p>
@@ -42,7 +50,11 @@ const BackAtPod = ({ children, num, state }) => (
 </Pp>
 <Pp c="chapterImage" bg="#f5e104, #f4e204">
   <p>
-    <img src="assets/4.png" />
+    <picture>
+      <source media="(max-width: 720px)" srcset="assets/4-small.png" />
+      <source media="(min-width: 721px)" srcset="assets/4.png" />
+      <img src="assets/4.png" alt=""/>
+    </picture>
   </p>
 </Pp>
 <Pp bg="#f5e104, #f6e2ee">

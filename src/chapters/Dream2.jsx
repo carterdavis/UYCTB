@@ -6,7 +6,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Dream2 = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#38FF3A, #000" />
 {children}
 <Pp bg="#000, #000">
   <Fade duration={2000}>

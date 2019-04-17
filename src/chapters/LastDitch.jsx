@@ -23,7 +23,7 @@ const LastDitch = ({ children, num, state }) => (
 <Pp>“Please!”</Pp>
 <Pp>“You don’t sincerely believe in my humanity.”</Pp>
 <Pp>“You don’t understand. They’re going to kill me. They’re going to feed me to a giant monster!”</Pp>
-<Pp>“Are you having an episode or something? Have you been taking your daily suppies?”</Pp>
+<Pp>“Are you having an episode or something? Have you been taking your <span class="t">*</span>daily suppies?”</Pp>
 <Pp>“Stop it! I’m being serious!! And I guess technically I haven’t been taking my suppies.”</Pp>
 <Pp>“Why haven’t you been taking them?”</Pp>
 <Pp>“They trapped me. I had no access to them. Stop looking at me like that!”</Pp>

@@ -1,5 +1,5 @@
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+
 
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
@@ -23,7 +23,11 @@ const HappySplash = ({ children, num, state }) => (
 </Pp>
 <Pp c="chapterImage" bg="#a8636c, #f2e798">
 <p>
-    <img src="assets/3.png" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/3-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/3.png" />
+  <img src="assets/3.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp bg="#f2e798, #f2e798">

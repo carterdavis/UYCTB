@@ -7,7 +7,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const MrAndMrs28Bumperton = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#92565c, #92565c" />
 {children}
 
 <TDaddy story>

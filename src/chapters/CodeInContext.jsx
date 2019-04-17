@@ -6,7 +6,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const CodeInContext = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} bg="#d0d0d0, #d0d0d0" />
+<ChapterStart num={num} bg="#A491D3, #d0d0d0" />
 {children}
 
 <Pp bg="#d0d0d0, #565656, #d0d0d0, #565656, #d0d0d0">

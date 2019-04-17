@@ -47,7 +47,12 @@ const Z = (props) => {
           { props.f &&
             <span class="prefix" style={{backgroundColor: users[user]}}>{ noCheckText }</span>
           }
-          <Typing startDelay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { console.log('finished'); setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
+          { zoips[id] == order &&
+            <Typing startDelay={500 + delay} speed={speed} class="type" hideCursor={true} onFinishedTyping={() => { setZoip(chapter, sequence, order + 1) }}>{props.children}</Typing>
+          }
+          { zoips[id] != order &&
+            <span class="type">{props.children}</span>
+          }
         </div>
       }
       </p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+
 
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
@@ -29,7 +29,11 @@ const MeetMyBirdies = ({ children, num, state }) => (
 </Pp>
 <Pp c="chapterImage" bg="#ed0084, #ed0084">
 <p>
-    <img src="assets/6.png" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/6-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/6.png" />
+  <img src="assets/6.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp bg="#ed0084, #e9c491">

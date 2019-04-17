@@ -5,14 +5,14 @@ import Snip from './../components/Snip.jsx';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 
 const TweensiesParty = ({ children, num, state }) => (
 <div>
 <ChapterStart num={num} />
 {children}
 
-<Pp>These highways don’t see much traffic. Jumper56 lives in sort of a weird residential zone on the outskirts of Big Town’s factory district. I downloaded <Snip state={state} bg="red, yellow">Only recently did I pony up the extra four hunks a <span class="t">*</span>month to upgrade to TOTALNet Tier Four Dynamite PLUS+ High-Speed Powernet Digital Connection ( + Social & Video), since I can be sort of a data hog. The speeds of my lesser data package, Tier Three Dynamite Unstoppably Qwik Powernet Digital Connection (+ Social & Video), would get miserably throttled unless I was using one of TOTALNet’s dinky sponsored Premium Programs. This time the download bar indicated it’d be done downloading in a <span class="t">*</span>minute, then it jumped to three <span class="t">*</span>hours, two and a half <span class="t">*</span>hours, and settled on one <span class="t">*</span>hour. Maps are complicated, I don’t blame em.</Snip> the route to her place using Nation Map Extreme.</Pp>
+<Pp>These highways don’t see much traffic. Jumper56 lives in sort of a weird residential zone on the outskirts of Big Town’s factory district. I downloaded <Snip screenWidth={state.screenWidth} bg="red, yellow">Only recently did I pony up the extra four hunks a <span class="t">*</span>month to upgrade to TOTALNet Tier Four Dynamite PLUS+ High-Speed Powernet Digital Connection ( + Social & Video), since I can be sort of a data hog. The speeds of my lesser data package, Tier Three Dynamite Unstoppably Qwik Powernet Digital Connection (+ Social & Video), would get miserably throttled unless I was using one of TOTALNet’s dinky sponsored Premium Programs. This time the download bar indicated it’d be done downloading in a <span class="t">*</span>minute, then it jumped to three <span class="t">*</span>hours, two and a half <span class="t">*</span>hours, and settled on one <span class="t">*</span>hour. Maps are complicated, I don’t blame em.</Snip> the route to her place using Nation Map Extreme.</Pp>
 <Pp>The lanes coil like fraying wires.  Rusty adscreens loom between em, compression artifacts brightly flickering. Wrong turns around here are met with dead ends, raised streets dropping off with no barricades.</Pp>
 <Pp>“Take a right turn onto the vertical speedramp. Prepare for quickness! Jim29, will you grant me the temporary privilege to speak personally?”</Pp>
 <Pp>“What’s up Tulip?”</Pp>
@@ -28,7 +28,11 @@ const TweensiesParty = ({ children, num, state }) => (
 <Pp>Tulip’s ebullient voice fades out as I switch off the coal. Jumper56’s hut is tightly wedged between its neighbors. The architecture around here always looks so crammed in. This terrace’s local ordinances levy a heavy tax on above-ground floors to ensure that the neighborhoods around here would be very easy to build turnpikes over. With uniformly low-roofed domiciles, the homes tend to be mostly basement. Jumper56 told me one time that she has to keep her bedroom on the lowest floor, the only interior space where she doesn’t constantly hear the noise of rumbling wheels. It was very recently discovered that the Serenity and Grace megafaults intersect just South of this zone, which is unfortunate to say the least. Her subhut, #12, faces the diagonal intersection of East 35th Street, Northeast 49th Street, and Southwest 93rd Street. The front of her home is bedecked in colorful vinyl siding and her tiny pebble garden is neatly raked.</Pp>
 <Pp c="chapterImage">
 <p>
-    <img src="assets/11.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/11-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/11.png" />
+  <img src="assets/11.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp>I’m considering knocking. It’s probably fine to let myself in, right?</Pp>

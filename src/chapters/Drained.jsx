@@ -8,10 +8,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Drained = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#2f2f2f, #9CE37D" />
 {children}
 
-<Pp>
+<Pp bg="#9CE37D, #2f2f2f, #4C2C72">
 <p>I’m dead tired so I stopped thoughtscribing for a bit but now I’m back at it again. Quimby31 are on the Zoomi rail headed back to Big Town. The Ascent Station elevator was operational, and we didn’t have to walk that much more.</p>
 <p>The TroughDaddy feed is pretty tasty right now, we’ve got:</p>
 </Pp>
@@ -28,7 +28,7 @@ const Drained = ({ children, num, state }) => (
     <li>Denim Swim Trunks Are Back In Style…And This Time, They Make Your Snouch Look Minuscule</li>
   </ul>
 </TDaddy>
-<Pp>
+<Pp bg="#4C2C72, #87B37A, #2f2f2f, #4B296B, #9CE37D, #2f2f2f, #4C2C72, #77867F">
 <p>Quimby31 hasn’t been talking so I haven’t been talking either. I’m not sure if it’s A Thing. I think they might be feeling grumpy or down. They sat a few seats away from me, and their arms are crossed, and their head is slumped over. I elect to socialize.</p>
 <p>“What’s up?”</p>
 <p>“Mmh?”</p>

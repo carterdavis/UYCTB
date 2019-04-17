@@ -1,6 +1,7 @@
 import React from 'react';
-
 import VisibilitySensor from 'react-visibility-sensor';
+
+import Lyrics from './Lyrics.jsx';
 
 export default class LazyAudio extends React.PureComponent {
   constructor(props) {
@@ -9,7 +10,7 @@ export default class LazyAudio extends React.PureComponent {
       loaded: "unloaded",
       error: false,
       paused: "paused",
-      corner: ""
+      corner: "",
     };
     this.audio = null;
   }
@@ -51,6 +52,13 @@ export default class LazyAudio extends React.PureComponent {
     }
   }
 
+  componentWillUnmount() {
+    if (this.state.paused == 'playing') {
+      this.audio.pause();
+    }
+    this.audio = null;
+  }
+
   inView(visible) {
     if (this.state.paused == "playing" && !visible) {
       this.setState({
@@ -65,6 +73,20 @@ export default class LazyAudio extends React.PureComponent {
     const styleSymbol = this.state.paused == 'paused' ? { borderLeftColor: this.props.fg }
       : { borderLeftColor: this.props.fg, borderRightColor: this.props.fg };
 
-    return <VisibilitySensor onChange={(visible) => { this.inView(visible) } } intervalDelay={500} partialVisibility><button class={`playButton ${this.state.loaded} ${this.state.corner}`} onClick={() => { this.mainClick() }} style={styleButton}><div class={`symbol ${this.state.paused}`} style={styleSymbol}></div></button></VisibilitySensor>
+    const open = this.state.lyricsOpen ? 'open' : '';
+    const leftStyle = this.state.lyricsOpen ? '50%' : `${this.state.lyricsLeft}px`;
+
+    return (
+    <VisibilitySensor onChange={(visible) => { this.inView(visible) } } intervalDelay={500} partialVisibility>
+      <div>
+      <button class={`playButton ${this.state.loaded} ${this.state.corner}`} onClick={() => { this.mainClick() }} style={styleButton}>
+        <div class={`symbol ${this.state.paused}`} style={styleSymbol}></div>
+      </button>
+      { this.props.lyrics &&
+        <Lyrics lyrics={this.props.lyrics} fg={this.props.fg} bg={this.props.bg} screenWidth={this.props.screenWidth} />
+      }
+      </div>
+    </VisibilitySensor>
+    )
   }
 }

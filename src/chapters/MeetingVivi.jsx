@@ -3,19 +3,19 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 import Z from './../components/Z.jsx';
 import Snip from './../components/Snip.jsx';
 import ViewScreen from './../components/ViewScreen.jsx';
 
 const MeetingVivi = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#ae533b, #ae533b" />
 {children}
 
-<Pp>
-<p>The ladder is jammed stuck at the bottom against a clumpy brown mound swarming with more thick ants. I lower my shaky foot onto its frozen surface. The lantern illuminates a well-stomped trail down the mound’s slope into the bed of the gorge. My muscles ache with wiggly tiredness. There’s not even a breeze. Yellowing bones from unknown bodies jut out of the terrain. Some are spiky, some are round.
-Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow warm air on their raw hands. “There should be an Ascent Station about a couple twentyleaps north from here.”</p>
+<Pp bg="#ae533b, #575382, #dfd2a0">
+<p>The ladder is jammed stuck at the bottom against a clumpy brown mound swarming with more thick ants. I lower my shaky foot onto its frozen surface. The lantern illuminates a well-stomped trail down the mound’s slope into the bed of the gorge. My muscles ache with wiggly tiredness. There’s not even a breeze. Yellowing bones from unknown bodies jut out of the terrain. Some are spiky, some are round.</p>
+<p>Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow warm air on their raw hands. “There should be an Ascent Station about a couple twentyleaps north from here.”</p>
 <p>“Shh. Listen to that.”</p>
 <p>“Listen to what?”</p>
 <p>“Nuthin at all, I mean. It’s so quiet down here. Isn’t it amazing?”</p>
@@ -24,18 +24,24 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Congenital, passed down from my dad. Kind of a generational thing. Can we start walking again? I really want to be home.”</p>
 <p>“Yah no, that definitely makes sense, absolutely.”</p>
 <p>A twentyleap isn’t that far, and a couple is literally only a bit farther. My thoughts sound quiet like a church. The mound is icy-slick as it slopes downward. I slip once and nearly plop on my bottom. Quimby31 leans forward like they’re there to catch me but not enough that they’d be able to break my fall; it’s more of a symbolic gesture.</p>
+</Pp>
+<Pp bg="#dfd2a0, #e73b8e">
 <p>I can barely make out a small girl sitting among a pile of grey rocks in the distance. She’s sitting criss crossed, lit by a coal lantern burning to her left. As we walk closer, she appears to be wearing four or five layers of faded sweatshirts and a metallic helmet that looks at least one size too big. She is humming a song from an advertisement to herself. I can’t fully remember the product it was an advertisement for, but the melody activates a decrepit region of my biomemory reserved solely for old teevee commercial songs. The thick overlapped sweatshirt sleeves make her arms look very wide and stumpy. Her dark hair is twisty tied into symmetrical horizontal pigtails. She’s clutching a bulbous purple plush creature that appears to have been heavily appreciated over the <span class="t">*</span>years.</p>
 <p>Her face lights up and she starts waving her arms all around. “Hi! Hello! Hoo hoo! Hi!!”</p>
 <p>I wave and say “Hello!” We keep walking and shivering down the path.</p>
 <p>“Are you from up above?” Her vowels squeak a little bit.</p>
+</Pp>
+<Pp bg="#e73b8e, #efa173, #2f2f2f">
 <p>I do a smile. “Yah!”</p>
 <p>“Can you help my grandpoppa? He’s very sick. His machine is from up above. It doesn’t work.”</p>
 <p>I stop and turn. “What kind of machine is it?”</p>
 <p>Quimby31 pulls my arm forward. “C’mon, we really gotta keep movin.”</p>
 <p>“My name is Vivi__ __Grimple! Or you can call me Viv__. I like both! What happened to your face?”</p>
-<p>Her lack of numbers indicates that she’s unregistered. That probably means her family couldn’t afford the registration cost. The price of names keeps going up. A few big corps bought up most of the names, <Snip state={state} bg='red, yellow'>The three name resale giants are Titularity, Appellatio, and Namerr.</Snip> so normal names are pricey. People in her situation aren’t an anomaly; they just can’t afford it anymore. It’s only a big deal if you get caught. Must be a discomforting precarity.</p>
+<p>Her lack of numbers indicates that she’s unregistered. That probably means her family couldn’t afford the registration cost. The price of names keeps going up. A few big corps bought up most of the names, <Snip screenWidth={state.screenWidth} bg='#575382'>The three name resale giants are Titularity, Appellatio, and Namerr.</Snip> so normal names are pricey. People in her situation aren’t an anomaly; they just can’t afford it anymore. It’s only a big deal if you get caught. Must be a discomforting precarity.</p>
 <p>“Nice to meet you. I’m Jim29. This is Quimby31. I hurt my face in an accident.”</p>
 <p>Most medical devices run Dimples zoftware. We’ve basically cornered the market. What if her grandpoppa’s machine is malfunctioning because of the error I caused? I feel compelled to try and help.</p>
+</Pp>
+<Pp bg="#2f2f2f, #bf7690, #efa173">
 <p>Vivi__ lifts her stuffie into the air by its haunches. It’s three-legged, rotund, and seems to be missing an eye. “This is Broophy!!” She wiggles its limbs around in the air. </p>
 <p>Quimby31 crosses their arms close to their person. “Why are you outside right now? It’s so cold.”</p>
 <p>“I’m playing Cold-Hot-Cold. Do you know how to play that game? I came up with it. It’s where you sit outside and you get cold until you get OH SO COLD. Then you go inside and get hot again! Then you go back outside again. Wanna try?”</p>
@@ -45,6 +51,8 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Inside. But I’m not cold yet.”</p>
 <p>“Ah. Gotcha.”</p>
 <p>Quite a few <span class="t">*</span>seconds pass. The expression on her face is serene.</p>
+</Pp>
+<Pp bg="#efa173, #af499b, #dfd2a0, #efa173">
 <p>“When do you think you’ll get cold?”</p>
 <p>Quimby31, whispering in my ear: <em>“Uh, so, what are we doing…?”</em></p>
 <p><em>“I’m being nice.”</em></p>
@@ -58,19 +66,25 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Well mostly I like to sing, talk to Broophy, and play Cold-Hot-Cold. I help all <span class="t">*</span>day, and I only get to play at night.”</p>
 <p>“How responsible of you. What do you do to help?”</p>
 <p>Her home enters the lantern glow. It’s a modest residence, probably contains two or three rooms max. The concrete and metal is painted pink and orange. A garland of papper flowers festoons the roof’s edge. There’s a seesaw off to the right, and a small shed to the left. Smoke billows out of the chimney.</p>
-<Pp c="chapterImage">
+</Pp>
+<Pp c="chapterImage" bg="#efa173, #efa173">
 <p>
-    <img src="assets/10.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/10-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/10.png" />
+  <img src="assets/10.png" alt=""/>
+</picture>
 </p>
 </Pp>
+<Pp bg="#efa173, #2f2f2f">
 <p>“I play on the seesaw.”</p>
 <p>“That’s fun!”</p>
-<p>“The seesaw SUCKS!! UGGH…no one will seesaw with me, not even Broophy. But it’s a water pump seesaw. Playworks gave it to us. <Snip state={state} bg='red, yellow'>Playworks is a charity founded by Spcl. Duke Edward00 00Normus with a stated purpose of “pragmatically harnessing the joyful productivity of our nation’s youngest workers.”</Snip> If I don’t seesaw we don’t drink water. Momma is too busy to do it. Seesawing means my legs are so strong and fast now! Look, I’m running! Wheee!”</p>
+<p>“The seesaw SUCKS!! UGGH…no one will seesaw with me, not even Broophy. But it’s a water pump seesaw. Playworks gave it to us. <Snip screenWidth={state.screenWidth} bg='#bf7690'>Playworks is a charity founded by Spcl. Duke Edward00 00Normus with a stated purpose of “pragmatically harnessing the joyful productivity of our nation’s youngest workers.”</Snip> If I don’t seesaw we don’t drink water. Momma is too busy to do it. Seesawing means my legs are so strong and fast now! Look, I’m running! Wheee!”</p>
 <p>Vivi__ runs an oval path around us. She sure is speedy.</p>
 </Pp>
 <Z d={20} spe={68} u="j56" ch={num} seq="b" o={0} z={state} f> i’m sorry. i wasn’t being very empathetic</Z>
 <Z d={10} spe={70} u="j56" ch={num} seq="b" o={1} z={state} l>i can’t solve this error, jim29. is there any chance you could help me?</Z>
-<Pp>
+<Pp bg="#2f2f2f, #e73b8e, #dfd2a0, #bf7690">
 <p>The welcome mat looks fairly flattened. The wiring around the door buzzer is exposed. It sparks when Vivi__ gives it a buzz. We wait half a <span class="t">*</span>minute for her mother to answer the door. She’s slouched over and massaging the back of her neck. The rims of her eyes are red.</p>
 <p>“Vivian__, who are these people?”</p>
 <p>“He’ll help grandpoppa!” She points at me. “He said—”</p>
@@ -86,17 +100,21 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>She closes her eyes and massages her brow. “OK, that’s very sweet of you. Come inside. Would you like any sticky water? I have some on the burner.”</p>
 <p>“That’d be great, thanks.”</p>
 <p>The __Grimple residence is about as charmingly cluttered as my cubby. We take off our boots and leave them by the door. The interior is lit by yellow LEDs screwed into the walls. It smells like some kind of broth. Coal is roasting in the fireplace. Feels nice to warm up and defrost. Dirty dishes are piling up in the sink. The shelves are tightly packed with baskets of dehydrated corn, books, knick knacks, coupons, cleaning supplies, sweaters, etc. Vivi__ is standing over a little end table carving shapes out of magazine pages with a miniature blade.</p>
-<p>Mrs. __Grimple fills two canisters to the brim with the steamy, jiggly water. She carefully hands em to us. Her computerior is open at the end of the countertop, logged into some kind of facial descriptor program. <Snip state={state} bg='red, yellow'>Facial description workers get paid hourly to categorize harvested human face data according to its emotional characteristics. It seems like she’s just categorizing between “Happy” or “Sad,” but the options can get much more complicated. Algorithms trained on the categorized data can determine human feelings via physical expressions. Technology like this enables Tulip to know when I’m feeling upset.</Snip> “So what company do you work for?”</p>
+</Pp>
+<Pp bg="#bf7690, #575382, #af499b, #efa173">
+<p>Mrs. __Grimple fills two canisters to the brim with the steamy, jiggly water. She carefully hands em to us. Her computerior is open at the end of the countertop, logged into some kind of facial descriptor program. <Snip screenWidth={state.screenWidth} bg='#efa173'>Facial description workers get paid hourly to categorize harvested human face data according to its emotional characteristics. It seems like she’s just categorizing between “Happy” or “Sad,” but the options can get much more complicated. Algorithms trained on the categorized data can determine human feelings via physical expressions. Technology like this enables Tulip to know when I’m feeling upset.</Snip> “So what company do you work for?”</p>
 <p>“Dimples, actually. Is it a Dimples machine?”</p>
 <p>“Yes. That was our only option.”</p>
 <p>“OK, cool! I can try and figure it out then. What kind of illness does he have?”</p>
 <p>“One night he stepped on an ant nest. Came home with about 200 bites. The venom still hasn’t left his system and, well, he’s old, so…”</p>
 <p>“Where is he?”</p>
 <p>She points across the room. “Door on the left.” She proceeds to hurriedly scrub a saucepan.</p>
-<p>I make an effort to step around Vivi__’s various papper art projects. She’s watching a cracked plasmoid teevee. Must be old as dirt. There’s a bright yellow 3D monkey on screen. It’s head is rolling around on the ground with no apparent destination. Neon colors are strobing. <div class="chapterSong"><LazyAudio src="assets/Teevee Music.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> Some kind of noodle monster just walked into the frame. Why does the camera keep zooming in and out? The music is all squiggly and rubbery. Doesn’t sound quite like anything that would be listened to. Maybe this is what kids like now? I don’t know. It’s not for me.</p>
+<p>I make an effort to step around Vivi__’s various papper art projects. She’s watching a cracked plasmoid teevee. Must be old as dirt. There’s a bright yellow 3D monkey on screen. It’s head is rolling around on the ground with no apparent destination. Neon colors are strobing. <div class="chapterSong"><LazyAudio src="assets/Teevee Music.mp3" loop={true} bg="#e73b8e" fg="#dfd2a0" /></div> Some kind of noodle monster just walked into the frame. Why does the camera keep zooming in and out? The music is all squiggly and rubbery. Doesn’t sound quite like anything that would be listened to. Maybe this is what kids like now? I don’t know. It’s not for me.</p>
+</Pp>
+<Pp bg="#efa173, #e73b8e, #bf7690, #dfd2a0">
 <p>The door creaks resonantly and the room behind it is filled with the dim, blue and pink glow of lifesaving technology. Quimby31 followed me in but she seems pretty engrossed in her celly. I guess Vivi__ followed us in too. Her grandfather is floating in a plexi-glass chamber full of foggy liquid, which is attached to his Dimples All-In-One Life Sustainment System Z20 Extreme. I started work at Dimples around the time we were shipping out the Z23 Extreme, but this model is still a few <span class="t">*</span>months away from total obsolescence.</p>
 <p>“Do you have the login token for this machine?”</p>
-<p>She blinks at me. "What’s a login token?”</p>
+<p>She blinks at me. “What’s a login token?”</p>
 <p>“It should have been on the box. I need it to log in. Do you have the box?”</p>
 <p>“Momma says we don’t have room for boxes.”</p>
 <p>I walk back out into the main room. “Excuse me ma’am, do you happen to have the login token for the Dimples machine? I think it was on the box it came in.”</p>
@@ -106,6 +124,8 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>“Alright, gotcha. Hmm…”</p>
 <p>“I’m sorry.” Her eyes are searching. “I was taking Vivi__ to Knowledge Dome and running errands at the time. I…don’t know.”</p>
 <p>“OK, it’s fine, no worries.”</p>
+</Pp>
+<Pp bg="#dfd2a0, #af499b, #575382, #efa173, #e73b8e">
 <p>Passwords for Dimples machines are allowed to be a maximum length of 32 case-insensitive alphanumeric characters, excluding any special symbols. I’ll have to do some guesswork. I type in all my default password ideas with the Z20 keyboard: “1234”, “123456789”, “abc123”, “dimples”, “123dimples”… Each incorrect guess is met with a startling “DOINK!” noise from the system’s speakers. I keep typing and pressing return.</p>
 <p>“DOINK! DOINK! DOINK!”</p>
 <p>Quimby31 puts their arm on my shoulder. “It’s OK if you can’t fix it.”</p>
@@ -120,10 +140,22 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 <p>I forget to even type anything in before hitting return. It makes a beautiful boingy boing noise and a loading screen pops up, informing me that it is Scavenging For System Dump, Please Sit Still A Few <span class="t">*</span>Seconds. The account’s password must’ve just been blank. I didn’t even know blank passwords were allowed. The loading animation depicts a very small man pushing an even smaller rock up a little pipsqueak hill. He just can’t quite seem to push it all the way to the top without losing his grip. The stone rolls very quickly all the way back down over and over and over in fluid vector animation. I wish it would just show a percentage instead. <span class="t">*</span>Minutes pass.</p>
 <p>Vivi__ is walking around in a circle, stepping one foot in front of the other, arms outstretched for balance. She must have placed her torch in a wall mounted sconce. Quimby31 is on her celly and scrolling, eyes darting up, down, zigzagging around.</p>
 <p>The loading man finally rolls the stone all the way up to the hill’s apex. He looks triumphant before instantly fading into the black void of the command line.</p>
+</Pp>
 <ViewScreen num={1} />
-<p>It’s pretty hard to concentrate with Vivi__ vocalizing another advertisement anthem, <div class="chapterSong"><LazyAudio src="assets/Splishtime.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> this time singing the lyrics for the SplishTime Broop (a half-broom/half-mop with a wide, enchanting smile and a bulbous chin) and Quimby31 is still muttering quake statistics under their breath. Vivi__ is doodling a lovely 3D-printed plexiglass cottage tucked between the cement supports of a blocked-off expressway ramp, tracing her unsteady lines with a black surgical marker on the back of a red-lettered medical debt bill.</p>
+<Pp bg="#e73b8e, #575382, #dfd2a0">
+<p>It’s pretty hard to concentrate with Vivi__ vocalizing another advertisement anthem, <div class="chapterSong"><LazyAudio src="assets/Splishtime.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>The SplishTime Singers - Broop Anthem</b></p>
+  <p>Swoop swoop swoop</p>
+  <p>Quick as a Broop</p>
+  <p>All the grinky and goop</p>
+  <p>Yabba dabba doop</p>
+  </div>
+)} /></div> this time singing the lyrics for the SplishTime Broop (a half-broom/half-mop with a wide, enchanting smile and a bulbous chin) and Quimby31 is still muttering quake statistics under their breath. Vivi__ is doodling a lovely 3D-printed plexiglass cottage tucked between the cement supports of a blocked-off expressway ramp, tracing her unsteady lines with a black surgical marker on the back of a red-lettered medical debt bill.</p>
 <p>Quimby31 taps the upper-left corner of their screen, then the bottom-right, then the upper-left again. Their celly is a sleek, stylish model, wide and long enough to really get lost in. “…and that’s not even counting any children. Heavens, can you even imagine?…”</p>
+</Pp>
 <ViewScreen num={2} />
+<Pp bg="#dfd2a0, #bf7690, #efa173, #e73b8e, #575382">
 <p>“Alright Vivi__, I think this machine will work better now. It got turned off because of some kind of error. I’m pretty sure the error is fixed now. He’ll be getting more medicine.”</p>
 <p>She stands up from her doodling. “So he’ll be OK now?”</p>
 <p>“I hope so. That’s the thing about medicine, about health and life in general, y’know? You just have to hope. I work on machines like this, though, and I’m going to work hard to make sure that they run better for people like your grandpop.”</p>
@@ -143,7 +175,7 @@ Quimby31 drops down. “So this is terrace Star-Circle-Octagon.” They blow war
 </Pp>
 <Z d={25} spe={63} u="j56" ch={num} seq="c" o={0} z={state} f> i haven’t even left the office. i’m still here.</Z>
 <Z d={15} spe={72} u="j56" ch={num} seq="c" o={1} z={state} l>my brain can’t even think anymore. Is there any way that you could help me?? please???</Z>
-<Pp>
+<Pp bg="#575382, #efa173, #af499b, #bf7690">
 <p>Vivi__ puts her sweaters back on and grabs Broophy.</p>
 <p>Her mom crosses her arms. “Can I ask you about our bill?”</p>
 <p>“Hmm?”</p>

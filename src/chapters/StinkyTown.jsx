@@ -6,10 +6,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const StinkyTown = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#bf7690, #2f2f2f" />
 {children}
 
-<Pp>
+<Pp bg="#2f2f2f, #586BA1, #A16050, #546144, #543932, #445587, #2f2f2f">
 <p>Vivi__ unlocks the rusty family turboshed, reaches in, unzips something, unknots something, pulls out two helmets, and extends them toward us. “Put it right up on your head, like mine.” She exaggeratedly mimes her helmet application maneuver. “Right up on.”</p>
 <p>Quimby31 starts putting theirs on. Mine smells like ancient head sweat. </p>
 <p>I ask, politely, “Why do we need helmets?”</p>

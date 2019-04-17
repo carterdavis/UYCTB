@@ -6,7 +6,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Drips2 = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#bf7690, #bf7690" />
 {children}
 
 <Drips current={state.current} num={num} chapter="two" />

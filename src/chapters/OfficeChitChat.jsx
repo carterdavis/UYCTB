@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LazyLoad from 'react-lazyload';
+
 
 import Drips from './../components/Drips.jsx';
 
@@ -26,7 +26,7 @@ const OfficeChitChat = ({ children, num, state }) => (
 <p>“Some better than others. You ought to check Drip.”</p>
 <p>“You really think the crashes got on Drip?” I turn the page, which is as long as my torso.</p>
 <p>“No reason they wouldn’t.”</p>
-<p>“Hm. Yes. OK. Well, I think the tangle file I’m looking for is in the precompiled local templates folder, or <Code>/bin/app/lib/custom/secure/v1/local/</Code>. I should totally be able to get to the bottom of this. Should be a quick fix!! I’m gonna go grab my computerior.” I get up from my beany bag. “I think I might stop by the GrubZone actually. Want me to grab you a snack? A gooey cornbread muffin maybe?”</p>
+<p>“Hm. Yes. OK. Well, I think the tangle file I’m looking for is in the precompiled local templates folder, or <span class="code" style={{ wordBreak: 'break-all' }}>/bin/app/lib/custom/secure/v1/local/</span>. I should totally be able to get to the bottom of this. Should be a quick fix!! I’m gonna go grab my computerior.” I get up from my beany bag. “I think I might stop by the GrubZone actually. Want me to grab you a snack? A gooey cornbread muffin maybe?”</p>
 <p>He looks up at me. His expression is tranquil. “I have no use for a muffin.”</p>
 </Pp>
 <Pp bg="#a8539d, #a8539d, #60afa4">
@@ -52,7 +52,11 @@ const OfficeChitChat = ({ children, num, state }) => (
 </Pp>
 <Pp c="chapterImage" bg="#a0cc41, #a0cc41">
 <p>
-    <img src="assets/2.png" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/2-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/2.png" />
+  <img src="assets/2.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp bg="#a0cc41, #e44e9c">

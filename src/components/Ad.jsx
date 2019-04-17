@@ -7,15 +7,19 @@ export default class Ad extends React.Component {
       playing: false,
       url: `${props.src}-static.jpg`
     };
+    this.img = null;
   }
 
   componentDidMount() {
-    const img = new Image();
-    img.src = `${this.props.src}.gif`;
+    this.img = new Image();
+    this.img.src = `${this.props.src}.gif`;
+  }
+
+  componentWillUnmount() {
+    this.img = null;
   }
 
   toggle() {
-    console.log('hello');
     if (this.state.playing) {
       this.setState({ playing: false, url: `${this.props.src}-static.jpg`})
     } else {

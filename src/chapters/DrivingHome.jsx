@@ -11,7 +11,7 @@ const DrivingHome = ({ children, num, state }) => (
 {children}
 
 <Pp bg="#8A811E, #8F72D6">
-<p>It’s the middle of nasty winter and the outside sucks the wind out of my chest. It’s been in the negative twenties since December but it’s just broken into the negative thirties. My eyes get stiffer the longer I’m outside. Blood’s left my extremities and I can’t feel my toes. I left my speedster in section A2 southwest. I try to think about being cozy-warm and home. It’s about a nine <span class="t">*</span>minute walk.</p>
+<p>It’s the middle of nasty winter and the outside sucks the wind out of my chest. It’s been in the negative twenties for the past <span class="t">*</span>month but it’s just broken into the negative thirties. My eyes get stiffer the longer I’m outside. Blood’s left my extremities and I can’t feel my toes. I left my speedster in section A2 southwest. I try to think about being cozy-warm and home. It’s about a nine <span class="t">*</span>minute walk.</p>
 <p>Still walking.</p>
 <p>Almost there!</p>
 <p>“Good evening, Tulip.”</p>
@@ -20,7 +20,15 @@ const DrivingHome = ({ children, num, state }) => (
 <Pp bg="#8F72D6, #D6CB40, #332063">
 <p>I open the back hatch and pull out my defroster. Its blade glows red hot as I super-heat the thick blurry layer of frost off the front windshield. Tulip’s bulbous eyes gaze up at me as it giggles. The wind roars and slices my skin. It hasn’t snowed for <span class="t">*</span>weeks; it’s been too cold. The concrete of the parking complex is weathered and stained with frozen earth. My eyeball temps are dropping fast. They’re getting thick and gooey.</p>
 <p>My celly wirelessly connects to Tulip’s speakers as I twist my thumb in its fuzzy ignition socket. TunesJam has generated a customized playlist of wimp rock songs based on my recent listens. I’ve been getting really into wimp rock lately. Sonically, it mixes the passionate, wry lyrical approach of twerp punk with the sentimental heaviness of dweeb metal. It’s warm music that feels right when everything else feels wrong. You know what I mean? Ha ha. I think you get what I mean. I like basically all kinds of music, but some things just sound really, really good to me.</p>
-<p>Tulip’s speedster model has a low-power DynoHeater; it’s still pushing out cold air and so that’s why I’m blowing on my raw hands, rubbing em together. <div class="chapterSong"><LazyAudio src="assets/It's So Cool To Be Afraid.mp3" loop={true} bg="#332063" fg="#D6CB40" /></div> The first song on this mix is called “It’s So Cool To Be Afraid” by the Comfortable Boys. One of my favorites. I have a feeling that you might really love it.  It has some really relatable lyrical observations about how it feels to be a normal freaking guy just livin life. I’m gonna crank the heat up a bit.</p>
+<p>Tulip’s speedster model has a low-power DynoHeater; it’s still pushing out cold air and so that’s why I’m blowing on my raw hands, rubbing em together. <div class="chapterSong"><LazyAudio src="assets/It's So Cool To Be Afraid.mp3" loop={true} bg="#332063" fg="#D6CB40" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>The Comfortable Boys - It’s So Cool To Be Afraid</b></p>
+  <p>I’m proud of you for being scared</p>
+  <p>Your life’s the hardest of them all</p>
+  <p>You are entitled to tender care</p>
+  <p>Someone to soothe you as you bawl</p>
+  </div>
+)} /></div> The first song on this mix is called “It’s So Cool To Be Afraid” by the Comfortable Boys. One of my favorites. I have a feeling that you might really love it.  It has some really relatable lyrical observations about how it feels to be a normal freaking guy just livin life. I’m gonna crank the heat up a bit.</p>
 <p>The lanes merge with one another. Three at once into one.  The guy in front of me is a lot heavier on the brakes than he needs to be. I tail him more than I should. I should probably slow down.</p>
 </Pp>
 <Pp bg="#332063, #D6CB40, #332063, #332063">

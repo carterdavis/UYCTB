@@ -4,7 +4,7 @@ import React from 'react';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 
 const NiceMorning = ({ children, num, state }) => (
 <div>
@@ -23,7 +23,18 @@ const NiceMorning = ({ children, num, state }) => (
 <Pp>I slip my squeaky fresh bod into some neon velcro shorts and a partially see-through button-round shirt that says “Keep In Mind What You Must.” I’m looking so sexy and tasty like a sizzling gooshburger scraped off the nitro grill. I crack a window and breathe the morning air. It is sweet and fresh.</Pp>
 <Pp>The birdies are being so well-behaved. Usually they scream and holler the whole time I scoop out their morning mash, but today they’re just whistling and twittering. Such curious, surprising little critters. It’s like they’re tuned in to mysterious cycles I can’t begin to understand. Boing left some fecal materials in his water dish, but he always does that. It must seem like a fine and dandy thing to do, and I have no way to convince him otherwise, so I can’t blame him, y’know? Same logic when he takes a putty on my shoulder. I can’t tell him to stop dropping dookies or reward him with a treat for holding em in. He loves treats so much he’d get constipated. I let the bad stuff slide because none of these flappers have bad intentions. I bet they love how the warm light bounces off their feathers, especially after long nasty winter.</Pp>
 <Pp>Buzz is nipping at my pinky toe. Kind of annoying. She’s just so constantly alive! Engagement is her happiness. There isn’t a <span class="t">*</span>second where she isn’t chewing something or pecking something or trying to climb somewhere. She explores the same objects she’s lived around her whole life like they’re brand new every <span class="t">*</span>day. Above all she loves to stand on shoulders. Apparently height means something to her, it’s like a status thing. In a more practical sense, she likes to be higher up because it means there’s less of a chance that predators are above her planning to swoop down. Less vertical area between her and the ceiling. She can see everyone and feel queenly.</Pp>
-<Pp>The national anthem is playing on the radio. It’s at my favorite part, the breakdown after the seventh verse, <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 7.mp3" loop={false} bg="rgb(179, 236, 236)" fg="#000" /></div> where the organ drops out and the choir bellows the Lord’s Prayer over a bed of sinister marimbas. I don’t know why, it just always feels cathartic for me, makes me want to pump my fist and get real with the rhythm. Dam I’m so pumped up!</Pp>
+<Pp>The national anthem is playing on the radio. It’s at my favorite part, the breakdown after the seventh verse, <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 7.mp3" loop={false} bg="rgb(179, 236, 236)" fg="#000" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>Nowhere Else Military Choir - Nowhere Else National Anthem, Verse 7</b></p>
+  <p>Our Father which art in heaven, Hallowed be thy name.</p>
+  <p>Thy nation come, Thy will be done in earth, as it is in heaven.</p>
+  <p>Give us this day our daily bread.</p>
+  <p>And forgive us our debts, as we forgive our debtors.</p>
+  <p>And lead us not into temptation, but deliver us from evil:</p>
+  <p>For thine is the nation, and the power, and the glory, forever.</p> 
+  <p>Amen.</p>
+  </div>
+)} /></div> where the organ drops out and the choir bellows the Lord’s Prayer over a bed of sinister marimbas. I don’t know why, it just always feels cathartic for me, makes me want to pump my fist and get real with the rhythm. Dam I’m so pumped up!</Pp>
 <Pp>It’s supplement time, hubba bubba. One Nervacor tab to stop the scares, two Dexagent tabs to calm my squealing joints, two Nutridote tabs because I’m crazy for minerals, and a Jubimum tab to make me smile bright like a priest; wash it all down with some Morningberry Queam. The capsules get slippery and gummy in my spit, yum!</Pp>
 <Pp>No need for my big fluffy coat or my big fluffy hat. The outside report says it’s going to be a comfortable 239. There’s no one else in the ThrivePlex elevator so I mush my forehead against the cool glass window and look out over the bustling mess of the transit district gleaming in the pink and orange sunrise glow. It’s so magical to see humans existing on a grand scale, each dedicated citizen doing their part to hopefully nudge the needle of net collective global goodness a smidge forward. My vantage point is rapidly descending by about ten ThriveFloors per <span class="t">*</span>second. The momentum makes my belly rumble.</Pp>
 <Pp>I really get Tulip’s perspective. Why waste so much time moping when you could be loving instead? Why not drink life like a milkshake! There’s so much to do and so much that needs to get done! God gave us calories so we could burn em. Its wide aerodynamic face lights up as I walk into view. Tulip’s, I mean.</Pp>
@@ -73,7 +84,11 @@ const NiceMorning = ({ children, num, state }) => (
 <Pp>Chadmuth18 23Shnozo exits out the right side of what’s left of his speedster. His eyes are stretched wide in apoplectic shock. He’s marching toward me in big loping strides, fists swinging left and right. “Get out! Get out of the car!”</Pp>
 <Pp c="chapterImage">
 <p>
-    <img src="assets/12.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/12-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/12.png" />
+  <img src="assets/12.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp>“Oh my goodness. I’m so sorry.”</Pp>

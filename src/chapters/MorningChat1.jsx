@@ -5,36 +5,52 @@ import Z from './../components/Z.jsx';
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 
 const MorningChat1 = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#424B54, #65195d" />
 {children}
 
 <Z d={12} spe={65} u="j56" ch={num} o={0} z={state} f l> will you be available to help me with that DisequalizedIntToInt error?</Z>
 <Z d={15} spe={73} u="j29" ch={num} o={1} z={state} f l> yah I can after morning chat</Z>
-<Pp>
+<Pp bg="#65195d, #b4e0df">
   <p>I crinkle my eye with my fist. I take my cushioned programming gloves off. I yank my umbilical data plug out of my computerior and click it into my celly’s corresponding UDP port. I build up enough saliva to secure my computerior with my Dimples SpitLock. I slurp down the last gooey droplets of my vitamin-enriched Morningberry Queam.</p>
 <p>Dimples employees are required to attend Morning Chat every <span class="t">*</span>day at 10:00bt. A blue slide on every floor pours down into the basement auditorium, where CEO Augustinius00 01Stone gives a speech that everyone has to watch. It generally lasts around five <span class="t">*</span>minutes.</p>
 </Pp>
 <Z d={25} spe={69} u="j56" ch={num} o={2} z={state} f> ok thanks</Z>
 <Z d={10} spe={71} u="j56" ch={num} o={3} z={state} l>I’ve been stuck on it for *hours, ha ha</Z>
-<Pp>
+<Pp bg="#b4e0df, #3d3634">
 <p>I climb into the fifth floor basement slide. “Ch-ching!” Must’ve been scrubbed recently, the plastic is still really slick. It has a steep slope so it can pick up enough speed to clear a tight loop-de-loop. Makes my stomach lurch.</p>
 <p>I work through the three factor authentication process to sign into the auditorium. Fifty rows of bleachers wrap around a raised stage. People pack into the seating space, wedged booty to booty. I sit on the south side of the nineteenth row. White stadium lights blare against the black walls. The bleachers are a little too shallow, and my legs don’t fit very comfortably. I scrunch up and cover my eyes to shut out the glare.</p>
-<p>The lights fade to darkness. Gurgling bass throbs rumble the bleachers. Spotlights swing through the crowd, <div class="chapterSong"><LazyAudio src="assets/Boogie Quite A Bit.mp3" loop={true} bg="rgb(186, 255, 236)" fg="#000" /></div> illuminating cheering faces. The song builds steam and starts to thump and bump. The energy is electric.</p>
+</Pp>
+<Pp bg="#3d3634, #dd8476">
+<p>The lights fade to darkness. Gurgling bass throbs rumble the bleachers. Spotlights swing through the crowd, <div class="chapterSong"><LazyAudio src="assets/Boogie Quite A Bit.mp3" loop={true} bg="#c890b2" fg="#ccd882" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>2 Crazy - Boogie Quite A Bit</b></p>
+  <p>Let’s boogie quite a bit</p>
+  <p>Let’s groove so hard it’s wild</p>
+  <p>Let’s party til we spit</p>
+  <p>Tonight ain’t gonna be mild</p>
+  </div>
+)} /></div> illuminating cheering faces. The song builds steam and starts to thump and bump. The energy is electric.</p>
 <p>Mr. 01Stone walks onstage two <span class="t">*</span>minutes after 10. He’s always the exact same amount of late. He wears a navy unisuit that clings to his muscular frame. The watch on his right wrist is gold and his left wrist silver. I love his smile. It’s so confident and casual. He has such a confident, brassy personality. He looks in his mid-forties. I like to hear him talk.</p>
 <p>A colossal hologram of his head appears in the air above the stage. Augustinius00’s jaw is angular, his hair slicked back and brown, his eyes glowing and kind. The generated head mimics his every movement as he talks and smiles. I haven’t figured out what’s projecting it. Must be some pretty advanced hardware; the projected face maintains eye contact with me regardless of where I’m sitting or how my face is angled. Apparently it locks eyes with everyone else too.</p>
+</Pp>
+<Pp bg="#dd8476, #ccd882">
 <p>“Good morning, Dimplers!” His thick voice booms through the speakers, reverberating cavernously. “Can you give me a Respectfulday boo-yah?”</p>
 <p>The bleachers roar.</p>
 </Pp>
-<Pp c="chapterImage">
+<Pp c="chapterImage" bg="#ccd882, #ccd882">
 <p>
-    <img src="assets/7.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/7-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/7.png" />
+  <img src="assets/7.png" alt=""/>
+</picture>
 </p>
 </Pp>
-<Pp>
+<Pp bg="#ccd882, #79a9c7, #c890b2, #65195d">
 <p>“Let’s make this weekend special, alright? Boo-yah! But first, we’ve got a <span class="t">*</span>day of hard work ahead of us. And I think we can make this <span class="t">*</span>day special.</p>
 <p>“Our company has been swelling up like a balloon. Seriously, you know I’m not trying to make you laugh right now. It really has been. This was a great <span class="t">*</span>month for us. We added so much more gold to our company goldpit. We hired a thousand new people. And believe it or not, they’re learning. They’re growing. They’re taking risks. Christ, it’s inspiring.”</p>
 <p>The room erupts in applause. The hologram freezes for a split <span class="t">*</span>second before resuming speech.</p>

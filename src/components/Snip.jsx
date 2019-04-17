@@ -22,14 +22,16 @@ class Snip extends React.PureComponent {
   }
 
   componentDidUpdate(prevProps) {
-    if (this.props.state.screenWidth !== prevProps.state.screenWidth) {
+    if (this.props.screenWidth !== prevProps.screenWidth) {
       this.setLeft();
     }
   }
 
   setLeft() {
-    const box = this.wrapper.getBoundingClientRect();
-    this.setState({ left: box.left });
+    if (this.wrapper) {
+      const box = this.wrapper.getBoundingClientRect();
+      this.setState({ left: box.left });
+    }
   }
 
   toggle() {

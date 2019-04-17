@@ -7,10 +7,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const ConvoWithKerri = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#826971, #826971" />
 {children}
 
-<Pp>I receive a zoip from my cousin Kerri51 79Dermott. I haven’t heard from him in <span class="t">*</span>years.</Pp>
+<Pp bg="#826971, #826971"><p>I receive a zoip from my cousin Kerri51 79Dermott. I haven’t heard from him in <span class="t">*</span>years.</p></Pp>
 <Z d={1} spe={80} u="k51" ch={num} o={0} z={state} f l> Hey Jim29, how are you doing little Bud</Z>
 <Z d={40} spe={70} u="j29" ch={num} o={1} z={state} f l> I’ve been better. how are you ?</Z>
 <Z d={10} spe={82} u="k51" ch={num} o={2} z={state} f> Things are going good, Ha Ha</Z>

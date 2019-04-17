@@ -1,5 +1,5 @@
 import React from 'react';
-import LazyLoad from 'react-lazyload';
+
 
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
@@ -15,7 +15,11 @@ const MeDescription = ({ children, num, state }) => (
 </Pp>
 <Pp c="chapterImage" bg="#cbc0bf, #cbc0bf" >
 <p>
-    <img src="assets/5.png" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/5-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/5.png" />
+  <img src="assets/5.png" alt=""/>
+</picture>
 </p>
 </Pp>
 {children}</div>

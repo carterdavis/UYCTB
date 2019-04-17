@@ -48,7 +48,7 @@ const Lunchtime = ({ children, num, state }) => (
 <Pp bg="#99298C, #FFF16B">
 <p>“It’s OK! It was a long time ago. How about your folks?”</p>
 <p>“They’re so super nice. They live a few thousand twentyleaps away, but like, I’m still really extremely close with them. I talk to them every couple of <span class="t">*</span>days or so. I love them so much. It’s like, every good part of me was part of them first.”</p>
-<p>I pick a greasy pork toenail out from between my front teeth.  “Do you have any hobbies outside of work?”</p>
+<p>I pick a greasy pork hair out from between my front teeth.  “Do you have any hobbies outside of work?”</p>
 <p>“I play my viola in a symphony.”</p>
 <p>“Are you the only violist?”</p>
 <p>“Yah. It’s a volunteer symphony. Nothin too fancy. We gather every couple <span class="t">*</span>weeks to practice in a large circle so we can see each other’s faces.”</p>

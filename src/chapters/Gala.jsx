@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 
@@ -13,7 +13,11 @@ const Gala = ({ children, num, state }) => (
 <Pp>I step through a vortex door into the Secondary Ballroom. The space is lofty and expansive. It’s very crowded, like they’re having some kind of convention or gala. Men of all kinds walk around each other in opposing directions. There are no women in sight. <div class="chapterSong"><LazyAudio src="assets/Reception Music.mp3" loop={true} bg="rgb(255, 252, 169)" fg="#000" /></div> A cluster of sweaty men off in the corner are performing hyperjazz. Every single man is wearing a white robe that billows with movement. Their hair is gelled. Their cheerful faces capture a calm, dutiful focus. They say “whoops,” “sorry,” “excuse me” as they scoot past one another. No one’s even glanced in my direction.</Pp>
 <Pp c="chapterImage">
 <p>
-    <img src="assets/15.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/15-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/15.png" />
+  <img src="assets/15.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp>My brand new face still hurts really bad in every way, but it’s at least more sculpted, less smashed. From the front my face is perfectly circular, and from a sideways angle my head is honestly kind of thin compared to its perimeter. Also, the machine completely flattened my features. The only bumps are my eyes, mouth, and nose. So basically my head looks like a very large fleshy ancient coin. I’m no longer conventionally attractive, but I’m sure to attract less attention. At least my senses are intact. The process didn’t even hurt that bad. My facial bones and cartilage are pretty squishy and malleable at this point. Now that I’ve gone through two rearrangements they’re easy to mush around like creamed corn.</Pp>

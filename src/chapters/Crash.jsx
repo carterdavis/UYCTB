@@ -5,7 +5,7 @@ import ChapterStart from './../components/ChapterStart.jsx';
 import Snip from './../components/Snip.jsx';
 import Code from './../components/Code.jsx';
 // import LazyImage from './../components/LazyImage.jsx';
-import LazyLoad from 'react-lazyload';
+
 
 
 const Crash = ({ children, num, state }) => (
@@ -24,11 +24,15 @@ const Crash = ({ children, num, state }) => (
   <p>I step on a stool so I can reach above the dusty cabinets and hoist down the package directory; the cabinets are too high for average person arms to reach above without the assistance of the special stool. This giant honker of a book is bound in yellow pleather and its pages are about as wide as my chest. It’s filled with alphabetically listed locations for every single knot in our codebase, each printed in a cramped bold font. The tome’s heft makes my stringy triceps shake and burn.</p></Pp>
   <Pp c="chapterImage" bg="#E4A323, #E4A323">
 <p>
-      <img src="assets/1.png" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/1-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/1.png" />
+  <img src="assets/1.png" alt=""/>
+</picture>
 </p>
   </Pp>
   <Pp bg="#E4A323, #F6D05C"><p>The scoop is that some jacked up code in one of these knots snuck through the testing phase into this morning’s release and caused two crashes by lunchtime. It might be an issue with <Code>intensity-and-dosage.tangle</Code>, the top leaf on the traceback tree, or it might be an issue with a branch it relies on. But what’s especially pertinent is that I made a change a couple NiceTime Perfect Days ago in the section where the error occurred, so I’m in the hot seat here.</p>
-  <p>I appreciate Nug20’s laconic persona. Most of us talk as much as possible to feel less alone but he seems to have alone pretty under control. (As a side note, I think I’m just going to relay NiceTime Perfect Units in this log as truncated <span class="t">*</span>seconds, <span class="t">*</span>minutes, <span class="t">*</span>days, etc. I’ll explain why in this little spheroid if you want to give it a click, up to you: <Snip state={state} bg='#DE4290'>Oh goody, you clicked it! I think I’ll use these to fill you in on stuff you might not know and embark on fanciful detours. Anyways, I know this violates NiceTime’s branding or whatever. But out of everyone, shouldn’t they particularly understand that our time together is limited? Is that OK with you? I hope that doesn’t make you uncomfortable. I can also convert it to a different chronobrand if you’d like. This whole sector uses NiceTime which, if you ask me, has really taken a toll on Big Town. Business Time feels so long and Pleasure Time feels so short. No time for relaxing. Sometimes I can tell when they’re dilating the <span class="t">*</span>minutes. Like this one, for instance. Very lengthy.</Snip>)</p>
+  <p>I appreciate Nug20’s laconic persona. Most of us talk as much as possible to feel less alone but he seems to have alone pretty under control. (As a side note, I think I’m just going to relay NiceTime Perfect Units in this log as truncated <span class="t">*</span>seconds, <span class="t">*</span>minutes, <span class="t">*</span>days, etc. I’ll explain why in this little spheroid if you want to give it a click, up to you: <Snip screenWidth={state.screenWidth} bg='#DE4290'>Oh goody, you clicked it! I think I’ll use these to fill you in on stuff you might not know and embark on fanciful detours. Anyways, I know this violates NiceTime’s branding or whatever. But out of everyone, shouldn’t they particularly understand that our time together is limited? Is that OK with you? I hope that doesn’t make you uncomfortable. I can also convert it to a different chronobrand if you’d like. This whole sector uses NiceTime which, if you ask me, has really taken a toll on Big Town. Business Time feels so long and Pleasure Time feels so short. No time for relaxing. Sometimes I can tell when they’re dilating the <span class="t">*</span>minutes. Like this one, for instance. Very lengthy.</Snip>)</p>
   <p>I blink hard to wake my eyes up and sip my bubbly Strawbberry Queam. Have you ever tried Queam? I suck down a few canisters of this junk every <span class="t">*</span>day. It’s sticky and gummy and viscous, and every sip is a zippity zappity BURST of fruity flavor that rocks my world. Red ropes of corn syrup congeal against my teeth and I chisel em off with my tongue. “How have the users been?” I crack a hesitant grin. “Are they whining? Throwing tantrums?”</p>
   <p>Nug20’s loose brown striped button-down is moist with afternoon sweat. His posture is stiff and his eyebrows knit. He cleans his spectacles gingerly with his sleeve. “We’ve got conflicting reports, maybe one dead and one in a coma, maybe two flat-out dead.”</p></Pp>
   <Pp bg="#F6D05C, #E5D2C7"><p>My face feels a specific way, almost like it’s ready to slip off the side of my head. My thoughts go silent. I can’t process. I’m falling deep inside myself. My mouth fills with warm thin nauseous spit.</p>
@@ -37,7 +41,7 @@ const Crash = ({ children, num, state }) => (
   <p>“This is not an attempt at humor.”</p>
   <p>“What do you mean?? How could that happen?” I don’t know what to do with my body. I’m staying perfectly still.</p>
   <p>“One was a pacemaker crash. The other was an iron lung crash.”</p>
-  <p>I slam down my canister and start stress-skimming the pages. He pounds down on his keyboard like it’s offended him personally, but that’s his normal behavior, he’s a pounder. The walls rattle a little bit. My fingers moisten the papper. <Snip state={state} bg='#0698C2'>PaPPER = Pulpy and Papery Polymer Extract Reconstituted</Snip> I clear my throat, mush some runny phlegm to the side.</p>
+  <p>I slam down my canister and start stress-skimming the pages. He pounds down on his keyboard like it’s offended him personally, but that’s his normal behavior, he’s a pounder. The walls rattle a little bit. My fingers moisten the papper. <Snip screenWidth={state.screenWidth} bg='#0698C2'>PaPPER = Pulpy and Papery Polymer Extract Reconstituted</Snip> I clear my throat, mush some runny phlegm to the side.</p>
   <p>“Why didn’t a tester catch this?”</p>
   <p>“The testers have a difficult job. Don’t try to shift the blame. Your code, your fault.”</p>
   </Pp>

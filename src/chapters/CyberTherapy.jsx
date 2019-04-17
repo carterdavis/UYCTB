@@ -10,7 +10,17 @@ const CyberTherapy = ({ children, num, state }) => (
 <ChapterStart num={num} bg="#565656, #E4B4C2" />
 {children}
 <Pp bg="#E4B4C2, #DDFDFE, #E7CEE3, #FFB8D1, #E0E1E9">
-<p>I close the hatch to my workpod and open up Dimples Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. <div class="chapterSong"><LazyAudio src="assets/Counsel Startup Music.mp3" loop={true} bg="#DDFDFE" fg="#E4B4C2" /></div> The serene startup music melts into my ears. This is what it would sound like if a cloud could yawn. I don’t mind it at all. I’ve been going to virtual appointments with Dr. Kindbrain off and on for the better part of a <span class="t">*</span>year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. “How have you been feeling lately, Jim29?”</p>
+<p>I close the hatch to my workpod and open up Dimples Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. <div class="chapterSong"><LazyAudio src="assets/Counsel Startup Music.mp3" loop={true} bg="#DDFDFE" fg="#E4B4C2" screenWidth={state.screenWidth} lyrics={(
+  <div>
+  <p><b>Counsel Startup Music</b></p>
+  <p>Your mind is a fish learning to swim (Yes)</p>
+  <p>You’re safe now (Yes)</p>
+  <p>You’re feeling warm (Yes)</p>
+  <p>We love you (Yes)</p>
+  <p>We appreciate your quirks (Yes)</p>
+  <p>The whole world is beginning to give you a hug (Yes)</p>
+  </div>
+)} /></div> The serene startup music melts into my ears. This is what it would sound like if a cloud could yawn. I don’t mind it at all. I’ve been going to virtual appointments with Dr. Kindbrain off and on for the better part of a <span class="t">*</span>year. At this point it knows a lot about me. Its three dimensional torso expands out of the Ultradef. It has a puppy dog face and a teddy bear body. I adjust my wireless monitor clip so it clenches the inner wall of my cheek. Its emulated voice is soothing, melodious, and in stereo sound. “How have you been feeling lately, Jim29?”</p>
 <p>“Not very good, Dr. Kindbrain.”</p>
 <p>“Is your computering device’s microphone enabled?” It pronounces microphone like MICK-ruh-phone. “Try enabling your computering device’s microphone.”</p>
 <p>“Whoops! Sorry, can you hear me now?”</p>

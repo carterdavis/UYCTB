@@ -1,7 +1,7 @@
 import React from 'react';
 
 import LazyAudio from './../components/LazyAudio.jsx';
-import LazyLoad from 'react-lazyload';
+
 import Pp from './../components/Pp.jsx';
 import ChapterStart from './../components/ChapterStart.jsx';
 
@@ -96,7 +96,11 @@ const ThePit = ({ children, num, state }) => (
 <Pp>“Eat this bonbon without chewing.”</Pp>
 <Pp c="chapterImage">
 <p>
-    <img src="assets/14.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/14-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/14.png" />
+  <img src="assets/14.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp>I shoved it into my piehole. The taste was like Bananna mixed with armpit. I mushed it around with my tongue. My tongue didn’t have much space to move around. The taffy wasn’t getting much softer. Still very tough and rubbery. My belly felt so empty.</Pp>

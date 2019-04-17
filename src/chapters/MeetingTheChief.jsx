@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import Pp from './../components/Pp.jsx';
-import LazyLoad from 'react-lazyload';
+
 import ChapterStart from './../components/ChapterStart.jsx';
 
 const MeetingTheChief = ({ children, num, state }) => (
@@ -18,7 +18,11 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp>“Ah, yes. I just got back from a meeting with The King. When he gets excited, things get slobbery. I hope you don’t mind.”</Pp>
 <Pp c="chapterImage">
 <p>
-    <img src="assets/13.jpg" />
+<picture>
+  <source media="(max-width: 720px)" srcset="assets/13-small.png" />
+  <source media="(min-width: 721px)" srcset="assets/13.png" />
+  <img src="assets/13.png" alt=""/>
+</picture>
 </p>
 </Pp>
 <Pp>“That’s OK. Who’s ‘The King’?”</Pp>
