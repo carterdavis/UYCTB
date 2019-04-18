@@ -16,6 +16,11 @@
 
 $bezier: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
+::selection {
+  background: #000;
+  color: #FFF;
+}
+
 body {
   position: relative;
   margin: 0;
@@ -39,45 +44,84 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  z-index: 6;
+  position: relative;
 
   .spacer {
     width: 100%;
   }
+}
 
-  .button-container {
-    width: 11rem;
-    height: 1.8rem;
-    display: inline-block;
-    text-align: center;
+.button-container {
+  width: 11rem;
+  height: 1.8rem;
+  display: inline-block;
+  text-align: center;
 
-    button, .btn {
-      color: black;
-      background-color: yellow;
-      padding: 1rem 1;
-      margin-bottom: .8rem;
-      width: 13rem;
-      border-radius: 2rem;
-      cursor: pointer;
-      border: none;
-      display: block;
-      text-decoration: none;
-      font-size: 1.6rem;
-      line-height: 1.6rem;
-      font-weight: bold;
-      font-family: 'Sina Nova', Georgia, serif;
-      transition: transform 0.3s $bezier, background-color 0.3s $bezier;
-      transform: none;
+  .btn {
+    display: block;
+    padding: 1rem 1;
+    margin-bottom: .8rem;
+    width: 13rem;
+  }
+}
 
-      &:hover {
-        transform: scale(1.15) perspective(1px);
-        background-color: #a9ff00;
-      }
+.btn {
+  color: black;
+  background-color: yellow;
+  border-radius: 2rem;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+  font-family: 'Sina Nova', Georgia, serif;
+  transition: transform 0.3s $bezier, background-color 0.3s $bezier;
+  transform: none;
 
-      &.hidden {
-        background-color: #ff8100;
-        transform: rotate(0.4turn) skew(38deg, 11deg);
-      }
+  &:hover {
+    transform: scale(1.15) perspective(1px);
+    background-color: #a9ff00;
+  }
+
+  &.hidden {
+    background-color: #ff8100;
+    transform: rotate(0.4turn) skew(38deg, 11deg);
+  }
+}
+
+.navbar-wrapper {
+  background-color: #FFF;
+  padding: .5rem;
+  border-style: solid;
+  border-width: 0 0 .25rem 0;
+
+  .navbar {
+    width: 45rem;
+    margin: auto;
+  }
+
+  .header {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    line-height: 2rem;
+
+    &.big {
+      display: inline;
     }
+
+    &.small {
+      display: none;
+    }
+  }
+
+  .btn {
+    font-size: 1.2rem;
+    padding: .25rem;
+    margin: 0 0 0 2rem;
+    vertical-align: top;
   }
 }
 
@@ -111,11 +155,38 @@ h3 {
 
 .headroom-wrapper {
   background-color: #000;
+  position: fixed;
+  z-index: 5;
+}
+
+.headroom {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.headroom--unpinned {
+  z-index: 1;
+  transform: translate3d(0px, -100%, 0px);
+}
+
+.headroom--pinned {
+  z-index: 5;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.chapter {
+  margin: -1px 0 0 0;
+
+  &:first-of-type {
+    margin: 0;
+  }
 }
 
 .chapterStart {
   height: 7rem;
-  margin: -1px 0 0 0;
 
   .border {
     display: inline-block;
@@ -370,11 +441,7 @@ $transitionSpeed: 300ms;
     background-color: #FFF;
     cursor: pointer;
     box-sizing: border-box;
-    transition: max-height .5s, width .5s, padding .5s, left .5s $bezier, margin-left .5s $bezier, margin-top .5s $bezier, border-radius .5s, border-width .5s, transform .1s;
-
-    &:hover, &:focus {
-      transform: scale(1.15) perspective(1px);
-    }
+    transition: max-height .5s, width .5s, padding .5s, left .5s $bezier, margin-left .5s $bezier, margin-top .5s $bezier, border-radius .5s, border-width .5s;
 
     &.open {
       width: 25rem;
@@ -434,11 +501,7 @@ $transitionSpeed: 300ms;
     background-color: #FFF;
     cursor: pointer;
     box-sizing: border-box;
-    transition: max-height .5s, width .5s, padding .5s, left .5s $bezier, margin-left .5s $bezier, margin-top .5s $bezier, border-radius .5s, border-width .5s, background-color .5s, transform .1s;
-
-    &:hover, &:focus {
-      transform: scale(1.15) perspective(1px);
-    }
+    transition: max-height .5s, width .5s, padding .5s, left .5s $bezier, margin-left .5s $bezier, margin-top .5s $bezier, border-radius .5s, border-width .5s, background-color .5s;
 
     p {
       text-indent: 0;
@@ -736,9 +799,8 @@ div.code {
   }
 }
 
-.ad {
+.ad-wrapper {
   width: 60%;
-  cursor: pointer;
 
   &.left {
     float: left;
@@ -747,6 +809,27 @@ div.code {
   &.right {
     float: right;
     padding: 0 0 0 1rem;
+  }
+
+  .ad {
+    width: 100%;
+    cursor: pointer;
+  }
+
+  .ad-top, .ad-bottom {
+    border-style: solid;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  .ad-top {
+    border-width: 1px 1px 0 1px;
+    border-radius: 1rem 1rem 0 0;
+  }
+
+  .ad-bottom {
+    border-width: 0 1px 1px 1px;
+    border-radius: 0 0 1rem 1rem;
   }
 }
 
@@ -800,6 +883,7 @@ div.code {
   box-sizing: border-box;
   transform: translateX(0);
   transition: transform .3s;
+  z-index: 7;
 
   ol {
     font-size: 1.2rem;
@@ -820,7 +904,7 @@ div.code {
 }
 
 @media all and (max-width: 720px) {
-  .section img.ad {
+  .section .ad-wrapper {
     width: 100%;
     padding: 1.6rem 0;
   }
@@ -839,7 +923,7 @@ div.code {
 }
 
 @media all and (max-width: 720px) and (min-width: 401px) {
-  .inner .codeblock {
+  .code .inner .codeblock {
     width: 100%;
   }
   .inner p { width: 93%; }
@@ -885,12 +969,27 @@ div.code {
       padding: 3rem ;
     }
   }
+
+  .navbar-wrapper .header {
+    &.big {
+      display: none;
+    }
+    &.small {
+      display: inline;
+    }
+  }
 }
 
 @media all and (max-width: 400px) {
-  .inner .codeblock {
+  .code .inner .codeblock {
     width: 100%;
+
+    p {
+      font-size: 1rem;
+    }
   }
+
+  code { font-size: 1rem; }
 
   .inner p {
     width: 90%;
@@ -954,6 +1053,22 @@ div.code {
           width: 102.5%;
           margin-left: -1.25%;
         }
+      }
+    }
+  }
+
+  .navbar-wrapper {
+    .btn {
+      font-size: 1rem;
+      margin: 0 0 0 .5rem;
+    }
+
+    .header {
+      &.big {
+        display: none;
+      }
+      &.small {
+        display: inline;
       }
     }
   }

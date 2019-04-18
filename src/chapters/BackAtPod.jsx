@@ -33,7 +33,7 @@ const BackAtPod = ({ children, num, state }) => (
   <p>The pegasus will seize the orb</p>
   <p>As the warlock whispers his curse</p>
   <p>My golden sabre will lick their throats</p>
-  <p>In the final goblin brawl</p>
+  <p>In the final goblin brawl!</p>
   </div>
 )} /></div> My Recommended Jam of the <span class="t">*</span>Day is “Requiem For The Aether Maidens” by Bladetooth. I eagerly press play. They’re my favorite legendary metal group. They mostly sing about the kind of stuff our great ancestors were up to a gazillion <span class="t">*</span>years ago. The guitars chug and wail as I imagine legions of goblins approaching on horseback.</p>
 </Pp>

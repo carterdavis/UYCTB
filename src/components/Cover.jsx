@@ -10,7 +10,7 @@ const Cover = ({ toc }) => (
     <div class="button-container">
       <a href={getStartUrl()} class="btn">Start</a>
       <button
-        class={ toc ? "hidden" : "visible" }
+        class={`${ toc ? "hidden" : "visible" } btn`}
         onClick={ () => { toggleVisibilityToC() } }>
         Table of Contents
       </button>

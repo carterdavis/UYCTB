@@ -25,7 +25,7 @@ const MorningChat1 = ({ children, num, state }) => (
 <p>I work through the three factor authentication process to sign into the auditorium. Fifty rows of bleachers wrap around a raised stage. People pack into the seating space, wedged booty to booty. I sit on the south side of the nineteenth row. White stadium lights blare against the black walls. The bleachers are a little too shallow, and my legs don’t fit very comfortably. I scrunch up and cover my eyes to shut out the glare.</p>
 </Pp>
 <Pp bg="#3d3634, #dd8476">
-<p>The lights fade to darkness. Gurgling bass throbs rumble the bleachers. Spotlights swing through the crowd, <div class="chapterSong"><LazyAudio src="assets/Boogie Quite A Bit.mp3" loop={true} bg="#c890b2" fg="#ccd882" screenWidth={state.screenWidth} lyrics={(
+<p>The lights fade to darkness. <div class="chapterSong"><LazyAudio src="assets/Boogie Quite A Bit.mp3" loop={true} bg="#c890b2" fg="#ccd882" screenWidth={state.screenWidth} lyrics={(
   <div>
   <p><b>2 Crazy - Boogie Quite A Bit</b></p>
   <p>Let’s boogie quite a bit</p>
@@ -33,7 +33,7 @@ const MorningChat1 = ({ children, num, state }) => (
   <p>Let’s party til we spit</p>
   <p>Tonight ain’t gonna be mild</p>
   </div>
-)} /></div> illuminating cheering faces. The song builds steam and starts to thump and bump. The energy is electric.</p>
+)} /></div> Gurgling bass throbs rumble the bleachers. Spotlights swing through the crowd, illuminating cheering faces. The song builds steam and starts to thump and bump. The energy is electric.</p>
 <p>Mr. 01Stone walks onstage two <span class="t">*</span>minutes after 10. He’s always the exact same amount of late. He wears a navy unisuit that clings to his muscular frame. The watch on his right wrist is gold and his left wrist silver. I love his smile. It’s so confident and casual. He has such a confident, brassy personality. He looks in his mid-forties. I like to hear him talk.</p>
 <p>A colossal hologram of his head appears in the air above the stage. Augustinius00’s jaw is angular, his hair slicked back and brown, his eyes glowing and kind. The generated head mimics his every movement as he talks and smiles. I haven’t figured out what’s projecting it. Must be some pretty advanced hardware; the projected face maintains eye contact with me regardless of where I’m sitting or how my face is angled. Apparently it locks eyes with everyone else too.</p>
 </Pp>

@@ -4,7 +4,7 @@ const autoprefixer = require("autoprefixer");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  mode: 'production',
+  mode: 'development',
   entry: ["babel-polyfill", './src/index.js'],
   output: {
       path: path.resolve(__dirname, 'dist'),
@@ -23,6 +23,24 @@ module.exports = {
           loader: "file-loader",
           options: {
             name: "fonts/[name].[ext]",
+          },
+        },
+      },
+      {
+        test: /\.(png|jpg)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "assets/[name].[ext]",
+          },
+        },
+      },
+      {
+        test: /\.(gif)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "assets/ads/[name].[ext]",
           },
         },
       },
@@ -47,7 +65,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        'NODE_ENV': JSON.stringify('production')
+        'NODE_ENV': JSON.stringify('development')
       }
     }),
     new MiniCssExtractPlugin({

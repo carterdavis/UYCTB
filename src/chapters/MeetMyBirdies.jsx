@@ -12,7 +12,7 @@ const MeetMyBirdies = ({ children, num, state }) => (
 
 <Pp bg="#fec148, #e75f8d">
 <p>Buzz is happiest to see me. She’s my blackbird. Doesn’t she have such a silly voice? Always makes me laugh. Her wings are so beautiful. I love the way her beak curves. Isn’t she so beautiful? She’s got such a kind face. As she steps side to side you can see her shift her balance delicately from foot to foot. I can tell that she’s always watching me, always trying to understand what I’m doing. I apologize for the mess, I keep forgetting to clean up. I swear I’m going to get around to it one of these <span class="t">*</span>days. There’s a path running through here, see? Very easy.</p>
-<p>Boom is my lovely dove. Such a handsome guy, right? Isn’t he such a charmer? One <span class="t">*</span>second, I’m going to close the door. He has such a manly face. Doesn’t he? Very tough. I’ve had him since he was a little fuzzball. He’s grown up to be so humongous! His chirps just burst in the brightest notes. Boom is the neediest. Aren’t you? If I’m out of the room three <span class="t">*</span>minutes too long he‘ll fluff up and screams like he’s being tortured. Right now he’s just super excited for his pineapple chunk!</p>
+<p>Boom is my lovely dove. Such a handsome guy, right? Isn’t he such a charmer? One <span class="t">*</span>second, I’m going to close the door. He has such a manly face. Doesn’t he? Very tough. I’ve had him since he was a little fuzzball. He’s grown up to be so humongous! His chirps just burst in the brightest notes. Boom is the neediest. Aren’t you? If I’m out of the room three <span class="t">*</span>minutes too long he‘ll fluff up and screams like he’s being tortured. Right now he’s just super excited for his Froot chunk!</p>
 </Pp>
 <Pp bg="#e75f8d, #ffdf00">
 <p>You’ll want to step over that pile of gold ingots but I have Boing in the office. Actually be careful, I broke a glass canister on accident near there and I’m worried there might still be some little crumblies. Really sorry about that. Believe it or not, he gets that whole big cage to himself! The feathery despot rules over his domain, ha ha. He’s a rainbow macaw, really young. I adopted him super recently. Such a fuzzy tired fella. His feathers are puffed out, so he might be a little grouchy. Were you napping, sweetie?</p>
@@ -32,7 +32,7 @@ const MeetMyBirdies = ({ children, num, state }) => (
 <picture>
   <source media="(max-width: 720px)" srcset="assets/6-small.png" />
   <source media="(min-width: 721px)" srcset="assets/6.png" />
-  <img src="assets/6.png" alt=""/>
+  <img src="assets/6.png" alt="" onError={(e) => {console.log('oh dear')}}/>
 </picture>
 </p>
 </Pp>
@@ -49,7 +49,7 @@ const MeetMyBirdies = ({ children, num, state }) => (
 </Pp>
 <Pp bg="#0a0423, #e75f8d">
 <p>Doesn’t his beak make it look like he’s smiling?</p>
-<p>I hope your <span class="t">*</span>day was really good, Boing. I want your whole life to be so so so non-stop unrelentingly perfect. Stop biting my fingernail. Yowch! I don’t like that. That hurts. That’s the kind of thing bad ones do. I love you, sorry, I just don’t like that. Man, your eyes are seriously so pretty. They’re just like jewels. I have to set you back down, buddy. Sounds like Boom wants his fruit chunk.</p>
+<p>I hope your <span class="t">*</span>day was really good, Boing. I want your whole life to be so so so non-stop unrelentingly perfect. Stop biting my fingernail. Yowch! I don’t like that. That hurts. That’s the kind of thing bad ones do. I love you, sorry, I just don’t like that. Man, your eyes are seriously so pretty. They’re just like jewels. I have to set you back down, buddy. Sounds like Boom wants his Froot chunk.</p>
 </Pp>
 {children}</div>
 );

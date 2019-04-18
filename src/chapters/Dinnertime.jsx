@@ -142,7 +142,7 @@ const Dinnertime = ({ children, num, state }) => (
 <p>“What? Can you say that again?”</p>
 <p>…</p>
 <p>“I mean, either Whuzza Wha?<img src="assets/emoj/whuzza-wha.png" class="emoji" alt="😳" /> or Fail Monkey<img src="assets/emoj/fail-monkey.png" class="emoji" alt="🙈" /> I guess. Was that real? Do lots of people think that?”</p>
-<p>“Pineapple on pizza?”</p>
+<p>“Froot on pizza?”</p>
 <p>“Yuck Machine<img src="assets/emoj/yuck-machine.png" class="emoji" alt="🤢" />.”</p>
 <p>“Boxers, briefs, or panties?”</p>
 <p>“Uh, boxers.”</p>

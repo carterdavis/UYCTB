@@ -22,25 +22,17 @@ const SlowMorning = ({ children, num, state }) => (
 </Pp>
 <Pp bg="#BDEDE0, #D7C0D0">
 <p>“You are so welcome. Washing your body is my favoreet thing to do.”</p>
-<p>The windows are frosted so much that the whole outside is blurred. I turn on the kitchen light and eat my muffin in my smiley face boxers. <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 3.mp3" loop={false} bg="#40688C" fg="#D7C0D0" screenWidth={state.screenWidth} lyrics={(
+<p>The windows are frosted so much <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 3.mp3" loop={false} bg="#40688C" fg="#D7C0D0" screenWidth={state.screenWidth} lyrics={(
   <div>
   <p><b>Nowhere Else Military Choir - Nowhere Else National Anthem, Verse 3</b></p>
-  <p>Don't live in Nowhere Else if you're not proud</p>
-  <p>Don't live in Nowhere Else if your cheering is not loud</p>
-  <p>We are a nation of perfect power</p>
-  <p>And tonight we dine on gods</p>
-  <p>Potential heats our giant brains</p>
-  <p>And fuels our steel bods</p>
+  <p>Don't live in Nowhere Else if you're not proud!</p>
+  <p>Don't live in Nowhere Else if your cheering is not loud!</p>
+  <p>We are a nation of perfect power,</p>
+  <p>And tonight we dine on gods.</p>
+  <p>Potential heats our giant brains,</p>
+  <p>And fuels our steel bods!</p>
   </div>
-)} /></div> The morning national anthem is playing out of my speaker system. It’s already on the third verse. A chorus of baritone and bass voices roar in vibrato unison.</p>
-<p></p>
-<p><em>Don’t live in Nowhere Else if you’re not proud!</em></p>
-<p><em>Don’t live in Nowhere Else if your cheering is not loud!</em></p>
-<p><em>We are a nation of perfect power,</em></p>
-<p><em>And tonight we dine on gods.</em></p>
-<p><em>Potential heats our giant brains,</em></p>
-<p><em>And fuels our steel bods!</em></p>
-<p></p>
+)} /></div> that the whole outside is blurred. I turn on the kitchen light and eat my muffin in my smiley face boxers. The morning national anthem is playing out of my speaker system. It’s already on the third verse. A chorus of baritone and bass voices roar in vibrato unison.</p>
 <p> It’s supplement time! I pop a Nervacor tab for my morning worries, two Dexagent tabs for my general aches, two Nutridote tabs for my body’s minerals, and a Jubimum tab to make everything a little more bearable. I’m not a happy man if I forget to slurp my suppies.</p>
 </Pp>
 <Pp bg="#D7C0D0, #FCB07E">

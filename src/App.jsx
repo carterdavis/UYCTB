@@ -26,11 +26,11 @@ class App extends React.Component {
   render() {
     return (
       <div id="main">
+        <Navbar toc={this.props.state.visibleToC} />
         <Cover toc={this.props.state.visibleToC} />
         <img id="o" src="o.png" />
         <ToC toggle={toggleVisibilityToC} visible={this.props.state.visibleToC} />
         <div id="content" tabIndex="0">
-          <Navbar />
           { getChapters(this.props.state) }
         </div>
         <Screen screenValue={this.props.state.viewScreen} state={this.props.state} />

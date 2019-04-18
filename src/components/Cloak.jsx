@@ -25,7 +25,7 @@ class Cloak extends React.Component {
   }
 
   render() {
-    const visibility = <VisibilitySensor onChange={(visible) => { if (visible) update(this.props.num)} } />
+    const visibility = <VisibilitySensor onChange={(visible) => { if (visible) update(this.props.num); console.log('bing'); } } />
 
     const uncloaked = ((this.props.num >= this.props.appState.current - 7)
       && (this.props.num <= this.props.appState.current + 7)) || this.state.height === undefined;
