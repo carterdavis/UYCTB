@@ -78,28 +78,28 @@ const LegalAssessment = ({ children, num, state }) => (
   <p>
   <div class="brochure b1">
     <h2>STEP ONE: NAME CHANGE</h2>
-    <p><em>[the icon for this section is a quill drawing an X] </em></p>
+    <img src="assets/brochure1.png" alt="" />
     <p>The first step of the identity resculpting process is to change your name. Make sure you pick a new name that you are very happy with! You will be given a new driver’s license, passport, private security card, birth certificate, name badge, and shirt with your name screenprinted thanks to our partnership with ShirtDonkey. Try practicing that new name in the mirror tonight. Our Name Change team will personally burn all of your old identification materials. Good riddance!</p>
   </div>
   </p>
   <p>
   <div class="brochure b2">
     <h2>STEP TWO: SOCIAL DELETE</h2>
-    <p><em>[the icon for this section is a filing cabinet knocked over]</em></p>
+    <img src="assets/brochure2.png" alt="" />
     <p>Next, we’ll run your old information through a script our Social Delete engineers cooked up that individually terminates each and every one of your social media accounts. All your drips, flips, drops, and flops, gone in a flash! We will generate new accounts for you under your new name using photographic images we render of your body and data we gather from your resculpting questionnaire. We’ll work hard to make sure that your new accounts are a perfect fit for someone like you.</p>
   </div>
   </p>
   <p>
   <div class="brochure b3">
     <h2>STEP THREE: FRIEND RESET</h2>
-    <p><em>[the icon for this section is the recycling symbol with a person inside of it] </em></p>
+    <img src="assets/brochure3.png" alt="" />
     <p>Your friends are going to wonder where you are. You can’t tell them about any of this. They can’t know that you still exist. You can send out your own custom final zoips to each of them individually, or you can use one of our award-winning final zoip templates. They might miss you, but it’ll be fine in the long run. You’re all going to forget about each other. And once you’ve executed a total Friend Reset, you can use our excellent FriendSearch zoftware (patent-pending) to meet new companions that are your age and living in your area. That shweet!</p>
   </div>
   </p>
   <p>
   <div class="brochure b4">
     <h2>STEP FOUR: APPEARANCE SWAP</h2>
-    <p><em>[the icon for this section is a trash can filled to the brim with clothes and stink lines float above it]</em></p>
+    <img src="assets/brochure4.png" alt="" />
     <p>Last but certainly not least, you’ll need to shake up your look. Studies estimate that by the age of twenty-five, two hundred thousand people remember what you look like. In order to finish your complete resculpting, our licensed Appearance Swap designers will give you a head-to-toe makeover so you look like no one ever. Welcome to your new you!</p>
   </div>
   </p>

@@ -82,6 +82,9 @@ export default class LazyAudio extends React.PureComponent {
       <button class={`playButton ${this.state.loaded} ${this.state.corner}`} onClick={() => { this.mainClick() }} style={styleButton}>
         <div class={`symbol ${this.state.paused}`} style={styleSymbol}></div>
       </button>
+      { this.props.cover &&
+        <span class="coverButtonLabel">UYCTB Overture</span>
+      }
       { this.props.lyrics &&
         <Lyrics lyrics={this.props.lyrics} fg={this.props.fg} bg={this.props.bg} screenWidth={this.props.screenWidth} />
       }

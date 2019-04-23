@@ -14,9 +14,6 @@ const EndOfDay = ({ children, num, state }) => (
 <p>I look at myself in the mirror while I wizz in the urinal. I aim around and splash my wizz against the floors and the walls. The yellow fluid flows through the cracks in the tile.</p>
 <p>My whole mug is dark purple with wounds. My cheeks are more angular and my jaw is more boxy. My eyes are smaller and closer to the bridge of my nose. My ears are lower and my lips are thinner. My head is less heart shaped.</p>
 <p>The unisuit they gave me is pretty big around my arms. I left the hat in the trash. My hair is stuffed under a feathery blond wig. It takes a couple <span class="t">*</span>seconds for me to pin on my new name badge.</p>
-<p>A custodian walks in. His knuckles are covered in scabs. He’s carrying a dirty wet auto mop.</p>
-<p>I scream at him. “GET OUT! NO! LEAVE!”</p>
-<p>He promptly exits.</p>
 <p>It feel like I’m spying on someone through their own eyes in the mirror. It might be a SmartMirror! I look like a complete freak. People already think I’m weird and now I look like this. It’s alarming, like I'd almost rather peel my face off and just show people my skull. I wash my hands and scrub really hard with the lavender soap.</p>
 </Pp>
 <Z d={40} spe={85} u="q31" seq="a" ch={num} o={0} z={state} f l> Is it OK if we take a rain-check?</Z>

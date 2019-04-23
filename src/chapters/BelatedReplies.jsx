@@ -7,9 +7,11 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const BelatedReplies = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#bb3f3f, #bb3f3f" />
 {children}
-<Pp>I’m sending Jumper56 some belated zoip replies.</Pp>
+<Pp bg="#bb3f3f, #bb3f3f">
+<p>I’m sending Jumper56 some belated zoip replies.</p>
+</Pp>
 <Z d={10} spe={70} u="j29" ch={num} o={0} z={state} f> I’m sorry for not responding</Z>
 <Z d={15} spe={62} u="j29" ch={num} o={1} z={state}>I just had a pretty jacked up *day to be honest</Z>
 <Z d={5} spe={50} u="j29" ch={num} o={2} z={state}>and my celly was dead for most of it</Z>

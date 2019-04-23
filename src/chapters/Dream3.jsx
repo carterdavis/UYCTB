@@ -7,10 +7,10 @@ import ChapterStart from './../components/ChapterStart.jsx';
 
 const Dream3 = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#b8ffeb, #000" />
 {children}
 
-<Pp>
+<Pp bg="#000, #000">
   <Fade duration={5000} cascade>
     <div>
       <p>Alone walking down the long hallway. Can’t find the door. Never remembered to get the directions. Stupid stupid stupid so stupid.</p>

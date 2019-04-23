@@ -12,7 +12,7 @@ const CyberTherapy = ({ children, num, state }) => (
 <Pp bg="#E4B4C2, #DDFDFE, #E7CEE3, #FFB8D1, #E0E1E9">
 <p>I close the hatch to my workpod and open up Dimples Counsel. I click the button for my artificial therapist, Dr. Samantha Kindbrain. <div class="chapterSong"><LazyAudio src="assets/Counsel Startup Music.mp3" loop={true} bg="#DDFDFE" fg="#E4B4C2" screenWidth={state.screenWidth} lyrics={(
   <div>
-  <p><b>Counsel Startup Music</b></p>
+  <p><b>Dimples Audio Assets - Counsel Startup Music</b></p>
   <p>Your mind is a fish learning to swim (Yes)</p>
   <p>You’re safe now (Yes)</p>
   <p>You’re feeling warm (Yes)</p>

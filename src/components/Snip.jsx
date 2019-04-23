@@ -1,5 +1,6 @@
 import React from 'react';
 import ClickOutside from 'react-click-outside'
+import { iOSversion } from './../state.js';
 
 class Snip extends React.PureComponent {
   constructor(props) {
@@ -18,7 +19,6 @@ class Snip extends React.PureComponent {
 
   componentDidMount() {
     this.setLeft()
-    setTimeout(() => this.setLeft(), 500);
   }
 
   componentDidUpdate(prevProps) {
@@ -40,7 +40,9 @@ class Snip extends React.PureComponent {
 
    render() {
      const open = this.state.open ? 'open' : '';
-     const leftStyle = this.state.open ? '50%' : `${this.state.left}px`;
+     const ver = iOSversion() || false;
+     const variableLeft = ver && (ver[0] < 11) ? 'initial' : `${this.state.left}px`;
+     const leftStyle = this.state.open ? '50%' : variableLeft;
 
      return (
       <div class="snippet-wrapper" ref={this.setWrapperRef}>

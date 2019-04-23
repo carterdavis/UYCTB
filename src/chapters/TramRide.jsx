@@ -7,14 +7,14 @@ import Snip from './../components/Snip.jsx';
 
 const TramRide = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} />
+<ChapterStart num={num} bg="#f14358, #D5C7BC" />
 {children}
 
 <Z d={1} spe={10} u="SYS" ch={num} o={0} z={state} f> Congratulations, BUNNDY22!</Z>
 <Z d={1} spe={10} u="SYS" ch={num} o={1} z={state}>Your new workpod is located on FLOOR_4, POD_5_EAST</Z>
 <Z d={1} spe={10} u="SYS" ch={num} o={2} z={state}>162 gold hunks deducted from your salary sack for this <span class="t">*</span>month,</Z>
 <Z d={1} spe={10} u="SYS" ch={num} o={3} z={state} l>to cover cost of repairs to OVERHEAD_INTERCOM_SPEAKER</Z>
-<Pp>
+<Pp bg="#D5C7BC, #785964, #F1FFFA, #454545">
 <p>I’m leaning against a pole. Chadmuth18 is reclining sideways across three chairs. He hasn’t said a word to me since we boarded the tram. No one else is in our carriage. The overhead fluorescent is flickering. The concrete tunnel walls outside the foggy glass windows are overgrown with fuzzy brown fungus. He’s scrolling through zoips on his celly but I don’t have anything to entertain myself with. With this in mind, I sigh expressively.</p>
 <p>Chadmuth18: “How’s it poppin?”</p>
 <p>“Hm?”</p>
@@ -43,7 +43,7 @@ const TramRide = ({ children, num, state }) => (
 <p>Chadmuth18 smiles wide. “You wanna know what I really like?”</p>
 <p>“What?”</p>
 <p>“Making out with women. I like smooching on the lips. I do it all the time, and I think it’s feels amazing. I like to use my lips like a hand to grab and squeeze their lips between my lips. Really clutch them between my smackers. Ladies love my lips, apparently they feel awesome and strong. That’s what multiple women have told me. Do you kiss much, bud?”</p>
-<p>“Can we talk about something else?” <Snip screenWidth={state.screenWidth} bg='red, yellow'>(I kiss a lot, FYI)</Snip></p>
+<p>“Can we talk about something else?” <Snip screenWidth={state.screenWidth} bg='#785964'>(I kiss a lot, FYI)</Snip></p>
 <p>“Yah no that’s fine. Whatever.”</p>
 <p>“Sorry. I feel like I swallowed a big heavy stone.”</p>
 <p>“Which is why I tried to introduce some levity into the convo.”</p>

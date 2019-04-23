@@ -38,37 +38,191 @@ body {
 }
 
 .cover {
-  background-color: #000;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  background-color: #4666d9;
   z-index: 6;
   position: relative;
+  min-height: 100%;
 
   .spacer {
     width: 100%;
   }
 }
 
-.button-container {
-  width: 11rem;
-  height: 1.8rem;
-  display: inline-block;
-  text-align: center;
+.cover-img-wrapper {
+  height: 100%;
 
-  .btn {
+  .cover-img {
+    margin: auto;
+    max-height: 100%;
+    max-width: 100%;
     display: block;
-    padding: 1rem 1;
-    margin-bottom: .8rem;
-    width: 13rem;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
+@media all and (max-width: 1350px) and (min-width: 1015px) {
+  .cover-img-wrapper {
+    height: 80%;
+    padding-top: 5%;
+  }
+
+  .buttons .button-container .btn {
+    padding: .5rem;
+    margin: .8rem;
+    width: 11rem;
+    font-size: 1.4rem;
+  }
+}
+
+@media all and (max-width: 1014px) and (min-width: 721px) {
+  .cover-img-wrapper {
+    height: 75%;
+
+    .cover-img {
+      position: initial;
+      left: initial;
+      right: initial;
+      transform: none;
+    }
+  }
+
+  .buttons { text-align: center; }
+
+  .buttons .button-container.right, .buttons .button-container.left  {
+    display: inline-block;
+    position: initial;
+    left: initial;
+    right: initial;
+    margin: 0;
+    width: 15rem;
+  }
+}
+
+@media all and (max-width: 720px) and (min-width: 401px) {
+  .cover {
+    min-height: 100%;
+  }
+  .cover-img-wrapper {
+    height: auto;
+
+    .cover-img {
+      position: initial;
+      left: initial;
+      right: initial;
+      transform: none;
+    }
+  }
+
+  .buttons { text-align: center; }
+
+  .buttons .button-container.right, .buttons .button-container.left  {
+    display: inline-block;
+    position: initial;
+    left: initial;
+    right: initial;
+    margin: 0;
+    width: 12rem;
+
+    .btn {
+      padding: .5rem;
+      width: 11rem;
+      font-size: 1.4rem;
+    }
+  }
+
+  .cover .coverButton {
+    position: initial;
+    bottom: initial;
+    left: initial;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .cover-img-wrapper {
+    height: auto;
+
+    .cover-img {
+      position: initial;
+      left: initial;
+      right: initial;
+      transform: none;
+    }
+  }
+
+  .cover {
+    min-height: 100%;
+    height: auto;
+  }
+
+  .buttons .button-container.left {
+    padding-top: 1rem;
+  }
+
+  .buttons .button-container.right, .buttons .button-container.left  {
+    display: inline-block;
+    position: initial;
+    left: initial;
+    right: initial;
+    margin: 0;
+    width: 85%;
+
+    .btn {
+      padding: 6%;
+      width: 91%;
+      font-size: 1.6rem;
+    }
+  }
+  .buttons { text-align: center; }
+
+  .cover .coverButton {
+    position: initial;
+    bottom: initial;
+    left: initial;
+  }
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  margin-top: -82px;
+
+  &.left {
+    left: 15%;
+    margin-left: -117px;
+  }
+
+  &.right {
+    right: 15%;
+    margin-right: -117px;
+  }
+
+  .btn {
+    padding: 1rem 1;
+    margin: .8rem;
+    width: 13rem;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+
+    &.start {
+      background: linear-gradient(#FFF, #f9c9f9);
+    }
+    &.book {
+      background: linear-gradient(#FFF, #cde7fe);
+    }
+  }
+}
 .btn {
   color: black;
-  background-color: yellow;
+  background: linear-gradient(#FFF, #da826c);
   border-radius: 2rem;
   cursor: pointer;
   border: none;
@@ -96,6 +250,7 @@ body {
   padding: .5rem;
   border-style: solid;
   border-width: 0 0 .25rem 0;
+  border-color: #000;
 
   .navbar {
     width: 45rem;
@@ -137,7 +292,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-align: center;
   text-indent: 0;
 }
@@ -226,6 +381,7 @@ h3 {
 
     img {
       width: 100%;
+      max-height: 57rem;
     }
   }
 }
@@ -237,6 +393,17 @@ $transitionSpeed: 300ms;
   position: absolute;
   bottom: 3rem;
   left: 3rem;
+
+  .coverButtonLabel {
+    position: relative;
+    top: -2.7rem;
+    left: 2.5rem;
+    padding: .4rem 1rem .4rem 2rem;
+    z-index: -1;
+    border-radius: 1.25rem;
+    background: linear-gradient(#FFF, #ffeb9a);
+    font-weight: bold;
+  }
 }
 
 .chapterSong {
@@ -444,19 +611,24 @@ $transitionSpeed: 300ms;
     transition: max-height .5s, width .5s, padding .5s, left .5s $bezier, margin-left .5s $bezier, margin-top .5s $bezier, border-radius .5s, border-width .5s;
 
     &.open {
-      width: 25rem;
+      width: 32rem;
       max-height: 22rem;
       overflow-y: auto;
       padding: 2rem;
       left: 50%;
       margin-top: 2rem;
-      margin-left: -12.5rem;
+      margin-left: -16rem;
       position: absolute;
       border-radius: 1rem;
       border-width: .3rem;
       cursor: initial;
       z-index: 3;
       transform: none;
+
+      p {
+        width: 100%;
+        text-indent: 0;
+      }
     }
   }
 }
@@ -813,6 +985,7 @@ div.code {
 
   .ad {
     width: 100%;
+    max-height: 20.5rem;
     cursor: pointer;
   }
 
@@ -842,9 +1015,20 @@ div.code {
     box-sizing: border-box;
     padding: 3rem;
 
+    h2 {
+      text-shadow: 1px 1px 2px #303725;
+    }
+
     p {
       color: #FFF;
       width: 100%;
+    }
+
+    img {
+      height: 22rem;
+      margin: auto;
+      display: block;
+      padding: 1rem;
     }
   }
 }
@@ -884,6 +1068,9 @@ div.code {
   transform: translateX(0);
   transition: transform .3s;
   z-index: 7;
+  border-style: solid;
+  border-color: #000;
+  border-width: 0 .25rem 0 0;
 
   ol {
     font-size: 1.2rem;
@@ -943,6 +1130,7 @@ div.code {
         img {
           width: 102.5%;
           margin-left: -1.25%;
+          max-height: 56rem;
         }
       }
     }
@@ -967,6 +1155,13 @@ div.code {
       color: #FFF;
       box-sizing: border-box;
       padding: 3rem ;
+
+      img {
+        max-height: 384px;
+        max-width: 100%;
+        height: initial;
+        padding: 1rem 0;
+      }
     }
   }
 
@@ -977,6 +1172,10 @@ div.code {
     &.small {
       display: inline;
     }
+  }
+
+  .ad-wrapper .ad {
+    max-height: 39rem;
   }
 }
 
@@ -1024,6 +1223,13 @@ div.code {
       color: #FFF;
       box-sizing: border-box;
       padding: 1.6rem;
+
+      img {
+        max-height: 350px;
+        max-width: 100%;
+        height: initial;
+        padding: 1rem 0;
+      }
     }
   }
 
@@ -1052,6 +1258,7 @@ div.code {
         img {
           width: 102.5%;
           margin-left: -1.25%;
+          max-height: 32rem;
         }
       }
     }
@@ -1071,5 +1278,9 @@ div.code {
         display: inline;
       }
     }
+  }
+
+  .ad-wrapper .ad {
+    max-height: 22.5rem;
   }
 }

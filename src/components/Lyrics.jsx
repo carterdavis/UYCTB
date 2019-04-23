@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { iOSversion } from './../state.js';
 import ClickOutside from 'react-click-outside';
 
 class Lyrics extends React.PureComponent {
@@ -22,13 +23,11 @@ class Lyrics extends React.PureComponent {
 
   componentDidMount() {
     this.setLeft()
-    setTimeout(() => this.setLeft(), 500);
   }
 
   setLeft() {
     if (this.wrapper) {
       const box = this.wrapper.getBoundingClientRect();
-      console.log(box);
       this.setState({ lyricsLeft: box.left });
     }
   }
@@ -45,7 +44,10 @@ class Lyrics extends React.PureComponent {
 
   render() {
     const open = this.state.lyricsOpen ? 'open' : '';
-    const leftStyle = this.state.lyricsOpen ? '50%' : `${this.state.lyricsLeft}px`;
+    const ver = iOSversion() || false;
+    const variableLeft = ver && (ver[0] < 11) ? 'initial' : `${this.state.lyricsLeft}px`;
+    const leftStyle = this.state.lyricsOpen ? '50%' : variableLeft;
+
     return (
       <div class="lyrics-wrapper" ref={this.setWrapperRef}>
         <div class={`lyrics ${open}`} onClick={() => { this.toggleLyrics() }} style={{ backgroundColor: this.props.bg, borderColor: this.props.bg, left: leftStyle }}>

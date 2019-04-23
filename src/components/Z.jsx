@@ -33,7 +33,7 @@ const Z = (props) => {
 
   return (
     <div class={`zoip ${user}`} style={ displaying ? {} : { height: 0 }}>
-      <Pp bg={ displaying ? noCheckBg : '#FFF, #FFF'} innerClass={`${props.f ? 'padTop' : ''} ${props.l ? 'padBtm' : ''}`} z>
+      <Pp bg={ displaying ? noCheckBg : '#FFF'} innerClass={`${props.f ? 'padTop' : ''} ${props.l ? 'padBtm' : ''}`} z>
       <p>
       { order == 0 &&
         <VisibilitySensor onChange={
