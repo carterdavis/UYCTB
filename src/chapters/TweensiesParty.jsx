@@ -31,8 +31,8 @@ const TweensiesParty = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#ce5561, #ce5561">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/11-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/11.png" />
+  <source media="(max-width: 500px)" srcset="assets/11-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/11.png" />
   <img src="assets/11.png" alt=""/>
 </picture>
 </p>

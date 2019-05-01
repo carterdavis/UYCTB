@@ -18,7 +18,7 @@ const MorningChat1 = ({ children, num, state }) => (
   <p>I crinkle my eye with my fist. I take my cushioned programming gloves off. I yank my umbilical data plug out of my computerior and click it into my celly’s corresponding UDP port. I build up enough saliva to secure my computerior with my Dimples SpitLock. I slurp down the last gooey droplets of my vitamin-enriched Morningberry Queam.</p>
 <p>Dimples employees are required to attend Morning Chat every <span class="t">*</span>day at 10:00bt. A blue slide on every floor pours down into the basement auditorium, where CEO Augustinius00 01Stone gives a speech that everyone has to watch. It generally lasts around five <span class="t">*</span>minutes.</p>
 </Pp>
-<Z d={25} spe={69} u="j56" ch={num} o={2} z={state} f> ok thanks</Z>
+<Z d={25} spe={69} u="j56" ch={num} o={2} z={state} p={[`ch${num}_a`, 2]} f> ok thanks</Z>
 <Z d={10} spe={71} u="j56" ch={num} o={3} z={state} l>I’ve been stuck on it for *hours, ha ha</Z>
 <Pp bg="#b4e0df, #3d3634">
 <p>I climb into the fifth floor basement slide. “Ch-ching!” Must’ve been scrubbed recently, the plastic is still really slick. It has a steep slope so it can pick up enough speed to clear a tight loop-de-loop. Makes my stomach lurch.</p>
@@ -44,8 +44,8 @@ const MorningChat1 = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#ccd882, #ccd882">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/7-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/7.png" />
+  <source media="(max-width: 500px)" srcset="assets/7-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/7.png" />
   <img src="assets/7.png" alt=""/>
 </picture>
 </p>

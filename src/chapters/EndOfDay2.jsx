@@ -20,9 +20,9 @@ const EndOfDay = ({ children, num, state }) => (
 <Pp bg="#820000, #820000">
 <p>There isn’t much of anyone left in the office. People leave early on Respectfuldays. Probably to get a headstart on the <span class="t">*</span>weekend. I wish I had cool <span class="t">*</span>weekend plans. That would make me feel much better. I need to spend less time alone. The only noise is the clomp clomp of my dress shoes. I can stare through the floor into the foyer without spotting a soul.</p>
 </Pp>
-<Z d={30} spe={68} u="j29" seq="a" ch={num} o={1} z={state} f> is there any way I could still see you tonight?</Z>
-<Z d={5} spe={72} u="j29" seq="a" ch={num} o={2} z={state}>I don’t think I should be alone.</Z>
-<Z d={20} spe={80} u="j29" seq="a" ch={num} o={3} z={state} l>is that messed up?</Z>
+<Z d={30} spe={68} u="j29" ch={num} seq="b" o={0} z={state} p={[`ch${num}_a`, 1]} f> is there any way I could still see you tonight?</Z>
+<Z d={5} spe={72} u="j29" ch={num} seq="b" o={1} z={state}>I don’t think I should be alone.</Z>
+<Z d={20} spe={80} u="j29" ch={num} seq="b" o={2} z={state} l>is that messed up?</Z>
 <Pp bg="#820000, #00015b">
 <p>I have my bag packed and my fluffy coat and hat on. The fluff’s a bit matted down from going down the slides. I turn on my lantern and push open the double doors into the cold pitch black outside. I’m parked on the second level. The concrete is coated in a thin sheet of ice. The cold makes my whole face burn. It makes my body weak. My eyes are thin slits from the swelling. Moving my lips hurts horribly. I try humming to myself. Just some little random melodies.</p>
 <p>I cast my lantern’s pale golden light over my car. It has a wide glow that reached about five leaps away from me. I shiver and shake in my seat.</p>
@@ -37,7 +37,7 @@ const EndOfDay = ({ children, num, state }) => (
 <p>“But that is not your name.”</p>
 <p>“Jesus. Just let me drive. I want to go home.”</p>
 </Pp>
-<Z d={50} spe={90} u="j29" seq="c" ch={num} o={0} z={state} f l> nevermind, sorry. hope you have a good night</Z>
+<Z d={50} spe={90} u="j29" seq="c" ch={num} o={0} z={state} p={[`ch${num}_b`, 3]} f l> nevermind, sorry. hope you have a good night</Z>
 <Pp bg="#00015b, #D6CB40, #00015b, #00015b, #D6CB40, #00015b, #00015b">
 <p>The engine slowly hums on. Tulip lets out a huffy sigh. I cautiously curve around the tight corners of the ramp, trying to slow down as much as I can without relying on the brake. Tulip handles really poorly on the ice since its chassis is made of triple-constituted ultralight plexifoam. I’m almost always skidding.</p>
 <p>“How was your <span class="t">*</span>day otherwise, Mr. 03Goldman?”</p>

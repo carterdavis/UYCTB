@@ -34,6 +34,7 @@ import HotNews from './chapters/HotNews.jsx';
 import LegalAssessment from './chapters/LegalAssessment.jsx';
 import AppearanceSwap from './chapters/AppearanceSwap.jsx';
 import EndOfDay2 from './chapters/EndOfDay2.jsx';
+import BackHome from './chapters/BackHome.jsx';
 import SmilingHour from './chapters/SmilingHour.jsx';
 import DrivingToQuimbys from './chapters/DrivingToQuimbys.jsx';
 import Dinnertime from './chapters/Dinnertime.jsx';
@@ -114,6 +115,7 @@ export const chapters = [
   [LegalAssessment, 'legal_assessment', 'Legal Assessment'],
   [AppearanceSwap, 'appearance_swap', 'Appearance Swap'],
   [EndOfDay2, 'end_of_day_2', 'End Of *Day 2'],
+  [BackHome, 'more_birdy_time', 'More Birdy Time'],
   [SmilingHour, 'smiling_hour', 'Smiling *Hour'],
   [DrivingToQuimbys, 'driving_to_quimby31s', "Driving To Quimby31's"],
   [Dinnertime, 'dinnertime', 'Dinnertime'],

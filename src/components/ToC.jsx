@@ -19,6 +19,7 @@ class ToC extends React.Component {
 
     return (
       <div class={`toc ${visibility}`}>
+        <button class="x" onClick={(e) => {this.props.toggle(); e.stopPropagation();}}>x</button>
         <h2>Table of Contents</h2>
         <ol start="0">
           { getToC(this.props.toggle) }

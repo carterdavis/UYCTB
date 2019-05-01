@@ -5,11 +5,15 @@ import Cloak from './components/Cloak.jsx';
 import Z from './components/Z.jsx';
 import store from './redux/store.js';
 import { chapters } from './chapters.js';
-import { toggleToC, updateCurrent, updateDimensions, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
+import { toggleToC, toggleAbout, updateCurrent, updateDimensions, updateScreen, updateScrolling, initial, zoip } from './redux/actions.js';
 
 export const getStartUrl = () => {
   const start = store.getState().beginning || 0;
   return `#${chapters[start][1]}_${start}`;
+}
+
+export const getStartText = () => {
+  return store.getState().beginning == 0 ? "Start" : "Resume";
 }
 
 const range = (start, end) => {
@@ -71,6 +75,10 @@ export const toggleVisibilityToC = (tocLink = false) => {
   if (tocLink) {
     setTimeout(function(){ document.getElementById('content').focus() }, 0);
   }
+}
+
+export const toggleVisibilityAbout = () => {
+  store.dispatch(toggleAbout());
 }
 
 export const getToC = (toggle) => (

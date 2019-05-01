@@ -51,8 +51,8 @@ const EdgeOfEverything = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#92565c, #92565c">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/9-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/9.png" />
+  <source media="(max-width: 500px)" srcset="assets/9-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/9.png" />
   <img src="assets/9.png" alt=""/>
 </picture>
 </p>
@@ -86,7 +86,7 @@ const EdgeOfEverything = ({ children, num, state }) => (
 <p>“That list is a lot shorter.”</p>
 <p>“Quality versus quantity.”</p>
 <p>“I have a much longer version of that list for you.”</p>
-<p>Neher99 cinches their hood tightly around their face. “I don’t want to hear it.”</p>
+<p>Quimby31 cinches their hood tightly around their face. “I don’t want to hear it.”</p>
 <p>“Sorry.”</p>
 </Pp>
 <Pp bg="#474389, #92565c">

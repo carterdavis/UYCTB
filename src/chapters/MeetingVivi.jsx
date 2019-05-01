@@ -70,8 +70,8 @@ const MeetingVivi = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#efa173, #efa173">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/10-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/10.png" />
+  <source media="(max-width: 500px)" srcset="assets/10-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/10.png" />
   <img src="assets/10.png" alt=""/>
 </picture>
 </p>

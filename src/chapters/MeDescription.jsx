@@ -16,8 +16,8 @@ const MeDescription = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#cbc0bf, #cbc0bf" >
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/5-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/5.png" />
+  <source media="(max-width: 500px)" srcset="assets/5-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/5.png" />
   <img src="assets/5.png" alt=""/>
 </picture>
 </p>

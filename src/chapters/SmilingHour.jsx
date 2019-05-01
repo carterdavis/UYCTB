@@ -7,12 +7,11 @@ import Z from './../components/Z.jsx';
 
 const SmilingHour = ({ children, num, state }) => (
 <div>
-<ChapterStart num={num} bg="#00015b, #ef97b5" />
+<ChapterStart num={num} bg="#0a0423, #ef97b5" />
 {children}
 
-<Z d={25} spe={85} u="q31" ch={num} o={0} z={state} f l> Ok I understand. Come over whenever</Z>
 <Pp bg="#ef97b5, #ffe95b, #f35bb3">
-<p>I sit on the circular couch watching teevee. My celly vibrates on the cushion. It’s been buzzing nonstop. Completely sucks to use. I’m currently watching a news program called “Smiling <span class="t">*</span>Hour” brought to you by Ha Ha Entertainment. This reporter always picks very tender stories. They generally warm my heart. The film is filtered to look rosy. Two friends are walking, arms around each other’s shoulders.</p>
+<p>I sit on the circular couch watching teevee. Trying to chill out. My celly vibrates on the cushion. It’s been buzzing nonstop. Completely sucks to use. I’m currently watching a news program called “Smiling <span class="t">*</span>Hour” brought to you by Ha Ha Entertainment. This reporter always picks very tender stories. They generally warm my heart. The film is filtered to look rosy. Two friends are walking, arms around each other’s shoulders.</p>
 <p>“I’m his best friend.”</p>
 <p>“And he’s mine!”</p>
 <p>The camera flips between their faces at canted angles as they laugh.</p>

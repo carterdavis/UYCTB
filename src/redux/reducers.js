@@ -1,6 +1,6 @@
 import Cookies from 'universal-cookie';
 
-import { UPDATE_CURRENT, UPDATE_DIMENSIONS, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, INITIAL, ZOIP } from "./constants.js";
+import { UPDATE_CURRENT, UPDATE_DIMENSIONS, UPDATE_SCREEN, UPDATE_SCROLLING, TOGGLE_TOC, TOGGLE_ABOUT, INITIAL, ZOIP } from "./constants.js";
 import { getDimensions } from "./../state.js";
 
 const cookies = new Cookies().get('state') || {};
@@ -22,7 +22,8 @@ const initialState = {
   scrolling: false,
   zoips: {},
   viewScreen: 0,
-  visibleToC: false
+  visibleToC: false,
+  visibleAbout: false
 };
 
 const rootReducer = (state = initialState, action) => {
@@ -42,6 +43,8 @@ const rootReducer = (state = initialState, action) => {
       return { ...state, scrolling: !state.scrolling };
     case TOGGLE_TOC:
       return { ...state, visibleToC: !state.visibleToC };
+    case TOGGLE_ABOUT:
+      return { ...state, visibleAbout: !state.visibleAbout };
     case ZOIP:
       let dupe = state.zoips;
       dupe[action.payload.id] = action.payload.place;

@@ -10,7 +10,7 @@ import ViewScreen from './ViewScreen.jsx';
 
 const Screen = ({ screenValue, state }) => {
   const opacity = screenValue != 0 ? '1' : '0';
-  const zIndex = screenValue != 0 ? '2' : '-1';
+  const zIndex = screenValue != 0 ? '8' : '-1';
   const overflow = screenValue != 0 ? 'auto' : 'hidden';
 
   const dimples = (
@@ -23,15 +23,16 @@ const Screen = ({ screenValue, state }) => {
 
   return (
     <div class="screen" style={{ opacity: opacity, zIndex: zIndex, overflowY: overflow }}>
+      <button class="x screen-x" onClick={(e) => {setScreen(0)}}>x</button>
       {
         screenValue == 1 &&
           <div>
             <CLI delay={10}><Hue c='#f9d161'>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</Hue></CLI>
-            <CLI delay={11}>WELCOME to {dimples} {shell} <Hue c='#f1c232'>Z20 Extreme</Hue>. This state-of-the-art <Hue c='#6ea8dc'>health</Hue> and <Hue c='#b6d6a4'>well-being</Hue>  management console is perfectly developed to make home medical care as easy as a <Hue c='#c27ba0'>piece of a cake</Hue>. Do you feel so much tingling in your fingertips? That is quite simply the feeling of... <Hue c='#f4a960'>POWER</Hue> ! <Snip state={state} bg='red, yellow'>This might look like just a bunch of hogwash to you, and it’s OK if it does. The console is like a conversation portal ON the computering device WITH the device, spoken in its special computational tongue. Server data is translated into words by our data steward, Deward, using a proprietary Dimples module called Ear2Ear. I don’t think Deward likes me, and that’s fine, because I detest Deward. It tries to personally tailor its text to suit how it thinks I think, but it has this strange abrasive personality, and it speaks in halting unpleasant phrases, and I have no clue why it colors words the way it does. Most of all I hate it when Deward tries to bust out some slang.</Snip></CLI>
+            <CLI delay={11}>WELCOME to {dimples} {shell} <Hue c='#f1c232'>Z20 Extreme</Hue>. This state-of-the-art <Hue c='#6ea8dc'>health</Hue> and <Hue c='#b6d6a4'>well-being</Hue>  management console is perfectly developed to make home medical care as easy as a <Hue c='#c27ba0'>piece of a cake</Hue>. Do you feel so much tingling in your fingertips? That is quite simply the feeling of... <Hue c='#f4a960'>POWER</Hue> ! <Snip state={state} bg='#FFF'>This might look like just a bunch of hogwash to you, and it’s OK if it does. The console is like a conversation portal ON the computering device WITH the device, spoken in its special computational tongue. Server data is translated into words by our data steward, Deward, using a proprietary Dimples module called Ear2Ear. I don’t think Deward likes me, and that’s fine, because I detest Deward. It tries to personally tailor its text to suit how it thinks I think, but it has this strange abrasive personality, and it speaks in halting unpleasant phrases, and I have no clue why it colors words the way it does. Most of all I hate it when Deward tries to bust out some slang.</Snip></CLI>
             <CLI delay={12}><Hue c='#f9d161'>$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</Hue></CLI>
             <br />
             <CLI delay={14}>&gt;&gt; <Typing speed={75} startDelay={700} class="type"><span style={{ color: '#f4b16a' }}>PLEASE</span> tell me [which] files in <span style={{ color: '#75a5af' }}>HERE</span></Typing></CLI>
-            <CLI delay={60}><Hue c='#75a5af'>HERE</Hue> are many files. <Hue c='#f0c153'>TELLING YOU</Hue>... <Snip state={state} bg='red, yellow'>Some stock commands require certain “courtesy keywords” — these were introduced by Dimples as a way to try to reduce hardware abuse rates at the company. Apparently it's common for some of the taller, beefier Dimplers to respond to a failing test or confusing error by crushing their computeriors’ screens between their biceps or furiously body-slamming them into the floor. *Years have passed and hardware abuse rates haven’t dipped at all, but now if we were to remove the keywords it’d break a million or so different scripts we have running in the server barn, so, here I am, still having to tell Deward PLEASE and THANKS.</Snip></CLI>
+            <CLI delay={60}><Hue c='#75a5af'>HERE</Hue> are many files. <Hue c='#f0c153'>TELLING YOU</Hue>... <Snip state={state} bg='#FFF'>Some stock commands require certain “courtesy keywords” — these were introduced by Dimples as a way to try to reduce hardware abuse rates at the company. Apparently it's common for some of the taller, beefier Dimplers to respond to a failing test or confusing error by crushing their computeriors’ screens between their biceps or furiously body-slamming them into the floor. *Years have passed and hardware abuse rates haven’t dipped at all, but now if we were to remove the keywords it’d break a million or so different scripts we have running in the server barn, so, here I am, still having to tell Deward PLEASE and THANKS.</Snip></CLI>
             <CLI delay={62}>/aaaaa /bin /custom /default /default(2) /donotopen /sample /scripts /temp /tmp frogcopter.play how_to_play_frogcopter.text</CLI>
             <CLI delay={64}>&gt;&gt; <Typing speed={75} startDelay={900} class="type"><span style={{ color: '#b3d6a8' }}>CLIMB INTO</span> /default, <span style={{ color: '#a3c2f3' }}>THANKS</span></Typing></CLI>
             <CLI delay={100}><Hue c='#75a5af'>HERE</Hue> are many files. <Hue c='#f0c153'>TELLING YOU</Hue>...</CLI>

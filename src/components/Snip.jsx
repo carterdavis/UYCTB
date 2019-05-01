@@ -18,7 +18,8 @@ class Snip extends React.PureComponent {
   }
 
   componentDidMount() {
-    this.setLeft()
+    this.setLeft();
+    setTimeout(() => { this.setLeft() }, 100);
   }
 
   componentDidUpdate(prevProps) {
@@ -35,6 +36,7 @@ class Snip extends React.PureComponent {
   }
 
   toggle() {
+    console.log(this.state.open);
     this.setState({ open: !this.state.open });
   }
 
@@ -43,10 +45,16 @@ class Snip extends React.PureComponent {
      const ver = iOSversion() || false;
      const variableLeft = ver && (ver[0] < 11) ? 'initial' : `${this.state.left}px`;
      const leftStyle = this.state.open ? '50%' : variableLeft;
+     const bgStyle = this.state.open ? "#FFF" : this.props.bg;
+     const styleWhite = this.props.bg == "#FFF" ? { color: "#FFF" } : {};
 
      return (
       <div class="snippet-wrapper" ref={this.setWrapperRef}>
-        <div class={`snippet ${open}`} onClick={() => { this.toggle() }} style={{ borderColor: this.props.bg || 'red', left: leftStyle }}>
+        <div class={`snippet ${open}`} onClick={() => { if (!this.state.open) this.toggle() }} style={{ borderColor: this.props.bg || 'red', left: leftStyle }}>
+          <button class="x" style={styleWhite} onClick={(e) => {
+            this.toggle();
+            e.stopPropagation();
+          }}>x</button>
           { this.props.children }
         </div>
       </div>

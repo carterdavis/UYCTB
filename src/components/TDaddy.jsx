@@ -7,6 +7,7 @@ const TDaddy = ({ children, story }) => {
       <div class="paragraph tdaddy">
         <div class="inner">
           <div class="mock-p">
+            <img src="assets/troughdaddy.png" class="logo" />
             <div class="wrapper">
               {children}
             </div>
@@ -19,6 +20,7 @@ const TDaddy = ({ children, story }) => {
       <div class="paragraph tdaddy">
         <div class="inner">
           <div class="mock-p">
+            <img src="assets/troughdaddy.png" class="logo" />
             <div class="wrapper">
               <Zoom bottom cascade duration={1000}>
                 {children}

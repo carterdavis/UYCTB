@@ -1,15 +1,5 @@
-@mixin font($font-family, $font-file) {
-  @font-face {
-    font-family: $font-family;
-    src: url($font-file+'.eot');
-    src: url($font-file+'.eot?#iefix') format('embedded-opentype'),
-      url($font-file+'.woff') format('woff'),
-      url($font-file+'.ttf') format('truetype'),
-  }
-}
-
 @font-face {
-  font-family: "Sina Nova";
+  font-family: "sina_novaregular";
   src: url('assets/fonts/SinaNovaReg.otf');
   font-display: swap;
 }
@@ -24,12 +14,44 @@ $bezier: cubic-bezier(0.175, 0.885, 0.32, 1.275);
 body {
   position: relative;
   margin: 0;
-  font-family: 'Sina Nova', Georgia, serif;
+  font-family: 'sina_novaregular', Georgia, serif;
   font-size: 21px;
   overflow-x: hidden;
 
   &.no-scroll {
     overflow: hidden;
+  }
+}
+
+.about {
+  position: fixed;
+  z-index: 7;
+  box-sizing: border-box;
+  top: 5%;
+  left: 50%;
+  margin-left: -23rem;
+  width: 46rem;
+  background-color: #FFF;
+  padding: 1.6rem;
+  max-height: 80%;
+  overflow-y: scroll;
+  border: solid .5rem #f66171;
+  transition: top $bezier .75s;
+
+  a {
+    color: #4666d9;
+  }
+
+  &.hidden {
+    top: -100%;
+  }
+}
+
+@media all and (max-width: 825px) {
+  .about {
+    width: 95%;
+    margin-left: 0;
+    left: 2.5%;
   }
 }
 
@@ -64,6 +86,20 @@ body {
   }
 }
 
+.socials {
+  position: absolute;
+  bottom: 3rem;
+  right: 3rem;
+
+  a {
+    margin: 0 .5rem;
+
+    img {
+      height: 2rem;
+    }
+  }
+}
+
 @media all and (max-width: 1350px) and (min-width: 1015px) {
   .cover-img-wrapper {
     height: 80%;
@@ -90,7 +126,7 @@ body {
     }
   }
 
-  .buttons { text-align: center; }
+  .buttons { text-align: center; padding-bottom: .5rem; }
 
   .buttons .button-container.right, .buttons .button-container.left  {
     display: inline-block;
@@ -99,6 +135,20 @@ body {
     right: initial;
     margin: 0;
     width: 15rem;
+  }
+
+  .cover .coverButton {
+    position: initial;
+    margin: 1.2rem auto .8rem auto;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .socials {
+    position: initial;
+    margin: auto;
+    width: 6rem;
+    padding: 1rem;
   }
 }
 
@@ -136,8 +186,16 @@ body {
 
   .cover .coverButton {
     position: initial;
-    bottom: initial;
-    left: initial;
+    margin: 1.2rem auto .8rem auto;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .socials {
+    position: initial;
+    margin: auto;
+    width: 6rem;
+    padding: 1rem;
   }
 }
 
@@ -176,12 +234,20 @@ body {
       font-size: 1.6rem;
     }
   }
-  .buttons { text-align: center; }
+  .buttons { text-align: center; padding-bottom: .5rem; }
 
   .cover .coverButton {
     position: initial;
-    bottom: initial;
-    left: initial;
+    margin: 1.2rem auto 0 auto;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .socials {
+    position: initial;
+    margin: auto;
+    width: 6rem;
+    padding: 0 1rem 1rem;
   }
 }
 
@@ -230,7 +296,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6rem;
   font-weight: bold;
-  font-family: 'Sina Nova', Georgia, serif;
+  font-family: 'sina_novaregular', Georgia, serif;
   transition: transform 0.3s $bezier, background-color 0.3s $bezier;
   transform: none;
 
@@ -275,8 +341,13 @@ body {
   .btn {
     font-size: 1.2rem;
     padding: .25rem;
-    margin: 0 0 0 2rem;
+    margin: 0 0 0 1rem;
     vertical-align: top;
+
+    &.book {
+      background: linear-gradient(#FFF, #cde7fe);
+      display: inline-block;
+    }
   }
 }
 
@@ -285,7 +356,7 @@ body {
 }
 
 h1 {
-  font-family: 'Sina Nova', Georgia, serif;
+  font-family: 'sina_novaregular', Georgia, serif;
   text-align: center;
   font-size: 2.5rem;
   color: #FFF;
@@ -302,7 +373,7 @@ h3 {
 }
 
 .roar {
-  font-family: 'Sina Nova', Georgia, serif;
+  font-family: 'sina_novaregular', Georgia, serif;
   font-weight: 800;
 }
 
@@ -583,6 +654,21 @@ $transitionSpeed: 300ms;
     100% {
       transform: rotate(-360deg);
     }
+}
+
+.x {
+  position: absolute;
+  top: .3rem;
+  right: .5rem;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  cursor: pointer;
+  color: #393939;
+
+  &.screen-x {
+    color: #FFF;
+  }
 }
 
 .snippet-wrapper {
@@ -921,14 +1007,22 @@ div.code {
 
 .paragraph.tdaddy {
   background-color: #FFF;
-  background: repeating-linear-gradient(0deg, #ffffff, #626262 6px);
+  background: repeating-linear-gradient(0deg, #ffffff, #d5b5b4 6px);
+
   .inner {
     padding: 1rem 0;
   }
   .mock-p {
-    background: linear-gradient(#e5e5e5, #aaaaaa);
+    background: linear-gradient(#f5e5cc, #a2e8ed);
     border-radius: 3rem;
-    padding: 2rem 0;
+    padding: 0 0 2rem;
+
+    .logo {
+      height: 3.5rem;
+      margin: auto;
+      display: block;
+      padding: .5rem 0;
+    }
 
     .wrapper {
       background-color: #FFF;
@@ -950,13 +1044,17 @@ div.code {
         border: solid #a1a1a1;
         border-width: 0 0 1px 0;
         transition: background-color 0.3s;
+
+        &:last-of-type {
+          border: 0;
+        }
       }
 
       li:nth-child(odd):hover {
-        background-color: #fff1f3;
+        background-color: #f1ffff;
       }
       li:nth-child(even):hover {
-        background-color: #fffff1;
+        background-color: #fff9f1;
       }
       .headline {
         font-weight: 800;
@@ -1046,8 +1144,9 @@ div.code {
 }
 
 .emoji {
-  height: 1.2rem;
+  height: 2.5rem;
   margin: 0 .2rem;
+  vertical-align: bottom;
 }
 
 .toc-link {
@@ -1165,17 +1264,28 @@ div.code {
     }
   }
 
-  .navbar-wrapper .header {
-    &.big {
-      display: none;
+  .navbar-wrapper {
+    .btn {
+      margin: 0 0 0 .5rem;
     }
-    &.small {
-      display: inline;
+    .header {
+      &.big {
+        display: none;
+      }
+      &.small {
+        display: inline;
+        padding: 1rem .5rem 1rem 0;
+      }
     }
   }
 
   .ad-wrapper .ad {
     max-height: 39rem;
+  }
+
+  .snippet-wrapper .snippet.open, .lyrics-wrapper .lyrics.open {
+    width: 100%;
+    margin-left: -50%;
   }
 }
 
@@ -1266,8 +1376,8 @@ div.code {
 
   .navbar-wrapper {
     .btn {
-      font-size: 1rem;
       margin: 0 0 0 .5rem;
+      font-size: .8rem;
     }
 
     .header {
@@ -1276,6 +1386,7 @@ div.code {
       }
       &.small {
         display: inline;
+        padding: 1rem 0;
       }
     }
   }

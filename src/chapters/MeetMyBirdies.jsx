@@ -15,7 +15,7 @@ const MeetMyBirdies = ({ children, num, state }) => (
 <p>Boom is my lovely dove. Such a handsome guy, right? Isn’t he such a charmer? One <span class="t">*</span>second, I’m going to close the door. He has such a manly face. Doesn’t he? Very tough. I’ve had him since he was a little fuzzball. He’s grown up to be so humongous! His chirps just burst in the brightest notes. Boom is the neediest. Aren’t you? If I’m out of the room three <span class="t">*</span>minutes too long he‘ll fluff up and screams like he’s being tortured. Right now he’s just super excited for his Froot chunk!</p>
 </Pp>
 <Pp bg="#e75f8d, #ffdf00">
-<p>You’ll want to step over that pile of gold ingots but I have Boing in the office. Actually be careful, I broke a glass canister on accident near there and I’m worried there might still be some little crumblies. Really sorry about that. Believe it or not, he gets that whole big cage to himself! The feathery despot rules over his domain, ha ha. He’s a rainbow macaw, really young. I adopted him super recently. Such a fuzzy tired fella. His feathers are puffed out, so he might be a little grouchy. Were you napping, sweetie?</p>
+<p>You’ll want to step over that pile of gold ingots but I have Boing in the office. Actually be careful, I broke a glass canister on accident near there and I’m worried there might still be some little crumblies. Really sorry about that. Believe it or not, he gets that whole big cage to himself! The feathery despot rules over his domain, ha ha. He’s a macaw, really young. I adopted him super recently. Such a fuzzy tired fella. His feathers are puffed out, so he might be a little grouchy. Were you napping, sweetie?</p>
 <p>Routines are important for birdies. I feed him every <span class="t">*</span>day when Pleasure Time ends and Business Time starts, so roughly 6:00bt…any later and he starts to shriek, ha ha. I should actually go set a timer real quick. Look at you, buddy! Gosh look at you!! You’re growing up so fast.</p>
 </Pp>
 <Z d={10} spe={58} u="j56" ch={num} o={0} z={state} f l> don’t you hate having to wipe your rear?</Z>
@@ -30,16 +30,16 @@ const MeetMyBirdies = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#ed0084, #ed0084">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/6-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/6.png" />
+  <source media="(max-width: 500px)" srcset="assets/6-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/6.png" />
   <img src="assets/6.png" alt="" onError={(e) => {console.log('oh dear')}}/>
 </picture>
 </p>
 </Pp>
 <Pp bg="#ed0084, #e9c491">
-<p>It’s so hard to discipline without a common language. I’m still not even sure how to tell him “no, I don’t like that” or whatever. It’s the same sitch with all the birdies. I would never want to hurt him or scare him, but he’s been flarping big blops in his water dish every morning. Squeezing out huge rubbery putties right into the water. What a mess to wake up to! And does that stop him from drinking out of that very same water?? No sir! Not at all! Nop, nop. How on earth do I get you to stop doing that, buddy?</p>
+<p>It’s so hard to discipline without a common language. I’m still not even sure how to tell him “no, I don’t like that” or whatever. It’s the same sitch with all the birdies. I would never want to hurt him or scare him, but he’s been flarping big blops in his water dish every morning. Squeezing out huge rubbery putties right into the water. What a mess to wake up to! And does that stop him from drinking out of that very same water?? No sir! Not at all! Nop, nop. How on earth do I get you to stop doing that, buddy? Gosh, you are so beautiful. I love you so much.</p>
 </Pp>
-<Z d={15} spe={80} u="j29" ch={num} seq="b" o={0} z={state} f> That is a good point</Z>
+<Z d={15} spe={80} u="j29" ch={num} seq="b" o={0} z={state} p={[`ch${num}_a`, 6]} f> That is a good point</Z>
 <Z d={20} spe={85} u="j29" ch={num} seq="b" o={1} z={state}>on the other hand, its a complex task</Z>
 <Z d={5} spe={60} u="j29" ch={num} seq="b" o={2} z={state}>a lot could go wrong</Z>
 <Z d={10} spe={70} u="j29" ch={num} seq="b" o={3} z={state} l>many different strategies to consider</Z>

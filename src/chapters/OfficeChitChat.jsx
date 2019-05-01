@@ -53,8 +53,8 @@ const OfficeChitChat = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#a0cc41, #a0cc41">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/2-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/2.png" />
+  <source media="(max-width: 500px)" srcset="assets/2-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/2.png" />
   <img src="assets/2.png" alt=""/>
 </picture>
 </p>
@@ -89,7 +89,7 @@ const OfficeChitChat = ({ children, num, state }) => (
     <li>You’ll Never Guess Which Classic Snack Is Making A Comeback…..Here’s A Hint, It Starts With The Letter “F”</li>
     <li>Here’s Why I Shouldn’t Have To Pull Over To The Side Of The Highway Just So Some Stupid Ambulance Can Pass Through</li>
     <li>Teen Pop Idol “Violent Aaron” Caught On Vid Torturing His Grandpa With Laser</li>
-    <li>This Leggy Model Has Something Incredible To Say About Cloning</li>
+    <li>This Dreamy Model Has Something Incredible To Say About Cloning</li>
     <li>Guns In The Sky Act Passes With Multi-Partisan Support</li>
     <li>[COMEDIC PRANK] Lockup Inmates Tricked, Told They Are Going To Be Let Out, Wait Till You See Their Epically Amazing Reaction</li>
     <li>OMG: Calf Carcass Obliterated With Tactical Explosives</li>

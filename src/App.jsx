@@ -2,10 +2,11 @@ import React from 'react';
 import { connect } from 'react-redux'; /* code change */
 
 import ToC from './components/ToC.jsx';
+import About from './components/About.jsx';
 import Screen from './components/Screen.jsx';
 import Cover from './components/Cover.jsx';
 import Navbar from './components/Navbar.jsx';
-import { getChapters, getAllChapters, toggleVisibilityToC, setDimensions } from './state.js';
+import { getChapters, getAllChapters, toggleVisibilityToC, toggleVisibilityAbout, setDimensions } from './state.js';
 import './app.scss';
 
 class App extends React.Component {
@@ -27,9 +28,10 @@ class App extends React.Component {
     return (
       <div id="main">
         <Navbar toc={this.props.state.visibleToC} />
-        <Cover toc={this.props.state.visibleToC} />
+        <Cover toc={this.props.state.visibleToC} about={this.props.state.visibleAbout} />
         <img id="o" src="o.png" />
         <ToC toggle={toggleVisibilityToC} visible={this.props.state.visibleToC} />
+        <About toggle={toggleVisibilityAbout} visible={this.props.state.visibleAbout} />
         <div id="content" tabIndex="0">
           { getChapters(this.props.state) }
         </div>

@@ -51,6 +51,7 @@ class Lyrics extends React.PureComponent {
     return (
       <div class="lyrics-wrapper" ref={this.setWrapperRef}>
         <div class={`lyrics ${open}`} onClick={() => { this.toggleLyrics() }} style={{ backgroundColor: this.props.bg, borderColor: this.props.bg, left: leftStyle }}>
+          <button class="x" onClick={(e) => {this.props.toggle(); e.stopPropagation();}}>x</button>
           { this.props.lyrics }
         </div>
         <span class={`lyricsLabel ${open}`} onClick={() => { this.toggleLyrics() }} style={{ color: this.props.fg }}>Lyrics</span>

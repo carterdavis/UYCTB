@@ -53,8 +53,8 @@ const LegalAssessment = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#303625, #303625">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/8-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/8.png" />
+  <source media="(max-width: 500px)" srcset="assets/8-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/8.png" />
   <img src="assets/8.png" alt=""/>
 </picture>
 </p>
@@ -62,7 +62,7 @@ const LegalAssessment = ({ children, num, state }) => (
 <Pp bg="#303625, #a2a69b">
 <p>“Sorry, I’ll admit I was watching but I promise I was listening too.”</p>
 <p>“Here is the thing…people already know what you look like. They know what you did…they know oh ‘Jim29? He is not a good guy’…some of them might want to hurt you with their hands, and that is just the way it goes…”</p>
-<p>The vocalizations begin to sound more like screaming. I’m starting to feel fairly weird. My heart is racing. “I don’t really understand what you’re getting at.”</p>
+<p>I’m starting to feel fairly weird. My heart is racing. “I don’t really understand what you’re getting at.”</p>
 <p>“If you would just let me finish…”</p>
 <p>“It really seems like you’re just trying to make me feel scared.”</p>
 <p>“I am very sorry, that was not my intention…here is the deal…when you signed the employment contract you agreed to Article IX. Do you remember what that article entails?”</p>

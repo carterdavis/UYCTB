@@ -11,3 +11,5 @@ export const ZOIP = "ZOIP";
 export const INITIAL = "INITIAL";
 
 export const TOGGLE_TOC = "TOGGLE_TOC";
+
+export const TOGGLE_ABOUT = "TOGGLE_ABOUT";

@@ -25,7 +25,7 @@ const BelatedReplies = ({ children, num, state }) => (
 <Z d={5} spe={155} u="j29" ch={num} o={10} z={state}>that</Z>
 <Z d={5} spe={150} u="j29" ch={num} o={11} z={state}>is</Z>
 <Z d={5} spe={155} u="j29" ch={num} o={12} z={state}>all</Z>
-<Z d={50} spe={58} u="j29" ch={num} o={13} z={state}>p.s. is your tweensies party still happening ?</Z>
+<Z d={50} spe={58} u="j29" ch={num} o={13} z={state}>p.s. is your Tweensies party still happening ?</Z>
 <Z d={40} spe={63} u="j29" ch={num} o={14} z={state}>I’m assuming so..?</Z>
 <Z d={15} spe={50} u="j29" ch={num} o={15} z={state} l>OK see yah then</Z>
 {children}</div>

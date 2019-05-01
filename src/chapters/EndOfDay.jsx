@@ -41,16 +41,16 @@ const EndOfDay = ({ children, num, state }) => (
   <p>“Casserole.”</p>
   <p>“Nice. I love those.”</p>
   </Pp>
-  <Z d={200} spe={80} u="j29" ch={num} o={10} z={state} f> are you doing anything tonight ?</Z>
-  <Z d={6} spe={70} u="j29" ch={num} o={11} z={state}>I was thinkin itd be fun to watch a slamdown at the arena</Z>
-  <Z d={10} spe={60} u="j29" ch={num} o={12} z={state}>or purchase dizzy drinks at a gulping den</Z>
-  <Z d={5} spe={65} u="j29" ch={num} o={13} z={state} l>I just want to do something.. interesting and entertaining !</Z>
-  <Z d={35} spe={55} u="j56" ch={num} o={14} z={state} f> i value the invite jim29!!</Z>
-  <Z d={8} spe={60} u="j56" ch={num} o={15} z={state} l>how ever i think i will stay and work on this error.</Z>
-  <Z d={30} spe={75} u="j29" ch={num} o={16} z={state} f l> yah understood noo problem</Z>
-  <Z d={13} spe={67} u="j56" ch={num} o={17} z={state} f> but i’m having a party next activeday</Z>
-  <Z d={7} spe={60} u="j56" ch={num} o={18} z={state} l>to celebrate tweensies! you’re invited =:~)</Z>
-  <Z d={8} spe={58} u="j29" ch={num} o={19} z={state} f l> wow very cool !!</Z>
+  <Z d={200} spe={80} u="j29" ch={num} seq="b" o={0} z={state} p={[`ch${num}_a`, 10]} f> are you doing anything tonight ?</Z>
+  <Z d={6} spe={70} u="j29" ch={num} seq="b" o={1} z={state}>I was thinkin itd be fun to watch a slamdown at the arena</Z>
+  <Z d={10} spe={60} u="j29" ch={num} seq="b" o={2} z={state}>or purchase dizzy drinks at a gulping den</Z>
+  <Z d={5} spe={65} u="j29" ch={num} seq="b" o={3} z={state} l>I just want to do something.. interesting and entertaining !</Z>
+  <Z d={35} spe={55} u="j56" ch={num} seq="b" o={4} z={state} f> i value the invite jim29!!</Z>
+  <Z d={8} spe={60} u="j56" ch={num} seq="b" o={5} z={state} l>how ever i think i will stay and work on this error.</Z>
+  <Z d={30} spe={75} u="j29" ch={num} seq="b" o={6} z={state} f l> yah understood noo problem</Z>
+  <Z d={13} spe={67} u="j56" ch={num} seq="b" o={7} z={state} f> but i’m having a party next activeday</Z>
+  <Z d={7} spe={60} u="j56" ch={num} seq="b" o={8} z={state} l>to celebrate Tweensies! you’re invited =:~)</Z>
+  <Z d={8} spe={58} u="j29" ch={num} seq="b" o={9} z={state} f l> wow very cool !!</Z>
   <Pp bg="#A85040, #B88D3A">
   <p>Everybody within about a three sector radius celebrates this cool holiday called Tweensies. As nasty winter shifts into nasty summer, there’s about a <span class="t">*</span>week of fantastic warm sweet temperatures, and amidst this tween time a great merriment can be shared. This <span class="t">*</span>year Tweensies starts on Activeday. I’m pretty pumped.</p>
   <p>“Nug20, I’m not making any progress.” I shiver atop my beany bag. “At this point I think I’m just gonna put out a hotfix first thing tomorrow morning.”</p>

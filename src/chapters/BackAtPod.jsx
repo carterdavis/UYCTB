@@ -51,8 +51,8 @@ const BackAtPod = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#f5e104, #f4e204">
   <p>
     <picture>
-      <source media="(max-width: 720px)" srcset="assets/4-small.png" />
-      <source media="(min-width: 721px)" srcset="assets/4.png" />
+      <source media="(max-width: 500px)" srcset="assets/4-small.png" />
+      <source media="(min-width: 501px)" srcset="assets/4.png" />
       <img src="assets/4.png" alt=""/>
     </picture>
   </p>
@@ -62,7 +62,7 @@ const BackAtPod = ({ children, num, state }) => (
 <p>“Go for it.”</p>
 <p>“I was imagining earlier today how it would be if I were an astronaut, and like, I landed on a great big asteroid just fine, and I’m in my asteroid space home on my very first night sleeping there, and, like, so then I realize while I’m like getting ready for bed that I left all my own dam pajamas back on this planet.”</p>
 <p>“Ha ha. I’m starting to think that might be funny.”</p>
-<p>Her curly dark hair is tied up in a bun beneath her hat. She has freckles. We chat a lot over zoip. I’m impressed by her amiable attitude. “You do think that’s kinda funny??”</p>
+<p>She’s wearing a flowy longsleeve shirt and her curly dark hair is tied up in a bun beneath her hat. We chat a lot over zoip. I always appreciate her amiable attitude. “You do think that’s kinda funny??”</p>
 <p>“Yah. That would stink! I think that’s pretty good.”</p>
 </Pp>
 <Pp bg="#f6e2ee, #93d0f2">

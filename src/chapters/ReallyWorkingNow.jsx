@@ -27,11 +27,11 @@ const ReallyWorkingNow = ({ children, num, state }) => (
 <Pp bg="#38FF3A, #ff3797">
 <p>I’m listening to a programming sound collage designed to palpate my abstract logical nodes or glands or whatever. <div class="chapterSong"><LazyAudio src="assets/Developer Stimulation Collage.mp3" loop={true} bg="#38FF3A" fg="#ff3797" /></div> The noises are pretty complicated and alarming. It’s creepy stuff to listen to but apparently it can make your variable names 50% more keen. It’s hard to focus while all these zoips keep zipping through my umbilical data plug straight into my mindchip. I’m feeling a little bothered.</p>
 </Pp>
-<Z d={80} spe={65} u="j56" seq="b" ch={num} o={0} z={state} f> shoot now two other values are disequalized</Z>
+<Z d={80} spe={65} u="j56" seq="b" ch={num} o={0} z={state} p={[`ch${num}_a`, 2]} f> shoot now two other values are disequalized</Z>
 <Z d={10} spe={71} u="j56" seq="b" ch={num} o={1} z={state} l>5 to 9? i think</Z>
 <Z d={20} spe={83} u="j29" seq="b" ch={num} o={2} z={state} f> I’m sorry, I’ll get back to you</Z>
 <Z d={14} spe={86} u="j29" seq="b" ch={num} o={3} z={state} l> but right now isn’t a very good time</Z>
-<Z d={38} spe={73} u="d39" seq="a" ch={num} o={2} z={state} f l> I hope work has been better for you today!</Z>
+<Z d={38} spe={73} u="d39" seq="b" ch={num} o={4} z={state} f l> I hope work has been better for you today!</Z>
 <Pp bg="#ff3797, #38FF3A">
 <p>We just recently started using Dominators in Tangle. I don’t really understand them. Their functionality enables dynamic value control across equality networks. Some objects carry invalid values (informally referred to as “naughty data” at Dimples) that need to be dominated and restricted from proliferating through their multivaluation chains. For instance:</p>
 </Pp>
@@ -45,7 +45,7 @@ const ReallyWorkingNow = ({ children, num, state }) => (
 <p>is the sort of line I’m searching for. I press the spacebar five times. My back feels sweaty against the chair.</p>
 <p>I can’t figure out why CURVE_QUOTIENT needs to be dominated. I’m trying to find examples of where else it’s being used, for context. My search isn’t yielding any results. Nug20 sends me a zoip.</p>
 </Pp>
-<Z d={18} spe={60} u="n20" seq="c" ch={num} o={0} z={state} f> How’s progress on that hotfix man? We need that up tonight</Z>
+<Z d={18} spe={60} u="n20" seq="c" ch={num} o={0} z={state} p={[`ch${num}_b`, 5]} f> How’s progress on that hotfix man? We need that up tonight</Z>
 <Z d={10} spe={62} u="n20" seq="c" ch={num} o={1} z={state} l>Otherwise we have to postpone until Loyalday</Z>
 <Z d={20} spe={71} u="j56" seq="c" ch={num} o={2} z={state} f l> ohh i guess one of the variables is just in a public knob. i thought it was private.</Z>
 <Z d={9} spe={58} u="n20" seq="c" ch={num} o={3} z={state} f l> Give me an estimate on how long it’ll take</Z>
@@ -53,25 +53,25 @@ const ReallyWorkingNow = ({ children, num, state }) => (
 <Pp bg="#ff3797, #38FF3A">
 <p>My right knee twitches. Humph. I thinkscribe another zoip but leave it sitting in the field. I can feel a migraine coming on. A little glowing dot burns in my vision.</p>
 </Pp>
-<Z d={5} spe={63} u="n20" seq="c" ch={num} o={5} z={state} f l> Can’t keep making excuses on your behalf. Please tell me</Z>
-<Z d={25} spe={68} u="j56" seq="c" ch={num} o={6} z={state} f l> that didn’t fix anything though. hmm</Z>
+<Z d={5} spe={63} u="n20" seq="d" ch={num} o={0} z={state} p={[`ch${num}_c`, 5]} f l> Can’t keep making excuses on your behalf. Please tell me</Z>
+<Z d={25} spe={68} u="j56" seq="d" ch={num} o={1} z={state} f l> that didn’t fix anything though. hmm</Z>
 <Pp bg="#38FF3A, #ff3797">
 <p>I minimize my editor. The electrocardiogram window from yesterday is still open.</p>
 <p>“Ch-ching!”</p>
 </Pp>
-<Z d={34} spe={73} u="j56" seq="c" ch={num} o={7} z={state} f l> I’m sorry, i don’t mean to bother you. just let me know if you have any ideas! :~X</Z>
+<Z d={34} spe={73} u="j56" seq="e" ch={num} o={0} z={state} p={[`ch${num}_d`, 2]} f l> I’m sorry, i don’t mean to bother you. just let me know if you have any ideas! :~X</Z>
 <Pp bg="#ff3797, #38FF3A">
 <p>It flatlined. I close the window. If I can’t trace the value of CURVE_QUOTIENT anywhere else then I can’t determine why the data was naughty. It’s common to find variables misdefined elsewhere in some other file, but a quick search would come up with those specific lines. I guzzle a thick gulp of Plumm Queam.</p>
 </Pp>
-<Z d={10} spe={62} u="n20" seq="c" ch={num} o={8} z={state} f> I’m filling out the code submission form for you so you can upload it</Z>
-<Z d={16} spe={64} u="n20" seq="c" ch={num} o={9} z={state} l>as soon as you’re done</Z>
+<Z d={10} spe={62} u="n20" seq="f" ch={num} o={0} z={state} p={[`ch${num}_e`, 1]} f> I’m filling out the code submission form for you so you can upload it</Z>
+<Z d={16} spe={64} u="n20" seq="f" ch={num} o={1} z={state} l>as soon as you’re done</Z>
 <Pp bg="#38FF3A, #565656, #ff3797">
 <p>I scroll through topics in the Dominator documentation. It’s filled with links so I can learn the ins and outs of Domination. The migrainial dot in my vision glows violet. It grew hands. I squint to read the text on the screen.</p>
 <p>“Ch-ching!”</p>
 </Pp>
-<Z d={27} spe={74} u="j29" seq="c" ch={num} o={10} z={state} f> have to be honest nug20 I am feeling pretty crummy right now</Z>
-<Z d={23} spe={61} u="n20" seq="c" ch={num} o={11} z={state} f> No time for that. Finish it</Z>
-<Z d={18} spe={80} u="q31" seq="c" ch={num} o={12} z={state} f> It’s starting to smell pretty tangy in here!</Z>
+<Z d={27} spe={74} u="j29" seq="g" ch={num} o={0} z={state} p={[`ch${num}_f`, 2]} f> have to be honest nug20 I am feeling pretty crummy right now</Z>
+<Z d={23} spe={61} u="n20" seq="g" ch={num} o={1} z={state} f> No time for that. Finish it</Z>
+<Z d={18} spe={80} u="q31" seq="g" ch={num} o={2} z={state} f> It’s starting to smell pretty tangy in here!</Z>
 <Pp bg="#ff3797, #38FF3A, #ff3797">
 <p>I yank the data plug right out of my belly button. The adapter is warm from use. All the chatter drains out of my consciousness. I can focus regularly again.</p>
 <p>I run some commands in a debug console. CURVE_QUOTIENT isn’t visible in the intensity-and-dosage scope. I rub my right temple in slow circles. The light from overhead is so bright. I hear the ding dong of a Drip notification. I haven’t gotten a Drip notification in <span class="t">*</span>months.</p>

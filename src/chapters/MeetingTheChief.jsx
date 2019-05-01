@@ -10,9 +10,9 @@ const MeetingTheChief = ({ children, num, state }) => (
 <ChapterStart num={num} bg="#3dfbff, #e0e7eb" />
 {children}
 <Pp bg="#e0e7eb, #d4a4ae, #ffedac, #acb6ca">
-<p>The suction spits us out in a cavernous globular room. The walls curl in sort of like a split spheroid or the bend of a human kidney. Magnificent glass windows span the outer perimeter, drinking in the ample late morning glow. Wonder how come they’re not tinted red like the rest of em. The rug underfoot is plush and shag, the same grey shade as the nighttime sky. The walls are adorned with a tessellated pattern of a cat digging its claws into a mouse’s back.  The entire surface of Augustinius00 01Stone’s big honking desk is an digital display lit with bright Ultradef data. The graphs and charts flip and zoom around. There is no sign of the man himself.</p>
-<p> Grabbus clears his throat. “Wait here. Mr. 01Stone will be with you shortly.”</p>
-<p>I sit in a furry chair opposite the desk. It doesn’t feel like actual animal fur, but I suppose it could be the fur of a hypothetical creature. The room temperature is perfect, just warm enough to be noticeable. Grabbus keeps clearing his throat. I didn’t expect him to stay in the room with me. The <span class="t">*</span>minutes are feeling stretched, but it’s kind of seeming like there was more than enough time for me to plug my celly in to charge, you know?</p>
+<p>The suction spits us out in a lofty chamber wrapped with smooth steel walls. They bend in with a very modern angularity. It all looks extremely clean, like it was probably scrubbed recently. It is completely silent. The entire surface of Augustinius00 01Stone’s big honking desk is an digital display lit with bright Ultradef data. The graphs and charts flip and zoom around. There is no sign of the man himself.</p>
+<p>Grabbus clears his throat. “Wait here. Mr. 01Stone will be with you shortly.”</p>
+<p>I sit on a squat stool opposite the desk. It’s too low for my feet to rest flat on the floor. The room temperature is perfect, just warm enough to be noticeable. Grabbus keeps clearing his throat. I didn’t expect him to stay in the room with me. The <span class="t">*</span>minutes are feeling stretched, but it’s kind of seeming like there was more than enough time for me to plug my celly in to charge, you know?</p>
 <p>A rectangular passage melts out of the right-hand wall. Mr. 01Stone enters with a loping gait. “Howdy Bunndy22! My deepest apologies! I did not mean to keep you waiting.” He’s way taller than I expected. His entire upper torso is soaked in viscous yellow fluid. Big glops of it drip to the floor. “Grabbus? Could you fetch me my rag? I need to wipe down.”</p>
 <p>I smile like a professional. “Uh, so what’s that goop? If you don’t mind me asking?”</p>
 <p>“Ah, yes. I just got back from a meeting with The King. When he gets excited, things get slobbery. I hope you don’t mind.”</p>
@@ -20,8 +20,8 @@ const MeetingTheChief = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#acb6ca, #acb6ca">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/13-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/13.png" />
+  <source media="(max-width: 500px)" srcset="assets/13-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/13.png" />
   <img src="assets/13.png" alt=""/>
 </picture>
 </p>

@@ -24,8 +24,8 @@ const HappySplash = ({ children, num, state }) => (
 <Pp c="chapterImage" bg="#a8636c, #f2e798">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/3-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/3.png" />
+  <source media="(max-width: 500px)" srcset="assets/3-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/3.png" />
   <img src="assets/3.png" alt=""/>
 </picture>
 </p>

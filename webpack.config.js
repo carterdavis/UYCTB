@@ -4,7 +4,7 @@ const autoprefixer = require("autoprefixer");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
-  mode: 'development',
+  mode: 'production',
   entry: ["babel-polyfill", './src/index.js'],
   output: {
       path: path.resolve(__dirname, 'dist'),
@@ -65,7 +65,7 @@ module.exports = {
   plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        'NODE_ENV': JSON.stringify('development')
+        'NODE_ENV': JSON.stringify('production')
       }
     }),
     new MiniCssExtractPlugin({

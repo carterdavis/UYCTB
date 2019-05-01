@@ -12,7 +12,7 @@ const NiceMorning = ({ children, num, state }) => (
 {children}
 
 <Pp bg="#ffed01, #6fb6d4, #ffd200, #6fb6d4, #ffed01, #f14358">
-<p>I wake dreamlessly, like I never slept. Today’s the first morning of tweensies. The air is warm, but cool, but humid. My room is uncommonly bright, halfway like the gleam off polished chrome. <div className="chapterSong"><LazyAudio src="assets/Alarm.mp3" loop={true} bg="#C9C9C9" fg="#000" /></div> The alarm’s laughter hoots cyclically. He he he he! My blood is electric, surging with oxygen, urging me towards locomotion. What a glorious <span class="t">*</span>day God has given me! I will not let the <span class="t">*</span>day wash over me; I will be the fountain. I will act with intention and purpose, to the best of all possible ends! To every and each of those infinitely endless ends!</p>
+<p>I wake dreamlessly, like I never slept. Today’s the first morning of Tweensies. The air is warm, but cool, but humid. My room is uncommonly bright, halfway like the gleam off polished chrome. <div className="chapterSong"><LazyAudio src="assets/Alarm.mp3" loop={true} bg="#C9C9C9" fg="#000" /></div> The alarm’s laughter hoots cyclically. He he he he! My blood is electric, surging with oxygen, urging me towards locomotion. What a glorious <span class="t">*</span>day God has given me! I will not let the <span class="t">*</span>day wash over me; I will be the fountain. I will act with intention and purpose, to the best of all possible ends! To every and each of those infinitely endless ends!</p>
 <p>Gregory McBubble claps its thin lips together in delight. “Just the usual rinse for you Mr. 35Fludge?”</p>
 <p>“Actually Gregory, I’m in the mood for a gigantic scrub.”</p>
 <p>“Please confirm your request for a very gigontic scrub.”</p>
@@ -23,7 +23,7 @@ const NiceMorning = ({ children, num, state }) => (
 <p>“You are welcome, Bunndy22. I love to make you cleaner than ever before.”</p>
 <p>I slip my squeaky fresh bod into some neon velcro shorts and a partially see-through button-round shirt that says “Keep In Mind What You Must.” I’m looking so sexy and tasty like a sizzling gooshburger scraped off the nitro grill. I crack a window and breathe the morning air. It is sweet and fresh.</p>
 <p>The birdies are being so well-behaved. Usually they scream and holler the whole time I scoop out their morning mash, but today they’re just whistling and twittering. Such curious, surprising little critters. It’s like they’re tuned in to mysterious cycles I can’t begin to understand. Boing left some fecal materials in his water dish, but he always does that. It must seem like a fine and dandy thing to do, and I have no way to convince him otherwise, so I can’t blame him, y’know? Same logic when he takes a putty on my shoulder. I can’t tell him to stop dropping dookies or reward him with a treat for holding em in. He loves treats so much he’d get constipated. I let the bad stuff slide because none of these flappers have bad intentions. I bet they love how the warm light bounces off their feathers, especially after long nasty winter.</p>
-<p>Buzz is nipping at my pinky toe. Kind of annoying. She’s just so constantly alive! Engagement is her happiness. There isn’t a <span class="t">*</span>second where she isn’t chewing something or pecking something or trying to climb somewhere. She explores the same objects she’s lived around her whole life like they’re brand new every <span class="t">*</span>day. Above all she loves to stand on shoulders. Apparently height means something to her, it’s like a status thing. In a more practical sense, she likes to be higher up because it means there’s less of a chance that predators are above her planning to swoop down. Less vertical area between her and the ceiling. She can see everyone and feel queenly.</p>
+<p>Buzz is nipping at my pinky toe. Kind of annoying. She’s just so constantly alive! Engagement is her happiness. There isn’t a <span class="t">*</span>second where she isn’t chewing something or pecking something or trying to climb somewhere. She explores the same objects she’s lived around her whole life like they’re brand new every <span class="t">*</span>day. Above all she loves to stand on shoulders. Apparently height means something to her, it’s like a status thing. In a more practical sense, she likes to be higher up because it means there’s less of a chance that predators are above her planning to swoop down. Less vertical area between her and the ceiling, so she can see everyone and feel queenly. You really are a work of art, Buzz. Can you sing for me? No? That's OK, I understand.</p>
 <p>The national anthem is playing on the radio. It’s at my favorite part, the breakdown after the seventh verse, <div class="chapterSong"><LazyAudio src="assets/Nowhere Else National Anthem Verse 7.mp3" loop={false} bg="#ffed01" fg="#f14358" screenWidth={state.screenWidth} lyrics={(
   <div>
   <p><b>Nowhere Else Military Choir - Nowhere Else National Anthem, Verse 7</b></p>
@@ -91,13 +91,13 @@ const NiceMorning = ({ children, num, state }) => (
 <p>“You did a pretty nice job.”</p>
 <p>“Goodbye Jim29. Love you lot.”</p>
 <p>I dribble some blood out onto the airbag. Had chomped deep into my lip. I guess I should say apparently. It’s not like I could process half of what was happening. I’m supposing I should get out of Tulip’s dead body. Before it starts to roast.</p>
-<p>Chadmuth18 23Shnozo exits out the right side of what’s left of his speedster. His eyes are stretched wide in apoplectic shock. He’s marching toward me in big loping strides, fists swinging left and right. “Get out! Get out of the car!”</p>
+<p>Chadmuth18 23Shnozo exits out the right side of what’s left of his speedster. His eyes are stretched wide in apoplectic shock. He’s running toward me in big loping strides, wildly waving his arms. “Get out! Get out of the car!”</p>
 </Pp>
 <Pp c="chapterImage" bg="#f14358, #f14358">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/12-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/12.png" />
+  <source media="(max-width: 500px)" srcset="assets/12-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/12.png" />
   <img src="assets/12.png" alt=""/>
 </picture>
 </p>

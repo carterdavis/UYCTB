@@ -14,6 +14,11 @@ const Navbar = ({ children, toc }) => (
           onClick={ () => { toggleVisibilityToC() } }>
           Table of Contents
         </button>
+        <a href="https://uyctb.store/" target="_blank"
+          class={`btn book`}
+        >
+          Buy The Book
+        </a>
       </div>
     </div>
   </Headroom>

@@ -25,8 +25,8 @@ const Crash = ({ children, num, state }) => (
   <Pp c="chapterImage" bg="#E4A323, #E4A323">
 <p>
 <picture>
-  <source media="(max-width: 720px)" srcset="assets/1-small.png" />
-  <source media="(min-width: 721px)" srcset="assets/1.png" />
+  <source media="(max-width: 500px)" srcset="assets/1-small.png" />
+  <source media="(min-width: 501px)" srcset="assets/1.png" />
   <img src="assets/1.png" alt=""/>
 </picture>
 </p>
